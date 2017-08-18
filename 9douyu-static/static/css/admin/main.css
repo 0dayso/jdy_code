@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* CSS Document */
+@import url("import/bootstrap.css");
+
+@import url("import/font-awesome.css");
+
+@import url("import/prettyPhoto.css");
+
+@import url("import/rateit.css");
+
+@import url("import/bootstrap-datetimepicker.min.css");
+
+@import url("import/jquery.cleditor.css");
+
+@import url("import/bootstrap-switch.css");
+
+@import url("import/style.css");
+
+@import url("import/widgets.css");
+
+.ml10 {
+	margin-left: 10px;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.textr {
+	text-align: right;
+}
+
+/* pop info table modify20140401 */
+.pop-mask {
+	position: fixed;
+	z-index: 999;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	filter: alpha(opacity =   70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+.pop-wrap {
+	width: 100%;
+}
+
+.pop-box {
+	background: #fafafa;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.pop-close {
+	width: 20px;
+	cursor: pointer;
+	height: 20px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: url(/img/close.gif) 0 0 no-repeat #000;
+	z-index: 99999
+}
+
+.sidebar #nav .current {
+    background-color: #abc;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tianxiaoyan (you@example.org)
+ * @date    2017-7-27 14:59:00
+ * @version $Id$
+ */
+
+body{background:#fad78c;}
+.page-bg{width:100%;margin:0 auto;background:#fad78c url("/static/weixin/activity/autumn/images/one/banner.png")  center top no-repeat;background-size:100%}
+.page-center{text-align: center;}
+.time{ font-size: 0.555rem; color: #d8533d; text-align: center; padding-top: 6.187rem;}
+.page-auto{width: 15rem;margin:0 auto;box-sizing: border-box;}
+.page-flex{display: -webkit-box;-webkit-box-orient: horizontal;-webkit-box-pack: justify;display: flex;flex-direction:row;justify-content: space-around;}
+
+.page-banner-text{text-align: center; color:#d8533d; line-height: 1.5; padding:2.5rem 0.5rem 0; }
+
+/*lottery*/
+.page-lottery-box{ margin: 0 0.64rem 1.2rem; }
+.page-lottery-inner{position: relative; }
+.page-lottery-title{ width: 5.675rem; height: 1.835rem; text-align: center; color: #fff; font-size: 0.853rem; background: url("/static/weixin/activity/autumn/images/one/title.png")0 0 no-repeat; background-size: 100%;  line-height: 1.8rem; margin: 1.5rem auto 0.3rem; font-weight: bold;}
+.page-lottery-text{color:#a16114;font-size:0.512rem;padding-bottom: 0.3rem;}
+.title2{background: url("/static/weixin/activity/autumn/images/one/title1.png")0 0 no-repeat; background-size: 100%; margin-top:-0.5rem; }
+.page-lottery-btn{ position: absolute; top: 50%; left: 50%; transform: translate(-10%,-50%);-webkit-transform: translate(-50%,-50%); display: block; width: 2.8rem; height: 2.735rem;background: url("/static/weixin/activity/thirdanniversary/images/one/page-lottery-btn.png")0 0 no-repeat;background-size:cover; font-size: 0.775rem; text-align: center; font-weight: bold; line-height: 1rem;}
+.page-lottery-btn span{ display: inline-block; padding-top: 0.5rem; color: #fe2400;}
+.page-lottery-inner .page-lottery-btn.disable{background: url("/static/weixin/activity/autumn/images/one/page-lottery-disabled.png")0 0 no-repeat;background-size: cover; }
+.page-lottery-inner .page-lottery-btn.disable span{ font-size: 0;}
+
+/*project*/
+.page-project-bt{width:6.187rem; height: 1.387rem; color: #c4620c; font-size: 0.853rem; line-height: 1.4rem; text-align: center;  margin:0.811rem auto 0;background: url("/static/weixin/activity/autumn/images/one/title2.png")0 0 no-repeat;background-size: 100%; font-weight: bold;}
+.page-project{ margin:0.725rem auto 0; z-index: 1; position: relative; color: #7127de; box-sizing:border-box; position:relative;background-size: cover; border-bottom: 1px solid #fad78c; padding-bottom: 0.9rem;}
+.page-project:last-child{}
+.page-project .title{width:100%;line-height:1.35rem; font-size: 0.6rem;padding-left: 0.85rem; font-size: 0.64rem; color: #333;letter-spacing: 0.05rem; font-weight: bold;}
+.page-project .tip{position: absolute;right:1.2rem;top:0;font-size: 0.5rem;line-height: 1.35rem;color:#d89f05;}
+.page-project-data{ margin:0rem 0.3rem 0; width: 14rem;padding-top: 0.3rem;position: relative;}
+.page-project-data tr td{padding-top: 0.3rem; color: #999999;}
+.page-project-data tr td:first-child p:first-child{ text-align: center; font-size:1.067rem; line-height: 1rem; height: 1rem; color: #ff3333;}
+/*.page-project-data tr td:first-child p:first-child span{ font-size:0.5rem;}
+*/.page-project-data tr td p:last-child{ font-size: 0.512rem; margin-top: 0.5rem; text-align: center;}
+.page-project-data tr td:nth-child(2){ text-align: center;}
+.page-project-data tr td:nth-child(2) p:first-child{ font-size:0.64rem; line-height: 1rem; height: 1rem; color: #333;}
+.page-project-btn{ display: block;width:4.693rem; height:1.515rem; line-height: 1.6rem; background:#ffb541;color:#fff; font-size: 0.64rem; font-weight: bold; text-align: center; border-radius: 0.1rem;}
+.page-project-btn.disable {background: #c9c9c9!important; color: #fff !important; }
+
+
+.page-rule{color: #9b6b06; background: #f8ca68; padding: 1.173rem 0.64rem 1.387rem;}
+.page-rule h6{font-size:0.597rem;line-height: 1rem;padding-bottom:0.2rem;}
+.page-rule p{position:relative;font-size: 0.512rem;line-height: 1rem;}
+.page-rule p span{ display: inline-block; padding-left: .5rem;}
+
+.page-mask{position:fixed;z-index:1;width: 100%;height: 100%;left:0;top:0;right:0;bottom:0;background: rgba(0,0,0,.8);}
+.page-pop{position: fixed;z-index:2;width: 9.813rem;height: 9.984rem;left: 50%;top:50%;transform: translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);background: url("/static/weixin/activity/autumn/images/one/bg.png")0 0 no-repeat;background-size: 100%;}
+.page-pop-close{position:absolute;z-index: 3;width: 1rem;height: 1rem;top:-0.5rem;right:-0.5rem;background: url("/static/weixin/activity/autumn/images/one/page-pop-btn.png")0 0 no-repeat;background-size: 100%;font-size: 0;}
+.page-pop-content{margin-top: 3.7rem;}
+.page-pop-content p{color: #fff;font-size:0.597rem;text-align: center;padding:0rem 0 0; line-height: 1rem;}
+.page-pop-img{width: 4.375rem;height:1.1rem;margin:0rem auto;font-size: 0;}
+/*.page-pop-img1{background: url("/static/weixin/activity/thirdanniversary/images/one/page-pop-img1.png")0 0 no-repeat;background-size:cover;}
+.page-pop-img2{background: url("/static/weixin/activity/thirdanniversary/images/one/page-pop-img2.png")0 0 no-repeat;background-size:cover;}
+*/
+.page-pop-light{margin:0 auto;width:2.8rem;}
+.page-pop-light img{width:100%;}
+.page-pop-btn{display:block;width: 7.5rem;height: 1.5rem;margin:0.3rem auto 0;line-height:1.55rem;background:#ff8809;text-align: center;border-radius: 0.2rem;color: #fff;font-size:0.768rem;}
+.page-pop-winner{width:100%;text-align:center;font-size:0.597rem;line-height:1rem;display: inline-block;color: #fff;}
+
+/*抽奖*/
+.page-lottery-inner{ margin:0.3rem auto 0.4rem;}
+.page-lottery-inner table{ text-align: center;}
+.page-lottery-inner table td{ width: 5.3rem; text-align:center;vertical-align:middle;color:#333;}
+.page-lottery-inner table td a{  width: 4.267rem; height: 4.608rem; background: url('/static/weixin/activity/autumn/images/one/lottery-btn.png') top center no-repeat; display:block; background-size: cover; margin-top:0rem; margin-left:0.1rem;}
+.page-lottery-inner table td.active{background-color:#ea0000;}
+.page-lottery-inner .sp-bg{width: 5.013rem; height: 5.013rem;background: url('/static/weixin/activity/autumn/images/one/bg1.png') top center no-repeat; display:block; background-size: cover; text-align: center; margin:0 auto 0.25rem; }
+.page-lottery-inner .sp-bg.active{ width: 5.013rem; height: 5.013rem; background: url('/static/weixin/activity/autumn/images/one/bg1-hover.png') top center no-repeat; display:block; background-size: cover; text-align: center; }
+.sp-bg img{ padding-top: 0.6rem; width: 2.925rem;}
+.sp-img{ width: 3.675rem !important; padding-top: 1.35rem !important;}
+.sp-img1{ width:2.425rem !important; padding-top: 1.35rem !important;}
+.sp-text2,.sp-text3{ font-size: 0.6rem; color: #fcb94c; text-align: center;}
+.sp-title{  width:100%;  height: 4.25rem; background: url('/static/weixin/activity/springFestival/images/title.png') top center no-repeat; display:block; background-size: cover; text-align: center; margin:-1rem auto 0; }
+.sp-box2{  width:14.4rem; height:5.125rem; margin: 0 auto 0.3rem; background: url('/static/weixin/activity/springFestival/images/box.jpg') top center repeat-y; display:block; background-size: cover;}
+.lottery1 .sp-bg {background: url('/static/weixin/activity/autumn/images/one/bg2.png') top center no-repeat; background-size: cover;}
+.lottery1 .page-lottery-btn{background: url("/static/weixin/activity/autumn/images/one/lottery-btn1.png")0 0 no-repeat;background-size: cover;}
+.lottery1 .active{ width: 5.013rem; height: 5.013rem; background: url('/static/weixin/activity/autumn/images/one/bg-2.png') top center no-repeat; display:block; background-size: cover; text-align: center; }
+.lottery1 .sp-bg.active{background: url('/static/weixin/activity/autumn/images/one/bg2-hover.png') top center no-repeat; background-size: cover;}
+.project-1{ background: #fff; margin: 0 0.64rem 1.173rem; border: 0.213rem solid #f8ca68; }
+.sp-bg img{ width: 4.267rem; display: inline-block; margin-top: -0.2rem;}
+.sp-bg{ text-align: center;}

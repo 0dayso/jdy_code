@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/**
+ 
+ * @authors xia.lili@9douyu.com
+ * @date    2016-6-3
+ * @version v9.0
+ */
+body{background-color: #ffd385;}
+.app9-main{ width: 100%; height: 37.5rem;padding-top: 20.25rem; box-sizing: border-box; background: url("../images/activity/app9-bg-1.png") no-repeat center top; background-size:100%; }
+.app9-download-main{ width: 100%; height: 41.95rem;padding-top: 21.25rem; box-sizing: border-box; background: url("../images/activity/app9-download-bg.png") no-repeat center top; background-size:100%; }
+.app9-download-box{padding: 0 1.55rem 0 1.6rem;}
+.app9-download-box .app9-con-title{background-color: transparent; color: #c07735; box-shadow: none;}
+.app9-mainold{ width: 100%; height: 29.8rem;padding-top: 22.9rem; box-sizing: border-box; background: url("../images/activity/app9-bg3-1.png") no-repeat center top; background-size:100%; }
+.app9-group{ width: 12rem; height: 2.05rem;box-shadow: 0 -0.175rem 0 #ffc23b; background: #fff; border-radius:0.4rem; margin: 0.5rem auto 0; position: relative;}
+.app9-input{border: none;display: block;background-color: transparent;width: 100%;font-size: 0.7rem;height: 100%; padding-left: 0.6rem; box-sizing:border-box;}
+.app9-input::-webkit-input-placeholder {
+    color: #daa355 !important;
+    text-overflow: ellipsis;
+    font-size:0.7rem;
+    letter-spacing: 0;
+}
+.app9-input:-moz-placeholder {
+    color: #daa355 !important;
+    text-overflow: ellipsis;
+    font-size:0.7rem;
+    letter-spacing: 0;
+}
+.app9-input::-moz-placeholder {
+    color: #daa355 !important;
+    text-overflow: ellipsis;
+    font-size:0.7rem;
+    letter-spacing: 0;
+} /* for the future */
+.app9-input:-ms-input-placeholder {
+    color: #daa355 !important;
+    text-overflow: ellipsis;
+    font-size:0.7rem;
+    letter-spacing: 0;
+}
+.app9-input.w60{ width: 60%;}
+.app9-code{ width: 3.75rem; height: 1.85rem; background: #ff2e2e; font-size: 0.65rem; color: #fff; border-radius: 0.4rem; box-shadow: 0 0.225rem 0 #d61212,0 -0.225rem 0 #d61212; position: absolute;top: 0;right: 0; cursor: pointer;}
+.app9-code.disable{ background: #acacac;box-shadow: 0 0.225rem 0 #808080; }
+.app9-btn{ display: block; height: 1.95rem; color: #fff; font-size: 0.875rem; line-height: 1.95rem; box-shadow: 0 0.25rem 0 #c70000; width: 12rem;  margin: 0 auto 0; background: #ff2e2e; border-radius: 0.5rem;}
+.app9-btn.disable{background-color: #aaa;box-shadow: 0 0.25rem 0 #888989;}
+.app9-con{ width: 15rem; position: relative; background-color: #fff; border-radius: 0.5rem; margin: 1rem auto 1.25rem;box-shadow: 0 0.25rem 0 #daa355; padding: 0 1.05rem 1.5rem; box-sizing: border-box; }
+.app9-con-title{width: 14rem; height: 2rem; margin:0 auto;position: relative; top: -0.95rem; border-radius: 0.25rem;box-shadow: 0 0.2rem 0 #de9044; left: -0.5rem; line-height: 2rem; text-align: center; color: #fff; background-color: #c07735; font-size: 0.8rem;}
+.app9-con-title big{font-size: 0.9rem;}
+.app9-data{width: 100%; margin: -0.5rem 0 1.25rem;}
+.app9-data li{width: 100%; line-height: 1.85rem; position: relative; border-bottom: 1px dashed #c07735; color: #4f2d01; font-size: 0.7rem;}
+.app9-data li:last-child{border-bottom: none;}
+.app9-data span{position: absolute; right: 0.25rem; top: 0;}
+.app9-con-title2{width: 100%; line-height: 1rem; font-size: 0; vertical-align: middle; text-align: center; position: relative;}
+.app9-con-title2 i{display: inline-block; position: relative; top: -0.25rem; width:4.3rem; height: 1px; overflow: hidden; background-color: #4f2d01; }
+.app9-con-title2 span{font-size: 0.75rem; color: #4f2d01; margin: 0 0.5rem;}
+.app9-con-title2 small{position: absolute; font-size: 0.4rem; color: #4f2d01; top: 1rem; left: 0; right: 0;}
+
+.app9-online{color: #daa355; padding-bottom: 3.5rem; vertical-align: middle; text-align: center; font-size: 0; line-height: 1.25rem;}
+.app9-online span{font-size: 0.6rem; }
+.app9-online big{font-size:1rem; color: #c07735; }
+.app9-online small{font-size:0.5rem; margin: 0 0.2rem; }
+.app9-online i{display: inline-block; width: 3rem; height: 1px; position:relative; top: -0.125rem; background-color:#daa355; }
+
+.app9-stone1{position: absolute; left: -0.5rem; bottom: 0.45rem; width: 2.1rem; height: 1.85rem;background: url("../images/activity/app9-stone.png") no-repeat 0 0; background-size:5rem 5rem;}
+.app9-stone2{position: absolute; right: -0.5rem; top: 6.6rem; width: 3.85rem; height: 1.85rem;background: url("../images/activity/app9-stone.png") no-repeat bottom right; background-size:5rem 5rem;}
+
+.app9-link{ color: #7f4d32; font-size: 0.6rem; text-align: center; display: block; padding:0.6rem 0 0.3rem 0;}
+.app9-secure{ text-align: center; color: #ff9000; font-size: 0.55rem;}
+.app9-secure span{ display: inline-block; width: 0.55rem; height: 0.635rem;  background:url("../images/activity/app7-t13.png") no-repeat 0 0;background-size: 0.55rem 0.625rem; padding-right: 0.2rem; vertical-align: middle; margin-top: -0.1rem; }
+.app9-product{ width: 12rem; display: block; margin: 0 auto;  overflow: hidden;}
+.app9-product dl{ width: 2.9rem; float: left; margin-top: 1rem;}
+.app9-product dl dt{ width: 2.5rem; height: 2.5rem; background-color: #c07735; border-radius: 100%; border:0.2rem solid #dfb691; line-height: 2.5rem; color: #fff; text-align: center; font-size: 0.75rem;  font-weight: 400; }
+.app9-product dl dt span{font-size: 1.15rem;}	
+.app9-product dl dd{ text-align: center; color: #4f2d01;  font-size: 0.65rem; margin-top: 0.5rem; }
+.app9-product dl:last-child{ float: right;}
+.app9-product dl:first-child{ margin-right: 1.6rem;}
+
+.app9-success{ width: 100%; text-align: center; height: 24.25rem;padding-top: 9.6rem; box-sizing: border-box; background: url("../images/activity/app9-bg2-1.png") no-repeat center top; background-size:100%;}
+.app9-success p:first-child{color: #fff;font-size: 0.8rem; line-height: 1.6rem; margin-bottom: 1.5rem;}
+.app9-success p:nth-child(2){color: #ff5600; line-height: 1.25rem; font-size: 0.9rem;}
+.app9-success p:nth-child(2) big{font-size: 1.2rem; margin: 0 0.25rem;}
+
+.app9-success-tip{font-size: 0.9rem; color: #945000;line-height: 1rem; margin: 1rem 0 2.65rem;}
+.app9-success-tip i{display: inline-block; margin: 0 0.5rem; width: 1rem; height: 2px; position:relative; top: -0.25rem; background-color:#945000; }
+.app9-btn2{display: inline-block; width: 11.05rem; height: 1.95rem; line-height: 1.95rem; background-color: #ff2e2e; border-radius: 1rem; text-align: center; color: #fff000; font-size: 0.9rem;box-shadow: 0 0.3rem 0 #de0000,0 -0.3rem 0 #ff5252;}
+
+.app7-t8{ width: 12rem; height: 1px; background:#fff;background-size:12rem auto; margin:0 auto; color: #fff;position:relative;top:1.6rem;}
+.app7-t8 span{ width: 6rem; display:inline-block; background:#0097f4; height: 1rem;top:-0.3rem; position: absolute; left: 50%; margin-left:-3rem; text-align: center; line-height: 0.7rem;  }
+.app7-t8 span i{ font-size: 0.2rem; font-style: normal;}
+.app7-t9{ width: 11rem; margin: 2rem auto 0rem; overflow: hidden;}
+.app7-t9-1,.app7-t9-2,.app7-t9-3,.app7-t9-4{ width: 3.65rem; text-align: center; float: left; margin-top: 1.45rem;}
+.app7-t9-1 dt,.app7-t9-2 dt,.app7-t9-3 dt,.app7-t9-4 dt{ display: inline-block; width:2.2rem; height: 2.2rem; background:url("../images/activity/app7-t6.png") no-repeat 0 0;background-size:2.2rem auto;}
+.app7-t9-1 dd,.app7-t9-2 dd,.app7-t9-3 dd,.app7-t9-4 dd{ color: #ffffff; font-style: 0.75rem; margin-top: 0.1rem;}
+.app7-t9-2 dt{background:url("../images/activity/app7-t7.png") no-repeat 0 0;background-size:2.2rem auto;}
+.app7-t9-2,.app7-t9-4{ float: right;}
+.app7-t9-3 dt{background:url("../images/activity/app7-t8.png") no-repeat 0 0;background-size:1.75rem auto;}
+.app7-t9-4 dt{ width: 2.15rem; height: 1.8rem; background:url("../images/activity/app7-t10.png") no-repeat 0 0;background-size:2.15rem auto; margin-bottom: 0.35rem;}
+.app7-t10{ width: 12rem; height: 1px;background:#8dd4ff;background-size:12rem auto; margin:1.6rem auto 4rem; color: #8dd4ff;position:relative;}
+.app7-t10 span{width: 7rem; display:inline-block; background:#0097f4; height: 1rem;top:-0.3rem; position: absolute; left: 50%; margin-left:-3.5rem; text-align: center; line-height: 0.7rem;}
+
+.app9-download{ position: fixed; bottom: 0; left: 0; right: 0; height: 2.5rem; background: #001e31; margin-top: 1.45rem; padding:0 1rem; overflow: hidden; z-index: 2;}
+.app9-download-btn{ display:block; width: 3.25rem; height: 1.35rem; border: 2px solid #f39800; background: #fc3343; color: #fff; border-radius:0.8rem; font-size: 0.6rem; text-align: center; line-height: 1.35rem; float: right; margin-top: 0.5rem;}
+.app9-download-logo{ display: block; float: left; width: 8.6rem; height: 1.7rem; background:url("../images/activity/app9-logo.png") no-repeat 0 0;background-size:8.6rem auto; margin-top: 0.4rem;}
+
+/*领取理财金10000元*/
+.aap7-a1{width: 100%; height:11.975rem; background:url("../images/activity/app7-t17.png") no-repeat 0 0;background-size:100%; position: relative;}
+.aap7-a1-1{ width: 14.45rem; height: 12.15rem;background:url("../images/activity/app7-t15.png") no-repeat 0 0; background-size: 100%; position: absolute; left:50%; margin-left: -7rem; top: 2.1rem;z-index: 1 }
+.aap7-a2{width: 15.05rem; height:13.7rem; background:url("../images/activity/app7-t16.png") no-repeat 0 0;background-size:100%; position: relative; margin: -1rem auto 0.5rem;z-index: 0;}
+.aap7-a2-1{ font-size: 0.95rem; color: #fff; text-align: center; padding-top: 1.3rem; padding-bottom: 2rem; line-height: 1.3rem; font-weight: bold;}
+.aap7-a2-2{ text-align:center; color: #ff5600; font-size: 0.75rem; line-height: 1.2rem; font-weight: bold;}
+.aap7-a2-3{ color: #945000; font-size: 0.9rem; text-align: center; padding:0.9rem 0 0 0.2rem; font-weight: bold; line-height: 1.2rem;}
+.aap7-a2-btn{ width: 7.65rem; height: 2.175rem; display:block; background:url("../images/activity/app7-t18.png") no-repeat 0 0;background-size:100%; text-align: center; margin: 0 auto; color: #fff600; font-size: 0.9rem; line-height: 2.175rem; margin-top: 0.75rem; font-weight: bold;}
+
+.app9-tip{ color: #000; font-size: 0.6rem; height: 1rem; line-height: 1rem; text-align: center; }
+.app7-text{ font-size: 0.4rem; margin-top:0.8rem;}

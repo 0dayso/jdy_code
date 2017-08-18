@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**
+
+ * @authors bi.chunfeng@9douyu.com
+ * @date    2016-6-16
+ * @version $Id$
+ */
+html{min-height: 100%;}
+body{background:#ffecb1;text-align: center;}
+.flex-box {display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;}
+.box-align{-webkit-box-align: center;-moz-box-align:center;-ms-flex-align:center;-webkit-align-items: center;align-items: center;}
+.box-pack{-webkit-box-pack:justify;-moz-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}
+.father-theme{position: relative;}
+.father-img{width:100%;}
+.father-time{position:absolute;top:10.75rem;width:100%;line-height:0.75rem;font-size:0.5rem;color:#323333;}
+.btn-bind{position: absolute;top:15.7rem;left:50%;margin-left:-5.95rem;width:11.9rem;display: block;height:2.2rem;line-height:2.2rem;background:url("/static/weixin/images/father/father-btn-family-default.png")left top no-repeat;background-size:100%;font-size:0.75rem;color:#fff6d9;}
+
+/*家庭账户绑定记录*/
+.family-bind-wrap{margin:2.2rem 0.4rem 0;position: relative;padding-top:1.75rem;background: #fed5a2;border-radius: 0.25rem;text-align: center;color: #b75a1e;}
+.family-bind-wrap .module-titile{position:absolute;left:50%;top:-1.75rem;margin-left:-3.2875rem;}
+.family-txt1{line-height:1.7rem;font-size:0.75rem;}
+.family-txt1>span,.family-txt3>span{color:#ff541f;}
+.family-txt2{line-height: 0.75rem;font-size:0.55rem;}
+.family-txt3{line-height: 2.425rem;font-size: 0.55rem;}
+.family-btn{display: block;margin: 0 auto;width:12.525rem;height:2.2rem;line-height:2.2rem;background:url("/static/weixin/images/father/father-btn-family-default.png")left top no-repeat;background-size:100%;font-size:0.75rem;color:#fff6d9;}
+.family-btn-active{width: 12.375rem;height:2.775rem;line-height:0.85rem;padding:0.55rem 0;background:url("/static/weixin/images/father/father-btn-family-active.png")left top no-repeat;background-size:100%;color:#666;}
+
+.father-table-wrap{width:13.95rem;margin:1.2rem auto 1.125rem;border-radius: 0.25rem;overflow: hidden;font-size: 0.55rem;border:1px solid #b75a1e;color:#b75a1e;}
+.father-table {max-width: 100%;width: 100%;table-layout: fixed;background-color: transparent;}
+.father-table>thead>tr>th{height:1.25rem;font-weight:normal;border-right:1px solid #b75a1e;}
+.father-table>thead>tr>th:first-child{width: 15%;}
+.father-table>thead>tr>th:last-child{border-right: 0;}
+.father-table>tbody>tr>td{height:1.2rem;border:1px solid #b75a1e;border-left:none;word-break: break-all; word-wrap:break-word;}
+.father-table>tbody>tr>td:last-child{border-right: 0;}
+.father-table>tbody>tr:last-child>td{border-bottom: 0;}
+
+
+
+
+
+
+
+/*加息项目精选*/
+.module-titile{height:1.65rem;line-height:1.65rem;width:6.575rem;margin:0.75rem auto 0.5rem;background: #ffdb00;font-weight: bold;color:#b75a1e;font-size: 0.65rem;text-align:center;border-radius:0.75rem;border-bottom:0.125rem solid #ffc000;}
+.project-title{vertical-align:middle;margin:0 0.4rem;padding:0.45rem 0;text-align:left;color:#b75a1e;font-size:0.55rem; }
+.project-title span{display: inline-block;position:relative;top:0.1rem;font-size: 0;width: 0;height: 0;overflow: hidden;border:0.35rem solid;border-color:transparent transparent transparent #b75a1e;}
+.project-title strong{padding-right:0.2rem;font-size: 0.65rem;}
+.project-title-mar{margin-top: 0.7rem;}
+
+/*投资项目*/
+.father-project{margin:0.3rem 0.4rem 0;height:5.55rem;background:#fff;border-radius: 0.225rem;}
+.father-project header{position:relative;padding:0 0.85rem; line-height:1.75rem; box-sizing: border-box;border-bottom:1px dashed #e5965b;text-align: left;}
+.father-project header p:last-child{font-size: 0.5rem;color: #666;}
+.father-project header p:first-child{font-size:0.7rem;color:#3f2a1d;}
+.father-project-bd{height:3.75rem;}
+.father-project-item{width: 33%;}
+.father-project-item p:first-child{font-size: 0.5rem;color:#999;}
+.father-project-item p:last-child{margin-top:0.425rem;color:#333;font-size:0.7rem; }
+.father-project-item p:last-child>span{font-size:1.2rem;}
+.father-project-item1 p:last-child{color:#ff541f;}
+.father-btn-project{display: block;margin:0.6rem 0.4rem;line-height:1.9rem;background: #ff541f;border-radius: 0.225rem;font-size:0.8rem;color:#ffecb1; }
+.father-btn-disabled{background: #a8a8a8;color:#fff;}
+
+/*活动规则*/
+.father-rule-title{margin:1.2rem 0.4rem 0.5rem;width:2.95rem;line-height:0.9rem;border-radius:0.45rem;font-size:0.55rem;background:#b75a1e;color:#fff6d9;}
+.father-rule-wrap{margin:0.2rem 0.4rem 0;width:14.5rem;line-height: 0.9rem;color:#b75a1e;}
+.father-rule-wrap p{text-align: left;font-size: 0.55rem;width: 14.15rem;}
+.father-rule-wrap p.red{color:#ff541f;}
+.father-rule-order{width: 0.55rem;text-align: left;}
+
+
+/*弹层*/
+.father-layer{display: none;}
+.father-mask{position:fixed;left:0;top:0;z-index:10;width: 100%;height: 100%;background: rgba(0,0,0,.5);}
+.father-pop{width:13.5rem;height:8.95rem;position:fixed;z-index:20;left:50%;top:50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);background:#fff6d9;border-radius:0.25rem;font-size:0.6rem;color:#9b4200;}
+.father-pop-cont{padding-top: 1.75rem;}
+.father-pop-tip1{line-height: 0.75rem;}
+.father-pop-tip2{line-height: 2.4rem;font-size: 0.7rem;}
+.father-pop-btn{display:inline-block;margin:0.175rem auto 1.35rem;width:8.5rem;line-height:1.75rem;background: #ff541f;border-radius: 0.85rem;color:#fff;font-size: 0.75rem;}
+
+/*投资提示*/
+.father-tip{position:relative;margin:1.25rem auto 1.55rem;width:12rem;font-size: 0.5rem;color:#daa355;}
+.father-tip:after,.father-tip:before{content: "";width:3rem;position: absolute;top:50%;border-top:1px solid #daa355;font-size:0;}
+.father-tip:before{left: 1px;}
+.father-tip:after{right: 1px;}

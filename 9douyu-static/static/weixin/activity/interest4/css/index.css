@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/**
+ 
+ * @authors tian.xiaoyan@9douyu.com
+ * @date    2017-4-18
+ * @version $Id$
+ */
+
+body{ width: 100%;  background: url("/static/weixin/activity/interest4/images/page-bg.png") no-repeat 0 bottom #def6f2; background-size:100%;padding-bottom: .5rem;}
+.kill-banner{ width: 100%; height:8.25rem;background-size:100%; overflow: hidden;}
+.kill-1{ margin:0.5rem;}
+.kill-banner p{margin:5.75rem auto 0;color: #125046; font-size: 0.4rem; text-align:center;width: 7.2rem; height: 0.7rem; line-height: 0.78rem; vertical-align: top; background: #000001; color: #fff; border-radius: 1rem; }
+.kill-title{ width: 100%; height: 1.2rem; background: #fd6b17; box-shadow: 0 0.15rem 0 #ea3d00; color: #fff; font-size: 0.45rem; text-align: center; line-height: 1.2rem; margin-bottom: 0.7rem;}
+/*.kill-title1,.kill-title2,.kill-title3{ width: 6.75rem; height: 1.45rem;background: url("/static/weixin/activity/interest3/images/seckill2-title.png") no-repeat 0 0;   background-size: 6.75rem auto; margin: 0.45rem auto ; color: #fff; font-size: 0.7rem; font-weight: bold; text-align: center; line-height:1.25rem; z-index: 2; position: relative; text-shadow: 1px 1px 4px #cc3f48; }*/
+.kill-content{ width:100%; height: 5.975rem; background: url("/static/weixin/activity/interest4/images/page-project1.png") no-repeat 0 0;margin:1.5rem auto; z-index: 1; position: relative; color: #4c6965; box-sizing:border-box; position:relative;background-size: 100%;}
+
+
+.kill-2{width:100%;height:1.6rem;line-height:1.8rem;text-align: center; font-size: 0.7rem;  color: #000001;}
+.kill-data{ margin:0.75rem 0.75rem 0; width: 14rem;border-top:1px dashed #91cfc4;padding-top: 0.3rem;}
+.kill-data tr td{padding-top: 0.4rem;}
+.kill-data tr td:first-child p:first-child{ color: #e03223; font-size: 1rem; line-height: 1rem; height: 1rem;padding-left: 0.3rem;}
+.kill-data tr td:first-child p:first-child span{ font-size:0.5rem;}
+.kill-data tr td:first-child p:last-child{padding-left:0.3rem;}
+.kill-data tr td p:last-child{ color: #505c15; font-size: 0.5rem; margin-top: 0.2rem; text-align: center;}
+.kill-data tr td:nth-child(2){ text-align: left;}
+.kill-data tr td:nth-child(2) p:first-child{ color: #f37c7d; font-size: 0.65rem; line-height: 1rem; height: 1rem;}
+.kill-btn{ display: block; margin:0.3rem auto;width: 4.25rem; height: 1.35rem; border-top: 0.075rem solid #fe3f25; line-height: 1.4rem; background:#e03223;color:#fff; font-size: 0.6rem; font-weight: bold; text-align: center; line-height: 1.4rem; border-radius: 0.25rem;}
+.kill-btn span{ display: inline-block; width: 0.45rem; height: 0.6rem;background: url("/static/weixin/activity/interest3/images/page-icon2.png") no-repeat 0 0;   background-size: 0.45rem auto; position: relative; top: 0.08rem; left: 0.12rem;}
+
+.seckill-1{ font-size: 0.9rem; text-align: center; padding-top:1rem;}
+
+.kill-data-mask{ position: absolute; top: 0; width: 100%; height: 100%;background: rgba(0,0,0,0.7); color: #f3e926; text-align: center;}
+.kill-data-mask p{ text-align: center; font-size: 0.6rem; margin-top: 1.5rem;}
+.kill-data-mask p.kill-time{ font-size:1.25rem; margin-top: 0.2rem;}
+.kill-pro{ overflow: hidden;}
+.kill-title2{ background: url("/static/weixin/activity/interest3/images/kill-title.png") no-repeat 0 0;   background-size: 6.75rem auto; margin: 0.75rem auto ; text-shadow: 1px 1px 4px #4307af;}
+
+
+.kill-data tr td:first-child{ width: 30%;}
+.kill-data tr td:nth-child(2){ width: 31%; text-align: center; position: relative;}
+/*
+.kill-yellow{}
+.kill-yellow .kill-btn{}
+.kill-yellow .kill-data tr td p:first-child{ color: #f37c7d;}
+.kill-yellow .kill-data tr td p:last-child{ color: #4c6965;}
+.kill-yellow .kill-data tr td:nth-child(2){ color: #f37c7d;}
+.kill-yellow .kill-data tr td .kill-btn{ color: #752bbc;}
+.kill-yellow .kill-data tr td .kill-btn span{ background: url("/static/weixin/activity/interest2/images/page-icon1.png") no-repeat 0 0;   background-size: 0.45rem auto; }
+.kill-yellow .kill-data-mask p{ color: #fff; font-size: 0.6rem; margin-top: 1.5rem;}
+.kill-yellow .kill-data-mask p.kill-time{ font-size: 1.25rem; margin-top: 0.2rem;}*/
+.kill-box{width: 100%; height: 2.8rem; background: #8934d9; margin-top:-0.95rem; }
+.kill-4{ border-top: 1px solid #ffef8e; width:11.65rem; position: absolute;top: 1.5rem; left: 50%; margin-left: -5.825rem; z-index: 1;}
+.kill-4-1{ position: relative; display: inline-block;z-index: 2;color: #ffef8e; font-size: 0.55rem; margin-top: 1rem; line-height: 1rem; background: #8934d9;  padding:0 0.4rem; font-weight: bold;}
+.kill-3{ position: relative; text-align: center;}
+.kill-3 p{ color:#ffef8e;  font-size: 0.4rem;}
+/*.kill-tip{ text-align: right;margin:1.1rem 0 1rem 0;overflow: hidden; position:relative; height: 1rem;}*/
+/*.kill-tip span{ display: inline-block; width:0.73rem; height: 0.72rem; background: url("/static/weixin/activity/interest2/images/seckill2-icon2.png") no-repeat 0 0;   background-size: 0.7rem 0.7rem;  position: absolute; right: 4.7rem; top: 0.1rem; }*/
+/*.kill-tip a{ color: #8c00ef; line-height: 1rem; margin-right: 0.9rem;}*/
+/*/!*弹窗*!/*/
+/*.kill-pop-wrap{display: none;}*/
+/*.kill-pop{position: fixed; overflow: hidden; background-clip: padding-box; z-index: 1000; border-radius: 0.1rem; padding:0.75rem; background-color: #fff; left: 0.5rem; right:0.5rem; top:50%;}*/
+/*.kill-pop h3{font-size:0.7rem; text-align: center;line-height: 1rem; padding-bottom:0.5rem; color: #fd6b17;}*/
+/*.kill-pop p{ color: #414141; font-size: 0.6rem; line-height: 1.1rem;}*/
+/*.kill-pop p.yellow{ color:#fd6b17;}*/
+/*.kill-pop i{cursor: pointer; position: absolute; right:0.5rem; top:0.55rem; width:1rem; height:1.2rem; background: url("/static/weixin/activity/interest2/images/kill-close.png") 0 0 no-repeat; background-size:1rem;}*/
+.kill-btn.disable{ background: #9e9e9e!important; color: #4f4f4f !important; border-top: 0.075rem solid #9e9e9e!important; }
+.kill-btn.disable span{ display: none;}
+.kill-line{ position: absolute; width: 1px; background: #a4b164; height: 1.5rem; top: 0.6rem; left: 0.5rem;}
+.kh{height: 1rem;line-height: 1rem;color: #e03223;}
+/*.kill-yellow .kill-line{ background: #fff3c1;}*/
+.page-rule{background: url("/static/weixin/activity/interest4/images/page-project2.png") no-repeat 0 0;background-size:100%;height:9.175rem;position: relative;margin:2rem auto 0.9rem;}
+.page-rule h3{line-height:2rem;font-size: 0.7rem;color: #000001;text-align: center;margin-bottom: 0.7rem;}
+.page-rule p{padding:0 0.5rem;line-height:0.85rem;font-size:0.6rem;color:#0b322c;}
+/*.page-ad{padding:0.5rem 0 1rem;}*/

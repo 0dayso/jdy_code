@@ -1,0 +1,42 @@
+html {  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;  -webkit-text-size-adjust: none;  }
+body{  width:100%;  overflow:hidden;  background:#ffffff; color: #444444;  font-family:"SourceHanSansCN","Microsoft YaHei", "Arial Black";  box-sizing: border-box;  }
+.hide{ display:none;}
+.page{  width:100%;  height:100%;  position:absolute;  text-align:center;  overflow: hidden;  }
+.page .wrap{  height: 100%;  }
+.page-current{  z-index:1;  background-color: #ffffff;  }
+
+.page-1-1.page-current{background:url('/static/weixin/images/security/bg.jpg') top center no-repeat #f1f8ff; background-size: 100% auto;}
+
+.mb30{margin-bottom: 0.75rem}
+.mb40{margin-bottom: 1rem}
+
+img{display: block;}
+.text-right{text-align: right;}
+.news-arrowUp{height:auto;width:0.6rem;position:absolute;left:50%;top:93%;margin-left:-10px;z-index: 8;}
+
+.title{font-size: 0.94rem;color: #000; position:relative; line-height: 1rem; padding:1rem 0 1.75rem; }
+.title:after{content:''; position:absolute; background-color: #000; height:2px; width:2.14rem;margin-left: -1.07rem; left: 50%; top:2.432rem;}
+
+.page-1-1 .title{color: #fff;}
+.page-1-1 .title:after{background-color: #fff;}
+
+.page1-main{ position:absolute; top:3.712rem ; left: 0.512rem; right:0.512rem;bottom:0; text-align: left; background-color: #fff; padding:1.024rem 1.024rem;}
+.page1-main p{font-size: 0.6rem; line-height: 0.94rem; padding-bottom: 0.64rem;}
+.page1-txt{font-size: 0.512rem; line-height: 0.81rem; margin-bottom: 0.64rem; padding-left: 2.09rem; position:relative;}
+.page1-txt span{ position:absolute; left: 0; top:0.15rem; width:1.408rem; height:1.45rem;}
+.page1-txt span>img,.security-info span>img{width:100%;}
+.page1-txt:nth-of-type(3){line-height: 1.62rem;}
+
+.security-info{margin:0 1.07rem 1.6rem 0.64rem; line-height: 0.81rem; font-size: 0.55rem;color: #676767; text-align: left; position:relative; padding-left: 3.41rem;}
+.security-info span{position:absolute; width:2.77rem; left: 0; top:0;}
+.security-info strong{font-size: 0.725rem; color: #000;font-weight: normal;}
+.security-info p:nth-of-type(1){margin-bottom: 0.25rem;}
+
+.security-risk{margin:0 1.07rem 1.07rem; text-align: left;font-size: 0.55rem; line-height: 0.81rem; color: #676767;}
+.security-risk strong{font-size: 0.725rem; color: #000;font-weight: normal; display:inline-block; padding-bottom: 0.25rem;}
+.security-risk-icon{text-align: center;}
+.security-risk-icon>img.img1{width:4.096rem; display:inline-block;margin-bottom: 1rem;}
+.security-risk-icon>img.img2{width:5.077rem; display:inline-block;}
+
+
+

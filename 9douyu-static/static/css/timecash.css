@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+::-webkit-input-placeholder {
+    color: #666 !important;
+    text-overflow: ellipsis;
+    font-size:18px;
+    letter-spacing: 0;
+    font-family: Microsoft Yahei,STHeiti,SimHei,SimSun;
+}
+:-moz-placeholder {
+    color: #000 !important;
+    text-overflow: ellipsis;
+    font-size:18px;
+    letter-spacing: 0;
+    font-family: Microsoft Yahei,STHeiti,SimHei,SimSun;
+}
+::-moz-placeholder {
+    color: #000 !important;
+    text-overflow: ellipsis;
+    font-size:18px;
+    letter-spacing: 0;
+    font-family: Microsoft Yahei,STHeiti,SimHei,SimSun;
+} /* for the future */
+:-ms-input-placeholder {
+    color: #666 !important;
+    text-overflow: ellipsis;
+    font-size:18px;
+    letter-spacing: 0;
+    font-family: Microsoft Yahei,STHeiti,SimHei,SimSun;
+}
+
+
+.timecash-loan{width:100%; height: 800px;  background: url('../images/new/timecash-loan-banner.jpg') top center no-repeat; margin-bottom: -80px;}
+.timecash-loan .wrap{position: relative; height: 100%; }
+.loan-tip{width:470px; position:absolute; left: 60px; bottom:25px; letter-spacing: 1px; line-height: 24px; font-size: 18px; color: #fff;}
+.loan-form{position:absolute; width:300px; text-align: center; right: 30px; top: 150px; padding:15px 30px 40px; background-color: #fff;-moz-border-radius:10px;-webkit-border-radius:10px; border-radius: 10px;}
+.loan-form h2{font-size: #333; font-size: 24px; line-height: 48px; margin-bottom: 10px;}
+.loan-form select{
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    outline: none !important;width:100%; 
+}
+.loan-form select,.loan-form input{
+    background-color: transparent;
+    height: 48px; line-height: 48px; border:none; text-indent: 15px; font-size: 18px; color:#666;
+}	
+.loan-form input{color: #666; text-indent: 10px; width:230px;}
+.loan-group{margin-bottom: 9px;text-align: left; position:relative;border:1px solid #c3c3c3;-moz-border-radius:5px;-webkit-border-radius:5px; border-radius: 5px; }
+.loan-arrow{position:absolute; top:11px; right:14px; width:14px; height: 14px; border:1px solid #666; border-width: 0 0 1px 1px;transform:rotate(7deg);
+-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg); }
+
+.loan-icon{display: inline-block; width:22px; vertical-align: middle; height: 48px; margin:0 0 0 15px; background:url('../images/new/timecash-loan-icon.png') 0 10px no-repeat;}
+.loan-icon.phone{background-position: 0 -45px;}
+.loan-bit{font-style:normal;display:inline-block; vertical-align: middle; height: 48px; line-height:56px; font-size: 20px; color: #777; }
+.loan-info{height: 30px; line-height: 30px;font-size: 16px; margin-bottom: 5px;}
+.loan-info.error{color: #f00;}
+.loan-info.loan-success{color: #00b4ff;}
+
+.loan-form input.loan-btn{width:260px; height: 50px; line-height: 50px;-moz-border-radius:5px;-webkit-border-radius:5px; border-radius: 5px; line-height: 50px; display:inline-block; background-color: #00b4ff; color: #fff;}

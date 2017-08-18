@@ -1,0 +1,760 @@
+.progressbar {
+	text-align: center;
+	width: 222px;
+	display: block;
+	position: relative;
+	background: url(../images/progressbar.png) 0 0 no-repeat;
+	height:222px;
+}
+
+.progressbar.progressbar-0 {
+	background-position: 0px 0px;
+}
+
+.progressbar.progressbar-1 {
+	background-position: -222px 0px;
+}
+
+.progressbar.progressbar-2 {
+	background-position: -444px 0px;
+}
+
+.progressbar.progressbar-3 {
+	background-position: -666px 0px;
+}
+
+.progressbar.progressbar-4 {
+	background-position: -888px 0px;
+}
+
+.progressbar.progressbar-5 {
+	background-position: -1110px 0px;
+}
+
+.progressbar.progressbar-6 {
+	background-position: -1332px 0px;
+}
+
+.progressbar.progressbar-7 {
+	background-position: -1554px 0px;
+}
+
+.progressbar.progressbar-8 {
+	background-position: -1776px 0px;
+}
+
+.progressbar.progressbar-9 {
+	background-position: -1998px 0px;
+}
+
+.progressbar.progressbar-10 {
+	background-position: -2220px 0px;
+}
+
+.progressbar.progressbar-11 {
+	background-position: -2442px 0px;
+}
+
+.progressbar.progressbar-12 {
+	background-position: -2664px 0px;
+}
+
+.progressbar.progressbar-13 {
+	background-position: -2886px 0px;
+}
+
+.progressbar.progressbar-14 {
+	background-position: -3108px 0px;
+}
+
+.progressbar.progressbar-15 {
+	background-position: -3330px 0px;
+}
+
+.progressbar.progressbar-16 {
+	background-position: -3552px 0px;
+}
+
+.progressbar.progressbar-17 {
+	background-position: -3774px 0px;
+}
+
+.progressbar.progressbar-18 {
+	background-position: -3996px 0px;
+}
+
+.progressbar.progressbar-19 {
+	background-position: -4218px 0px;
+}
+
+.progressbar.progressbar-20 {
+	background-position: -4440px 0px;
+}
+
+.progressbar.progressbar-21 {
+	background-position: -4662px 0px;
+}
+
+.progressbar.progressbar-22 {
+	background-position: -4884px 0px;
+}
+
+.progressbar.progressbar-23 {
+	background-position: -5106px 0px;
+}
+
+.progressbar.progressbar-24 {
+	background-position: -5328px 0px;
+}
+
+.progressbar.progressbar-25 {
+	background-position: -5550px 0px;
+}
+
+.progressbar.progressbar-26 {
+	background-position: -5772px 0px;
+}
+
+.progressbar.progressbar-27 {
+	background-position: -5994px 0px;
+}
+
+.progressbar.progressbar-28 {
+	background-position: -6216px 0px;
+}
+
+.progressbar.progressbar-29 {
+	background-position: -6438px 0px;
+}
+
+.progressbar.progressbar-30 {
+	background-position: -6660px 0px;
+}
+
+.progressbar.progressbar-31 {
+	background-position: -6882px 0px;
+}
+
+.progressbar.progressbar-32 {
+	background-position: -7104px 0px;
+}
+
+.progressbar.progressbar-33 {
+	background-position: -7326px 0px;
+}
+
+.progressbar.progressbar-34 {
+	background-position: -7548px 0px;
+}
+
+.progressbar.progressbar-35 {
+	background-position: -7770px 0px;
+}
+
+.progressbar.progressbar-36 {
+	background-position: -7992px 0px;
+}
+
+.progressbar.progressbar-37 {
+	background-position: -8214px 0px;
+}
+
+.progressbar.progressbar-38 {
+	background-position: -8436px 0px;
+}
+
+.progressbar.progressbar-39 {
+	background-position: -8658px 0px;
+}
+
+.progressbar.progressbar-40 {
+	background-position: -8880px 0px;
+}
+
+.progressbar.progressbar-41 {
+	background-position: -9102px 0px;
+}
+
+.progressbar.progressbar-42 {
+	background-position: -9324px 0px;
+}
+
+.progressbar.progressbar-43 {
+	background-position: -9546px 0px;
+}
+
+.progressbar.progressbar-44 {
+	background-position: -9768px 0px;
+}
+
+.progressbar.progressbar-45 {
+	background-position: -9990px 0px;
+}
+
+.progressbar.progressbar-46 {
+	background-position: -10212px 0px;
+}
+
+.progressbar.progressbar-47 {
+	background-position: -10434px 0px;
+}
+
+.progressbar.progressbar-48 {
+	background-position: -10656px 0px;
+}
+
+.progressbar.progressbar-49 {
+	background-position: -10878px 0px;
+}
+
+.progressbar.progressbar-50 {
+	background-position: -11100px 0px;
+}
+
+.progressbar.progressbar-51 {
+	background-position: -11322px 0px;
+}
+
+.progressbar.progressbar-52 {
+	background-position: -11544px 0px;
+}
+
+.progressbar.progressbar-53 {
+	background-position: -11766px 0px;
+}
+
+.progressbar.progressbar-54 {
+	background-position: -11988px 0px;
+}
+
+.progressbar.progressbar-55 {
+	background-position: -12210px 0px;
+}
+
+.progressbar.progressbar-56 {
+	background-position: -12432px 0px;
+}
+
+.progressbar.progressbar-57 {
+	background-position: -12654px 0px;
+}
+
+.progressbar.progressbar-58 {
+	background-position: -12876px 0px;
+}
+
+.progressbar.progressbar-59 {
+	background-position: -13098px 0px;
+}
+
+.progressbar.progressbar-60 {
+	background-position: -13320px 0px;
+}
+
+.progressbar.progressbar-61 {
+	background-position: -13542px 0px;
+}
+
+.progressbar.progressbar-62 {
+	background-position: -13764px 0px;
+}
+
+.progressbar.progressbar-63 {
+	background-position: -13986px 0px;
+}
+
+.progressbar.progressbar-64 {
+	background-position: -14208px 0px;
+}
+
+.progressbar.progressbar-65 {
+	background-position: -14430px 0px;
+}
+
+.progressbar.progressbar-66 {
+	background-position: -14652px 0px;
+}
+
+.progressbar.progressbar-67 {
+	background-position: -14874px 0px;
+}
+
+.progressbar.progressbar-68 {
+	background-position: -15096px 0px;
+}
+
+.progressbar.progressbar-69 {
+	background-position: -15318px 0px;
+}
+
+.progressbar.progressbar-70 {
+	background-position: -15540px 0px;
+}
+
+.progressbar.progressbar-71 {
+	background-position: -15762px 0px;
+}
+
+.progressbar.progressbar-72 {
+	background-position: -15984px 0px;
+}
+
+.progressbar.progressbar-73 {
+	background-position: -16206px 0px;
+}
+
+.progressbar.progressbar-74 {
+	background-position: -16428px 0px;
+}
+
+.progressbar.progressbar-75 {
+	background-position: -16650px 0px;
+}
+
+.progressbar.progressbar-76 {
+	background-position: -16872px 0px;
+}
+
+.progressbar.progressbar-77 {
+	background-position: -17094px 0px;
+}
+
+.progressbar.progressbar-78 {
+	background-position: -17316px 0px;
+}
+
+.progressbar.progressbar-79 {
+	background-position: -17538px 0px;
+}
+
+.progressbar.progressbar-80 {
+	background-position: -17760px 0px;
+}
+
+.progressbar.progressbar-81 {
+	background-position: -17982px 0px;
+}
+
+.progressbar.progressbar-82 {
+	background-position: -18204px 0px;
+}
+
+.progressbar.progressbar-83 {
+	background-position: -18426px 0px;
+}
+
+.progressbar.progressbar-84 {
+	background-position: -18648px 0px;
+}
+
+.progressbar.progressbar-85 {
+	background-position: -18870px 0px;
+}
+
+.progressbar.progressbar-86 {
+	background-position: -19092px 0px;
+}
+
+.progressbar.progressbar-87 {
+	background-position: -19314px 0px;
+}
+
+.progressbar.progressbar-88 {
+	background-position: -19536px 0px;
+}
+
+.progressbar.progressbar-89 {
+	background-position: -19758px 0px;
+}
+
+.progressbar.progressbar-90 {
+	background-position: -19980px 0px;
+}
+
+.progressbar.progressbar-91 {
+	background-position: -20202px 0px;
+}
+
+.progressbar.progressbar-92 {
+	background-position: -20424px 0px;
+}
+
+.progressbar.progressbar-93 {
+	background-position: -20646px 0px;
+}
+
+.progressbar.progressbar-94 {
+	background-position: -20868px 0px;
+}
+
+.progressbar.progressbar-95 {
+	background-position: -21090px 0px;
+}
+
+.progressbar.progressbar-96 {
+	background-position: -21312px 0px;
+}
+
+.progressbar.progressbar-97 {
+	background-position: -21534px 0px;
+}
+
+.progressbar.progressbar-98 {
+	background-position: -21756px 0px;
+}
+
+.progressbar.progressbar-99 {
+	background-position: -21978px 0px;
+}
+
+.progressbar.progressbar-100 {
+	background-position: -22200px 0px;
+}
+
+.progressbar .progressbar-num{width:100%; font-size:56px; padding-top:50px; line-height:60px; margin-bottom:5px; }
+.progressbar .progressbar-time{width:162px;color:#0099ee;margin: 0 auto 15px; font-size:18px;}
+.progressbar .progressbar-time.complete{background-position:center bottom;}
+.progressbar .progressbar-time.preview{background-position:center top;}
+.progressbar .countdown{ padding-top:2px; width:162px;margin:0 auto; color:#888; font-size:18px; line-height:28px; letter-spacing:-1px;}
+
+
+
+.calculator-box {
+    display: none;
+    
+}
+
+.calculator-main,.refund-plan {
+    border-radius: 20px;
+    -moz-border-radius:20px;
+    overflow:hidden;
+    width: 514px;
+    font-size: 12px;
+    height: auto;
+    padding-bottom: 3px;
+    background: #fff;
+    left: 50%;
+    top: 3px;
+    margin: 0 0 0 -257px;
+    z-index:9999999;
+    position:fixed;
+}
+
+.calculator-title,.refund-plan-title {
+    width: 100%;
+    height: 46px;
+    position: relative;
+    line-height: 46px;
+    background-color: #00b4ff;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.calculator-title img {
+    margin-top: -5px;
+}
+
+.calculator-title span,.refund-plan-title i {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: 13px;
+    right: 21px;
+    background: url(../images/new/calculator-close.png) 0 0 no-repeat;
+}
+
+.calculator-panel {
+    width: 326px;
+    margin:20px auto;
+}
+
+.calculator-panel label {
+    color: #9c9c9c;
+}
+
+.calculator-panel p {
+    margin: 0 auto 23px;
+    position: relative;
+}
+
+.calculator-panel p i {
+    position: absolute;
+    font-style: normal;
+    display: none;
+    color: red;
+    font-size: 12px;
+    top: 26px;
+    left: 78px;
+}
+
+.calculator-panel label span {
+    margin-left: -20px;
+}
+.calculator-panel label em{
+    display:inline-block; font-weight: normal; width:70px;
+}
+
+.calculator-panel label ins{font-size: 18px; text-decoration: none; color:#00b4ff;}
+
+.calculator-panel p strong{float: right; font-weight: normal; text-decoration: underline; color:#8c8c8c; cursor:pointer;}
+
+.calculator-panel label input,.calculator-panel label select {
+    width: 252px;
+    height: 28px;
+    border: 1px solid #ebebeb;
+    text-indent: 5px;
+    // margin: 0 0 0 10px;
+}
+
+.calculator-panel label input::-ms-clear, 
+.calculator-panel label input::-ms-reveal{display: none;}
+
+.calculator-panel label select{
+    background-color: #eff7ff;
+    border: 1px solid #eff7ff;
+
+}
+.calculator-btn {
+    width: 100%;
+    background: #f6f3ef;
+    border-top: 1px solid #cdcdcd;
+    height: 72px;
+    border-bottom-right-radius: 12px;
+    -moz-border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    -moz-border-bottom-left-radius: 12px;
+}
+
+.calculator-btn input {
+    height: 24px;
+    margin-top: 24px;
+    color: #fff;
+    border: none;
+	float:left;
+    margin-right: 0;
+}
+
+.calculator-submit {
+    width: 150px;
+    background: #199bea;
+    margin-left: 30px;
+}
+ 
+.calculator-empty {
+    width: 40px;
+    background: #fb7831;
+}
+
+.calculator-data {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.calculator-data-title {
+    width: 445px;
+    line-height: 14px;
+    padding: 2px 0;
+    border-radius: 6px;
+    overflow: hidden;
+    -moz-border-radius: 6px;
+    border: 1px solid #dcdcdc;
+}
+
+.calculator-data-title p,.calculator-data-ul li p {
+    float: left;
+    border-right: 1px solid #d5d5d5;
+    text-align: center;
+}
+
+.calculator-data-title p.bnone,.calculator-data-ul li p.bnone {
+    border: none;
+}
+
+.calculator-data-ul {
+    height: 251px;
+    width: 445px;
+    overflow: auto;
+    margin-bottom: 3px;
+}
+
+.calculator-data-ul ul {
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+
+.calculator-data-ul-top,.calculator-data-ul-bottom {
+    width: 100%;
+    height: 15px;
+    background: url(../images/calculator-repeat.png) 0 -15px repeat-x;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.calculator-data-ul-bottom {
+    background-position: 0 -30px;
+    top: 256px;
+}
+
+.calculator-data-ul li {
+    width: 425px;
+    line-height: 32px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    cursor: default;
+}
+
+.calculator-data-ul li.line {
+    border-bottom: 1px dotted #d5d5d5;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    margin: 3px 0;
+}
+
+.calculator-data-ul li.hover {
+    background: #f6f3ef;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+
+.calculator-all {
+    width: 360px;
+    height: 31px;
+    line-height: 30px;
+    padding: 3px 13px 3px 50px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    background: url(../images/calculator-bg.png) 3px 3px no-repeat;
+}
+
+.calculator-all span {
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.calculator-earnings {
+    width: 712px;
+    margin: 14px auto 0;
+    overflow: hidden;
+    background: #f6f3ef;
+    display:none;
+}
+
+.calculator-earnings p {
+    line-height: 30px;
+    color: #9c9c9c;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 490px;
+	text-align: center;
+}
+
+
+.calculator-earnings p span {
+    color: #199bea;
+    cursor: pointer;
+}
+.calculator-earnings p span i{
+	display: inline-block; width:14px; height: 14px; margin-left: 5px;background: url(../images/calculator-bg.png) 0 -74px no-repeat;
+}
+.calculator-earnings p.all span i{
+    background-position: 0 -94px;
+}
+.calculator-earnings-chart {
+    width: 342px;
+    height: 182px;
+    margin: 0 auto 20px;
+    border: 1px solid #eff7ff;
+    position: relative;
+    background-color: #fbfeff;
+}
+
+.calculator-earnings-chart h1 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #9c9c9c;
+}
+
+.calculator-earnings-chart-box {
+    width: 120px;
+    float: left;
+}
+
+.calculator-chart-pic {
+    position: absolute;
+    left: 0;
+    bottom: 26px;
+    height: 88px;
+}
+
+.calculator-chart-title {
+    position: absolute;
+    height: 26px;
+    line-height: 26px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.calculator-chart-title p {
+    float: left;
+    margin-left:15px;
+    width: 60px;
+    color: #199bea;
+    text-align: center;
+}
+.calculator-chart-title p.w110{width:110px;}
+.calculator-chart-title p.bank {
+    background-position: -18px -68px;
+}
+
+.calculator-chart-title p.fund {
+    background-position: -18px -92px;
+}
+
+.calculator-customize{display:none;}
+.calculator-earnings-chart-box {
+    width: 42px;
+    border-bottom: none;
+    background: #00b4ff;
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    border-radius: 2px;
+    // margin-left: 35px;
+}
+
+.other-chart {
+    background: #d0d0d0;
+}
+
+.calculator-earnings-chart-box span {
+    position: absolute;
+    top: -26px;
+    line-height: 30px;
+    color: #ff9000;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    text-align: center;
+}
+
+.line-big{width:146px;}
+.line-small{width:108px;}
+
+/* 计算器 p的宽度*/
+.w80{
+	width: 80px !important;
+}
+.w50 {
+	width: 50px;
+}

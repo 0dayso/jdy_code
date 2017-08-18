@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{background-color: #f83e3f;}
+/*砸金蛋第一期banner*/
+/*.egg-banner{width:100%; height:9.05rem; background: url("/static/weixin/images/activity/egg-banner.png") top center no-repeat;background-size: 100%; text-align: center; padding-top: 7.05rem; box-sizing: border-box; color:#dccdff; font-size: 0.65rem; position: relative; z-index: 5; }*/
+/*砸金蛋第二期banner*/
+.egg-banner-2term{width:100%; height:9.05rem; background: url("/static/weixin/images/activity/egg-banner02.png") top center no-repeat;background-size: 100%; text-align: center; padding-top: 7.35rem; box-sizing: border-box; color:#dccdff; font-size: 0.65rem; position: relative; z-index: 5; }
+.egg-img{text-align: center; width: 100%; padding-top: 5.4rem; position: relative;z-index: 1; top:-4.45rem;background: url("/static/weixin/images/activity/egg-bg1.png") top center no-repeat;background-size: 15.95rem 16.1rem;}
+.egg-img span{display: inline-block; cursor: pointer; width: 8.05rem; height: 9.6rem;background: url("/static/weixin/images/activity/egg-img1.png") bottom center no-repeat;background-size: 100%; }
+.egg-img span.break{background-image: url("/static/weixin/images/activity/egg-img2.png"); }
+.egg-tips{margin: -3rem 0.75rem 1.9rem; padding:0.5rem 0 0.5rem 0.75rem;font-size: 0.5rem; color: #ffd0a2; line-height: 0.75rem; background-color: #c83132; border-radius: 0.25rem;}
+.egg-tips.detail{margin-top: 1.45rem;}
+.egg-mian{text-align: center;}
+.egg-mian p.txt1{color: #ffd0a2; font-size: 0.9rem; margin: 1rem 0; }
+.egg-box{width:11.75rem; margin: 0 auto 0.7rem; line-height: 1rem;  color:#f83e3f; font-size: 0.65rem;  height: 6.9rem;  background: url("/static/weixin/images/activity/egg-bg2.png") top center no-repeat;background-size: 100%; }
+.egg-box strong{font-size: 1.95rem; font-family: "Microsoft Yahei", "SimHei ", "SimSun" !important;}
+.egg-box p:first-child{line-height: 2.5rem; margin-bottom: -0.75rem;}
+.egg-box em{font-size: 0.9rem;}
+.egg-box p.txt2{font-size: 0.55rem; color: #7c3d1a; padding:1rem 0 0 0.75rem;text-align: left; line-height: 0.75rem; }
+.egg-btn img{width:9.15rem; }
+.egg-list{border: 1px dashed #ffdda2; border-width: 1px 0; color: #ffdda2; font-size: 0.5rem; padding:0.65rem 0; margin: 1rem 0.75rem 0;}
+.egg-list.home{margin-top: -3rem;}
+#list{height: 4.25rem; width: 100%; overflow: hidden;}
+.egg-list table{width: 100%;}
+.egg-end{width: 8.25rem; height:8.25rem; margin: 0.25rem auto 1rem;background: url("/static/weixin/images/activity/egg-img3.png") center center no-repeat ;background-size: 7.15rem 8.25rem;   }

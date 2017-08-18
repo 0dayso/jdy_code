@@ -1,0 +1,126 @@
+@charset "utf-8";
+/*CSS header*/
+/*充值页面-网银充值/快捷支付/弹窗/recharge-banking.html*/
+.t-r-showbox{  width: 835px; background: #fff;border: 1px solid #f0f0f0;padding: 30px 0px 55px; color: #414141;}
+.t-racharge{ padding-right: 30px;}
+.t-racharge a{ font-size: 14px;	}
+.t-racharge span,.t-recharge4 span,.t-recharge7 span{ background: url(../images/new/t-recharge.png) no-repeat 0 0 ; width: 14px; height: 15px; display: inline-block; vertical-align: middle;margin-right: 5px; }
+.t-racharge a,.t-racharge a:visited{ color: #00bafb;}
+.t-racharge a:hover,.t-racharge a:active{color:#009bd9;}
+.t-recharge-input{ width: 188px; height: 28px; color: #414141; font-size: 16px;}
+.t-recharge2 span{  font-size: 14px; padding-right:35px;}
+.t-recharge2{ font-size: 16px;color: #414141;}
+.t-recharge3 p{ text-align: right; color: #414141; font-size: 14px;}
+.t-recharge3 p span{ font-size: 20px;}
+.t-recharge3 p span.t-red{ color: #ff5353;}
+.t-recharge4,.t-recharge7{ font-size: 12px; color: #414141; padding:18px 0 0 161px;}
+.t-recharge4 span,.t-recharge7 span{ background-position:0 -18px; width: 12px; height: 12px;}
+.t-recharge5{ padding-left:65px;}
+.t-recharge3{ padding-right: 65px;}
+.t-recharge6{ overflow: hidden; padding:28px 65px 0px; border-top:1px solid #f0f0f0; margin-top:29px;}
+.t-recharge6-1{ float:left; font-size: 14px; padding:15px 35px 0 0; }
+.t-recharge6 ul{ float: left;}
+.t-recharge-nav li{ width:184px; height: 52px; border: 1px solid #cccccc; border-radius: 5px; display: block; float: left; line-height: 52px; text-align: center; margin-right: 20px; font-size: 18px; color: #818181;cursor: pointer; position: relative;}
+.t-recharge-nav li.t-selected{ border: 1px solid #fee1dc;	-webkit-box-shadow:inset 0 0 0 4px #fff4f5;
+  -moz-box-shadow:inset 0 0 0 4px #fff4f5;
+  box-shadow:inset 0 0 0 4px #fff4f5;color: #ff5353;   /* For Latest Opera */ }
+.t-recharge-nav li.t-selected span,.t-recharge-bank1 li.t-selected span{background: url(../images/new/t-recharge1.png) no-repeat 0 0 ; width: 20px; height: 20px; display: inline-block; vertical-align: middle; position: absolute; right:-1px; bottom: -1px;}
+.t-recharge7{ padding:0px 0 0 160px; line-height: 18px;}
+.t-recharge7 span,.t-recharge4 span{ margin-top:3px; vertical-align: text-top;}
+.t-recharge9{ padding:35px 65px 0; border-top:1px solid #f0f0f0; margin-top:28px; overflow: hidden;}
+.t-recharge-bank{ float: left;width: 623px;}
+.t-recharge-bank ul li {
+  float: left;
+  text-align: center;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  width: 144px;
+  height: 50px;
+  margin: 0 0px 9px 9px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.t-recharge6-2{ padding-right: 26px;}
+input.t-recharge-btn{ width: 201px; margin:28px 0 0 91px;}
+.t-lh54px{ line-height: 54px !important;}
+.t-recharge-bank1 li.t-selected{ border: 1px solid #ff5353;}
+.t-recharge8,.t-recharge10{ margin-top:16px;}
+.t-recharge11{ color: #ff5353; font-size: 12px; padding-left: 176px; margin-top:5px;}
+.t-recharge12{ margin-top:30px;}
+.t-recharge12-1{ color: #818181; font-size: 18px; padding-left: 102px; padding-bottom:5px;}
+.t-recharge-input1{ width: 298px; height: 28px; color: #414141; font-size: 14px;}
+.t-recharge12-2{ color: #ff5353; font-size: 12px; padding-left: 102px; line-height: 20px; margin:15px 0 -10px 0;}
+a.t-alert-btn{ width: 236px; margin:58px 0 0 210px; font-size: 16px;}
+a.t-mt30px{ margin-top:30px;}
+
+/*验证银行卡 verification-bank.html*/
+
+.t-bank-1{background: url(../images/new/t-bank-bj.png) no-repeat 0 0 ; width: 410px; height: 80px; margin:30px auto 0;}
+.t-bank-2{ color: #00bafb; font-size: 22px; padding:16px 0 3px 140px;}
+.t-bank-3{ color: #414141; font-size: 14px;padding-left: 140px;}
+a.t-bank-blue{ width: 200px; margin:58px 0 85px 325px; font-size: 16px;}
+.t-recharge-tip{ color:#ff5353; font-size: 12px; padding: 3px 0 0 92px}
+
+/*提现 verification.html*/
+.t-v-bj{background: url(../images/new/t-v-bj.png) no-repeat 0 0 ; width: 410px; height: 80px; margin:30px auto 0;}
+.t-v-bj p{color: #00bafb; font-size: 22px; padding:30px 0 3px 130px; text-align: center;}
+.t-v-table{ width:779px; margin: 63px auto 82px; text-align: center; color: #414141; font-size: 14px;}
+.t-v-table thead tr{ height: 50px; background: #eff3f5; border: 1px solid #f0f0f0;}
+.t-v-table tbody tr{ height: 54px; }
+.t-v-table tbody tr td{border: 1px solid #f0f0f0; border-top: none;}
+.t-recharge-bank ul li.t-recharge-num{ width: 235px; padding-right: 5px;}
+.t-recharge-bank ul li.t-recharge-num i{ margin-left: 3px; font-size: 14px; background: #eeeeee; padding: 2px 5px; font-style: normal; color: #818181;}
+.t-recharge-bank ul li.t-recharge-num i em { font-size: 16px; color: #818181; padding-left: 4px;}
+.t-recharge7-1{ padding-left: 92px;}
+
+/*充值须知弹层*/
+.t-alert-know{ margin: 30px 30px 0;overflow: hidden; color: #515151; font-size: 14px;}
+.t-alert-know dt{ float: left; width: 20px;}
+.t-alert-know dd{ margin-left:20px;width: 596px;}
+
+/*申请成功和失败弹窗*/
+.t-bomb_box.t-bomb_box2{ width: 600px; height: 320px;margin:-160px 0 0 -300px;}
+a.t-alert-btn1{ width: 236px; margin:50px 0 0 190px; font-size: 16px;}
+.t-turn-bj{background: url(../images/new/t-turn-bj.png) no-repeat 0 0 ; margin-bottom: 15px; }
+.t-turn-bj p,.t-turn-bj1 p{ padding-left: 10px;}
+.t-turn-bj1 p{ color: #ff5353;}
+.t-turn-p{ text-align: center; color: #414141; font-size: 14px; text-align: center; display: block;}
+.t-turn-bj1{background: url(../images/new/t-turn-bj1.png) no-repeat 0 0 ; margin-bottom: 15px; }
+
+/*充值确认弹窗*/
+.t-alert-p{ color:#414141; font-size: 16px; padding:27px 0 0 80px; display: block;}
+a.t-alert-btn2,a.t-alert-btn3{ width: 180px; font-size: 16px; margin: 38px 0 26px 80px;}
+.t-r-qustion{ margin: 0 30px; border-top: 1px solid #eeeeee; height: 50px; padding-top: 20px;}
+.t-r-qustion em{background: url(../images/new/t-v-icon.png) no-repeat 0 0 ; width: 16px; height: 16px; display: block; float: left; vertical-align: middle; margin:5px 6px 0 50px; }
+ a.t-r-qustion1,a:visited.t-r-qustion1{ color: #00aeee; font-size: 16px; text-decoration: underline;}
+ a:hover.t-r-qustion1,a:active.t-r-qustion1{color:#009bd9;}
+
+/*提现须知弹窗*/
+.t-bomb_box.t-bomb_box3{margin:-240px 0 0 -338px;  height:480px; }
+
+/*温馨提示*/
+.t-reminder{ height: 500px;}
+.t-reminder1{background: url(../images/new/t-r-bj.png) no-repeat 0 0 ; width: 460px; height: 80px; margin: 120px auto 0;}
+.t-reminder2{ color: #00bafb; font-size: 22px; text-align: center; line-height: 80px;}
+.t-reminder2 span{ color: #414141; font-size: 16px; padding-left: 20px; line-height: 70px;}
+.t-reminder3{ color: #616161; font-size: 14px; text-align: center;margin-top:38px;}
+.t-reminder3 a,.t-reminder3 a:visited{ color: #00aeee;text-decoration: underline; }
+.t-reminder3 a:hover,.t-reminder3 a:active{color:#009bd9;}
+/*20161018 充值页面 增加支付渠道样式 */
+.recharge-channel{width:188px;height:106px;margin:0 0 30px 36px;padding:4px 16px 16px;float: left;border: 1px solid #cccccc; border-radius: 5px;overflow: hidden;position: relative;cursor: pointer;}
+.recharge-channel-bt {width:100%;height:47px;line-height:47px;margin:0 0 10px 0;border-bottom:1px solid #f0f0f0;font-size: 18px;text-align:center;}
+.recharge-channel-bt img{margin-right: 5px;}
+.recharge-channel-txt{line-height:24px;font-size:12px;color:#414141;}
+.channel-select{border: 1px solid #fee1dc;	-webkit-box-shadow:inset 0 0 0 4px #fff4f5;
+  -moz-box-shadow:inset 0 0 0 4px #fff4f5;
+  box-shadow:inset 0 0 0 4px #fff4f5;color: #ff5353;}
+.channel-select .recharge-channel-txt{color: #ff5353;}
+.channel-select .recharge-channel-bt{border-bottom:1px solid #fff1f2}
+.channel-select .recharge-channel-bt span{background: url(../images/new/t-recharge1.png) no-repeat 0 0 ; width: 20px; height: 20px; display: inline-block; vertical-align: middle; position: absolute; right:-1px; bottom: -1px;}
+.recharge-channel-wrap{margin-left: -27px;float:left;width:623px;}
+.recharge-width-nav{width: 296px !important;}
+.recharge-width-nav em{display: inline-block;height: 30px;margin-left: 12px;border-left:1px solid #c1c1c1;vertical-align: middle;}
+.recharge-width-nav b{display:inline-block;vertical-align:middle;font-size: 14px;color:#818181;font-weight: normal;}
+.recharge-width-nav img{display: inline-block;margin: 0 10px;}

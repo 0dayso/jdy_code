@@ -1,0 +1,108 @@
+/*弹窗*/
+.kill-pop-wrap{display: none;}
+.kill-pop{position: fixed; overflow: hidden; background-clip: padding-box; z-index: 1000; border-radius: 0.1rem; padding:0.75rem 0.75rem 1.2rem; background-color: #fff; left: 0.5rem; right:0.5rem; top:50%;}
+.kill-pop h3{font-size:0.7rem; text-align: center;line-height: 1rem; padding-bottom:0.5rem; color: #4f48d1;}
+.kill-pop p{ color: #414141; font-size: 0.6rem; line-height: 1rem;}
+.kill-pop p.yellow{ color:#fd6b17;}
+.kill-pop i{cursor: pointer; position: absolute; right:0.5rem; top:0.55rem; width:1rem; height:1.2rem; background: url("/static/weixin/activity/redpacketrain/images/first-close.png") 0 0 no-repeat; background-size:1rem;}
+.kill-btn.disable{ background: #9e9e9e!important; color: #4f4f4f !important; border-top: 0.075rem solid #9e9e9e!important; }
+.kill-btn.disable span{ display: none;}
+.kill-line{ position: absolute; width: 1px; background: #ffef8e; height: 1rem; top: 0.5rem; left: 0.3rem;}
+.kill-yellow .kill-line{ background: #fff3c1;}
+.mask3{     filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;}
+
+/*红包1弹窗*/
+.kill-pop-wrap1{display: none;}
+.kill-pop1,.kill-pop2,.kill-pop3,.kill-pop4{position: fixed; width: 10.7rem; height: 13.425rem;background: url("/static/weixin/activity/redpacketrain/images/box1.png") no-repeat 0 0;  overflow: hidden;  z-index: 1000; background-size: 100%; top: 50%; left: 50%; margin-left: -5.3rem;}
+.kill-pop1,.kill-pop4{ height: 13.425rem; margin-top: -6.7125rem;}
+.kill-pop2{ height:16.0rem; margin-top: -8rem;}
+.kill-pop3{ height:17.65rem; margin-top: -8.825rem;}
+
+.kill-pop1 h4,.kill-pop2 h4,.kill-pop3 h4,.kill-pop4 h4{ font-size: 0.6rem; color: #fbe43d; text-align: center; margin-top: 5.2rem; font-weight: bold;}
+.db-coupon{ width:9.05rem; height: 3.1rem;background: url("/static/weixin/activity/festival/images/img.png") no-repeat 0 0;  background-size: cover; margin:0.95rem auto 0;  }
+.db-coupon dl{ display: table; height: 2.8rem; color: #fa2a37;}
+.db-coupon dl dt{ display: table-cell; vertical-align: middle; font-weight: bold; font-size: 0.75rem; padding-left: 0.55rem; position: relative;}
+.db-coupon dl dt span{ font-size: 1.6rem;}
+.db-coupon dl dd{ display: table-cell; vertical-align: middle; padding-left: 0.5rem;padding-right: 0.3rem}
+.db-line3{ position:relative; display: inline-block; width: 1px; height:1.9rem; background: #fd4955;  top: 0.2rem; left: 0.4rem;}
+.db-coupon dl dd p{ font-size: 0.5rem;}
+.db-btn-1{ display:block; width: 5.625rem; height: 2.025rem;background: url("/static/weixin/activity/redpacketrain/images/btn.png") no-repeat 0 0;  background-size: cover; margin:0.85rem auto 0;  text-align: center; color: #fa2a37; font-size: 0.85rem; line-height: 1.72rem; vertical-align: top; font-weight: bold; }
+/*未登录*/
+.kill-pop1 h4.mt,.kill-pop4 h4.mt{ font-size: 0.7rem; margin-top: 7.3rem; margin-bottom:1.4rem;}
+.kill-pop1 h4.mt1{margin-top: 6.3rem;}
+.kill-pop1 p{ font-size: 0.6rem;  text-align: center;color: #fbe43d; margin-top: 1.5rem;}
+.kill-pop1-3 p{ font-size: 0.5rem;  text-align: center;color: #fa2a37; margin-top: 0.0rem;}
+/*红包2弹窗*/
+.kill-pop2{ height:15.975rem;  background: url("/static/weixin/activity/redpacketrain/images/box2.png") no-repeat 0 0;background-size: 100%;}
+.kill-pop2 h4{ margin-bottom: 0.55rem;}
+.kill-pop2 .db-coupon{ margin-top: 0.1rem;}
+.kill-pop2 .db-btn-1{ margin-top: 0.1rem;} 
+/*红包3弹窗带物品*/
+.kill-pop3{ height:17.625rem;  background: url("/static/weixin/activity/redpacketrain/images/box3.png") no-repeat 0 0;background-size: 100%;}
+.kill-pop3 h4{ margin-bottom: 0.4rem;}
+.kill-pop3 .db-coupon{ margin-top: 0rem;}
+.db-prize{ display: table; width: 8.05rem; margin:0.7rem auto 0;}
+.db-prize dt{ display: table-cell; vertical-align: middle; padding-left: 1rem; padding-right: 0.3rem; }
+.db-prize dt img{ width:1.55rem;}
+.db-prize dd{display: table-cell; vertical-align: middle; color: #fff; font-size: 0.525rem; font-weight: bold;}
+
+
+/*红包雨*/
+
+.page_rain{
+	/*background: url(../images/bg_redrain.png) no-repeat 0 0;*/
+	
+	background:rgba(0,0,0,0.8);
+	background-size: cover;
+	/*min-height: 100%;*/
+	height: 100%;
+	width: 100%;
+	position:fixed ;
+	z-index: 9999;
+	
+	left:0;
+	top:0;
+}
+
+.div{
+	width: 100%;
+	min-height:100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 9;
+}
+.bg_1{
+/*	background: url(../images/bg_redrain.png) no-repeat;
+*/	
+	background: url("/static/weixin/activity/redpacketrain/images/line1.png") repeat 0 0;
+	background-size: 100%;
+}
+.bg_2{
+	/*background: url(../images/bg_redrain2.png) no-repeat;*/
+	background:rgba(0,0,0,0.8);
+	background-size: cover;
+}
+.div > div{
+	width: 80px;
+	height: 90px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	/*background: red;*/
+	/*background: url(../images/test_package.png) no-repeat;
+	background-size: 100%;*/
+	background-image: url("/static/weixin/activity/redpacketrain/images/icon_package.png");
+	background-repeat: no-repeat;
+	background-size: 155px 215px;
+	background-position: 0px -1px;
+	/*transform:rotateZ(-30deg);*/
+	/*background-position: 0px -100px;*/
+	
+}
+/*倒计时*/
+.db-time{ color: #fff; font-size: 1.0rem;position: absolute; top: 1rem; right: 1rem;}
+.kill-time img{ width: 7.925rem;}
+.kill-time{ position: fixed; width: 7.925rem; height: 4.8rem; top: 50%; margin-top: -2.4rem; margin-left: -3.9625rem; left: 50%; z-index: 999;}
+

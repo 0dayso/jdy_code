@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/**
+ 
+ * @authors bi.chunfeng@9douyu.com
+ * @date    2017-6-27
+ * @version novice2
+ */
+body{ background: #0f1040;}
+.re-form{ width: 100%; height:30.784rem;background: url('../images/novice2/banner-0627.jpg'); background-size:cover;padding:12.95rem 0.98rem 0 0.98rem; box-sizing: border-box; margin-bottom: 0; }
+.ann2promote-input-box:before{ width: 0.625rem; height: 1.025rem; content: ""; background:url(../images/novice1/icon.png) no-repeat 0 0; background-size:100%; position:absolute; left: 0.375rem;top: 0.46rem;}
+.ann:before{ width: 0.65rem; height: 0.85rem; background:url(../images/novice1/icon2.png) no-repeat 0 0; background-size:100%; left: 0.375rem; top: 0.54rem; }
+.ann1:before,.ann-1:before{ width:0.65rem; height: 0.875rem;content: "";  background:url(../images/novice1/icon1.png) no-repeat 0 0; background-size:100%; left:0.4rem; top: 0.65rem;}
+.ann2promote-input{ height: 1.92rem; line-height:1.92rem; border: none; background: #fff; padding-left: 1.3rem;}
+.ann2-txt:before{ background: none;} 
+.ann2promote-code{ width: 4.6rem; height: 1.92rem; border: none;line-height: 1.92rem; color: #333333; font-size: 0.6rem; vertical-align: top;background:#ffd71b;}
+.ann2promote-input.w9{ width: 9.0rem;}
+.ann2promote-input-box{ margin-bottom: 0.426rem;}
+.ann2promote-btn{ background:#ffd71b; height: 1.92rem; color: #333333; font-size: 0.6rem; margin-bottom: 0.3rem;}
+.ann2promote-input-box.ann2-txt{line-height: 0.99rem;}
+.ann2promote-input-box.ann2-txt a.blue{ color: #fff; font-size: 0.59rem;}
+.ann2-txt span{ color: #fff; }
+.ann2promote-input-box.ann2-txt i{ width: 0.625rem; height: 0.725rem; background:url(../images/novice1/icon3.png) no-repeat 0 0; background-size:100%; margin-top: -0.1rem; }
+.app11-con{ width: 100%; padding:0.5rem 0 1.309rem;margin-top: -0.5rem;}
+.app11-data{ color: #fff; width: 14.5rem; margin:0 auto; text-align: center; line-height: 1.2rem;}
+.app11-data li{ font-size: 0.6rem;}
+.app11-data li strong{ color: #fbda42;}
+.ann2promote-work{text-align: center; padding:1rem 0 1.5rem 0; color: #fff; font-size: 0.6rem;}
+.ann2promote-work span{color: #fff; font-weight: bold; font-size: 0.9rem; line-height: 2rem;}
+.ann2promote-work small{color: #fff; font-size: 0.6rem;}
+.ann2promote-work i{display: inline-block; height: 1px; width: 0.853rem; background-color: #fff; z-index: 1; overflow: hidden; position: relative;top: -0.15rem; margin: 0 0.5rem;-webkit-transform: scaleY(0.5); transform: scaleY(0.5);}
+.ann2promote-work.download{padding-bottom: 1.2rem;}
+.ann2promote-tip{height: 0.3rem;line-height: 0.3rem;font-size: 0.4rem;color: #fff;}
+/*新手活动介绍*/
+.app-project{position:relative;z-index:10;height: 6.016rem;padding-top:0.35rem;margin:0.5rem 0.746rem 0.5rem 0.384rem;border-radius: 0.25rem; background:#35b4ff; box-sizing: border-box;}
+.app-project:before{content:"";position: absolute;z-index:-1;left:0.292rem;right:-0.192rem;top:0.341rem;height:6.016rem;background:#0285e1;border-radius: 0.25rem;box-shadow:0 0 0.576rem rgba(0,0,0,0.2) inset; }
+.app-project h4{position: absolute;left:50%;width:9.77rem;height: 2.965rem;line-height:2.3rem;transform:translate(-50%,-1.5rem);-webkit-transform:translate(-50%,-1.5rem);background:url(../images/novice2/title.png) no-repeat 0 0;background-size: cover;text-align: center;color: #fff;font-size:0.896rem}
+.app-project .title{position:relative;width:13.29rem;margin-left:0.448rem;line-height:1.77rem;color:#fff;font-size: 0.7rem;padding:0.55rem 0.5rem 0.1rem; font-weight: bold;  z-index: 2;border-bottom:1px dotted rgba(255,255,255,.5);}
+.app-project table{ width: 100%; text-align: center; color: #77cdff; font-size: 0.512rem; margin-top: 0.3rem;}
+.app-project table tr:nth-child(1) td:nth-child(1){position:relative;color: #ffd800; font-size:0.65rem; font-weight: bold; height: 1.8rem;}
+.app-project table tr:nth-child(1) td:nth-child(1):after{position: absolute;content: "";right:7px;top:35%;width:1px;height:0.953rem;background:rgba(255,255,255,.5);}
+.app-project table tr:nth-child(1) td:nth-child(1) span{ font-size:1.275rem;}
+.app-project table tr:nth-child(1) td:nth-child(2){ color: #fff; font-size: 0.6rem; padding-top: 0.4rem;}
+.app-project .btn{ position: relative; display:inline-block; width: 4.586rem; height: 1.365rem;line-height: 1.5rem;  background: #fff602;border-radius:0.25rem; color: #e2301c; font-size: 0.75rem; font-weight: bold; margin-top: 0.3rem; text-align: center;border-bottom: 0.025rem solid #ffd200;text-indent:-0.4rem;}
+.app-project .btn:after{content:"";position: absolute;top:26%;right:0.3rem;width:0.55rem;height:0.75rem;background:url('/static/weixin/activity/thirdanniversary/images/three/page-btn-icon.png') top right no-repeat;background-size: 0.55rem 0.75rem;}
+.app-project .btn.disable{ background: #8a8a8a;border-bottom: 0.025rem solid #535253; color: #535253;}
+.app-project .btn.disable:after{ background: none;width:0;height: 0;}
+
+
+.checkcode{ position: absolute;top: 0.16rem;right: 0.2rem;height: 1.6rem; width: 4.7rem;}
+
+
+

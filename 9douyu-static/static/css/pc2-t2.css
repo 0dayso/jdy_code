@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*CSS header*/
+/*充值页面-网银充值/快捷支付/弹窗/recharge-banking.html*/
+.t-wrap{ width: 1002px; margin: 0 auto;}
+.t-r-showbox{  width: 835px; background: #fff;border: 1px solid #f0f0f0;padding: 30px 0px 55px; color: #414141;}
+.t-racharge{ padding-right: 30px;}
+.t-racharge a{ font-size: 14px;	}
+.t-racharge span,.t-recharge4 span,.t-recharge7 span{ background: url(../images/new/t-recharge.png) no-repeat 0 0 ; width: 14px; height: 15px; display: inline-block; vertical-align: middle;margin-right: 5px; }
+.t-racharge a,.t-racharge a:visited{ color: #00b4ff;}
+.t-racharge a:hover,.t-racharge a:active{color:#009bd9;}
+.t-recharge-input{ width: 188px; height: 28px; color: #414141; font-size: 16px;}
+.t-recharge2 span{  font-size: 14px; padding-right:35px;}
+.t-recharge2{ font-size: 16px;color: #414141;}
+.t-recharge3 p{ text-align: right; color: #414141; font-size: 14px;}
+.t-recharge3 p span{ font-size: 20px;}
+.t-recharge3 p span.t-red{ color: #ff5353;}
+.t-recharge4,.t-recharge7{ font-size: 12px; color: #414141; padding:18px 0 0 161px;}
+.t-recharge4 span,.t-recharge7 span{ background-position:0 -18px; width: 12px; height: 12px;}
+.t-recharge5{ padding-left:65px;}
+.t-recharge3{ padding-right: 65px;}
+.t-recharge6{ overflow: hidden; padding:28px 65px 0px; border-top:1px solid #f0f0f0; margin-top:29px;}
+.t-recharge6-1{ float:left; font-size: 14px; padding:15px 35px 0 0; }
+.t-recharge6 ul{ float: left;}
+.t-recharge-nav li{ width:184px; height: 52px; border: 1px solid #cccccc; border-radius: 5px; display: block; float: left; line-height: 52px; text-align: center; margin-right: 20px; font-size: 18px; color: #818181;cursor: pointer; position: relative;}
+.t-recharge-nav li.t-selected{ border: 1px solid #fee1dc;	-webkit-box-shadow:inset 0 0 0 4px #fff4f5;
+  -moz-box-shadow:inset 0 0 0 4px #fff4f5;
+  box-shadow:inset 0 0 0 4px #fff4f5;color: #ff5353;   /* For Latest Opera */ }
+.t-recharge-nav li.t-selected span,.t-recharge-bank1 li.t-selected span{background: url(../images/new/t-recharge1.png) no-repeat 0 0 ; width: 20px; height: 20px; display: inline-block; vertical-align: middle; position: absolute; right:-1px; bottom: -1px;}
+.t-recharge7{ padding:0px 0 0 160px; line-height: 18px;}
+.t-recharge7 span,.t-recharge4 span{ margin-top:3px; vertical-align: text-top;}
+.t-recharge9{ padding:35px 65px 0; border-top:1px solid #f0f0f0; margin-top:28px; overflow: hidden;}
+.t-recharge-bank{ float: left;width: 623px;}
+.t-recharge-bank ul li {
+  float: left;
+  text-align: center;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  width: 144px;
+  height: 50px;
+  margin: 0 0px 9px 9px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.t-recharge6-2{ padding-right: 26px;}
+a.t-recharge-btn{ width: 201px; margin:28px 0 0 91px;}
+.t-lh54px{ line-height: 54px !improtant;}
+.t-recharge-bank1 li.t-selected{ border: 1px solid #ff5353;}
+.t-recharge8,.t-recharge10{ margin-top:16px;}
+.t-recharge11{ color: #ff5353; font-size: 12px; padding-left: 176px; margin-top:5px;}
+.t-recharge12{ margin-top:30px;}
+.t-recharge12-1{ color: #818181; font-size: 18px; padding-left: 102px; padding-bottom:5px;}
+.t-recharge-input1{ width: 298px; height: 28px; color: #414141; font-size: 14px;}
+.t-recharge12-2{ color: #ff5353; font-size: 12px; padding-left: 102px; line-height: 20px; margin:15px 0 -10px 0;}
+
+.t-box_alert{ display: none; }
+.t-mask{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.t-bomb_box{ position:fixed; left:50%; top:50%; margin:-144px 0 0 -338px;  height:288px; width:676px; background:#FFF;z-index:240; border-radius:10px; overflow:hidden;}
+.t-bomb_box h3{ height:62px; line-height:62px; background:#00aeee;font-size:24px; color:#eff3f5; text-indent: 30px;}
+.t-bomb_box span{ position:absolute; cursor:pointer; right: 20px;}
+.t-bomb_box p{ font-size:20px; color:#414141; text-align:center; margin-top:60px;}
+a.t-alert-btn{ width: 236px; margin:58px 0 0 220px; font-size: 16px;}
+
+/*验证银行卡 verification-bank.html*/
+.m-process{
+  width: 380px;
+  padding: 50px 0px 30px;
+  margin: 0 auto;
+}
+.m-addinfor{
+  font-size: 14px;
+  position: relative;
+  float: left;
+  margin-right: 180px;
+}
+.m-addinfor i.m-addbefore{
+  position: absolute;
+  top: -20px;
+  left: 38px;
+}
+.m-success{position: relative;}
+.m-success i.m-addbefore{
+  position: absolute;
+  top: -20px;
+  right: 38px;
+  color: #414141;
+}
+/*蓝色状态*/
+.m-bluest{
+  color: #00b4ff;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #00b4ff;
+  border-radius: 10px;
+}
+.m-blueco{color: #00b4ff;}
+/*灰色状态*/
+ .m-grayst{
+  width: 14px;
+  height: 14px;
+  background: #eff3f5;
+  border-radius: 10px;
+ }
+.m-grayco{color: #414141;}
+
+.m-line{
+  width: 276px;
+  height: 3px;
+  background: #eff3f5;
+  position: absolute;
+  top: 35px;
+  left: 52px;
+}
+
+
+.t-bank-1{background: url(../images/new/t-bank-bj.png) no-repeat 0 0 ; width: 410px; height: 80px; margin:30px auto 0;}
+.t-bank-2{ color: #00b4ff; font-size: 22px; padding:16px 0 3px 140px;}
+.t-bank-3{ color: #414141; font-size: 14px;padding-left: 140px;}
+a.t-bank-blue{ width: 200px; margin:58px 0 85px 325px; font-size: 16px;}

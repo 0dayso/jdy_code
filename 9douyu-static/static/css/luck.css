@@ -1,0 +1,37 @@
+@charset "utf-8";
+body{background-color: #fff;}
+.luck-wrap{width: 850px; margin: 0 auto;}
+.luck-banner{width: 100%; height: 613px; margin-bottom: 25px; background: url('../images/topic/luck-banner.png') top center no-repeat;}
+.luck-banner p{color: #f9c558; font-weight: bold; font-size: 19px; text-align: center; padding: 210px 0 0 10px;}
+.luck-pink{width: 100%; background-color: #fc5978;}
+.luck-blue{width: 100%; background-color: #46a5df;}
+.luck-info{width: 100%; margin-bottom: 30px; font-size: 22px; height: 186px; padding-top: 10px; font-weight: bold; color: #2fb7ab; line-height: 40px; background: url('../images/topic/luck-bg3.png') 0 0 no-repeat; text-align: center;}
+.luck-info strong{color: #f6b730; font-size: 24px;}
+.luck-time{color: #ef890c; font-size: 14px;position: absolute; font-weight: bold; top:190px; left: 55px;  }
+.luck-intro{width: 670px; color: #fff; text-align: center; font-weight: lighter; position: absolute; top: 55px;left: 70px; font-size: 22px; line-height: 40px;}
+.luck-intro strong{color: #ffee76; font-weight: normal;}
+.luck-case{color: #fff; height: 223px; margin-bottom: 30px; line-height: 37px;font-weight: bold; background: url('../images/topic/luck-bg4.png') 0 0 no-repeat;font-size: 20px; width:100%; position: relative; }
+.luck-case p{width: 510px; position: absolute; left: 310px; top: 45px;}
+.luck-ranking{ border:26px solid #2fb7ab;border-bottom-width:40px;  position: relative; margin: 90px auto 100px;}
+.luck-ranking h3{position: absolute; width: 316px;background: url('../images/topic/luck-bg1.png') 0 0 no-repeat; color: #fff; text-align: center; left: 50%; top: -63px; font-size: 28px; line-height: 64px; height: 64px; margin-left: -158px;}
+.luck-ranking p{color: #fff; line-height: 50px; background-color: #2fb7ab; font-size: 22px;}
+.luck-ranking p strong{color: #f9b628;}
+.luck-ranking table{background-color: #fff; width: 100%; line-height: 84px; }
+.luck-ranking td,.luck-ranking th{ font-size:18px;text-align: center; font-weight: bold; color: #ed7600;}
+.luck-ranking th{font-size: 24px; background-color:#fdc03f; color: #fff;border-bottom: 1px solid #d1d1d1;}
+.luck-ranking tr:nth-child(2n) td{background-color: #fff}
+.luck-ranking tr:nth-child(2n+1) td{background-color: #e9e9e9}
+.luck-gray td{color: #555;}
+a.luck-btn,a.luck-btn:visited{display: block; width: 456px; font-size: 36px; position: absolute; top:-50px ; left: 50%; margin-left: -228px;  color:#fff;background: url('../images/topic/luck-bg2.png') 0 0 no-repeat; font-weight: bold; height: 96px; line-height: 96px; text-align: center; }
+a.luck-btn:hover,a.luck-btn:active{background-position: 0 -96px;color:#fff;}
+a.disable,a.disable:visited,a.disable:hover,a.disable:active{cursor: default;background-position: 0 -192px; }
+.luck-rule{padding-bottom: 100px; overflow: hidden;}
+.luck-rule h3{color: #fff; font-size: 28px; line-height: 50px; padding:50px 0 30px 55px;}
+.luck-rule dt{float: left;width:50px; padding-left: 24px; }
+.luck-rule dt span{display: inline-block; margin-top: 10px; width: 25px; height: 25px; line-height: 25px; text-align: center; background-color: #fff; color: #2fb7ab; font-size: 22px; border-radius: 12.5rem; -webkit-border-radius:12.5rem;}
+.luck-rule dd{ float: left; width: 753px; line-height: 44px; font-size: 20px;color: #fff;}
+.luck-rule-box{background: url('../images/topic/luck-bg5.png') top center no-repeat #2fb7ab; position: relative; padding-top: 218px; margin-bottom: -80px; }
+
+.luck-banner.luck-banner2{height: 603px;background: url('../images/topic/guess-banner.png') top center no-repeat;}
+.luck-banner.luck-banner2 p{color: #efed4b;}
+.luck-toggle{position: relative; top: -139px; cursor: pointer; width: 301px; text-align: center; color: #fff; font-size: 24px; line-height: 68px; margin:0 auto; background: url('../images/topic/guess-bg1.png') bottom center no-repeat #2fb7ab;}

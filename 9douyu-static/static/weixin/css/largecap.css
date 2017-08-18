@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+body, h1 {
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.x-largecap-banner{width:100%; height: 16.8rem; background: url("/static/weixin/images/activity/x-largecap-banner.png") top center no-repeat; background-size: 16rem 16.8rem; box-sizing: border-box; padding-top:13.65rem; }
+.x-largecap-banner ul{margin: 0 1rem; overflow: hidden;}
+.x-largecap-banner li{width:37%; float: left; text-align: center; color: #fff; font-size: 0.6rem; box-sizing: border-box;}
+.x-largecap-banner li strong{font-size: 0.8rem; margin-bottom: 0.25rem; display: inline-block;}
+.x-largecap-banner li:nth-child(2){width: 26%;border: 1px solid #f3cd6d; border-width: 0 1px;}
+.x-largecap-box1{background-color: #ffe881; padding:1.35rem 0 1.5rem; overflow: hidden;}
+.x-largecap-rate{width:50%; float: left; text-align: center; color: #fe4e35;font-weight: bold; height:5.95rem; box-sizing: border-box; padding-top:1.35rem;   font-size: 0.6rem; background: url("/static/weixin/images/activity/x-largecap-bg1.png") top center no-repeat; background-size: 5rem 5.95rem; line-height: 1rem;}
+.x-largecap-rate span{font-size: 0.65rem;}
+.x-largecap-rate strong{font-size: 1.2rem;}
+.x-largecap-wave{width: 100%; height: 1.5rem;background: url("/static/weixin/images/activity/x-largecap-bg2.png") top center no-repeat; background-size: cover;}
+.x-largecap-wave2{width: 100%; height: 1.5rem;background: url("/static/weixin/images/activity/x-largecap-bg3.png") top center no-repeat; background-size: cover;}
+.x-largecap-title{width: 100%;padding:1.75rem 0 1.5rem; text-align: center; height:2.05rem;line-height: 2.05rem; font-size: 0.8rem; color: #c16500;font-weight: bold; background: url("/static/weixin/images/activity/x-largecap-bg4.png") 0 1.75rem no-repeat #ffe367; background-size: 100%; }
+.x-largecap-title span{margin-right: 0.25rem;}
+.x-largecap-box2{background-color: #ffe367; padding:0 0.75rem; text-align: center;}
+.x-largecap-date{width:10.5rem; height: 2.5rem; float: left; line-height: 2.5rem; background-color: #fbd83e; text-align: center; border-radius: 0.25rem; box-shadow:0 0 0.1rem rbga(225,162,0,.3) ; margin:0.125rem 0 1.75rem;}
+.x-largecap-date span{color: #c16500; font-weight: bold; margin-right: 0.25rem; font-size: 0.7rem;}
+.x-largecap-date strong{font-size: 0.9rem; color: #fe4e35;}
+.x-largecap-date strong.down{color: #52b132;}
+.x-largecap-date strong.noresult{color: #c16500;}
+.x-largecap-btn1{display: block; float: right; width: 3.3rem; height: 2.8rem;}
+.x-largecap-img{width: 12.4rem; height:4.55rem ;}
+.x-largecap-number{display: inline-block; width: 50%; text-align: center; font-size: 0.9rem; font-weight: bold; color:#fe4e35; line-height: 1rem; margin:0.25rem 0 1.3rem;}
+.x-largecap-number.down{color: #52b132;}
+.x-largecap-btn2{display: inline-block; width:50%; height: 2.65rem;border:none; outline: none; background-position: top center;background-color: transparent; background-repeat:  no-repeat; background-size:6.5rem 2.65rem ; margin-bottom: 1.8rem;}
+.x-largecap-btn2.up{background-image: url("/static/weixin/images/activity/x-largecap-btn2.png"); }
+.x-largecap-btn2.up.disable{background-image: url("/static/weixin/images/activity/x-largecap-btn4.png"); }
+.x-largecap-btn2.down{background-image: url("/static/weixin/images/activity/x-largecap-btn3.png"); }
+.x-largecap-btn2.down.disable{background-image: url("/static/weixin/images/activity/x-largecap-btn5.png"); }
+.x-largecap-tips{padding:1.5rem 0.75rem; background-color: #fedd4e;font-size: 0.55rem;}
+.x-largecap-tips dt{width: 3.15rem; height:1rem; line-height: 1rem;border-radius: 0.5rem;overflow: hidden; color: #fff; background-color: #ca7619;  font-weight: bold; text-align: center;}
+.x-largecap-tips dd{color: #ca7619; line-height: 1rem; margin: 0.25rem 0 0.75rem;}
+
+
+
+
+.largecap-img-wrap {
+    margin: 1.2rem 3.55rem;
+}
+
+.largecap-img-wrap > img {
+    width: 100%;
+    height: 100%;
+}
+
+.largecap-wrap {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+.largecap-txt {
+    color: #a0a0a0;
+    padding: 1.5rem 0 .6rem;
+    font-size: 16px;
+}
+
+.largecap-defaultbutton {
+    width:90%;
+    display: block;
+    /*margin: 10px 1.4rem;*/
+    margin: 10px auto;
+    line-height: 2.5;
+    color: #fff;
+    background: #10adf5;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.largecap-morebutton {
+    display: block;
+    width: 32%;
+    margin: 10% auto 10px;
+    line-height: 1.785;
+    color: #fff;
+    background: #ca7619;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 1rem;
+}
+
+.largecap-textbutton {
+    position: relative;
+    /*top: 10%;*/
+    bottom:-10%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size:16px;
+    text-decoration: underline;
+    line-height: 3;
+}
+/*@media screen and (max-height: 480px){*/
+    /*.largecap-textbutton{*/
+        /*position: relative;*/
+        /*bottom:-10%;*/
+
+    /*}*/
+/*}*/
+.largecap-blue .largecap-textbutton {
+    color: #10adf5;
+}
+
+.largecap-yellow .largecap-textbutton {
+    color: #ca7619;
+}
+
+
+
+/*我的战绩*/
+.largecap-title {
+    position: relative;
+    margin: 33px 1.75rem 15px;
+    height: 1.35rem;
+    background-color: #ffca07;
+    border: 2px solid #ac6a00;
+    border-radius: 2.2rem;
+    color: #fff;
+}
+
+.largecap-bd {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.largecap-title > h1 {
+    position: absolute;
+    top: -0.65rem;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 90%;
+    line-height:1.75rem;
+    background-color: #ca7619;
+    border-radius: .75rem;
+    font-size: .875rem;
+    letter-spacing: 2px;
+}
+.largecap-table-wrap{
+    margin: 0.425rem 0.75rem;
+    border: 2px solid #ac6a00;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.largecap-table{
+    width: 100%;
+    background-color: #fff;
+    color: #ac6a00;
+    table-layout: fixed;
+}
+.largecap-table td {
+    width:33.333%;
+}
+.largecap-table td>.largecap-tddiv{
+    padding:0.5rem 0 0.35rem;
+}
+.largecap-table p {
+    padding:0.15rem;
+    font-size: 16px;
+}
+.largecap-table p {
+    padding:0.15rem;
+    font-size: 16px;
+}
+
+.largecap-colorred {
+    color: #fe5036;
+}
+
+.largecap-colorgreen {
+    color: #52b132;
+}
+
+.largecap-textbold {
+    font-weight: bold;
+}
+
+.large-status-default {
+    background-color: #fff;
+}
+
+.large-status-up {
+    background-color: #10adf5;
+    color: #fff;
+}
+.large-status-up img{
+    width:0.75rem;
+    height:.95rem;
+    position: absolute;
+    right:0.25rem;
+    top:0;
+}
+.large-status-down {
+    background-color: #b5b5b5;
+    color: #fff;
+}
+.large-mr-1{
+    margin-right:-1px;
+}
+/*投资金额*/
+.largecap-limit {
+    color: #ac6a00;
+}
+
+.largecap-detail {
+    margin: 0 0.75rem;
+    text-align: left;
+    padding-bottom:.5rem;
+}
+.largecap-detail p{
+    margin-top:16px;
+    font-size:16px;
+}
+.largecap-caption {
+    margin: 34px 0.75rem 26px;
+    line-height: 2.07;
+    background: #fedd4e;
+    border: 1px solid #a15501;
+    border-radius: .5rem;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 320px) {
+    .largecap-caption {
+        font-size: 14px;
+    }
+}
+
+.largecap-contronl {
+    /*margin: .85rem 0.75rem .75rem;*/
+    margin:.85rem 0 .75rem;
+    text-align: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    /*margin-bottom:0.5rem;*/
+    padding:0.75rem;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+.largecap-contronl .largecap-input {
+    outline: none;
+    border: none;
+    width: 60%;
+    font-size: 16px;
+    /*padding:0 .5rem;*/
+    color:#ac6a00;
+    text-align:left;
+    background-color: transparent;
+}
+.largecap-input::-webkit-input-placeholder{/*color:#ac6a00 !important;*/font-size: 16px;}
+.largecap-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.largecap-contronl label {
+    width: 90%;
+}
+
+.largecap-contronl p {
+    width: 10%;
+    text-align: right;
+    position: absolute;
+    right:0.75rem;
+    top:0.75rem;
+
+}
+
+.largecap-tip {
+    font-size: 14px;
+}
+.largecap-topup{position: relative;}
+.largecap-topupbutton{position: absolute;right:0;top:0;}
+.largecap-tip2{padding-bottom: 0;}

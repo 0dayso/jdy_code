@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tian.xianyan@9douyu.com
+ * @date    2015-11-23 
+ * @version partenr3.0
+ */
+.t-partner3-bj{ background: #f7623e;color: #ffffff;}
+.t-partner3-bj1{ width: 100%; height: 10.875rem; background: url('/static/weixin/images/t-partner2-bj.png') 0 0 no-repeat; background-size: cover; position: relative;}
+.t-partner3-bj1 p{ color: #ffffff; font-size: 0.45rem; padding-left: 2.1rem; padding-top: 6.45rem; line-height: 0.6rem; }
+.t-partner3-bj2{ width: 100%; height: 8.075rem; background: url('/static/weixin/images/t-partner2-bj1.png') 0 0 no-repeat; background-size: cover; overflow: hidden; }
+.t-partner3-bj2 h3{ font-size: 0.65rem; font-weight: bold; line-height: 0.65rem; text-align: right;padding: 0.8rem 2.6rem 0 0;}
+.t-partner3-bj2 p{ font-size: 0.65rem; line-height: 0.9rem;padding:1.2rem 1.5rem 0 0;  width: 7.3rem; float: right;}
+.t-partner3-bj2 p span{ color: #ffe484;}
+.t-partner3-bj3{ width: 100%; height: 8.95rem; background: url('/static/weixin/images/t-partner2-bj2-2.png?v=20151202') 0 0 no-repeat; background-size: cover; margin-top:1.6rem;}
+.t-partner3-bj4{ width: 100%; height: 9.475rem; background: url('/static/weixin/images/t-partner2-bj3-2.png?v=20151202') 0 0 no-repeat; background-size: cover;}
+.t-partner3-bj5{ width: 100%; height: 9.225rem; background: url('/static/weixin/images/t-partner2-bj4-2.png?v=20151202') 0 0 no-repeat; background-size: cover;}
+.t-partner3-bj6{ width: 100%; height: 14.65rem; background: url('/static/weixin/images/t-partner2-bj5.png') 0 0 no-repeat; background-size: cover; padding:0 2rem; box-sizing: border-box; margin-bottom: 1.675rem;}
+.t-partner3-bj6-1{ color: #703a21; font-weight: bold; font-weight:bold; text-align: center; line-height: 3.4rem;}
+.t-partner3-bj6-1 span{ width: 1.05rem; height: 1.65rem; background: url('/static/weixin/images/t-partner2-bj8.png') 0 0 no-repeat;  background-size: 1.05rem 1.65rem; display: inline-block;  margin: 0rem 0.3rem 0 0;vertical-align: middle;}
+.t-partner3-bj6-1 span.t-icon{ width: 1.475rem; height: 1.1rem; background: url('/static/weixin/images/t-partner2-bj9.png') 0 0 no-repeat;  background-size: 1.475rem 1.1rem; display: inline-block;  margin: 0rem 0.3rem 0 0;vertical-align: middle;}
+a.t-partner3-y,a.t-partner3-gray{ width: 14.675rem; height: 2.9rem; background: url('/static/weixin/images/t-partner2-bj6.png') 0 0 no-repeat; background-size:14.675rem 2.9rem; margin:0 auto; display: block; color: #e33a11; font-size:0.9rem; font-weight: bold; line-height: 3rem; text-align: center; }
+a.t-partner3-gray{ background: url('/static/weixin/images/t-partner2-bj12.png') 0 0 no-repeat;background-size:14.675rem 2.9rem; color: #fff; }
+.t-partner3-bj6-2{width: 100%; text-align: center; color: #703a21; font-size: 0.6rem; }
+.t-partner3-bj6-2 tr{ height: 1.7rem;}
+.t-partner3-bj6-2 tr td div{ background: #facb38; margin:0 0.5rem; border-radius: 0.3rem; height: 1.1rem; line-height: 1.1rem;}
+.t-partner3-bj6-2-1 tr td div{margin:0 0.3rem;}
+.t-partner3-bj8{ width: 100%; height: 1.2rem; background: url('/static/weixin/images/t-partner2-bj7.png') 0 0 no-repeat; background-size: cover; margin:2.25rem 0 0.8rem 0;}
+.t-partner3-bj9{ width: 100%; height: 4.375rem; background: url('/static/weixin/images/t-partner2-bj10.png') 0 0 no-repeat; background-size: cover; margin-top:2.25rem;}
+.t-partner3-bj10{ text-align: center; font-size: 0.65rem; line-height: 0.65rem;}
+.t-partner3-bj11{ width: 0.8rem; height: 0.7rem; background: url('/static/weixin/images/t-partner2-bj11.png') 0 0 no-repeat; background-size: 0.8rem 0.675rem; margin:0.5rem auto 1rem;}
+.t-partner3-bj12{ margin:0 0.75rem; padding-bottom: 1.35rem;}
+.t-partner3-bj12 dt{ width: 0.7rem; height: 0.7rem; text-align: center; color: #f7623e; font-size: 0.5rem; line-height: 0.7rem; border-radius: 2.5rem; background: #fff; float: left;}
+.t-partner3-bj12 dd{ font-size: 0.55rem; margin-left: 1rem; line-height:0.8rem; padding-bottom:0.2rem; }
+.t-partner3-bj12 dd a{ color: #fcde13; text-decoration: underline;}
+
+/* modify 20151202 */
+a.x-partner2-btn,a.x-partner2-btn-disable{ width: 14.5rem; height: 2.45rem; background: url('/static/weixin/images/x-partner2-btn.png') 0 0 no-repeat; background-size:cover; margin:0 auto; display: block; color: #e33a11; font-size:0.9rem; font-weight: bold; line-height: 2.2rem; position: relative; text-align: center; }
+a.x-partner2-btn-disable{ background: url('/static/weixin/images/x-partner2-btn-disable.png') 0 0 no-repeat;background-size:cover; color: #fff; }
+.x-partner2-btn i{position: absolute; width: 2.7rem; height: 3.35rem; top: 0.75rem; right: 0.15rem;background: url('/static/weixin/images/x-partner2-hand.png') 0 0 no-repeat;background-size:cover;}
+.x-partner2-btn-box{margin-top: 2.2rem;}
+.partner-pop-wrap{display: none;}
+.partner-pop-mask{position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 100; background-color: rgba(0,0,0,.7);}
+.partner-pop{position: fixed; top: 0; right: 0.5rem; z-index: 1000;}
+.x-partner2-share-img{width: 14.05rem;}

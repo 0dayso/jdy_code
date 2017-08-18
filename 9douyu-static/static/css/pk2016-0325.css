@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*=======================================
+* author   xialili && xia.lili@9douyu.com
+* date     2016-02-19
+* version  2016pk
+=======================================*/
+
+
+.pk-bg{background-color: #aedc55; margin-bottom: -80px;}
+.pk-bg0517{background-color: #8bccfb; margin-bottom: -80px;}
+.pk-banner{width: 100%; height: 460px; background: url('/static/images/activity/pk-banner-0325.jpg') top center no-repeat;}
+.pk-banner.apri0425{background-image: url('/static/images/activity/pk-banner-0425.jpg'); background-color: #b4dc5b}
+.pk-banner.may0517{background-image: url('/static/images/activity/pk-banner-0517.jpg'); background-color: #8bccfb}
+.pk-info{width:878px; height: 172px;padding-top: 34px;  text-align: center; color:#6e3710;font-size:16px; line-height:32px; position: relative; margin:0 auto 35px; top:-10px;background: url('/static/images/activity/pk-bg1-0325.png') top center no-repeat;}
+.pk-info.may0517{background: url('/static/images/activity/pk-bg1-0517.png') top center no-repeat;top:0;}
+.pk-info strong{font-size:26px; }
+.pk-info span{display: inline-block;background-color: #99673d;color: #fff; padding:0 50px; margin-top: 5px;}
+.pk-box{ width: 100%; overflow: hidden; margin-bottom: 20px; background-color: #fff; cursor: pointer;}
+.pk-box:hover{box-shadow:2px 2px 5px #52a2f2; }
+.pk-img{ float: left; width:234px; height: 285px;}
+.pk-project{width:694px; float: right; margin-right:40px;}
+.pk-project table{width:100%; text-align: center;}
+.pk-project th{border-bottom:1px solid #bababa; height: 80px; text-align: center; font-size: 28px; color: #452549; font-weight: normal; }
+.pk-project td{text-align: center; height: 140px; font-size:26px; color: #452549; line-height: 40px; }
+.pk-project td small{color:#888; font-size: 16px;}
+.pk-project td strong{font-size:46px; }
+.one .pk-project td span{color:#54a1f6;}
+.three .pk-project td span{color:#ffbf2d;}
+.six .pk-project td span{color:#f55c5a;}
+.pk-btn{display: block; width:230px; height:44px; text-align: center; line-height: 44px; margin:0 auto;  background-color: #54a1f6; color:#fff;font-size: 20px;}
+.pk-btn.disable{background-color: #bdbdbd;}
+.pk-btn:visited,.pk-btn:hover,.pk-btn:active{color: #fff;}
+.pk-box.one:hover .pk-btn{background-color: #6caff8;}
+.pk-box.three .pk-btn{background-color: #ffbf2d;}
+.pk-box.three:hover .pk-btn{background-color: #ffcc57;}
+.pk-box.six .pk-btn{background-color: #f55c5a;}
+.pk-box.six:hover .pk-btn{background-color: #f77d7b;}
+.pk-box.six{margin-bottom: 45px;}
+.pk-box:hover .pk-btn.disable{background-color: #bdbdbd;}
+
+.pk-ranking{width:943px; text-align: center; position: relative; margin:0 -5px 62px 0; height:796px; padding:46px 32px 0;background: url('/static/images/activity/pk-bg2-0325.png') top center no-repeat;}
+.pk-ranking.may0517{background: url('/static/images/activity/pk-bg2-0517.png') top center no-repeat;}
+.pk-ranking-tab{ overflow: hidden; position: relative; z-index: 5;padding-left:18px; }
+.pk-ranking-tab li{width:234px;height: 59px; cursor: pointer; line-height: 60px; font-size: 20px; float: left; color: #b78c65; margin-right: 11px;border:1px solid #b78b62;border-radius: 4px;}
+.pk-ranking-tab li.cur{width:236px;height: 61px; color: #fff;background: url('/static/images/activity/pk-title-active.png') left top no-repeat;border:0;}
+.pk-ranking-list{ position: relative; display: none; top:-2px; z-index: 1; }
+.pk-ranking-list table{width:908px;  margin:16px auto 0;color:#452549;}
+.pk-ranking-list th{background-color: #b78b62; height: 52px; text-align: center; font-size: 20px;  font-weight: normal;color:#fff;}
+.pk-ranking-list td{ height: 56px; border-bottom: 1px solid #fff5ef;font-size: 18px;}
+.pk-ranking-list .bnone td{border-bottom: none;}
+.pk-time{position: absolute; color: #6e3710; font-size: 16px; top:85px; right:50px;}
+.pk-tips{margin-bottom: 80px;}
+.pk-tips h3{ width: 134px; height: 34px; line-height: 34px; color: #fff; margin-bottom: 15px; background-color: #6e3710; text-align: center; font-size: 20px;}
+.pk-tips p{line-height:38px ; font-size: 16px; color: #6e3710;}
+
+
+/*160325 获得提醒时间*/
+.pk-project-tip{color:#88792c;}
+.pk-project-tip h5{font-size:40px;line-height: 56px;}
+.pk-project-tip p{font-size:18px;}

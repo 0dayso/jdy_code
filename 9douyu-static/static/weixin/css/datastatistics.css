@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (bichunfeng)
+ * @date    2016-05-05 14:19:51
+ * @version $Id$
+ */
+/*数据统计*/
+.data-color-blue{color:#00aaee;}
+.data-color-red{color:#ff524e;}
+.data-color-orange{color:#ff8b00;}
+.data-color-yellow{color:#ffae00;}
+.data-color-grey{color:#999999;}
+.data-border-blue{border-color:#99ddf8 !important;}
+.data-border-red{border-color:#ffc5ba !important;}
+.data-border-yellow{border-color:#ffeb99 !important;}
+.data-section{text-align: center;}
+.data-bt{margin:1.25rem auto;height:2rem;line-height:2rem;font-size: 0.7rem;}
+.data-no-marb{margin:1.25rem auto 0;}
+.data-btbg1{width:7.625rem;background: url("../images/data/data-bt-bg1.png") no-repeat center top;background-size: cover;}
+.data-btbg2{width:10.75rem;background: url("../images/data/data-bt-bg2.png") no-repeat center top;background-size: cover;}
+.data-flex{display: -webkit-box;  display: -webkit-flex;  display: -ms-flexbox;  display: flex;  /*-webkit-box-align: center;-webkit-align-items: center;align-items: center;*/}
+.data-mar-lr{margin:0  0.6rem;}
+.data-mar-b{margin-bottom: 2rem;}
+.data-flex-box{width:33%;}
+.data-circle{position:relative;width:3rem;height:3rem;margin:0 auto;background-color: #fff;border-radius: 1.5rem;border:0.5rem solid #ff0000;}
+.data-circle-arrow{display: inline-block;position: absolute;bottom:-1.2rem;left:50%;margin-left:-0.4rem;width:0;height:0;font-size: 0;}
+.data-arrow-blue{border:0.4rem solid;border-color:#99ddf8 transparent transparent transparent;}
+.data-arrow-red{border:0.4rem solid;border-color:#ffc5ba transparent transparent transparent;}
+.data-arrow-yellow{border:0.4rem solid;border-color:#ffeb99 transparent transparent transparent;}
+.data-sunfund-txt{margin-top:1.125rem;font-size: .5rem;color:#333333;}
+.data-font{font-size: 1.25rem;font-weight: bold;margin-top:0.45rem;}
+.data-font-small{font-size:0.55rem;line-height: 1.15rem;}
+.data-border-box{border:1px solid #cccccc;border-radius:0.25rem; }
+.data-item-hd{padding:0.95rem 0 0.775rem;}
+.data-9douyu-font1{line-height:1rem;font-size:0.5rem;color:#666;}
+.data-9douyu-font2{line-height:1.4rem;font-size:1rem;font-weight: bold;}
+.data-9douyu-font3{line-height:1rem;font-size:0.5rem;}
+.data-9douyu-font4{line-height:1rem;font-size:0.625rem;}
+.data-9douyu-font5{line-height:1.075rem;font-size:0.5rem;color:#666;}
+.data-9douyu-font6{line-height:1.4rem;font-size:0.875rem;}
+.data-9douyu-font7{line-height:1.5rem;}
+.data-hr-dotted{height:0;border-bottom: 1px dotted #ccc;margin:0 0.7rem;font-weight: bold;}
+.data-hr-color-dark{border-bottom: 1px dotted #888888;}
+.data-item-bd{padding:0.65rem 0 1.2rem;}
+.data-item-ls{width:33%;position: relative;}
+.data-item-ls:after{content: "";height:1.4rem;width:1px;background-color:#ccc;position: absolute;right:0;top:0.3rem;}
+.data-item-ls:last-child:after{content: "";height: 0;width: 0;background:none;}
+.data-item-bot{margin:0.75rem 0 2.25rem;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}
+.data-item-ll{width:46%;padding:0.2rem 0 0.3rem;}
+/*九斗鱼不良信贷记录*/
+.data-info-font1{line-height: 1.05rem;font-size: 0.5rem;}
+.data-info-font2{line-height: 0.85rem;font-size:0.55rem;}
+.data-info-font3{line-height:1.125rem;font-size:0.6rem;}
+.data-info-font4{line-height:0.875rem;font-size:0.6rem;}
+.data-info-font5{line-height:0.8rem;font-size:0.55rem;color:#ccc;}
+.data-info-inner{width:6rem;margin:0 auto;}
+.data-info-circle{width:4.4rem;height:4.4rem;line-height:4.4rem;margin:0.425rem auto;border-radius:50%;border:0.3rem solid;font-size:1.2rem;color:#fff;}
+.data-circle-blue{background-color:#66ccf5;border-color: #cceefc;}
+.data-circle-red{background-color:#ff8871;border-color: #ffc5ba;}
+.data-info-mart{margin-top:1.5rem;}
+/*九斗鱼用户数量*/
+.data-user-wrap{padding:3.4rem 0 0;font-size: 0.625rem;}
+.data-img-chart{width:14.2rem;display: block;margin:0 auto 1.25rem;}
+.data-user-num span{display:inline-block;margin:0 0.1rem;width:1.15rem;height:1.65rem;line-height:1.65rem;background: url("../images/data/data-num-bg.png") no-repeat center center;background-size: cover;font-weight: bold;font-size:1.125rem;color:#ff524e;}
+.data-canvas-wrap{position: relative;}
+.data-canvas-mask{position:absolute;z-index:2;left:50%;top:50%;width:88px;height:88px;line-height:88px;background-color: rgba(255,255,255,0.8);-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);border-radius: 50%;text-align: center;font-size: 0.7rem;color:#333;}
+.data-canvas-list{padding-bottom: 20px;}
+.data-canvas-list ul{width:50%;}
+.data-canvas-list ul li{margin-bottom:0.675rem;}
+.data-canvas-list ul li span{display: inline-block;width:0.675rem;height:0.675rem;margin-right:1.2rem;vertical-align: middle;border-radius:0.1rem;}
+.data-item-colorred{background-color: #ff6e52;}
+.data-item-coloryellow{background-color: #ffe000;}
+.data-item-colorblue{background-color: #8abff9;}
+.data-item-colororange{background-color: #ffbe57;}
+.data-item-colorpurple{background-color: #cb7bff;}
+.data-item-colordarkblue{background-color: #66ccf5;}

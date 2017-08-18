@@ -1,0 +1,15 @@
+/**
+    国庆节活动
+**/
+
+body{background-color: #fff600;}
+.nat-wrap{width: 100%; background: url('/static/activity/national/images/national2016-bg.jpg') top center no-repeat;}
+.nat-date{padding:510px 0 135px 40px; text-align: center; color: #fff; text-shadow: 0 2px 2px #b15200;font-size: 30px;}
+.nat-rule{overflow: hidden; }
+.nat-rule p{float: left; width: 258px; text-align: center;font-size: 24px; line-height: 34px; color: #444;}
+.nat-rule p.middle{margin:0 112px;}
+.nat-rule p span{color: #f30010;}
+.nat-img{width: 194px; height: 194px; border-radius: 5px; background-color: #fff; margin:90px auto 62px; position: relative;}
+.nat-img p{position: absolute;left: 220px; top: 60px; line-height: 30px; width: 200px; color: #f30010; font-size: 18px;}
+.nat-img p small{color: #444; font-size: 14px; margin-left: -6px;}
+.nat-img img{margin:15px;}

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2017-01-22
+ * @version lantern
+ */
+body{background-color: #811ee8;color:#fff; }
+
+/* theme */
+.anniversary-theme{width: 100%; height: 862px; background:url('/static/activity/thirdanniversary/images/theme.jpg') top  center no-repeat;}
+.anniversary-theme .wrap{position: relative;}
+.theme-sum{padding: 142px 0 390px 80px; text-align: center; line-height: 1.5; font-size: 22px; color: #0040b6;}
+.theme-sum big{font-size: 62px; color: #fff;}
+.theme-fish{position:absolute; width:245px; height:204px;background:url('/static/activity/thirdanniversary/images/fish.gif') top  center no-repeat;}
+.theme-fish.step1{top:242px; left: 53px;}
+.theme-fish.step2{top:153px; left: 419px;}
+.theme-fish.step3{top:237px; left: 798px;}
+.theme-step{width:270px; line-height: 2; font-size: 14px; position:absolute;text-align: center; }
+.theme-step big{font-size:24px; text-shadow:0 1px 5px rgba(0,0,0,.5); }
+.theme-step.step1{left: 80px; top: 614px;}
+.theme-step.step2{left: 410px; top: 540px;}
+.theme-step.step3{right:0; top: 565px;}
+.theme-limit{text-align: center; padding-left: 30px; line-height: 2.25; font-size: 16px;}
+.theme-limit small{ font-size: 12px; color: #6bf3ff;}
+
+.anniversary-banner{width:100%; height:925px; text-align: center; background:url('/static/activity/thirdanniversary/images/one-banner.jpg') top  center no-repeat;}
+.anniversary-banner p{padding:630px 0 0;font-size: 24px; line-height: 2.25; }
+
+/* main */
+.anniversary-main{width:100%; margin-bottom: -80px; background:url('/static/activity/thirdanniversary/images/one-bg.jpg') top  center no-repeat;}
+.anniversary-wrap{width:1018px; margin:0 auto; padding-top: 35px;}
+.anniversary-progress{width:100%; height:102px; margin-bottom: 40px;background:url('/static/activity/thirdanniversary/images/one-progress.png') top  center no-repeat;}
+
+.anniversary-login{height:238px; text-align: center; width:100%; padding:24px 0 0;background:url('/static/activity/thirdanniversary/images/one-status.png') center top no-repeat;font-size:20px;}
+.anniversary-btn-login,.anniversary-btn-login:visited{display: block;margin:0 auto 30px;width:389px;height:97px;line-height:90px;background:url('/static/activity/thirdanniversary/images/one-btn-login.png') center top no-repeat;font-weight:bold;font-size: 30px;color:#fff206;}
+.anniversary-btn-login:hover{color: #fff;}
+.anniversary-login-account{color: #7127de; margin-bottom: 30px;}
+a.anniversary-btn-register,a.anniversary-btn-register:visited{color:#7127de; text-decoration: underline;}
+a.anniversary-btn-register:hover{color: #fff;}
+.anniversary-login-tip{font-size: 16px;line-height: 16px;}
+.anniversary-label-color{color:#ffea00;}
+.anniversary-label-color2{color:#fff;}
+.anniversary-login-status1 .anniversary-login-tip{margin-top: 23px;}
+.anniversary-login-status2 .anniversary-login-tip{line-height: 20px;font-size:20px; text-shadow: 0 2px 5px rgba(172,30,247,.5); margin-top: 6px;}
+.anniversary-login-status2{display:none; color: #ff4800;}
+.anniversary-invest-total{margin-top: 18px;text-shadow: 0 2px 5px rgba(172,30,247,.5);}
+.anniversary-invest-total span{padding:0 28px;font-size: 30px; color: #fff;}
+.anniversary-invest-result{padding: 8px 0 18px;line-height: 20px;text-shadow: 0 2px 5px rgba(172,30,247,.5);}
+.anniversary-invest-result span{color: #fff; padding:0 7px;}
+.anniversary-invest-txt{font-size: 14px;line-height: 14px;}
+a.anniversary-btn-invest,a.anniversary-btn-invest:visited,a.anniversary-btn-invest:hover{display: block;margin:13px auto 0;width:208px;height:59px;line-height:59px;background:url('/static/activity/thirdanniversary/images/one-btn-invest.png') center top no-repeat;font-weight:bold;font-size: 28px;color:#fff;}
+
+/*抽奖等级*/
+.anniversary-level{margin: 56px 0 40px 0; }
+.anniversary-level li{float:left;width:256px;height: 90px; cursor: pointer; text-indent: -9999px;overflow:hidden;background-image:url('/static/activity/thirdanniversary/images/one-level.png'); background-repeat: no-repeat;}
+.anniversary-level li.anniversary-level-1{width:247px; background-position: 0 0;}
+.anniversary-level li.anniversary-level-1.active,.anniversary-level li.anniversary-level-1:hover{background-position: 0 -90px;}
+.anniversary-level li.anniversary-level-2{background-position: -247px 0;}
+.anniversary-level li.anniversary-level-2.active,.anniversary-level li.anniversary-level-2:hover{background-position: -247px -90px;}
+.anniversary-level li.anniversary-level-3{background-position: -503px 0;}
+.anniversary-level li.anniversary-level-3.active,.anniversary-level li.anniversary-level-3:hover{background-position: -503px -90px;}
+.anniversary-level li.anniversary-level-4{background-position: -759px 0;}
+.anniversary-level li.anniversary-level-4.active,.anniversary-level li.anniversary-level-4:hover{background-position: -759px -90px;}
+
+
+.anniversary-title{margin:0 auto; height:54px; background:url('/static/activity/thirdanniversary/images/one-title.png') 0 0 no-repeat;}
+.anniversary-title.title1{width: 243px;}
+.anniversary-title.title2{width: 193px; background-position: 0 -54px; margin-bottom: 50px;}
+.anniversary-title.title3{width: 559px; height:88px; background-position: 0 -108px; margin:50px auto 20px;}
+
+/*奖盘*/
+.btn-plate-default{width:202px;height: 196px;position:absolute;left:50%;top:310px;margin-left:-101px;z-index: 2;background:url('/static/activity/thirdanniversary/images/one-btn-plate.png') center top no-repeat;}
+.btn-plate-disabled{background:url('/static/activity/thirdanniversary/images/one-btn-plate-disabled.png') center top no-repeat;}
+.anniversary-plate1{position: relative;}
+.anniversary-plate{display: none;}
+.anniversary-plate .lottery-unit{position:relative;float: left;width: 520px;height:298px;margin:0 -6px -10px;background:url('/static/activity/thirdanniversary/images/one-plate-bg.png') center top no-repeat;}
+.anniversary-plate .lottery-unit.active{background:url('/static/activity/thirdanniversary/images/one-plate-active.png') center top no-repeat;}
+.anniversary-plate-desc{margin:30px 0 38px ;font-size: 16px;color: #ffea00; font-weight: bold; text-align: center;}
+.anniversary-plate-tab{position: relative; padding-bottom: 50px;}
+
+.lottery-unit.active p{color: #7127de;}
+
+.lottery-unit img{display:block; float: left; width:277px; height:237px; }
+.lottery-unit p{float: left; line-height: 1.25; margin-top: 135px;font-size: 24px;}
+.lottery-unit-0 img,.lottery-unit-3 img{margin: 30px 0 0 10px;}
+.lottery-unit-1 img,.lottery-unit-2 img{margin: 20px 0 0 10px;}
+.lottery-unit-0 p{margin:115px 0 0 ;}
+.lottery-unit-1 p{margin:115px 25px 0 45px;}
+.lottery-unit-2 p{margin-left:45px;}
+.lottery-unit-2 img{margin:30px 0 0 50px;}
+
+/*活动项目*/
+.anniversary-invest-item{position:relative;height: 220px; color: #7127de; margin-bottom: 15px;}
+.anniversary-activity-head{height:70px;line-height: 70px; overflow: hidden; padding-bottom: 30px}
+.anniversary-activity-head h3{float: left;padding-left:68px;font-size: 28px;}
+.anniversary-activity-head p{float: right; font-size: 16px; padding-right: 109px; color: #d89f05;}
+.anniversary-item-title{position:absolute;top:-26px;left:50%;margin-left:-168px;width: 335px;height: 51px;line-height:51px;background:url('/static/activity/thirdanniversary/images/anniversary-activity-title-bg1.png') center top no-repeat;font-weight:bold;font-size: 24px;}
+.anniversary-activity-body{width:748px;background:url('/static/activity/thirdanniversary/images/one-activity-item.png') 0 0 no-repeat; float:left; height:216px;font-size: 24px;text-align: center;}
+.anniversary-activity-body table,.anniversary-activity-body div{position:relative;width: 100%;}
+// .anniversary-activity-body p{height:24px;vertical-align: middle;}
+.anniversary-activity-body p span{font-size: 58px;}
+// .anniversary-table-num{position: relative;top:-10px;}
+.anniversary-activity-body em{display:block;margin-top:12px;color:#7127de;font-size: 14px;}
+.anniversary-activity-body i{display: block;position: absolute;left:0;top:6px;width:100%;height: 46px;border-left:1px solid #7127de;border-right: 1px solid #7127de;}
+.anniversary-table-item1{padding-left: 65px; text-align: left;}
+.anniversary-table-item3{padding-right: 100px; }
+a.anniversary-btn-table{float: right; overflow:hidden; width:255px; text-align: center; line-height:1; font-size: 60px;background:url('/static/activity/thirdanniversary/images/one-activity-item.png') -749px 0 no-repeat; height:174px; padding: 35px 15px 0 0; color: #fff; }
+.anniversary-btn-table.disable{background-position: -749px -216px; line-height: 2.25;}
+
+.anniversary-prize{text-align: center; margin-bottom: 20px;}
+.anniversary-prize-img{width:142px;}
+.anniversary-icon-invest{display:inline-block; width:135px; height:116px;background:url('/static/activity/thirdanniversary/images/one-pop-icon1.png') 0 0 no-repeat;}
+.anniversary-icon-login{display:inline-block; width:121px; height:128px;background:url('/static/activity/thirdanniversary/images/one-pop-icon2.png') 0 0 no-repeat;}
+.anniversary-list{width:100%; height:168px;background:url('/static/activity/thirdanniversary/images/one-list.png') center top no-repeat;}
+.anniversary-list-title{text-align: center; height:80px; line-height: 80px; font-size: 33px; text-shadow:0 2px 5px rgba(0,0,0,.5);}
+.scrollDiv{width:100%; font-size: 16px; margin-top: 20px; height:35px; line-height: 35px; overflow:hidden;}
+.scrollDiv em{display:inline-block;width:220px; padding-left: 50px;}
+.scrollDiv span{display:inline-block; width:240px; color: #ffef58;}
+
+.anniversary-rule{line-height: 26px; color:#ffea00 ; padding:60px 0 80px 10px;}
+.anniversary-rule h3{font-size: 20px; margin-bottom: 15px;}
+.anniversary-rule p{font-size: 15px; position:relative; padding-left: 34px;}
+.anniversary-rule p>span{position:absolute; left: 0; top: 0;}
+
+/*弹层*/
+.anniversary-mask{position: fixed; left: 0; top:0; bottom: 0; z-index: 999;width:100%;background: #000;filter: alpha(opacity=70);-moz-opacity: 0.7;opacity: 0.7;}
+.anniversary-pop{width:652px; height:594px;background:url('/static/activity/thirdanniversary/images/one-pop-bg.png') center top no-repeat; text-align: center;  position: fixed; left: 50%; top: 50%; margin:-297px 0 0 -326px; z-index: 9999;}
+.anniversary-pop-close{position:absolute; width:41px; height:41px; top:62px ; right:37px; cursor: pointer; background:url('/static/activity/thirdanniversary/images/one-pop-close.png') 0 0 no-repeat;}
+.anniversary-pop-tip1{margin:228px 0 40px;line-height:28px;font-size:24px;font-weight: bold;}
+.anniversary-pop-tip1 span{color:#ff4800;}
+.anniversary-btn-pop,.anniversary-btn-pop:visited,.anniversary-btn-pop:hover{display: block;margin: 20px auto 0;position:relative; width:332px;height: 62px;line-height: 62px;border-radius: 31px;background-color: #fff500;font-size:28px;font-weight:bold;color: #ff2728;}
+.anniversary-btn-pop:after{content:''; position:absolute; top: 15px; right:54px; width:21px; height:35px;background:url('/static/activity/thirdanniversary/images/one-arrow.png') 0 0 no-repeat; }
+.anniversary-prize-wrap{margin-bottom: 60px;}
+.anniversary-float{line-height: 55px; width:186px; height: 231px;padding-top:80px ; background:url('/static/activity/thirdanniversary/images/one-float.png') center top no-repeat; text-align: center; font-size: 17px; position:fixed; right:30px; bottom:0;}
+.anniversary-float a,.anniversary-float a:visited{color: #fff736; display:block; width:100%; }
+.anniversary-float a:hover,.anniversary-float a:active{color: #fff;}
+
+

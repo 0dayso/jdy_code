@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box-car{background:#8dcc2d;color:#555;font-size:12px;line-height:20px;}
+.special_head{width:100%; background: url(../images/special_head.gif) no-repeat center 0; height:679px;}
+.special_head p{ font-size:18px; color:#FFF; text-align:center; line-height:2.1em; padding-top:530px;}
+.special_center{ background:url(../images/special_center.gif) no-repeat center 0; height:739px; width:100%;}
+.special_center-left{ width:430px; height:750px; float:left; margin:0px 78px 10px -4px;}
+.special_center-left h3{ font-size:28px; color:#FFF; font-weight:normal; padding:52px 0 0 130px;}
+.special_center_jiudou{ width:412px; height:568px; margin:52px 0 0 30px; overflow-y: scroll;}
+.special_center_jiudoubj{ background:url(../images/special_jiudouyu.gif) no-repeat 0 0; height:774px;}
+.special_center_jiudoubj img{ padding:300px 0 0 100px;}
+.special_center_jiudoubj p{ font-size:16px; color:#FFF; text-align:center; margin-top:10px; height:20px;}
+.special_center_jiudoubj ul{ text-align:center; margin:46px 0 0 30px; list-style:none;}
+.special_center_jiudou_tel input{ width:210px; height:40px; background:none; border:none;outline:none; background:none; color:#c5c5c5; text-indent:10px; border-radius:8px; background:#FFF;margin-bottom:15px;}
+.special_center_jiudou_cash input{width:210px; height:40px; color:#FFF; font-size:14px; text-align:center;border:none; cursor:pointer;outline:none; line-height:40px;border-radius:8px; background:#c7c7c7;}
+.text_frame{background:#fd8a25 !important;}
+.special_center-right{width:430px; height:750px; float:left;}
+.special_center-right h3{ font-size:28px; color:#FFF; font-weight:normal; padding:52px 0 0 160px;}
+.special_center_didi{ width:412px; height:568px; margin:52px 0 0 57px;}
+.special_booom{ background:url(../images/special_bottom.gif) no-repeat center 0; height:569px; width:100%;}
+.special_booom ul{ width:800px; list-style:none; font-size:14px; line-height:2.1em; color:#FFF; margin:0 auto; padding:108px 0 0 148px;}
+.hotline{ padding-top:90px; font-size:14px;}
+.focus{color:#000 !important;}
+
+/*弹出框  */
+.box_alert{ display:none;}
+.mask{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.bomb_box{ position:fixed; left:50%; top:50%; margin:-115px 0 0 -228px;  height:230px; width:456px; background:#FFF;z-index:240; border-radius:10px; overflow:hidden;}
+.bomb_box h3{ height:45px; line-height:45px; background:#e1e1e1; width:100%; text-align:center; font-size:18px; color:#555555; font-weight:normal;}
+.bomb_box span{ position:absolute; left:410px; top:10px; cursor:pointer;}
+.bomb_box p{ font-size:18px; color:#555555; text-align:center; margin-top:50px;}
+.bomb_box input{ width:130px; height:38px; background:#ff8a01; border:none; outline:none; border-radius:5px; text-align:center; font-size:14px; color:#FFF; margin:40px 0px 1px 163px; cursor:pointer;}
+

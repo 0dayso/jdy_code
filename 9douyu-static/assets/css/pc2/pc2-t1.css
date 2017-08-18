@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*CSS header*/
+/*帮助中心-登录注册 help-login*/
+.t-wrap{ width: 1002px; margin: 0 auto;}
+.t-help{ margin-top: 50px;}
+.t-help-nav{ float: left; width: 162px; background: #fff; border: 1px solid #f0f0f0;}
+.t-help-nav a{ width: 162px; display: block; height: 42px; line-height: 42px; text-align: center; font-size: 14px; color: #818181;}
+.t-help-nav a.t-blue{ background: #e8f8ff; color: #00bafb;}
+.t-help-nav a:hover{ background: #e8f8ff; color: #00bafb;}
+.t-help-nav h3{ font-size: 18px; color: #fff; text-align: center; line-height: 42px; height: 42px; background: #00bafb;}
+.t-help-right{ float: right; width: 766px; border: 1px solid #f0f0f0; background: #fff; padding:30px 30px 70px;}
+.t-help-login{ float: right;color: #00bafb; margin-bottom: 5px;}
+.t-help-login h3{font-size: 20px; font-weight: bold; text-align: right;}
+.t-help-login h4{ font-family:Arial, Helvetica, sans-serif; color: #d6f3ff;font-weight: bold; font-size: 21px; line-height: 28px;text-align: right;}
+.t-help-1 dt,.t-help-2 dt,.t-help-4 dt{ width: 25px; height: 25px; background: #d2d2d2; color: #fff; font-size: 14px; text-align: center; line-height: 25px; font-weight: bold; display: block; float: left; border-radius: 10px;}
+.t-help-1 dd strong{ color: #414141; font-size: 16px; padding-left: 22px; }
+.t-help-2 dt,.t-help-4 dt{ background:#ffd25b;}
+.t-help-2 dd{ font-size: 14px; color: #515151; padding-left: 48px; line-height:28px;}
+.t-help-2 dd span{ padding-left: 15px;}
+.t-help-2,.t-help-4{ margin-top: 20px;}
+.t-help-line{ height: 25px; width: 100%; border-bottom:1px dashed #e2e2e2; margin-bottom: 30px;}
+.t-help-1,.t-help-2,.t-help-4{ padding:0 26px;}
+
+/*帮助中心-债权转让help-credit*/
+.t-help-title{ width: 100%; height: 30px; line-height: 30px; background: #e8f8ff; color: #00bafb; font-size: 16px; margin:10px 0 28px 0;}
+.t-help-title span{ padding:0 8px 0 10px; font-size: 12px; vertical-align: middle; display:block; float: left;}
+.t-mt30px{ margin-top:30px;}
+.t-help-2 dd span.t-pl56px{ padding-left: 56px;}
+.t-help-3{ color:#515151; font-size: 14px;line-height:28px; padding:0 26px;}
+.t-help-4 dd{ color: #00bafb; font-size: 14px; padding-left: 48px;}
+.t-help-4 dd span{ padding:0 8px 0 5px;}
+.t-help-5{ background:url(../images/new/t-help1.png) no-repeat 0 0; width: 12px; height: 11px; margin-left: 50px; position: absolute;top: -10px;left: 45px;}
+.t-help-6{ width: 100%; padding:15px 22px; border: 1px solid #f0f0f0; background: #f9f9f9; margin-left:75px; width: 570px; line-height: 26px; font-size: 12px; color: #414141;}
+.t-help-7{ position: relative; margin-top:10px;}
+.t-help-8{ color: #00bafb; font-size: 14px; padding:27px 0 0px 80px; }
+.t-help-8 span{padding-right:5px; }
+.t-help-9{ margin-top:15px;}
+.t-help-9 dt{ margin-top:5px;}
+.t-help-9 dd{ line-height: 35px;}
+.t-help-2 span.t-pr22px{ padding-left: 22px;}
+.t-help-10{ margin:2px 20px 0; width:724px; text-align: center;}
+.t-help-10 thead tr{ background: #f0f0f0; height: 42px; line-height: 42px; color: #414141; font-size: 16px; font-weight: bold; }
+.t-help-10 tr td{ border: 1px solid #e2e2e2;}
+.t-help-10 tbody tr{ height: 50px; font-size: 14px; color: #616161;}
+
+/*债权转让-专题 credit-specia*/
+.t-credit{ background:#ffce4b; height: 472px; overflow: hidden; width: 100%; }
+.t-credit-banner{ background: url(../images/new/t-credit-banner.png) no-repeat center top ; width: 100%; height: 472px; margin:0 auto;}
+.t-credit1,.t-credit3{ background: #fff8de; height: 622px;}
+.t-credit1-img{ margin-top:88px;}
+.t-credit1-2{margin:35px 14px 0 20px; float: left;}
+.t-credit1-2 h3{ text-align: center; font-size: 24px; color: #00bafb; background: #e7f7ff; width: 264px; height: 70px; line-height: 70px;}
+.t-credit1-2 dl{ width: 264px; height: 237px; background: #fff; text-align: center;}
+.t-credit1-2 dl dt{ padding:40px 0 30px 0;}
+.t-credit1-2 dl dt.t-pt49px{ padding-top:49px;}
+.t-credit1-2 dl dt.t-pt23px{ padding-top:23px;}
+.t-credit1-2 dl dd{ font-size: 14px; color: #818181;}
+.t-credit1-2 dl dd span{background: url(../images/new/t-credit14.png) no-repeat 0 0 ; width: 18px; height: 18px; display: block; float: left; vertical-align: middle; margin:3px -9px 0 14px; }
+.t-credit1-3{ width: 223px; height: 260px; text-align: center; float: left; padding:113px 0 0 0;}
+.t-credit1-3 dt{ margin-bottom: 22px;}
+.t-credit1-3 dd{ color:#7d4100; font-size: 18px;}
+.t-credit1-img1{ margin-top:172px; float: left;}
+.t-credit2{ height: 626px; background: #fffbed;}
+.t-credit1-4{ width: 330px;}
+.t-credit1-4 dt{ margin-bottom: 14px;}
+.t-credit1-4 dd{ line-height: 30px;}
+.t-mr40px{ margin-right:40px;}
+.t-credit-btn{ width: 180px; height: 48px; text-align: center; line-height: 48px; display: block; background: #7ecef4; font-size: 18px; color: #ffffff; margin:0 auto; border-radius:12px;}
+.t-credit1-5{ width: 470px; float: right}
+.t-mr190px{ margin-right: 190px;}
+.t-credit4{ height: 464px; background: #fffbed;}
+.t-credit4-1{ width: 350px;border: 2px dashed #fc9800; background: #fff; border-radius:8px; margin:50px 0 0 75px; padding:20px 25px; color: #7d4100; font-size: 18px; line-height: 32px; float: left;}
+.t-credit4-img{ float: right; margin-top:25px;}
+.t-credit5{ height: 810px; background: #ffce4b; overflow: hidden; margin-bottom: -80px;}
+.t-credit5-1{ width: 982px; margin:109px auto 0;background: #fff; position: relative; box-shadow: 0 10px 0 #fc9800; padding-bottom: 49px;}
+.t-credit5-1 span{background: url(../images/new/t-credit13.png) no-repeat 0 0 ; width: 21px; height: 54px; display: block; position: absolute;top:-20px;}
+.t-credit5-1 span.t-icon0{ left: 105px; }
+.t-credit5-1 span.t-icon1{left: 168px; }
+.t-credit5-1 span.t-icon2{left: 794px;}
+.t-credit5-1 span.t-icon3{left: 858px;}
+.t-credit5-2{ padding:64px 0 0 63px;}
+.t-credit5-2{ overflow: hidden;}
+.t-credit5-2 li{display: inline; width: 160px; height:50px; box-shadow: 0 7px 0 #b5b5b5; display: block; float: left; background: #d2d2d2; margin-right: 30px; color: #ffffff; font-size: 18px; text-align: center; line-height: 50px;cursor: pointer;}
+.t-credit5-2 li.cur{background: #fe866e;box-shadow: 0 7px 0 #ec7a63; }
+.t-credit5-3,.t-credit5-4,.t-credit5-5{ margin:40px 63px 0px; border: 1px dashed #c9c9c9; padding:8px 30px 20px; border-radius: 8px; min-height: 406px;}
+.t-credit5-3 h4,.t-credit5-4 h4,.t-credit5-5 h4{ font-size: 16px; color: #414141; padding:15px 0 3px 0;}
+.t-credit5-3 p{ font-size: 14px; color: #818181; line-height: 28px;}
+.t-credit5-4 dl,.t-credit5-5 dl{ clear: both;color: #818181; }
+.t-credit5-4 dl dt,.t-credit5-5 dl dt{ float: left;display: block; height: 20px; vertical-align: middle; margin-top:2px;}
+.t-credit5-4 dl dd,.t-credit5-5 dl dd{ float: left; padding-left:10px; font-size: 14px; width: 772px; line-height: 28px;}

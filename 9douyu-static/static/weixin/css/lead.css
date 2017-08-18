@@ -1,0 +1,13 @@
+@charset "utf-8";
+.lead-bg{background-color: #fff;}
+.lead-why{width:100%; line-height: 2.5rem; margin-bottom: 0.85rem; font-size: 0.9rem; font-weight: bold; text-align: center; color: #fff; background:url('../images/lead-img-2.png') top right no-repeat #32bff7; background-size: 3.5rem 2.5rem;}
+.lead-line{width: 100%; height: 0; line-height: 0; overflow: hidden; margin: 1rem 0; border-bottom: 1px solid #e6e6e6; clear: both;}
+.lead-mb17{margin-bottom: 0.85rem;}
+.lead-txt{margin: 0 0.5rem; text-align: center; font-size: 0.65rem; line-height: 1.15rem; font-weight: lighter;}
+.lead-txt strong{font-size: 0.85rem;}
+.lead-txt2{text-align: center; font-variant: bold; font-size: 0.7rem; margin: 0.5rem 0;}
+.lead-logo{width: 0.95rem; height: 4.45rem;background:url('../images/lead-img-9.png') 0 0 no-repeat; background-size: 100%; margin: 0.25rem auto; }
+.lead-txt3{margin: 0 0.5rem; text-align: center; font-weight: lighter; font-size: 0.7rem; line-height: 1.25rem;}
+.lead-txt3 strong{color: #f45a37;}
+.lead-money{width: 11.4rem; height: 8.8rem; margin:0.5rem 0 0.5rem 10%;background:url('../images/lead-img-10.png') 0 0 no-repeat; background-size: 100%;}
+.lead-btn{color: #fff; text-align: center; font-size: 0.85rem; height: 2rem; position: fixed; left:0; right: 0; bottom: 0; line-height: 2rem; background-color: rgba(244,90,55,.9);}

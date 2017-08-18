@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ 
+ * @authors xia.lili@9douyu.com
+ * @date    2016-5-28
+ * @version anniversary2
+ */
+body{background:url('/static/weixin/images/novice/novice-repeat.png') 0 0 repeat; background-size: 2.45rem 2.5rem;}
+.ann2promote-title{text-align: center; font-size: 0.8rem; padding-top: 0.6rem; color: #ff3939;}
+p.ann2promote-title-sub{ font-size: 0;color: #938e8e ; margin: 0.25rem 0 0.5rem; }
+p.ann2promote-title-sub span{font-size: 0.65rem;}
+p.ann2promote-title-sub i{display: inline-block; position: relative; top: -0.25rem; width: 0.75rem; height: 1px; margin: 0 0.35rem; overflow: hidden; background-color: #999;}
+.ann2promote-pro{margin: 0 0.5rem 0.5rem; overflow: hidden; background-color: #fff; padding: 0.75rem 0.5rem;}
+.ann2promote-pro-main{width: 9rem;float: left; line-height: 0.75rem; font-size: 0.7rem; }
+.ann2promote-pro-main span{font-size: 0.8rem; }
+.ann2promote-pro-main span.red{color: #ff3939; font-size: 0.6rem;}
+.ann2promote-pro-main p{margin-bottom: 0.5rem;}
+.ann2promote-pro-main small{font-size: 0.6rem; color: #999; line-height: 0.75rem;}
+.ann2promote-pro-btn{float: right; margin-top: 0.25rem; color: #ff3939; font-size: 0.7rem; line-height: 0.85rem; padding-left: 0.75rem; width: 4.15rem; border-left: 1px dashed #ccc; text-align: center;}
+.ann2promote-pro-btn span{font-size: 1.4rem;}
+.ann2promote-pro-btn small{color: #999; font-size: 0.5rem;}
+.ann2promote-pro-btn a{display: block; width: 100%; height: 1.05rem; line-height: 1.05rem; overflow: hidden; text-align: center; color: #fff; font-size: 0.6rem; border-radius: 0.125rem; background-color: #ff3939;}
+.ann2promote-pro-btn a.disable{background-color: #9a9a9a;}
+.ann2promote-summary{background-color: #fff; margin: 0 0.5rem 0.5rem; padding:0 0.5rem;}
+.ann2promote-summary dl{padding:0.75rem 0 1rem 6.5rem; position: relative; }
+.ann2promote-summary dl:first-child{border-bottom: 1px dashed #ccc;}
+.ann2promote-summary dt{color: #ff3939; font-size: 0.9rem; line-height: 1.5rem;}
+.ann2promote-summary dd{line-height: 0.85rem; color: #666; position: relative;}
+.ann2promote-summary dd i{font-style: normal; color: #ff3939;}
+.ann2promote-summary dd span{position: absolute;color: #ff3939; left: -0.4rem; top: 0;}
+.ann2promote-summary dd.ann2icon1{width: 3.8rem; height: 3.1rem; position: absolute; left: 0.85rem; top: 1rem;background:url("/static/weixin/images/activity/ann2-promote-img1.png") no-repeat 0 0;background-size:100%;}
+.ann2promote-summary dd.ann2icon2{width: 2.85rem; height: 2.9rem; position: absolute; left: 1.5rem; top: 1.75rem;background:url("/static/weixin/images/activity/ann2-promote-img2.png") no-repeat 0 0;background-size:100%;}
+.ann2promote-download{background-color: #fff; line-height: 0.85rem; color: #666; padding: 0.5rem 0.5rem 0.5rem 2.5rem; margin: 0 0.5rem 0.5rem; position: relative; font-size: 0.6rem;}
+.ann2promote-download span{position: absolute; left: 0.5rem; top: 0.5rem; width:1.7rem; height: 1.7rem;background:url("/static/weixin/images/activity/ann2-promote-logo.png") no-repeat 0 0;background-size:100%; }
+.ann2promote-download strong{font-size: 0.75rem; line-height: 0.75rem; font-weight: normal;}
+.ann2promote-download a{position: absolute; right: 0.5rem; top: 0.8rem; width: 3.3rem; height: 1.1rem; line-height: 1.1rem; overflow: hidden; color: #fff; text-align: center;font-size: 0.55rem;background-color: #ff3939;border-radius: 0.125rem;}
+.ann2promote-work{text-align: center; padding:0 0 1rem 0; color: #000; font-size: 0.75rem;}
+.ann2promote-work span{color: #000; font-weight: bold; font-size: 1.25rem; line-height: 2rem;}
+.ann2promote-work small{color: #666; font-size: 0.55rem;}
+.ann2promote-work i{display: inline-block; height: 1px; width: 2rem; background-color: #666; z-index: 1; overflow: hidden; position: relative;top: -0.15rem; margin: 0 0.5rem;-webkit-transform: scaleY(0.5); transform: scaleY(0.5);}
+.ann2promote-success{text-align: center; color: #030302; font-size: 0.6rem; padding: 3.3rem 3rem 0; line-height: 0.85rem; height:25.2rem; background:url("/static/weixin/images/novice/novice-bg3.png") no-repeat 0 0;background-size:100%;}
+.ann2promote-success small{color: #999; font-size:0.6rem;}
+.ann2promote-success i{display: inline-block; vertical-align: middle; margin-right: 0.25rem; width: 0.75rem; height: 0.75rem;background:url("/static/weixin/images/activity/ann2-promote-img3.png") no-repeat 0 0;background-size:100%;}
+
+.novice-success{color:#ff4948; font-weight: bold; font-size: 1.25rem; line-height: 1.05rem; padding-bottom: 1rem; border-bottom: 1px dashed #ff4948; margin-bottom: 0.5rem;}
+.novice-btn{width:9.55rem; font-weight: bold; display:block; margin:5.4rem auto 0; height:2.2rem; font-size: 1.1rem; color:#ff4948; text-align: center; line-height: 2.2rem; background:url('/static/weixin/images/novice/novice-btn1.png') top center no-repeat; background-size: 100%;}
+.ann2promote-tip{ text-align: center; height:0.5rem; line-height: 0.5rem; color:red; font-size: 0.5rem; margin-bottom: -0.55rem;}
+
+.app9-con{ width: 16rem; height:19.2rem; position: relative; background:url('/static/weixin/images/novice/novice-bg2.png') top center no-repeat; background-size: 16rem 19.2rem; padding:0.5rem 1.25rem 0; box-sizing: border-box; }
+.app9-con-title{ margin:0 auto 1.5rem;line-height: 2rem; text-align: center; color: #000;font-size: 0.75rem; font-weight: bold;}
+.app9-con-title big{font-size: 1rem;}
+.app9-data{width: 100%; margin: 0 0 0.25rem;}
+.app9-data li{width: 100%; line-height: 1.5rem; position: relative; color: #000; font-size: 0.6rem;}
+.app9-data span{position: absolute; right: 0.25rem; top: 0;}
+.app9-con-title2{width: 100%; line-height: 1rem; font-size: 0; margin-bottom: 0.5rem; vertical-align: middle; text-align: center; position: relative;}
+// .app9-con-title2 i{display: inline-block; -webkit-transform: scaleY(0.5); transform: scaleY(0.5);position: relative; top: -0.25rem; width:4.3rem; height: 1px; overflow: hidden; background-color: #4f2d01; }
+.app9-con-title2 span{display:inline-block; width:6.1rem; height:1.75rem; line-height: 1.75rem; background:url('/static/weixin/images/novice/novice-titlebg2.png') top center no-repeat; background-size: cover; font-size: 0.75rem; color: #000; font-weight: bold;}
+.app9-con-title2 small{position: absolute; font-size: 0.6rem; color: #666; top: 1.75rem; left: 0; right: 0;}
+
+.app9-product{ width: 100%; display: block; margin: 0 auto;  overflow: hidden;}
+.app9-product dl{ width: 4.2rem; float: left; margin-top: 1rem;}
+.app9-product dl dt{ width: 4.2rem; height: 4.1rem; background:url('/static/weixin/images/novice/novice-titlebg3.png') top center no-repeat; background-size: 100%;line-height: 4.1rem; color: #000; text-align: center; font-size: 1rem;  font-weight: 700; }
+.app9-product dl dt span{font-size: 1.65rem;}   
+.app9-product dl dd{ text-align: center; color: #000;  font-size: 0.6rem; margin-top: 0.25rem; }
+.app9-product dl:last-child{ float: right;}
+.app9-product dl:first-child{ margin-right: 0.5rem;}
+
+
+.ann2promote-work.download{padding-bottom: 3.25rem;}
+.download-box{position:fixed;left: 0; z-index: 99; bottom: 0; width: 100%; }
+.download-box .ann2promote-download{margin: 0; font-size: 0.6rem; padding-left: 3.25rem; background-color:rgba(0,0,0,1); color: #fff;}
+.download-box .ann2promote-download span{left: 1rem;}
+.download-box .ann2promote-download strong{font-size: 0.75rem;}
+.download-box .ann2promote-download a{ right: 1rem; height: 1.1rem; line-height: 1.1rem; width: 3.3rem; font-size: 0.55rem; top: 0.85rem; }
+.ann2promote-mb{margin-bottom: 0.25rem;}
+
+.novice-list-title{width:15.1rem; height:3.15rem;background:url('/static/weixin/images/novice/novice-title.png') top center no-repeat; background-size:100%; margin:0.75rem auto 0.6rem;}
+.novice-list-title2{color:#000; position:relative; font-size:0.7rem ; font-weight: bold; margin:0 0.5rem 0.25rem;}
+.novice-list-title2 small{font-size: 0.6rem;}
+.novice-list-title2:after{content: ''; display:block;position:absolute; height:1px; width:5.6rem; right:0; top:50%; background-color: #000;}
+.novice-box{width:15rem; margin:0 auto 0.8rem;  border:2px solid #000; border-radius: 0.15rem;}
+.novice-box table{width:100%;border-collapse: collapse; font-size: 0.9rem; line-height: 1rem; text-align: center;}
+.novice-box th{border-bottom: 2px dashed #000; position:relative; line-height: 1.4rem; text-indent: 0.75rem; text-align: left; font-weight: bold; font-size: 0.65rem;}
+.novice-box small{font-size:0.55rem ; color:#3cb8ff;}
+.novice-box big{font-size: 1.2rem;}
+.novice-box span{font-size: 0.7rem;}
+.novice-box ins{position:absolute; top: 0; right:0.75rem; font-size: 0.6rem; text-decoration: none;}
+.novice-box i{font-style: normal;}
+.novice-box a{display:block; width:100%; color:#000; height:100%;}
+.novice-box .left{text-align: left; text-indent: 0.75rem;}
+.novice-box tr.mt td{padding-top: 0.25rem}
+.novice-box tr.mb td{padding-bottom: 0.25rem}
+.novice-btn2{display:inline-block; width:3.75rem; border:2px solid #000; border-radius: 0.125rem; height:1.25rem; line-height: 1.25rem; background-color: #ff4948; color:#fff000; font-size: 0.6rem; font-weight: bold; letter-spacing: 1px; margin-bottom: 0.25rem;}
+.novice-more{text-align: center; margin-bottom: 0.75rem; color:#ff4948; font-size: 0.6rem; font-weight: bold;}
+.novice-more span{display:inline-block; width:0.65rem; height:0.55rem; background:url('/static/weixin/images/novice/novice-icon2.png') top center no-repeat; background-size:100%;vertical-align: middle; margin-right: 0.25rem;position:relative; top: -2px;}
+.novice-more.up span{top:-2px; transform:rotate(180deg); -ms-transform:rotate(7deg);    /* IE 9 */
+-moz-transform:rotate(180deg);    /* Firefox */
+-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+-o-transform:rotate(180deg);}
+.novice-list{display:none;}
+.novice-title3{width:100%;height:1.65rem; margin:1.25rem 0 1.6rem; text-align: center; font-weight: bold; line-height: 1.5rem; font-size: 0.7rem; color:#ff4948; background:url('/static/weixin/images/novice/novice-titlebg4.png') top center no-repeat; background-size:13.65rem 1.65rem; }
+.novice-coupon-box{text-align: center; font-size: 0;}
+.novice-coupon-box span{display:inline-block; color:#fff000; padding-top: 2rem; margin:0 0.75rem 1.4rem; box-sizing: border-box; line-height: 1rem; font-size: 1.2rem; font-weight: bold; width:3.45rem; height:4.95rem; background:url('/static/weixin/images/novice/novice-coupon.png') top center no-repeat; background-size:100%; }
+.novice-coupon-box big{font-size: 0.85rem;}
+.novice-coupon-box small{font-size: 0.7rem;}
+.kill-tip {text-align: right; overflow: hidden; position: relative; height: 1rem;}
+.kill-tip span {display: inline-block;width: 0.73rem;height: 0.72rem;
+    background: url("/static/weixin/images/activity/kill-icon3.png") no-repeat 0 0;
+    background-size: 0.7rem 0.7rem; position: absolute; right: 0.1rem; top: 0.1rem;}
+.kill-tip a {color: #32b7ff;;line-height: 0.8rem;margin-right: 0.9rem;}
+
+.kill-pop {
+    position: fixed;
+    overflow: hidden;
+    background-clip: padding-box;
+    z-index: 1000;
+    border-radius: 0.1rem;
+    padding: 0.75rem;
+    background-color: #fff;
+    left: 0.5rem;
+    right: 0.5rem;
+    top: 50%;
+}
+.kill-pop i {
+    cursor: pointer;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.55rem;
+    width: 1rem;
+    height: 1.2rem;
+    background: url("/static/weixin/images/activity/kill-close.png") 0 0 no-repeat;
+    background-size: 1rem;
+}

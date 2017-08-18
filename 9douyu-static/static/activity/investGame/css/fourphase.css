@@ -1,0 +1,76 @@
+/**pk活动**/
+
+body{width:100%; background:#28467c; }
+.phase-banner{width: 100%;height: 1348px;background: url('/static/activity/investGame/images/four-banner.jpg') center top no-repeat;background-size: cover;text-align: center;}
+.phase-bg{ width: 100%;background:#5d79e1 url('/static/activity/investGame/images/four-bg.jpg') center top no-repeat; margin-bottom: -80px; padding-bottom: 120px;}
+.phase-time{display:inline-block; margin-left: -150px; padding-top: 326px;line-height:40px;font-size: 28px;color: #cbfbff;font-weight: bold;transform:rotate(-30deg);
+-ms-transform:rotate(-30deg); 	/* IE 9 */
+-moz-transform:rotate(-30deg); 	/* Firefox */
+-webkit-transform:rotate(-30deg); /* Safari 和 Chrome */
+-o-transform:rotate(-30deg);} 	/* Opera */
+.phase-box{width: 1004px;height:1593px;background: url('/static/activity/investGame/images/four-box.png') center top no-repeat;background-size: cover; margin:0 auto 134px; overflow: hidden;}
+.phase-box1{width: 1004px;height:2036px;background: url('/static/activity/investGame/images/four-box1.png') center top no-repeat;background-size: cover; margin:0 auto 134px; overflow:hidden;}
+.phase-box2{width: 1004px;height:2285px;background: url('/static/activity/investGame/images/four-box2.png') center top no-repeat;background-size: cover; margin:0 auto 134px; overflow: hidden;}
+.phase-title{ width: 800px; margin:354px auto 54px; text-align: center; color: #ff35b1; font-size: 30px;}
+.phase-title span{ display: inline-block; width: 66px; height: 64px; background: url('/static/activity/investGame/images/four-icon.png') center top no-repeat; background-size: cover; text-align: center; line-height: 69px; margin: 0 10px;}
+.phase-title i{ display: inline-block; margin:0 10px; color: #fff460;}
+/*pk项目*/
+.phase-project{position:relative;width:722px;height: 388px; margin:0 auto;}
+.phase-rate{margin-top: 80px;}
+.phase-text1{ line-height: 56px;}
+.phase-text1 span{font-size: 58px;font-weight: bold;line-height: 1;position: relative;top:6px; color: #fffd7f;}
+.phase-text1 em{font-size: 26px;line-height: 1;position: relative;top:6px; color: #fffd7f;}
+.phase-text1 .phase-textcolor{padding-left: 12px;}
+.phase-text-margin{margin-bottom: 20px;height: 42px;}
+.phase-text1 i{ color: #fff; font-style: normal; font-size: 26px; padding-right: 36px;}
+.phase-text2 i{ position: relative; top: 15px;}
+.phase-text2 em{ position: relative; top:14px;}
+.phase-progress{position: relative;margin:44px 0 13px;width:100%;height: 8px;background: #82a4d8;border-radius: 3px;}
+.phase-progress span{position: absolute;left:0;top:0;width: 100%;height: 100%;background: #ffe5f5;border-radius: 3px;}
+.phase-textcolor{line-height:1;font-size: 16px;color: #fff;}
+.phase-btn,.phase-btn:link,.phase-btn:visited,.phase-btn:hover,.phase-btn:active{display:block;margin:44px auto 0;width:402px;height: 60px;line-height: 60px;background: #fb4c68;font-size: 30px;font-weight: bold;color:#fff;border-radius: 4px;box-shadow: 0 -8px 0 #ffb0aa;text-align: center;}
+.phase-disable,.phase-disable:link,.phase-disable:visited,.phase-disable:hover,.phase-disable:active{background: #cccccc;box-shadow: 0 -8px 0 #eaeaea;color:#fff;}
+.phase-title1,.phase-title_six,.phase-title_twelve,.phase-title_jax{ margin-top: 150px;}
+
+/*倒计时*/
+.phase-count-wrap{width:622px;margin: 0 auto;}
+.phase-count-text{position:relative;margin-top:56px;width:622px;text-align: center;font-size: 44px;font-weight: bold;color:#fff; line-height: 48px;}
+.phase-count-time{margin: 59px 0 87px -8px;}
+.phase-count-time span{float:left;margin-left:8px;width:68px;height: 102px;line-height:91px;background: url('/static/activity/investGame/images/four-icon5.png') center top no-repeat;font-size: 60px;color: #444444;font-weight: bold;text-align: center;}
+.phase-count-time em{float: left;margin-left:8px;width: 50px;text-align: center;line-height: 102px;font-size: 36px;font-weight: bold;color:#ffffff;}
+
+/*pk排名*/
+.phase-medal-group{width: 800px; margin:0 auto;min-height:430px;}
+.phase-medal-group ul{width: 800px;color: #fff; }
+.phase-medal-group ul li{margin-bottom:7px;height:80px;padding-left: 110px; line-height:140px;font-size: 38px;}
+.phase-medal-group ul li span{display: inline-block;width: 230px; padding-left: 76px; font-size: 41px;}
+.phase-medal-group ul li em{display: inline-block;width: 180px; color:#ffe400; font-weight: bold; text-align: center;}
+.phase-medal-group ul li i.icon1{ background: url("/static/activity/investGame/images/four-icon1.png") center top no-repeat; }
+.phase-medal-group ul li i.icon2{ background: url("/static/activity/investGame/images/four-icon2.png") center top no-repeat; }
+.phase-medal-group ul li i.icon3{ background: url("/static/activity/investGame/images/four-icon3.png") center top no-repeat; }
+.phase-medal-group ul li i{display: inline-block;  width: 60px; height: 59px;text-align: center; line-height: 60px; font-style: normal; color: #31668d; font-size: 27px; }
+.phase-title2 span,.phase-title3 span{ margin:0 20px;}
+.phase-data{padding:60px 0 57px;font-size: 27px;color:#8ef0f6;text-align: center;}
+.phase-data a{font-size: 24px;color:#8ef0f6;}
+
+/*pk奖品*/
+.phase-prize{ width: 500px; height: 316px; background: url('/static/activity/investGame/images/four-bj.png') center top no-repeat; margin: 396px auto 0; text-align: center;}
+// .phase-prize img{ padding-top: 45px;}
+.phase-prize-text{ text-align: center; color: #fff; font-size: 26px; line-height: 30px; margin-top: 32px;}
+.phase-record{ width: 747px; height: 58px; background: url('/static/activity/investGame/images/four-title.png') center top no-repeat; margin:50px auto 0; line-height: 65px; font-size: 26px; text-align: center; color: #fff;}
+/*中奖记录*/
+.phase-scroll{ width: 755px;  height:160px;overflow-y:auto;overflow-x:hidden;padding:0 15px;color:#7ddaff; margin:30px auto 0;}
+.phase-scroll p{line-height: 50px;height:50px;font-size:24px;}
+.phase-scroll span,.phase-scroll em,.phase-scroll i{display: inline-block;vertical-align: middle;font-style: normal;text-align: left;}
+.phase-scroll span{width: 210px;}
+.phase-scroll em{width:210px;}
+.phase-scroll i{width:315px;white-space: nowrap;text-overflow: ellipsis;  -o-text-overflow: ellipsis;  overflow: hidden;}
+// .phase-prize1{ width: 500px; height: 316px; background: url('/static/activity/investGame/images/four-bj.png') center top no-repeat; margin: 300px auto 0; text-align: center;}
+// .phase-prize1 img{ padding-top: 101px;}
+
+/*活动规则*/
+.phase-wrap{position:relative;z-index:0;width: 1002px;margin: 0 auto;}
+.phase-rule .phase-tag{margin-bottom: 17px;text-align: left;text-indent: 0;background: none;color:#fff;font-weight: bold; font-size: 20px;}
+.phase-rule p{position: relative;padding-left: 20px;color:#db9fff;line-height: 38px;font-size: 16px; color:#fff;}
+.phase-rule p span{position: absolute;left:0;}
+

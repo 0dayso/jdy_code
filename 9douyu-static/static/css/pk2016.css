@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*=======================================
+* author   xialili && xia.lili@9douyu.com
+* date     2016-02-19
+* version  2016pk
+=======================================*/
+
+
+.pk-bg{background-color: #ffeade; margin-bottom: -80px;}
+.pk-banner{width: 100%; height: 456px; background: url('/static/images/activity/pk-banner.jpg') top center no-repeat;}
+.pk-info{width:728px; height: 150px;padding-top: 34px;  text-align: center; color:#452549;font-size:16px; line-height:32px; position: relative; margin:0 auto 35px; top:-10px;background: url('/static/images/activity/pk-bg1.png') top center no-repeat;}
+.pk-info strong{font-size:26px; }
+.pk-info span{display: inline-block; background-color: #ffad89; color: #fff; padding:0 15px; margin-top: 5px;}
+.pk-box{ width: 100%; overflow: hidden; margin-bottom: 20px; background-color: #fff; cursor: pointer;}
+.pk-box:hover{box-shadow:2px 2px 5px #fbdccc; }
+.pk-img{ float: left; width:234px; height: 285px;}
+.pk-project{width:694px; float: right; margin-right:40px;}
+.pk-project table{width:100%; text-align: center;}
+.pk-project th{border-bottom:1px solid #bababa; height: 80px; text-align: center; font-size: 28px; color: #452549; font-weight: normal; }
+.pk-project td{text-align: center; height: 140px; font-size:26px; color: #452549; line-height: 40px; }
+.pk-project td small{color:#888; font-size: 16px;}
+.pk-project td strong{font-size:46px; }
+.one .pk-project td span{color:#8fcf68;}
+.three .pk-project td span{color:#ffbf2d;}
+.six .pk-project td span{color:#f55c5a;}
+.pk-btn{display: block; width:230px; height:44px; text-align: center; line-height: 44px; margin:0 auto;  background-color: #8fcf68; color:#fff;font-size: 20px;}
+.pk-btn.disable{background-color: #bdbdbd;}
+.pk-btn:visited,.pk-btn:hover,.pk-btn:active{color: #fff;}
+.pk-box.one:hover .pk-btn{background-color: #a5d986;}
+.pk-box.three .pk-btn{background-color: #ffbf2d;}
+.pk-box.three:hover .pk-btn{background-color: #ffcc57;}
+.pk-box.six .pk-btn{background-color: #f55c5a;}
+.pk-box.six:hover .pk-btn{background-color: #f77d7b;}
+.pk-box.six{margin-bottom: 45px;}
+.pk-box:hover .pk-btn.disable{background-color: #bdbdbd;}
+
+.pk-ranking{width:943px; text-align: center; position: relative; margin:0 -5px 62px 0; height:734px; padding:46px 32px 0;background: url('/static/images/activity/pk-bg2.png') top center no-repeat;}
+.pk-ranking-tab{ overflow: hidden; position: relative; z-index: 5; }
+.pk-ranking-tab li{width:259px;height: 61px; cursor: pointer; line-height: 60px; font-size: 20px; float: left; color: #b44f32;background: url('/static/images/activity/pk-title.png') -259px 0 no-repeat; margin-right: 3px;}
+.pk-ranking-tab li.cur{background-position: 0 0; color: #df5b35;}
+.pk-ranking-list{ position: relative; display: none; top:-2px; z-index: 1; background-color: #ffd7c1; border:2px solid #ffe7da;}
+.pk-ranking-list table{width:908px;  margin:16px auto 0;color:#452549;}
+.pk-ranking-list th{background-color: #fff5ef; height: 52px; text-align: center; font-size: 20px;  font-weight: normal;}
+.pk-ranking-list td{ height: 54px; border-bottom: 1px solid #fff5ef;font-size: 18px;}
+.pk-ranking-list .bnone td{border-bottom: none;}
+.pk-time{position: absolute; color: #ffd7bf; font-size: 16px; top:75px; right:32px;}
+.pk-tips{margin-bottom: 80px;}
+.pk-tips h3{ width: 134px; height: 34px; line-height: 34px; color: #fff; margin-bottom: 15px; background-color: #452549; text-align: center; font-size: 20px;}
+.pk-tips p{line-height:38px ; font-size: 16px; color: #452549;}

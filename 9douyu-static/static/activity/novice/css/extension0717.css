@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body{background-color: #b1f6e4;}
+.novice-banner{width: 100%; height:358px ; background:url('../0717/banner.png') top center no-repeat; }
+.novice-coupon{width: 1006px; margin:0 auto 45px; }
+.novice-data{width: 850px; margin:0 auto 164px; background-color: #36b8af; border-radius: 10px; -webkit-border-radius: 10px; border:3px solid #382c5a; text-align: center; color: #fff; }
+.novice-data>h2{font-size: 42px; color: #20163c; width:608px; padding-right: 75px; height:136px;margin:-65px 0 30px 120px; text-align: center; line-height: 130px; background:url('../0717/icon.png') top center no-repeat; }
+.novice-data>h3{font-size: 24px; line-height: 36px;}
+.novice-data-main{text-align: left;  margin:45px 156px 65px; line-height: 47px; font-size: 24px;}
+.novice-data-main strong{ color: #feec2a;}
+.novice-intro{width:648px;  margin:0 auto 45px; overflow: hidden; padding:25px; border-radius: 10px; -webkit-border-radius: 10px; background-color: #169b92; font-size: 18px; line-height: 27px;}
+.novice-intro>li{width:33.33%; float: left;}
+.novice-intro>li>p{margin-bottom: 5px;}
+.novice-intro-icon{display: inline-block; width:138px; height:137px;background:url('../0717/icon.png') 0 -137px no-repeat;}
+.novice-intro-icon.icon1{background-position: 0 -137px;}
+.novice-intro-icon.icon2{background-position: -138px -137px;}
+.novice-intro-icon.icon3{background-position: -277px -137px;}
+.novice-intro big{font-size: 24px; font-weight: bold;}
+
+.novice-prod-block{width: 100%; margin:35px auto 45px; text-align: center; overflow:hidden;font-size: 24px; }
+.novice-prod-block li{display: inline-block; margin: 0 20px; width:158px; }
+.novice-rate{display: inline-block; width:158px; height:158px;background:url('../0717/icon.png') 0 -274px no-repeat; margin-bottom: 10px;}
+.novice-rate.rate1{background-position: 0 -274px;}
+.novice-rate.rate2{background-position: -159px -274px;}
+.novice-rate.rate3{background-position: -318px -274px;}
+.novice-rate big{font-size: 86px;}
+.novice-rule{width:874px; margin:-80px auto 0; line-height: 48px; font-size: 24px; color: #20163c;}
+.novice-rule-title{text-align: center; position:relative; margin-bottom: 10px;}
+.novice-rule-title:before,.novice-rule-title:after{position:absolute; content:''; width:43%; top: 50%; height:0; border-bottom: 1px dashed #382c5a;}
+.novice-rule-title:before{left: 0;}
+.novice-rule-title:after{right: 0;}
+
+
+.novice-btn{width:382px; margin:0 auto 132px; text-align: center; padding-top: 106px; background:url('../0717/fish.png') top center no-repeat;}
+.novice-btn a,.novice-btn a:visited{display: inline-block; width:370px; height:128px; line-height: 128px;  background-color: #feec2a; border:3px solid #382c5a; color: #20163c; font-size: 36px; border-radius: 128px; -webkit-border-radius: 128px; box-shadow: 5px 6px 0 #4ccaa9;}
+
+
+a.novice-btn2,a.novice-btn2:visited{display: inline-block; width:526px; height: 82px; margin-bottom: 84px; line-height: 82px; text-align: center; background-color: #feec2a; border:3px solid #382c5a; border-radius: 82px; -webkit-border-raduis:82px; -moz-border-raduis:82px; font-size: 36px; color: #20163c;box-shadow: 5px 6px 0 #4ccaa9;}
+.novice-btn a:hover,.novice-btn a:active,a.novice-btn2:hover,a.novice-btn2:active{background-color: #ff7f78;}
+
+
+

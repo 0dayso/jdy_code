@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tianxiaoyan (you@example.org)
+ * @date    2017-01-05 10:27:55
+ * @version $Id$
+ */
+body{background-color: #add2c6; }
+a{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.laborday-banner{width: 100%; height: 10rem; box-sizing: border-box; background: url('/static/weixin/activity/laborDay/images/banner.png') top center no-repeat; background-size: cover; overflow: hidden; margin-bottom: 1.1rem;}
+.laborday-banner p{ text-align: center; color: #fff; font-size: 0.6rem; margin-top:0.25rem;}
+.laborday-1{ position: relative; width: 100%; height: 9.95rem; box-sizing: border-box; background: url('/static/weixin/activity/laborDay/images/bg-1.jpg') top center no-repeat; background-size: cover; overflow: hidden; margin-bottom: 1.1rem;}
+.laborday-rule img{ width: 3.425rem;}
+.laborday-rule{ position: absolute; right: 1.55rem; top: 2.25rem;}
+.laborday-text,.laborday-text1,.laborday-text1-1{ color: #c54e3a; font-size: 0.6rem; text-align: center;}
+.laborday-text strong{ font-weight: bold;}
+.laborday-text1-1{ padding-top: 1.25rem;}
+.laborday-text1-2{text-align: center;}
+.laborday-text1-2>img{width:4.3rem; height: 3.1rem;}
+.laborday-btn,.laborday-btn1{ width: 5.175rem; display: inline-block; padding: 0 0.7rem;}
+.laborday-2{ text-align: center; padding-top: 0.2rem;}
+
+.laborday-lottery{width:16.0rem; height: 15.0rem; box-sizing: border-box;margin-bottom: 1.1rem; background: url('/static/weixin/activity/laborDay/images/bg-2.jpg') top center no-repeat;background-size: 100%; padding:1rem 0 0.5rem;}
+
+#lottery{ width: 12.45rem; margin:0.3rem auto 0.5rem;}
+#lottery table{ text-align: center; width:100%;}
+#lottery table td{ width:4.15rem; text-align:center;vertical-align:middle;font-size:24px;color:#333;}
+#lottery table td a{ width: 3.95rem; height: 3.35rem; margin-bottom: 0.2rem; background: url('/static/weixin/activity/laborDay/images/btn1.jpg') top center no-repeat; display:block; background-size: cover; }
+#lottery table td.active{background-color:#ea0000;}
+.laborday-bg{ width: 3.95rem; height: 3.35rem; margin-bottom: 0.2rem; background: url('/static/weixin/activity/laborDay/images/bj1.jpg') top center no-repeat;  background-size: cover; text-align: center;  }
+.laborday-bg.active{  background: url('/static/weixin/activity/laborDay/images/bj-2.jpg') top center no-repeat; display:block; background-size: cover; text-align: center; }
+.laborday-bg img{ padding-top: 0.25rem; width: 2.925rem;}
+.laborday-text2,.laborday-text3{ font-size: 0.6rem; color: #c54e3a; text-align: center;}
+.laborday-title{  width:100%;  height: 4.25rem; background: url('/static/weixin/activity/laborDay/images/title.png') top center no-repeat; display:block; background-size: cover; text-align: center; margin:-1rem auto 0; }
+.laborday-box2{ width: 100%; padding-bottom: 0.75rem; margin: 0 auto 0.5rem; position:relative;z-index: 5; background-color: #f6dcac; border-radius: 0.25rem;}
+
+.first-table{ width: 100%; text-align: center; color: #a8691f; margin-top: 0.2rem;}
+.first-table tr:nth-child(1) td:nth-child(1),.first-table tr:nth-child(1) td:nth-child(2){ color: #a8691f; font-size:0.7rem; height: 1.8rem; font-weight: normal;}
+.first-table tr:nth-child(1) td:nth-child(1) span,.first-table tr:nth-child(1) td:nth-child(2) span{ font-size:1.1rem;}
+
+.laborday-box2 h5{ width:4.9rem; height:1.4rem; margin-left: 1.25rem;   text-align: center; color: #f5d2a3; font-size: 0.7rem; line-height:1.15rem;background: url('/static/weixin/activity/laborDay/images/pro-title.jpg') top center no-repeat; background-size: cover;}
+.first-btn{  width:4.95rem; height: 1.675rem; background: url('/static/weixin/activity/laborDay/images/btn2.png') top center no-repeat; display:block; background-size: cover; text-align: center; margin:0 auto; }
+.invest-wait-btn{  width:4.95rem; height: 1.675rem; background: url('/static/weixin/activity/laborDay/images/laborday-btn-2.png') top center no-repeat; display:block; background-size: cover; text-align: center; margin:0 auto; }
+.laborday-box{ width: 100%; position:relative;margin-bottom: 1.1rem; padding:2.3rem 1.0rem 1.4rem; box-sizing: border-box; background:url('/static/weixin/activity/laborDay/images/bg1.jpg') repeat 0 0; background-size:16.0rem auto;}
+.laborday-box:after{position:absolute; content:''; left: 0; bottom:0; width:100%; height: 5.25rem;background: url('/static/weixin/activity/laborDay/images/bg1.jpg') bottom center no-repeat; background-size: 100%;}
+.first-btn.disable{ width:3.075rem; height: 3.05rem;background:url('/static/weixin/activity/laborDay/images/btn3.png') 0 0 no-repeat; background-size: cover; margin-top: -0.5rem;}
+.laborday-3{ width: 100%; height: 2.1rem; background:url('/static/weixin/activity/laborDay/images/bg2.png') repeat 0 0; background-size:16.0rem auto; margin-top: -0.3rem;}
+.laborday-rule1{ padding: 0 0.5rem 1.2rem;}
+.antwo-sum{position:relative;color:#3f6b5d;font-size: 0.6rem; font-weight: bold; margin:0rem  0rem 0.5rem;text-align: center;}
+.antwo-sum:before,.antwo-sum:after{content: "";width:5.8rem;position: absolute;top:50%;border-top:1px dashed #3f6b5d;font-size:0;}
+.antwo-sum:before{left:0;}
+.antwo-sum:after{right:0;}
+.laborday-rule1 p{ color: #3f6b5d; font-size: 0.6rem; line-height: 1rem;}
+.laborday-bm{ width: 100%; height: 2.4rem; background:url('/static/weixin/activity/laborDay/images/bg3.png') repeat 0 0; background-size:16.0rem auto; }
+
+.pop-layer{display: none;}
+.pop-mask{position:fixed;left:0;top:0;z-index:10;width: 100%; bottom: 0; background: rgba(0,0,0,.7);}
+.pop{width:15.2rem; height:14.725rem; position:fixed;z-index:20;left:50%;top:50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%); background: url("/static/weixin/activity/laborDay/images/box1.png") no-repeat 0 0; background-size: 15.2rem auto; overflow: hidden;}
+.pop-text{ width:8.35rem; margin: 1.1rem auto 0;}
+.pop-wrap{ width: 11.65rem; margin: 1.3rem auto 0;}
+.laborday-rules{ color: #7f511a; font-size:0.6rem; line-height: 1.2rem;}
+.laborday-rules span{ display: inline-block; width: 0.675rem; height: 0.675rem;background:url('/static/weixin/activity/laborDay/images/radio.png') 0 0 no-repeat ; background-size:cover; text-align: center; vertical-align: top;  line-height: 0.7rem; color: #7f511a; margin-top: 0.2rem; margin-right: 0.2rem;  }
+.pop-btn img{ width: 5.1rem; margin: 0.75rem auto 0;}
+
+.pop-text4,.pop-text6{ color: #7f511a; text-align: center; font-size: 0.6rem; line-height: 1.1rem;}
+.pop-text4 span{ color: #cb5046; font-size: 0.75rem; font-weight: bold;}
+.pop-text5{ color: #cb4f46; font-size: 0.6rem; text-align: center; line-height: 1.1rem;}
+.pop-img{ width: 3.575rem; margin: 1.2rem auto 0.1rem;}
+.pop-text6{padding-top: 0.8rem;}
+.pop-text6 span{ color: #d02519; font-weight: bold; }
+
+.pop-sign{ width: 15.2rem; margin:0 auto 0rem; overflow: hidden;}
+.pop-sign li{ display:block;position:relative; float: left; text-align: center; width: 3.35rem; padding-top: 0.2rem;}
+.pop-sign li i{ display: inline-block; width: 2.55rem; height: 2.25rem; background: url('/static/weixin/activity/laborDay/images/yuan1.png') 0 0 no-repeat ; background-size:100%;}
+.pop-sign li i.disable,.pop-sign li i.done{ position:relative; background: url('/static/weixin/activity/laborDay/images/yuan.png') 0 0 no-repeat ; background-size:100%;}
+.pop-sign li i.done:after{position:absolute; content:''; width:1.45rem; height: 1.45rem; right:0.25rem; top:0.25rem; background: url('/static/weixin/activity/laborDay/images/yuan-icon.png') 0 0 no-repeat ; background-size:100%;}
+.pop-sign li span{ color: #875a1f; font-size: 0.5rem; position:absolute; left: 0; top: 1.25rem; width:100%; text-align: center;}
+.pop-sign li i.disable+span,.pop-sign li i.done+span{color:#515151}
+.pop-sign li:nth-child(1){ margin-left: 1rem;}
+.pop-sign li:nth-child(5){ clear: both; margin-left: 2.6rem;}
+.pop-text7{ width: 6.525rem;margin: 1.1rem auto 0;}
+.pop-pr{ color: #7f511a; font-weight: bold; font-size: 0.6rem; text-align: center; line-height: 1.1rem;}

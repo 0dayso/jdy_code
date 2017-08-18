@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{background-color: #fafafa;}
+
+.lightning-banner{width:100%; height: 350px; background: url('/static/images/activity/lightning-banner-new.png') top center no-repeat;}
+.lightning-box,.lightning-content{ width: 1000px; margin: 60px auto 0;position: relative; overflow: hidden; border: 1px solid #cccccc; background: #fff;}
+.lightning-adv{ float: left; }
+.lightning-list{ float: right; width: 736px;}
+.lightning-list li{ margin-bottom: 0px; border: 0; width: 725px; height: 196px;}
+.lightning-list li.bb0{ border-top: 1px solid #ccc;margin-top: -1px;}
+.lightning-list .web-listitem-box{ padding-top: 24px;}
+.lightning-list .web-listitem-btn{ padding-top: 55px;}
+.lightning-list .web-listitem-profit p em,.lightning-list .web-listitem-date p strong{ font-size: 30px;}
+.lightning-list .web-listitem-rate p strong{ font-size: 36px;}
+.lightning-list .web-listitem-rate{ width: 160px;}
+.lightning-list .web-listitem-profit{ width: 198px;}
+.lightning-list .web-listitem-date{ width: 188px;}
+.lightning-list .web-listitem-title span strong{ font-size: 20px;}
+.lightning-list li:hover{box-shadow:none;-webkit-box-shadow: none;-moz-box-shadow: none;}
+.lightning-icon{ width: 150px; height: 29px; background: url("../images/activity/lightning-icon.png"); position: absolute; right: -4px; top: 13px; color: #0ea7ff; font-size: 16px; line-height: 29px; text-align: center;}
+.lightning-list .web-listitem-title{ position:relative;} 
+.lightning-content{ margin-top: 44px;}
+.lightning-tab{ width: 1000px; height: 50px; background: #f9f9f9; line-height: 45px; overflow: hidden;}
+.lightning-tab li{ width: 196px; text-align: center; display: inline-block; cursor: pointer;}
+.lightning-tab li.cur{ border-top: 3px solid #3cb8ff;background: #fff;padding-bottom: 3px; }
+.lightning-tab li a{ color: #333333; font-weight: bold; font-size: 20px; }
+.lightning-main-tab{ padding:0 35px 35px; }
+.lightning-main-tab dt{ color: #3cb8ff; font-size: 16px; font-weight: bold; padding-top: 25px; padding-bottom: 5px;}
+.lightning-main-tab dt span{ width: 5px; height: 16px; background: #3cb8ff; display: inline-block; vertical-align: middle; margin: -2px 14px 0 0;}
+.lightning-main-tab dd{ color: #333333;  font-size: 14px; line-height: 30px;}
+.lightning-main-tab dd a{ color: #3cb8ff;}
+.lightning-main-tab dd a:hover{}
+.lightning-main-tab.lightning-1{padding-top: 30px;}
+.lightning-text{  height: 29px;  position: absolute; right: -4px; top: 13px; color: #ff5353; font-size: 15px; line-height: 29px; text-align: center;}
+
+
+

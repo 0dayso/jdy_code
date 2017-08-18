@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body{background-color: #5b92f8;}
+.novice-banner{width: 100%; height:921px ; background:url('../images/banner.jpg') top center no-repeat; }
+.novice-banner p{color: #fff; text-align: right;padding: 764px 351px 0 0;transform: rotate(-3deg);}
+.novice-coupon{width: 100%; height:885px ; background:url('../images/coupon.jpg?v=20170620') top center no-repeat;}
+.novice-data{width: 100%;text-align: center; color: #fff; height:1210px ; background:url('../images/data.jpg?v=20170613') top center no-repeat;}
+.novice-data>h3{font-size: 32px; padding: 157px 0 60px;}
+.novice-data-main{text-align: left; width: 558px; margin:0 auto 240px; line-height: 64px; font-size: 24px;}
+.novice-data-main strong{ color: #fbda42;}
+.novice-intro{width:630px; padding-left: 16px; margin:0 auto; font-size: 18px; line-height: 27px;}
+.novice-intro>li{width:33.33%; float: left;}
+.novice-intro>li>p{margin-bottom: 5px;}
+.novice-intro big{font-size: 24px; font-weight: bold;}
+.novice-products{width: 100%; height:649px ; color: #fff; text-align: center; margin-bottom: 120px; background:url('../images/product.jpg?v=20170613') top center no-repeat;}
+.novice-products h3{padding:150px 0 40px;font-size: 32px;}
+.novice-prod-block{width: 654px; margin:0 auto 80px; overflow:hidden;font-size: 24px; }
+.novice-prod-block li{overflow: hidden; float: left; margin-left: 54px; width:146px; }
+.novice-rate{ height:150px; line-height: 140px; margin-bottom: 15px; letter-spacing: -3px; font-size: 36px; color: #f0d73b; background:url('../images/rate-bg.png') top center no-repeat;}
+.novice-rate big{font-size: 86px;}
+.novice-rule{line-height: 48px; font-size: 24px; color: #edf0f5;}
+
+a.novice-btn2,a.novice-btn2:visited{display: inline-block; width:270px; height: 60px; line-height: 60px; text-align: center; background-color: #f44c7a; border-radius: 10px; -webkit-border-raduis:10px; -moz-border-raduis:10px; font-size: 26px; color: #fff;font-weight: bold;}
+a.novice-btn2:hover,a.novice-btn2:active{background-color: #d02e5b;}
+
+.novice-cloud{  -webkit-animation:gogogo 2.5s infinite linear ;-moz-animation:gogogo 2.5s infinite linear ;-ms-animation:gogogo 2.5s infinite linear ;-o-animation:gogogo 2.5s infinite linear ; }
+
+
+
+@-webkit-keyframes gogogo {
+    0%{
+        -webkit-transform: translateX(-50px);
+    
+    }
+    50%{
+        -webkit-transform: translateX(50px);
+    }
+    100%{
+        -webkit-transform: translateX(-50px);
+    }
+}
+
+@-moz-keyframes gogogo {
+    0%{
+        -webkit-transform: translateX(-50px);
+    
+    }
+    50%{
+        -webkit-transform: translateX(50px);
+    }
+    100%{
+        -webkit-transform: translateX(-50px);
+    }
+}
+@-o-keyframes gogogo {
+    0%{
+        -webkit-transform: translateX(-50px);
+    
+    }
+    50%{
+        -webkit-transform: translateX(50px);
+    }
+    100%{
+        -webkit-transform: translateX(-50px);
+    }
+}
+
+

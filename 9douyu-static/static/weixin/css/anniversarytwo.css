@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+
+ * @authors bi.chunfeng@9douyu.com
+ * @date    2016-5-21
+ * @version $Id$
+ */
+html{min-height: 100%;}
+body{background:url("/static/weixin/images/anniversarytwo/ann2-repeat.png") repeat left center;background-size:100% 0.25rem;text-align: center;color:#fff;}
+.wrap{margin:0 1.15rem;}
+.antwo-flex-box {display: -webkit-box;  display: -webkit-flex;  display: -ms-flexbox;  display: flex;}
+.antwo-box-align{-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.antwo-box-pack{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}
+.antwo-theme{position: relative;}
+.antwo-img{width:100%;}
+.antwo-time{position:absolute;width:100%;text-align:center;top:6.9rem;line-height:0.75rem;font-size:0.45rem;}
+.antwo-part{margin:0 auto;width:13.15rem;height:1.8rem;background:url("/static/weixin/images/anniversarytwo/antwo-part.png")no-repeat;background-size: cover;}
+.antwo-partv1{margin:0 auto 0.775rem;background-position: center top ;}
+.antwo-partv2{margin:2rem auto 0.8rem;background-position: center -1.85rem ;}
+.antwo-partv3{margin:2rem auto 0.75rem;background-position: center -3.7rem ;}
+.antwo-partv4{margin:3.25rem auto 0.85rem;background-position: center bottom ;}
+.antwo-wrap{margin:0 0.5rem;border-radius: 0.25rem;background: #420084;}
+.antwo-wrap-gradient{margin:0 0.5rem;border-bottom-right-radius:0.25rem;border-bottom-left-radius:0.25rem;background:#420084 url("/static/weixin/images/anniversarytwo/ann2-bg1.png") no-repeat center -0.75rem;background-size: 100% 10.125rem;}
+.antwo-activy-des{line-height:1.1rem;font-size: 0.6rem;}
+/*将品*/
+.antwo-prize-img{width: 14.5rem;margin:0 0.25rem;}
+/*btn*/
+.antwo-btn-more{display: block;margin:0.75rem auto;width:4rem;line-height:1.25rem;background:#be7efb;border-radius:0.6rem;text-align: center;color:#000;font-size: 0.55rem;}
+.antwo-btn-wrap{position:absolute;bottom:-0.95rem;left:50%;margin-left:-5.95rem;width:11.9rem;}
+.antwo-btn-input{display: block;width:100%;line-height:1.9rem;background-color: #ffd800;border-radius:1rem;color:#cb3500;font-size: 0.8rem;border-top:0.125rem solid #fff263; border-bottom:0.2rem solid #ff9000;-webkit-tap-highlight-color: none;box-shadow:0 1px 1px #7717af;}
+.antwo-btn-disabled{background-color: #9d9b9b;border-top:0.125rem solid #c5c5c5; border-bottom:0.2rem solid #545454;color:#fff;box-shadow:none;text-shadow: none;}
+.antwo-btn-minwrap{bottom:-0.8375rem;width:8.9rem;margin-left:-4.45rem;}
+.antwo-btn-minwrap .antwo-btn-input{line-height: 1.675rem;}
+/*本期目标达成按钮*/
+.antwo-btn-light{display: block;width:11.6rem;height:2rem;background:url("/static/weixin/images/anniversarytwo/antwo-btn-bg.png")no-repeat;background-size: cover;font-size:0;}
+
+
+/*投资*/
+.antwo-st{position: relative;margin-top: 0.75rem;height: 6.75rem;}
+.antwo-st-img{width:9.55rem;margin-top: 1.75rem;}
+.antwo-pr-tx1{line-height: 2.725rem;}
+.antwo-pr-tx1 span,.antwo-pr-tx3{color:#fff446;font-size: 0.75rem;}
+.antwo-pr-tx2{line-height: 1.075rem;}
+.antwo-pr-tx3{line-height: 1.2rem;}
+/*获奖记录*/
+.scrolllist1{height:4.5rem;overflow:hidden;}
+.antwo-bear{margin-top:2rem;padding:0.35rem 1rem 0.3rem;}
+.antwo-beartxt{line-height: 1.275rem;color:#fff446;}
+.antwo-beartxt p:first-child{font-size: 0.55rem;}
+.antwo-beartxt p:last-child{font-size:0.45rem;}
+.antwo-bearlist{position:relative;text-align: left;font-size:0.45rem;line-height: 0.975rem;}
+.antwo-bearlist:before{position: absolute;left:0;top:0;content:"";width:100%;border-top:1px solid #be7efb;}
+.antwo-bearlist li{width: 50%;}
+.antwo-bearlist li span{color:#fff446;}
+/*满减券*/
+.marpad{padding-bottom: 1rem;}
+.marbot{margin-bottom: 1.4rem;}
+.antwo-pad{padding-top:0.25rem;}
+.antwo-bonus{position: relative;margin:0 auto 2.375rem;padding-top:0.5rem;width:12.75rem;height:5.675rem;background:url("/static/weixin/images/anniversarytwo/antwo-bonus-bg.png") center center no-repeat;background-size: cover;}
+.antwo-bonus-txt{height: 4.3rem;}
+.antwo-bonus-face{width:5.95rem;text-align: center;position: relative;}
+.antwo-bonus-face span{font-size: 2rem;font-weight: bold;}
+.antwo-face-img{width:0.625rem;position: relative;top:-0.1rem;}
+.antwo-bonus-maxface{color:#ffc8c8;text-align: left;}
+.antwo-maxtxt1{font-size: 0.45rem;line-height:0.75rem;}
+.antwo-maxtxt2{font-size:0.55rem;line-height: 0.9rem; }
+.antwo-maxtxt2 span{color:#fff446;}
+.antwo-invite-num{position:absolute;top:4.3rem;width:100%;font-size:0.45rem;color:#fff446;}
+.antwo-bonus-exipre{margin-bottom:0.5rem;line-height:0.8rem;color:#d7b0ff;font-size:0.5rem; }
+
+/*定期总交易额*/
+.antwo-sum{position:relative;color:#d4a8ff;font-size: 0.9rem;margin:1.375rem  0.45rem 1.1rem;}
+.antwo-sum:before,.antwo-sum:after{content: "";width:3.6rem;position: absolute;top:50%;border-top:1px solid #d4a8ff;font-size:0;}
+.antwo-sum:before{left:0;}
+.antwo-sum:after{right:0;}
+.antwo-num{color:#d4a8ff;}
+.antwo-num em{display:inline-block;height:1.6rem;line-height:1.6rem;margin:0 0.15rem;font-size: 0.75rem;vertical-align:top;}
+.antwo-num span{display: inline-block;width:1.35rem;line-height:1.8rem;height:1.8rem;margin:0 0.05rem;background:url("/static/weixin/images/anniversarytwo/antwo-num-bg.png") center center no-repeat;background-size: cover;color:#4f4f4f; font-size: 1.2rem;}
+.antwo-total-num{margin:0.9rem auto 0;width:9.5rem;height:1.75rem;line-height: 1.75rem;background: #660bc2;border-radius: 0.25rem;color:#fff;font-size:0.55rem;}
+.antwo-total-num span{font-size:0.7rem;font-weight: bold;}
+.antwo-num-txt{line-height:1.8rem;color:#cca1f8;font-size: 0.45rem;}
+
+/*活动实况*/
+.scrolllist2{height:4.5rem;overflow:hidden;}
+.antwo-activity-title{line-height:1.3rem;color:#fff446;font-size: 0.55rem;font-weight: bold;}
+.antwo-activity-cont{width:11.55rem;margin:0 auto;}
+.antwo-activity-cont li{position:relative;font-size:0.45rem;line-height: 0.975rem; text-align: left;}
+.antwo-activity-cont li:before{position: absolute;left:0;top:0;content:"";width:100%;border-top:1px solid #be7efb;}
+.antwo-activity-cont li span{color:#fff446;margin-right: 0.55rem;margin-left: 1.4rem;}
+/*参与活动*/
+.antwo-hot-img{width:0.8rem;margin-right: 0.7rem;}
+.antwo-hot-txt1{padding-top:1.425rem;padding-bottom:0.8rem;font-size: 0.55rem;color:#fff;}
+.antwo-hot-txt1 span{font-size:1.2rem;}
+.antwo-hot-txt2{color:#fff446;font-size: 0.6rem;}
+.antwo-hot-txt3{line-height:1.1rem;color:#fff446;font-size: 0.4rem;}
+
+/*活动规则*/
+.antwo-rule{margin:0.2rem auto 0;width:14.5rem;}
+.antwo-rule-num{width: 1.25rem;text-align: center;}
+.antwo-rule-num span{display:block;width:0.75rem;height: 0.75rem;line-height:0.85rem;background: #8e49d0;font-size: 0.5rem;}
+.antwo-rule p{line-height: 0.85rem;text-align: left;font-size: 0.55rem;width: 13.75rem;}
+
+
+/*弹层*/
+.antwo-layer{display: none;}
+.antwo-mask{position:fixed;left:0;top:0;z-index:10;width: 100%;height: 100%;background: rgba(0,0,0,.5);}
+.antwo-pop{width:12.5rem;height:7.5rem;position:fixed;z-index:20;left:50%;top:50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);background:url("/static/weixin/images/anniversarytwo/antwo-pop-bg.png") center center no-repeat;background-size: cover;border-radius:0.25rem;}
+.antwo-pop-close{position: absolute;right:-0.275rem;top:-0.45rem;width:1.2rem;height:1.2rem;}
+.antwo-pop-close img{width: 100%;height: 100%;}
+.antwo-pop-cont{padding-top: 1.45rem;}
+.antwo-tip1{line-height: 1.325rem;font-weight: bold;font-size: 0.9rem;}
+.antwo-tip2{line-height: 1.175rem;font-weight: bold;font-size: 0.75rem;}
+.antwo-timmin{line-height: 1.375rem;font-size: 0.55rem;color:#ffc1b6;}
+.antwo-pop-btn-txt{display:inline-block;margin:0.675rem 0.7rem;width:4.3rem;line-height:1.75rem;background: #fcde74;border-radius: 0.25rem;color:#ed3e20;font-size: 0.7rem;}
+.antwo-btn-st{margin:0.8rem 0.7rem 0;}
+.antwo-tip3{line-height: 2rem;}
+

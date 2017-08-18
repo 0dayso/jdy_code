@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tianxiaoyan (you@example.org)
+ * @date    2016-12-29 14:25:45
+ * @version $Id$
+ */
+body{ width: 100%; background: url('/static/weixin/activity/Lantern/images/bg.png') #2c274d top center repeat-y; background-size:contain; }
+.la-banner{ width: 100%; height:26.6rem;background: url('/static/weixin/activity/Lantern/images/la-banner.jpg') top center no-repeat; background-size: cover; overflow: hidden;}
+.la-banner p{ color: #fff; font-size: 0.65rem; text-align: center; padding-top:2.3rem; font-weight: bold;}
+.la-deng1{ width: 6.8rem; display: inline;}
+.la-deng li{ display: inline-block; width: 7.2rem; height:7.3rem; margin:0.2rem 0.3rem; position: relative;}
+.la-deng{ text-align: center; margin-top: 0.2rem;}
+.la-box{ position: relative; width: 15.65rem; height: 7.975rem; margin: 2rem auto 0; background:url('/static/weixin/activity/Lantern/images/la-box.png') top center no-repeat; background-size: cover;}
+.la-box table{ width: 100%; color: #a394d0; text-align: center;}
+.la-box table tr:first-child td{ font-size: 0.5rem; font-weight: bolder; padding-top: 1.85rem; text-align: left;  padding-left: 0.8rem;}
+.la-box table tr:nth-child(2) td:nth-child(1){ color: #f2d86a; font-size: 1.2rem; font-weight: bold;}
+.la-box table tr:nth-child(2){ color: #fff; font-size: 0.6rem;}
+.la-btn{ display: block; color: #b1651d !important; font-size:0.9rem; font-weight: bold; text-align: center; line-height: 1.55rem; width: 5.4rem; background: url("/static/weixin/activity/Lantern/images/btn.png"); background-size: cover; margin: 0.5rem auto 0;}
+.la-btn.disable{ background: url("/static/weixin/activity/Lantern/images/btn1.png"); background-size: cover; color: #59515e !important;}
+.la-btn.end{ background: url("/static/weixin/activity/Lantern/images/btn3.png"); background-size: cover; color: #f1e6dc !important;}
+.la-rules{ margin: 0 0.5rem 2.0rem;}
+.antwo-sum{position:relative;color:#7e6fa9;font-size: 0.9rem;margin:0.75rem  0rem 0.5rem; text-align: center; font-size: 0.6rem; font-weight: bold;}
+.antwo-sum:before,.antwo-sum:after{content: "";width:5.1rem;position: absolute;top:50%;border-top:1px dashed #7e6fa9;font-size:0;}
+.antwo-sum:before{left:0;}
+.antwo-sum:after{right:0;}
+.la-rules p{ color: #7e6fa9; font-size: 0.55rem; line-height: 1rem;}
+.la-text,.la-text1{ width:9.625rem; margin:0 auto; padding-top: 5.75rem;}
+.la-text1{ width: 10.625rem;}
+.la-btn1{ display: block; color: #b1651d !important; font-size:0.9rem; font-weight: bold; text-align: center; line-height:1.8rem; width:9.35rem; background: url("/static/weixin/activity/Lantern/images/btn2.png"); background-size: cover; margin: 0.75rem auto 0;}
+.la-title{ position: absolute; left: -0.4rem; right: 0; margin:0 auto; width: 4.45rem; z-index: -1; top: -0.9rem;}
+.pop-2{ text-align: center; padding-top:7.8rem; padding-bottom: 0.5rem;}
+.pop-2 input{ width:11.575rem; background:#fff; border-radius: 1rem; height:1.7rem; text-indent: 1rem; font-size: 0.7rem; line-height: 1.7rem; }
+.la-guang{ width: 7.2rem; position: absolute; top: -0.4rem; left: 0.1rem; z-index: -1;}
+.la-guang{ display: none;}
+/*.la-deng li:active{ width:7.2rem; height:7.3rem;background: url('/static/weixin/activity/Lantern/images/guang.png') top center no-repeat; background-size: cover;}
+*/.la-title1{ width: 5.275rem; margin:1.1rem auto 0.5rem;}
+.la-title2{ color: #a394d0; font-size: 0.6rem; text-align: center;}
+.la-prize{ width: 15.125rem; margin:0.75rem auto 0;}
+.la-mg{ margin: 1rem 0.5rem 1.5rem;}
+.la-list{ width: 100%;border: 0.125rem solid #7265c8; border-radius: 0.5rem; background: #554680; box-sizing:border-box; color:#e9e5f7; font-size: 0.6rem; padding: 1rem 0.8rem 0.8rem;}
+.la-list table thead{ color: #554680; font-size: 0.5rem; font-weight:bold; text-align: center;}
+.la-list table thead tr td:nth-child(1){ width: 2.475rem; height: 0.75rem;background: url("/static/weixin/activity/Lantern/images/title-bg.png"); background-size: cover; text-align: center;}
+.la-list table thead tr td:nth-child(2){ width:2.85rem; height: 0.75rem;background: url("/static/weixin/activity/Lantern/images/title-bg.png"); background-size: cover; text-align: center;}
+.la-list table thead tr td:nth-child(3){ width:4.75rem; height: 0.75rem;background: url("/static/weixin/activity/Lantern/images/title-bg.png"); background-size: cover; text-align: center;}
+.la-list table tbody tr:nth-child(1) td{ padding-top: 0.75rem; }
+.la-list table tbody{ text-align: center;}
+.la-list table tbody tr td{ line-height: 1rem;}
+.la-list table thead tr td{ font-weight: bold;}
+.la-text2{ color: #7e6fa9; font-size: 0.6rem; text-indent: 0.5rem; padding-top: 0.4rem;}
+/*pop*/
+.pop-layer{display: none;}
+.pop-mask{position:fixed;left:0;top:0;z-index:10;width: 100%;height: 160%;background: rgba(0,0,0,.7);}
+.pop{ position:fixed;width:14.4rem; height:15.375rem; background: url("/static/weixin/activity/Lantern/images/box.png"); background-size: cover;z-index:20;left:50%;top:50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.pop-box{ width: 10.7rem; height: 7.25rem; border: 1px solid #c48f35; margin: 0.2rem auto 0;}
+.pop-title{ color:#333333; font-size: 0.7rem; padding-top: 0.85rem; padding-bottom: 0.7rem;}
+.g-b{ width: 10.225rem; margin: 0 auto; position:absolute; bottom: 0; left: 0; right: 0; bottom:0.5rem;}
+.pop-close{ display: block; position: absolute; width:1.25rem; z-index: 9999; right: 0.8rem; top:1.4rem;}
+.pop-title{ color:#333333; font-size: 0.7rem; padding-top: 0.85rem; padding-bottom: 0.7rem;}
+.pop-title1{ font-size: 0.7rem; color: #ff0000; padding-top: 0.375rem; padding-bottom: 0.15rem;}
+.pop-box p{ padding-bottom: 0.25rem; line-height: 0.8rem;}
+.pop-1{ width: 15.225rem; height: 15.6rem;  background: url("/static/weixin/activity/Lantern/images/box1.png"); background-size: cover; -webkit-transform: translate(-53%, -50%);transform: translate(-53%, -50%); padding-left:0.8rem; box-sizing:border-box;}
+.pop-3{ width:14.4rem; height:15.6rem;  background: url("/static/weixin/activity/Lantern/images/box2.png"); background-size: cover; -webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.pop-4{ width:15.175rem; height:15.6rem;  background: url("/static/weixin/activity/Lantern/images/box3.png"); background-size: cover; -webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.pop-c,.pop-c1{ color: #554680; font-size: 0.75rem; font-weight: bold; text-align: center; line-height: 1.2rem;}
+.pop-c{ padding-top: 7.2rem;}

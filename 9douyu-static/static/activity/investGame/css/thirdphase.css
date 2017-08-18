@@ -1,0 +1,76 @@
+/**pk活动**/
+
+body{width:100%;background:#0d004f url('/static/activity/investGame/images/phase-bg-v1.jpg') center 0 no-repeat;background-size:cover;color: #fff;}
+.phase-banner{width: 100%;height: 914px;background: url('/static/activity/investGame/images/phase-banner-v2.jpg') center top no-repeat;background-size: cover;text-align: center;}
+.phase-time{display:inline-block;padding-top: 306px;line-height:40px;font-size: 28px;color: #fff;font-weight: bold;}
+.phase-title{margin:40px auto 20px;width:493px;height: 130px;background: url('/static/activity/investGame/images/phase-title-v1.png') center top no-repeat;font-size: 0;}
+.phase-title1{background: url('/static/activity/investGame/images/phase-title1-v1.png') center top no-repeat;}
+.phase-title2{background: url('/static/activity/investGame/images/phase-title2-v1.png') center top no-repeat;}
+.phase-wrap{position:relative;z-index:0;width: 1002px;margin: 0 auto;}
+.phase-project-area{position:relative;width: 100%;}
+/*.phase-project-area .phase-title{position: absolute;left:0;top:-16px;}*/
+.phase-project-area .phase-chip1{position: absolute;left:-90px;top:320px;z-index:2;width:83px;height: 99px;background: url('/static/activity/investGame/images/phase-chip1.png') center center no-repeat;}
+.phase-project-area .phase-chip2{position: absolute;left:946px;top:50px;z-index:2;width:84px;height: 96px;background: url('/static/activity/investGame/images/phase-chip2.png') center center no-repeat;}
+// .phase-project-wrap{margin-left: -50px;}
+.phase-project{position:relative;margin:85px 0 0 12px;padding:0 168px 0 184px;width:636px;height: 388px;background: #4732b2;border:3px solid #4791ff;border-radius: 10px;}
+.phase-project-title{position: absolute;left:-15px;top:-6px;width:240px;height:69px;line-height:60px;background: url('/static/activity/investGame/images/phase-project-title-v1.png') center top no-repeat;text-indent:25px;font-size: 28px;}
+.phase-progress{position: relative;margin:44px 0 13px;width:100%;height: 8px;background: #2d1c83;border-radius: 3px;}
+.phase-progress span{position: absolute;left:0;top:0;width: 100%;height: 100%;background: #fcea03;border-radius: 3px;}
+.phase-btn,.phase-btn:link,.phase-btn:visited,.phase-btn:hover,.phase-btn:active{display:block;margin:44px auto 0;width:402px;height: 60px;line-height: 60px;background: #2ca8ff;font-size: 30px;font-weight: bold;color:#fff;border-radius: 4px;box-shadow: 0 8px 0 #4791ff;text-align: center;}
+.phase-disable,.phase-disable:link,.phase-disable:visited,.phase-disable:hover,.phase-disable:active{background: #8a8a8a;box-shadow: 0 8px 0 #535253;color:#535253;}
+.phase-rate{margin-top: 80px;}
+.phase-text-margin{margin-bottom: 20px;height: 42px;}
+.phase-textcolor{line-height:1;font-size: 16px;color: #5d8bff;}
+
+.phase-text1{width: 280px; text-align: center;}
+.phase-text1 span{font-size: 58px;font-weight: bold;line-height: 1;position: relative;top:-10px;}
+.phase-text1 em{font-size: 26px;line-height: 1;position: relative;top:-10px;}
+.phase-text1 .phase-textcolor{padding-left: 12px;}
+
+.phase-text2{width:248px; text-align: center;}
+.phase-text2 span{font-size: 24px;padding-right:16px;line-height: 1;position: relative;top:20px;}
+// .phase-text2 .phase-textcolor{text-align:right;padding-right:40px;}
+/*pk count*/
+.phase-count-wrap{width: 534px;margin: 0 auto;}
+.phase-count-text{position:relative;margin-top:56px;width:534px;height:28px;line-height:28px;text-align: center;font-size: 28px;font-weight: bold;color:#1dd6ff;}
+.phase-count-text span{position: absolute;top:9px;display: block;width: 100px;height: 0;border-top:1px solid #af43eb;font-size: 0;}
+.phase-count-text span.left{left:0;}
+.phase-count-text span.right{right:0;}
+.phase-count-time{margin: 53px 0 87px -8px;}
+.phase-count-time span{float:left;margin-left:8px;width:53px;height: 79px;line-height:75px;background: url('/static/activity/investGame/images/phase-count-bg.png') center top no-repeat;font-size: 60px;color: #444444;font-weight: bold;text-align: center;}
+.phase-count-time em{float: left;margin-left:8px;width: 50px;text-align: center;line-height: 75px;font-size: 28px;font-weight: bold;color:#1dd6ff;}
+/*pk 得主*/
+// .phase-medal-wrap{margin-left: -40px;}
+.phase-medal-group{width: 1005px;margin:0 -1px 0 -2px;}
+.phase-medal-group p{padding:20px 0 30px;text-align: center;font-size: 20px;font-weight: bold;color:#ffe682;}
+.phase-medal-group ul{width: 100%;height:288px;background: url('/static/activity/investGame/images/phase-medal.png') center center no-repeat;}
+.phase-medal-group ul li{margin-bottom:7px;padding-left: 480px;height:80px; overflow:hidden; line-height:120px;font-size: 18px;}
+.phase-medal-group ul li.list1{padding-top: 10px;height:90px; line-height: 108px;}
+.phase-medal-group ul li.list2{line-height:100px;}
+.phase-medal-group ul li.list3{line-height:90px;}
+.phase-medal-group ul li.list4{margin-bottom: 0;padding-left: 0; line-height: 90px;}
+.phase-medal-group ul li.list5,.phase-medal-group ul li.list6{margin-bottom: 0;padding-left: 0;}
+.phase-medal-group ul li span{display: inline-block;width: 230px;}
+.phase-medal-group ul li em{display: inline-block;width: 180px; color:#ffe400; font-weight: bold; text-align: center;}
+.phase-data{padding:47px 0 57px;font-size: 24px;color:#db9fff;text-align: center;}
+.phase-data a{font-size: 24px;color:#db9fff;}
+/*标签式标题*/
+.phase-tag{width:152px;height: 38px;line-height:38px;background: url('/static/activity/investGame/images/phase-title-tag.png') center center no-repeat;font-size: 20px;font-weight: bold;text-align: center;text-indent:-12px;color:#832cbb;}
+/*pk记录*/
+.phase-gift{width: 578px;height: 311px;margin-top:29px;background: url('/static/activity/investGame/images/phase-gift.png') center center no-repeat;}
+.phase-gift h3{margin-top:50px;font-size: 20px;font-weight: bold;}
+.phase-gift h3.phase-gift-title6{margin-top: 55px; text-align: center;}
+.phase-record{position:relative;width:401px;height: 230px;margin-top:67px;background: #511382;border:6px solid #eb18c0;border-radius: 10px;}
+.phase-record .phase-tag{position:absolute;left:50%;margin-left:-63px;margin-top:-22px;}
+.phase-scroll{height:185px;overflow-y:auto;overflow-x:hidden;margin-top:30px;padding:0 15px;color:#db9fff;}
+.phase-scroll p{line-height: 32px;height:32px;font-size:14px;}
+.phase-scroll span,.phase-scroll em,.phase-scroll i{display: inline-block;vertical-align: middle;font-style: normal;text-align: left;}
+.phase-scroll span{width: 110px;}
+.phase-scroll em{width:94px;}
+.phase-scroll i{width:155px;white-space: nowrap;text-overflow: ellipsis;  -o-text-overflow: ellipsis;  overflow: hidden;}
+.phase-date{margin-top:8px;text-align: center;}
+
+/*活动规则*/
+.phase-rule .phase-tag{margin: 72px 0 17px;text-align: left;text-indent: 0;background: none;color:#ac72d4;font-weight: bold;}
+.phase-rule p{position: relative;padding-left: 20px;color:#db9fff;line-height: 28px;font-size: 14px; color:#ac72d4;}
+.phase-rule p span{position: absolute;left:0;}

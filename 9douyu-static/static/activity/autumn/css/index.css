@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com (you@example.org)
+ * @date    2017-7-26
+ * @version $Id$
+ */
+body{background-color: #fad78c;}
+.autumn-banner{width: 100%; height:560px ;background: url('/static/activity/autumn/images/banner.png') top center no-repeat;}
+.autumn-banner p{text-align: center;font-size: 16px; color: #d8533d; padding-top: 355px;}
+.autumn-wrap{width:100%;background: url('/static/activity/autumn/images/bg.png') top center no-repeat;}
+.autumn-title{width:218px; height:70px; margin:0 auto 15px; line-height: 70px ; text-align: center; font-size:28px; color: #fff; font-weight: bold ; background: url('/static/activity/autumn/images/title.png') 0 0 no-repeat; }
+.autumn-title.title2{background-position: -224px 0;}
+.autumn-title-sub{font-size:16px ; color: #a16114; text-align: center; margin-bottom: 20px;}
+
+.page-lottery{position:relative;width:660px; margin:0 auto 30px;}
+.page-speed-item{float:left;margin:0 0 0;width: 220px;height: 220px;line-height:220px;text-align: center;}
+.lottery-unit{background: url('/static/activity/autumn/images/lottery-bg.png') 0 0 no-repeat;}
+.deep .lottery-unit{background: url('/static/activity/autumn/images/lottery-bg.png') -220px 0 no-repeat;}
+.page-speed-dial .active{background: url('/static/activity/autumn/images/lottery-bg.png') 0 -220px no-repeat;}
+.deep .page-speed-dial .active{background: url('/static/activity/autumn/images/lottery-bg.png') -220px -220px no-repeat;}
+.page-speed-dial .btn-plate-disabled{background: url('/static/activity/autumn/images/lottery-bg.png') 0 -220px no-repeat;}
+.page-speed-txt{text-align:center;line-height:34px;font-size: 22px;color:#dc9e4d;}
+
+
+.btn-plate-default{width:200px;height: 200px; margin:10px; background:url('/static/activity/autumn/images/lottery-btn.png') 0 0 no-repeat;}
+.btn-plate-default:hover{background-position:-200px 0; }
+.deep .btn-plate-default{background-position:0 -200px;}
+.deep .btn-plate-default:hover{background-position:-200px -200px;}
+.btn-plate-disabled,.deep .btn-plate-disabled{background-position: -400px 0;}
+
+.autumn-project{width: 980px; border:10px solid #f8ca68; background-color: #fff; margin:0 auto 55px; border-radius: 5px;}
+.autumn-project-title{width:252px; text-align: center; height:56px; margin:20px auto 10px; line-height: 56px; font-size: 30px; color: #c4620c;background:url('/static/activity/autumn/images/title.png') 0 -70px no-repeat; }
+.autumn-project li{padding:20px 60px; border-bottom: 1px solid #fad78c;}
+.autumn-project table{width: 100%; line-height: 36px;}
+.autumn-project table th{font-size: 22px; padding:0 0 10px 5px;}
+.autumn-project table td{text-align: center;}
+.autumn-project table p{font-size: 20px;}
+.autumn-project table .red{color: #ff3333;}
+.autumn-project table span{font-size: 30px;}
+.autumn-project table em{font-size: 16px; color: #666;}
+a.autumn-btn-table,a.autumn-btn-table:visited{display: inline-block; width:156px; height:46px; line-height: 46px; color: #fff; background-color: #ffb541; font-size:20px; border-radius: 5px; -webkit-border-radius:5px; -moz-border-radius:5px; }
+a.autumn-btn-table:hover,a.autumn-btn-table:active{background-color: #f68d2f;}
+a.autumn-btn-table.disable{background-color: #c9c9c9;}
+
+/*rule*/
+.autumn-rule-wrap{width: 100%; background-color: #f8ca68; padding:40px 0 30px; margin-bottom: -80px;}
+.autumn-rule{width: 1000px; margin:0 auto;  font-size: 16px; line-height:30px ; color: #9b6b06;}
+.autumn-rule h3{font-size: 20px;}
+.autumn-rule span{margin:0 5px 0 25px;}
+
+
+/*弹层*/
+.anniversary-mask{position: fixed; left: 0; top:0; bottom: 0; z-index: 999;width:100%;background: #000;filter: alpha(opacity=40);-moz-opacity: 0.4;opacity: 0.4;}
+.anniversary-pop{width:300px; height:292px;background:url('/static/activity/autumn/images/pop-bg.png') center top no-repeat; text-align: center;  position: fixed; left: 50%; top: 50%; margin:-146px 0 0 -150px; z-index: 9999;}
+.anniversary-pop-close{position:absolute; width:12px; height:12px; top:70px ; right:14px; cursor: pointer; background:url('/static/activity/autumn/images/pop-close.png') 0 0 no-repeat;}
+.anniversary-pop-tip,.anniversary-pop-tip1,.anniversary-pop-tip2{margin:130px 0 40px;line-height:22px;font-size:18px; color: #fff;}
+.anniversary-pop-tip{margin-top: 85px;}
+.anniversary-pop-tip2{margin-top: 45px;margin-bottom: 10px}
+.anniversary-btn-pop,.anniversary-btn-pop:visited,.anniversary-btn-pop:hover{display: block;margin: 30px auto 0;position:relative; width:180px;height: 42px;line-height: 42px;border-radius: 5px;background-color: #ff8809;font-size:24px;color: #fff;}
+

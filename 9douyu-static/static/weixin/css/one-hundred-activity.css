@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*新手注册送100元*/
+
+
+.t-h80px{ height: 21rem !important;}
+.t-xs-1{ width:100%; height:21.75rem;background: url('../images/m-centerpic.png') top center no-repeat; background-size: auto 19rem; color: #fff; margin:0 auto;}
+.t-xs-2{height:18rem;background-size: auto 16rem !important;}
+.t-xs-2-1{height:17rem; background-size: auto 15rem !important;}
+.t-xs-btn{ width:14.525rem; height:2.175rem;background: url('../images/t-xs-btn.png') top center no-repeat; background-size: auto 2.175rem; margin:-1.5rem auto 0; display: block;}
+.t-xs-3{ text-align: center; font-size: 0.6rem; color: #8c0a00; position: relative;width:14.525rem;  margin:0.3rem auto 0;}
+.t-xs-4{ display:block; position: absolute; width:2.05rem; height: 1px; background: #8c0a00; top:0.4rem;}
+.t-xs-5{ right: 0rem;}
+/*老用户登陆后状态*/
+.m-add_txt{width:14.525rem; height:2.175rem;background: url('../images/m-noget.png') top center no-repeat; background-size: auto 2.175rem; margin:-1.5rem auto 0; display: block;}
+
+
+
+/*新手注册100现金详情*/
+.m-txtshow{width:100%;position:absolute;top: 24rem;left:0; text-align: center;}
+.m-txtshow .m-heng{width: 1.9rem;height: 0.025rem;display: inline-block;border-top: 1px solid #a92418;  padding-top: 0.2rem;}
+.m-po1{position: absolute;top: 0.5rem;left: 0.7rem;}
+.m-po2{position: absolute;top: 0.5rem;right: 0.7rem;}
+.m-txtshow .m-txt{font-size: 0.6rem;color: #8c0a00;text-align: center;font-family: helvetica;}
+.one-hundred-detail-bg{width: 100%;position:absolute;top:0;left:0;overflow:hidden;height:46.5rem;background: url('../images/m-alreadyget2.png') 0 0 no-repeat #ffe2b6;background-size: 100%;}
+.m-gocash{width: 10rem;height: 1.8rem;display: block;background: url('../images/m-tocashb.png') 0 0 no-repeat;background-size: cover;position: absolute;top: 13rem;left:2.95rem;}
+.m-toinvest{width: 10rem;height: 1.8rem;display: block;background: url('../images/m-toinvest.png') 0 0 no-repeat;background-size: cover;}
+.m-alreadytocash{width: 10rem;height: 1.8rem;display: block;background: url('../images/m-tocasha.png') 0 0 no-repeat;background-size: cover;}
+.addtop1{top: 22rem;}
+
+.addtop3{top: 30.75rem;}
+.m-touser{width: 10rem;height: 1.8rem;display: block;background: url('../images/m-touser.png') 0 0 no-repeat;background-size: cover;position:absolute;left:2.95rem;}
+.m-user{width: 10rem;height: 1.8rem;display: block;background: url('../images/m-alreadyuse.png') 0 0 no-repeat;background-size: cover;position:absolute;left:2.95rem;}
+.m-todetail{width:1.575rem;height: 1.575rem;display: block;background: url('../images/m-wen.png') 0 0 no-repeat;background-size: cover;position:absolute;right:2.45rem;top: 16.625rem;}
+.addtop2{top: 25.625rem;}
+.cutpad{left: 1rem;top: 35.575rem;}
+.m-txtshow .addw{width: 5.5rem;}
+.f32{font-size: 0.8rem;}
+.cutpad p{font-size: 0.6rem;color: #4d0c00;font-weight: lighter;line-height: 1.3rem;font-family: helvetica;text-align: left;}
+
+
+/*弹层*/
+.one-pop{display: none;}
+.m-blackbg{width: 100%;height: 46.5rem;background: rgba(0,0,0,0.7);background-size: cover;position: fixed;top:0;left:0; right:0; bottom:0; z-index:100;}
+.m-closetan{width: 0.85rem;height: 0.9rem; z-index:150;background: url('../images/m-closebtn.png') 0 0 no-repeat;background-size: 100%;position:absolute;top: 0.375rem;right: 0.375rem;;}
+.one-pop-img{position: absolute;top:2.125rem;left: 0; right: 0; text-align: center; z-index:200;}
+.one-pop-img img{width:13.475rem; height: 24.625rem;}
+
+
+
+
+

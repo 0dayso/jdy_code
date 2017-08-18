@@ -1,0 +1,53 @@
+/**双蛋活动 planb**/
+
+body{background: #0d0e3c url('/static/activity/festivalTwo/images/page-bg.jpg') center top no-repeat;color: #fff;}
+.page-time{height:527px;width:400px;padding-top:386px;margin:0 auto;text-indent:90px;font-size: 24px;color: #fff;text-align: center;transform:rotate(-7deg);-ms-transform:rotate(-7deg);-moz-transform:rotate(-7deg);-webkit-transform:rotate(-7deg); -o-transform:rotate(-7deg); }
+.page-wrap{width: 858px;margin: 0 auto;}
+.page-section1{width:1039px;height: 223px;margin:0 auto;background: url('/static/activity/festivalTwo/images/page-section1.png') center top no-repeat;text-align: center;color:#fff800;font-size: 28px;}
+.page-section1-txt{padding-top: 130px;}
+.page-auto{margin:0 auto;}
+/*主体*/
+.page-section2-top{width: 1039px;height: 178px;overflow:hidden;background: url('/static/activity/festivalTwo/images/page-section2-bg.png') center top no-repeat;}
+.page-section2-bottom{position:relative;width:1039px;height: 126px;background: url('/static/activity/festivalTwo/images/page-section2-bg.png') center bottom no-repeat;}
+.page-section2-main{margin-top:-32px;width:1039px;background: url('/static/activity/festivalTwo/images/page-section2-bgcolor.png') center bottom repeat-y;}
+.page-section2-top h6{padding-top:46px;padding-left:124px;font-size: 30px;color:#fff;text-align: center;font-weight: bold;}
+.page-section2-top h6 span.text1{padding-left:3px;position: relative;top:0;}
+.page-section2-top h6 span.text2{padding-left:3px;position: relative;top:-2px;}
+/*按钮*/
+.page-btn,.page-btn:link,.page-btn:visited,.page-btn:hover,.page-btn:active{display:block;width:153px;height: 48px;line-height: 48px;background: #f73c5e;font-size: 24px;font-weight: bold;color:#fff;border-radius: 4px;box-shadow: 0 6px 0 #ba112e;text-align: center;}
+.page-btn img,.page-btn:link img,.page-btn:visited img,.page-btn:hover img,.page-btn:active img{width:15px;margin:-4px 0 0 0;}
+.disable,.disable:link,.disable:visited,.disable:hover,.disable:active{background: #8a8a8a;box-shadow: 0 6px 0 #535253;color:#535253;}
+.disable img,.disable:link img,.disable:visited img,.disable:hover img,.disable:active img{display: none;}
+/*投资*/
+.project-wrap{width:742px;height:176px;margin:32px auto 0;padding:0 116px;background: url('/static/activity/festivalTwo/images/page-project-bg.png') center bottom no-repeat;text-align: center; }
+.project-title{padding:21px 0 23px;text-align:left;font-size: 28px;color:#fff;font-weight: bold;}
+.project-rate{width:152px;}
+.parject-text{width: 218px;}
+.parject-total{width: 206px;}
+.project-des{margin-top:6px;font-size: 14px;color:#71c5ff;}
+.project-bigtxt{height:40px;padding-top:10px;font-size:50px;color:#ffee01;font-weight: bold;}
+.project-bigtxt span{font-size: 20px;font-weight: normal;}
+.project-txt{height:34px;padding-top:16px;font-size: 26px; }
+.parject-btn{padding-top: 16px;}
+.page-fish{position: absolute;left:620px;top:263px;}
+/*嘉年华惊喜*/
+.page-section3{position:relative;margin:0 auto;padding:0 58px;width: 742px;height: 492px;background: url('/static/activity/festivalTwo/images/page-section3.png') center bottom no-repeat;}
+.page-section3-title{padding:118px 0 12px;font-size:28px;font-weight: bold; text-align: center;}
+.page-section3-main{height: 236px;}
+.page-section3-img{width:250px;margin-left: 27px;}
+.page-section3-img img{width: 100%;}
+.page-section3-info{padding-left: 66px;font-size:28px;}
+.page-section3-name{padding:74px 0 26px;color:#fff600;font-weight: bold; }
+.page-section3-phone{line-height:42px;font-weight: bold;}
+.page-section-des{margin-top:10px;color:#fff25c;font-size: 18px;text-align: center;}
+/*活动规则*/
+.page-rule {width: 1002px;}
+.page-rule h4{text-align:center;margin: 26px 0 0 0;line-height: 48px;color:#acddff;font-size: 18px;font-weight: bold;}
+.page-rule p{position: relative;padding-left: 22px;color:#71c5ff;line-height: 30px;font-size: 14px; }
+.page-rule p span{position: absolute;left:0;}
+
+.page-section4{position:relative;width: 858px;height: 417px;margin: 50px auto 0;background: url('/static/activity/festivalTwo/images/page-section-bg.png') center bottom no-repeat;}
+.page-section4-head{position: absolute;left:50%;top:-50px;margin-left:-220px;width:440px;height: 121px;}
+.page-section4-table{width: 700px;margin:0 auto;text-align: center;padding-top: 70px;}
+.page-section4-table thead td{height:55px;font-size:28px;color: #fff;font-weight: bold; }
+.page-section4-table tbody td{height:48px;font-size: 18px;color: #fff600;font-weight: bold;vertical-align: middle;}

@@ -1,0 +1,189 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none;
+
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    color: #ffffff;
+    font-family: "SourceHanSansCN", "Microsoft YaHei", "Arial Black";
+
+}
+
+.hide {
+    display: none;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.page .wrap {
+    height: 100%;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    padding: 2.75rem 0;
+}
+
+.page-current {
+    z-index: 1;
+}
+
+
+.safe-list {
+    width: 100%;
+    position: relative;
+    padding: 0 0.8rem;
+    margin-top: -1rem;
+    height: 6.75rem;
+
+}
+
+.safe-list-bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    vertical-align: top;
+
+}
+
+.safe-list-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+.safe-list-imgBox{width:33.75%;text-align:center;}
+
+
+.safe-list-icon {
+    margin-left: 1.5rem;
+    margin-top: 0.2rem;
+}
+
+.list-icon1 {
+    width: 3.325rem;
+    margin-left: 1.4rem;
+}
+
+.list-icon2 {
+    width: 3.65rem;
+    margin-left: 1.3rem;
+}
+
+.list-icon3 {
+    width: 3.35rem;
+    margin-left: 1.375rem;
+}
+
+.list-icon4 {
+    width: 3.1rem;
+}
+
+.list-icon5 {
+    width: 3.2rem;
+}
+
+.list-icon6 {
+    width: 3.1rem;
+}
+
+.safe-list-flex {
+
+    display: box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    padding-right: 1.25rem;
+}
+
+.safe-list-txt {
+    margin-top:0.375rem;
+    width:66.25%;
+    line-height: 0.85rem;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    box-sizing: border-box;
+
+}
+.safe-list-title {
+    height: 1.95rem;
+    color: #9c7744;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.95rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.safe-list-line {
+    position: relative;
+    height: 1.5rem;
+    width: 11.95rem;
+    margin: 0 auto;
+    border-left: 1px dotted #9c7744;
+    border-right: 1px dotted #9c7744;
+    z-index: 10;
+}
+
+.color-orange {
+    color: #ffa310;
+}
+
+.icon-arrow {
+    height: auto;
+    width: 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -0.5rem;
+    z-index: 8;
+}
+
+.icon-arrow-down{
+    top:10px;
+
+}
+/* 兼容问题*/
+@media screen and (max-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
+    .safe-list-imgBox{width:26%;}
+    .safe-list-txt{width:74%;}/*iphone4*/
+}
+@media screen and (max-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+    .safe-list-imgBox{width:31%;}
+    .safe-list-txt{width:69%;}
+}
+/*arrow down safe-page*/
+.pt-page-moveIconDown {
+    -webkit-animation: moveIcondown ease 1.5s both infinite;
+    animation: moveIcondown ease 1.5s both infinite;
+}
+@-webkit-keyframes moveIcondown {
+    0% { -webkit-transform: translateY(-100%); opacity:0;}
+    50% { -webkit-transform: translateY(0); opacity:1;}
+    100% { -webkit-transform: translateY(100%); opacity:0;}
+}
+@keyframes moveIcondown {
+    0% { -webkit-transform: translateY(-100%); transform: translateY(-100%); opacity:0;}
+    50% { -webkit-transform: translateY(0%); transform: translateY(0%); opacity:1;}
+    100% { -webkit-transform: translateY(100%); transform: translateY(100%); opacity:0;}
+}
+

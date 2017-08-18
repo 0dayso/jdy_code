@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.ucrg-banner{width: 100%; height:458px;background: url('../images/topic/ucrg-banner.jpg') no-repeat top center;}
+
+.ucrg-focus{width: 1020px; margin:0 auto;background: url('../images/topic/ucrg-bg1.jpg') no-repeat 0 0 #001e4e; overflow: hidden; position: relative;}
+.ucrg-focus_main{width: 648px; height: 498px; overflow: hidden; margin:138px 0 22px 188px; }
+.ucrg-focus_main li{width: 648px; height: 498px; text-align: center; float: left; color: #fff; font-size: 16px; line-height: 24px}
+.ucrg-focus_main li img{width: 648px; height: 416px;  margin-bottom: 15px;}
+
+.ucrg-focus_num{width: 948px; background: url('../images/topic/ucrg-repeat.gif') repeat 0 0; height: 121px; margin:0 auto 115px;}
+.ucrg-focus_num li{width: 142px; height: 91px; float: left; margin:15px 0 0 14px; cursor: pointer;}
+.ucrg-focus_num img{width: 142px; height: 91px;}
+.ucrg-focus_num li.on{box-shadow: 0 0 6px 1px #fff;}
+#focus_prev,#focus_next{width: 30px; height: 52px;background: url('../images/topic/ucrg-icon.png') no-repeat 0 0; position: absolute; top:290px; cursor: pointer; }
+#focus_prev{left: 94px;}
+#focus_next{right: 94px; background-position: -30px 0;}
+
+.ucrg-wrap{width: 1020px; height: 680px; margin:0 auto 80px;background: url('../images/topic/ucrg-bg2.jpg') no-repeat 0 0 #001e4e; overflow: hidden; position: relative;}
+.ucrg-box{width: 100%;background: url('../images/topic/ucrg-repeat02.png') repeat-y top center #001e4e; overflow: hidden;}
+.ucrg-riskcalc-logo{width:672px; height: 115px; background: url('../images/topic/ucrg-riskcalc.png') no-repeat 0 0; position: absolute; left:30px; top: 278px; }
+.ucrg-riskcalc-txt{color: #fff; font-size: 16px; line-height: 28px; text-indent: 2em; width: 520px; margin:160px 0 0 405px; letter-spacing: 0.5px; }
+.mb200{margin-bottom: 200px;}
+.ucrg-title{text-align: center; color: #fff; line-height: 38px; font-size: 14px; margin: 150px 0 20px;}
+.ucrg-title h2{color: #fccf02; font-size: 26px; margin-bottom: 20px;}
+.ucrg-title img{ margin-top: -10px;}
+.ucrg-main{width: 820px; height: 365px; overflow-y:auto; margin: 0 auto; color: #fff; font-size: 16px; line-height: 28px; text-indent: 2em;}
+
+.ucrg-wrap2{width: 1002px; position: relative; height: 2020px; margin: 0 auto; overflow: hidden; font-size: 16px; line-height: 32px; color: #fff;}
+.ucrg-img-style1{width: 809px; height: 419px; position: absolute;background: url('../images/topic/ucrg-bg4.png') no-repeat 0 0;}
+.ucrg-img-style2{width: 890px; height: 399px; position: absolute;background: url('../images/topic/ucrg-bg3.png') no-repeat 0 0;}
+.ucrg-img-style1 img{position: absolute; left: 74px; top:110px; width:336px; height: 239px;}
+.ucrg-img-style1 p{position: absolute; left:470px; top: 185px;}
+.ucrg-img-style2 img{position: absolute; right: 32px; top:90px; width:336px; height: 239px;}
+.ucrg-img-style2 p{position: absolute; right:420px; top: 165px; text-align: right;}
+a.ucrg-btn{position: absolute; width:102px; height: 33px; line-height: 32px; color: #fff;background: url('../images/topic/ucrg-btn.png') no-repeat 0 0; text-indent: 15px;}
+.ucrg-img-style1 a{bottom:18px; left:200px;}
+.ucrg-img-style2 a{bottom:18px; right:140px;}
+.ucrg-img-box1{left:0; top: 0; z-index: 6;}
+.ucrg-img-box2{right:55px; top:315px; z-index: 5;}
+.ucrg-img-box3{left:0; top:592px; z-index: 4;}
+.ucrg-img-box4{right:55px; top:910px; z-index: 3;}
+.ucrg-img-box5{left:0; top:1185px; z-index: 2;}
+.ucrg-img-box6{right:55px; top:1500px; z-index: 1;}
+
+.ucrg-article-box{width: 100%;background: url('../images/topic/ucrg-repeat02.png') repeat-y top center #001e4e; position: relative; overflow: hidden;}
+.ucrg-article-wrap{width:1006px; height: 525px; padding-top:116px;background: url('../images/topic/ucrg-bg5.png') no-repeat top center ; margin: 85px auto 70px ; position: relative; z-index: 10; color: #fff; }
+.ucrg-article-wrap img{margin:0 0 25px 129px;}
+.ucrg-article-wrap h1{text-align: center; font-weight: 400;font-size: 16px; line-height: 30px;}
+.ucrg-banner2{width: 100%; height:499px;background: url('../images/topic/ucrg-banner02.jpg') no-repeat top center; position: absolute; left: 0; top: 0; z-index: 0;}
+.ucrg-article-main{background: url('../images/topic/ucrg-repeat03.jpg') repeat-x 0 0 #002d66;  width: 950px; padding-bottom: 40px; margin: 0 auto 100px; position: relative;   }
+.ucrg-article-main h2{color: #fccf02; font-size: 24px;background: url('../images/topic/ucrg-bg6.png') no-repeat left bottom; height: 48px; line-height: 40px; text-indent: 46px; padding-top: 35px; margin-bottom: 5px;}
+.ucrg-article-main h3{color: #fff; font-size: 20px; line-height: 30px; padding: 0 45px;}
+.ucrg-article-main h3 span{font-size: 16px;}
+.ucrg-article-main p{color: #fff; font-size: 16px; line-height: 30px; text-indent: 2em; padding: 0 45px;}
+.ucrg-article-main p.yellow{color: #fccf02;}
+.ucrg-article-line1{position: absolute;background: url('../images/topic/ucrg-line1.png') no-repeat top center; left: 0; top: 0; height: 1px; overflow: hidden; line-height: 0; font-size: 0; width: 950px;}
+.ucrg-article-line2{position: absolute;background: url('../images/topic/ucrg-line2.png') no-repeat top center; left: 0; bottom: 0; height: 1px; overflow: hidden; line-height: 0; font-size: 0; width: 950px;}

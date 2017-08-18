@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tianxiaoyan (you@example.org)
+ * @date    2017-01-05 10:27:55
+ * @version $Id$
+ */
+body{background-color: #d54d35; }
+a{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.sp-banner{width: 100%; height: 21.65rem; box-sizing: border-box; background: url('/static/weixin/activity/springFestival/images/banner.png') top center no-repeat; background-size: cover; overflow: hidden;}
+.sp-banner p{ text-align: center; color: #ffde78; font-size: 0.7rem; margin-top: 8.85rem; font-weight:bold;}
+.sp-1{ position: relative; width: 100%; height: 15.825rem; box-sizing: border-box; background: url('/static/weixin/activity/springFestival/images/bg.png') top center no-repeat; background-size: cover; overflow: hidden;}
+.sp-rule img{ width: 3.425rem;}
+.sp-rule{ position: absolute; right: 1.55rem; top: 5.7rem;}
+.sp-text,.sp-text1{ color: #c54e3a; font-size: 0.6rem; text-align: center;}
+.sp-text strong{ font-weight: bold;}
+.sp-text{ margin-top: 8.2rem;}
+.sp-btn,.sp-btn1{ width: 5.175rem; display: inline-block; padding: 0 0.7rem;}
+.sp-2{ text-align: center; padding-top: 0.2rem;}
+
+#lottery{ width: 15.45rem; margin:0.3rem auto 0.4rem;}
+#lottery table{ text-align: center;}
+#lottery table td{ width: 5.3rem; text-align:center;vertical-align:middle;font-size:24px;color:#333;font-index:-999}
+#lottery table td a{ width: 4.825rem; height: 4.075rem; background: url('/static/weixin/activity/springFestival/images/btn1.jpg') top center no-repeat; display:block; background-size: cover; margin-top: -0.25rem; margin-left: 0.18rem;}
+#lottery table td.active{background-color:#ea0000;}
+.sp-bg{  width: 4.825rem;  height: 4.075rem; background: url('/static/weixin/activity/springFestival/images/bj1.jpg') top center no-repeat; display:block; background-size: cover; text-align: center; margin:0 auto 0.25rem; }
+.sp-bg.active{ width: 4.825rem; height: 4.075rem; background: url('/static/weixin/activity/springFestival/images/bj-2.jpg') top center no-repeat; display:block; background-size: cover; text-align: center; }
+.sp-bg img{ padding-top: 0.6rem; width: 2.925rem;}
+.sp-img{ width: 3.675rem !important; padding-top: 1.35rem !important;}
+.sp-img1{ width:2.425rem !important; padding-top: 1.35rem !important;}
+.sp-text2,.sp-text3{ font-size: 0.6rem; color: #fcb94c; text-align: center;}
+.sp-title{  width:100%;  height: 4.25rem; background: url('/static/weixin/activity/springFestival/images/title.png') top center no-repeat; display:block; background-size: cover; text-align: center; margin:-1rem auto 0; }
+.sp-box2{  width:14.4rem; height:5.125rem; margin: 0 auto 0.3rem; background: url('/static/weixin/activity/springFestival/images/box.jpg') top center repeat-y; display:block; background-size: cover;}
+
+.first-table{ width: 100%; text-align: center; color: #f5d2a3; margin-top: 0.2rem;}
+.first-table tr:nth-child(1) td:nth-child(1),.first-table tr:nth-child(1) td:nth-child(2){ color: #f5d2a3; font-size:0.7rem; height: 1.8rem; font-weight: normal;}
+.first-table tr:nth-child(1) td:nth-child(1) span,.first-table tr:nth-child(1) td:nth-child(2) span{ font-size:1.1rem;}
+
+.sp-box2 h5{ width: 7.2rem; text-align: center; color: #f5d2a3; font-size: 0.7rem; line-height:1.4rem;}
+.first-btn{  width:4.95rem; height: 1.675rem; background: url('/static/weixin/activity/springFestival/images/btn2.png') top center no-repeat; display:block; background-size: cover; text-align: center; margin:0 auto; }
+.invest-wait-btn{  width:4.95rem; height: 1.675rem; background: url('/static/weixin/activity/springFestival/images/sp-btn-2.png') top center no-repeat; display:block; background-size: cover; text-align: center; margin:0 auto; }
+.sp-box{ width: 100%; background:url('/static/weixin/activity/springFestival/images/bg1.png') repeat 0 0; background-size:16.0rem auto;}
+.first-btn.disable{ width:3.075rem; height: 3.05rem;background:url('/static/weixin/activity/springFestival/images/btn3.png') 0 0 no-repeat; background-size: cover; margin-top: -0.5rem;}
+.sp-3{ width: 100%; height: 2.1rem; background:url('/static/weixin/activity/springFestival/images/bg2.png') repeat 0 0; background-size:16.0rem auto; margin-top: -0.3rem;}
+.sp-rule1{ background: #a63f36; padding: 1.5rem 0.5rem 1.2rem;}
+.antwo-sum{position:relative;color:#faf1bb;font-size: 0.6rem; font-weight: bold; margin:0rem  0rem 0.5rem;text-align: center;}
+.antwo-sum:before,.antwo-sum:after{content: "";width:5.8rem;position: absolute;top:50%;border-top:1px dashed #faf1bb;font-size:0;}
+.antwo-sum:before{left:0;}
+.antwo-sum:after{right:0;}
+.sp-rule1 p{ color: #faf1bb; font-size: 0.6rem; line-height: 1rem;}
+.sp-bm{ width: 100%; height: 2.4rem; background:url('/static/weixin/activity/springFestival/images/bg3.png') repeat 0 0; background-size:16.0rem auto; }
+
+.pop-layer{display: none;}
+.pop-mask{position:fixed;left:0;top:0;z-index:10;width: 100%; bottom: 0; background: rgba(0,0,0,.7);}
+.pop{width:15.2rem; height:14.725rem; position:fixed;z-index:20;left:50%;top:50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%); background: url("/static/weixin/activity/springFestival/images/box1.png") no-repeat 0 0; background-size: 15.2rem auto; overflow: hidden;}
+.pop-text{ width:8.35rem; margin: 1.1rem auto 0;}
+.pop-wrap{ width: 11.65rem; margin: 1.3rem auto 0;}
+.sp-rules{ color: #7f511a; font-size:0.6rem; line-height: 1.2rem;}
+.sp-rules span{ display: inline-block; width: 0.675rem; height: 0.675rem;background:url('/static/weixin/activity/springFestival/images/radio.png') 0 0 no-repeat ; background-size:cover; text-align: center; vertical-align: top;  line-height: 0.7rem; color: #7f511a; margin-top: 0.2rem; margin-right: 0.2rem;  }
+.pop-btn img{ width: 5.1rem; margin: 0.75rem auto 0;}
+
+.pop-text4,.pop-text6{ color: #7f511a; text-align: center; font-size: 0.6rem; line-height: 1.1rem;}
+.pop-text4 span{ color: #cb5046; font-size: 0.75rem; font-weight: bold;}
+.pop-text5{ color: #cb4f46; font-size: 0.6rem; text-align: center; line-height: 1.1rem;}
+.pop-img{ width: 3.575rem; margin: 1.2rem auto 0.1rem;}
+.pop-text6{padding-top: 0.8rem;}
+.pop-text6 span{ color: #d02519; font-weight: bold; }
+
+.pop-sign{ width: 15.2rem; margin:0 auto 0rem; overflow: hidden;}
+.pop-sign li{ display:block; float: left; text-align: center; width: 3.35rem; padding-top: 0.2rem;}
+.pop-sign li i{ display: inline-block; width: 1.7rem; height: 1.55rem; background: url('/static/weixin/activity/springFestival/images/yuan1.png') 0 0 no-repeat ; background-size:1.7rem auto;}
+.pop-sign li i.disable{ width: 2.0rem; height: 1.575rem; background: url('/static/weixin/activity/springFestival/images/yuan.png') 0 0 no-repeat ; background-size:2.0rem auto;}
+.pop-sign li span{ color: #7f511a; font-size: 0.6rem;}
+.pop-sign li:nth-child(1){ margin-left: 1rem;}
+.pop-sign li:nth-child(5){ clear: both; margin-left: 2.6rem;}
+.pop-text7{ width: 6.525rem;margin: 1.1rem auto 0;}
+.pop-pr{ color: #7f511a; font-weight: bold; font-size: 0.6rem; text-align: center; line-height: 1.1rem;}

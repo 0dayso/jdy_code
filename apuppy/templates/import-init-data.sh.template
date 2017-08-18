@@ -1,0 +1,4 @@
+#!/bin/bash
+export MYSQL_PWD='{{ mysql_password }}'
+#ls data/mysql-import/*.sql | awk '{print "mysql -h {{ mysql_host }} -P {{ mysql_port }} -u {{ mysql_user }} {{ mysql_database }} < " $0}' | sh
+ls data/mysql-import/auto-export/*.sql | awk '{print "mysql -h {{ mysql_host }} -P {{ mysql_port }} -u {{ mysql_user }} {{ mysql_database }} < " $0}' | sh

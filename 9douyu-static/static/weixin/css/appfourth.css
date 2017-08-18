@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2015-12-09 11:54:00
+ * @version $Id$
+ */
+
+.x-app4-bg{position:absolute; overflow: hidden; z-index:-10;  height: 100%; background-color: #f73c1d;}
+.x-app4-bg img{width:100%;height: 100%;}
+.x-app4-btn-box{ width:13.25rem; padding-top:3.75rem;text-align: center; margin:0 auto; background: url("../images/x-app4-img2.png") no-repeat top center; background-size:10rem 4.85rem ;}
+.x-app4-btn-box a,.x-app4-btn-box a:visited{display:block;width:13.25rem; height: 2.5rem; line-height: 2.125rem; text-align: center; font-size: 1.2rem; color: #000;background: url("../images/x-app4-img3.png") no-repeat 0 0; background-size: 100%;}
+.x-app4-btn-box p{font-size: 0.6rem; color: #000; line-height: 1rem; padding:0.25rem 0;}
+.x-app4-img4{width: 14.45rem; margin:0.5rem auto 2.25rem; position: relative;z-index: -5; }
+.x-app4-img4.mt{margin: -1rem auto 1rem; width: 13rem;}
+
+/*tianxiaoyan add 12-11*/
+.t-app4-img4{width: 14.45rem; margin:0 auto 1rem; padding-top: 1.575rem; }
+.t-app4-btn{background: url("../images/t-app4-img1.png") no-repeat 0 0; margin:0 auto 1.25rem; width: 7.675rem; height: 1.55rem; background-size:7.675rem 1.55rem; color: #000000; font-size: 0.7rem; text-align: center; line-height: 1.35rem; }
+.t-app4-btn-bj{ width:14.2rem; height: 3.625rem; background: #f6ca0b; border-radius: 0.8rem; border:2px solid #000000; background-size:14.2rem 3.625rem; margin:0 auto 0.75rem; overflow: hidden; }
+.t-app4-1{ width: 9.2rem; float: left; color: #000000; height: 2.35rem; line-height: 2.35rem; margin: 0.625rem 0 0 0.625rem; }
+.t-app4-1 dt{ display: inline-block; font-size:1.5rem; border-right: 2px solid #000; font-weight: bold; padding-right: 0.7rem;float: left;}
+.t-app4-1 dd{  float: left; line-height: 1rem; font-size: 0.7rem; margin-top: 0.1rem; padding-left: 0.5rem;}
+a.t-app4-btn1,a.t-app4-btn2{background: url("../images/t-app4-btn1.png") no-repeat 0 0; display: block; margin:0.7rem 0.5rem 0 0; width: 3.675rem; height: 2.3rem; background-size:3.675rem 2.3rem; color: #ffffff; font-size: 0.7rem; text-align: center; line-height: 2.1rem; float: right;}
+a.t-app4-btn2{background: url("../images/t-app4-btn2.png") no-repeat 0 0;  background-size:3.675rem 2.3rem; }
+.t-app4-bg{ width: 100%;background: url("../images/x-app4-bg1.png") no-repeat top center; background-size: cover; height: 100%; padding-bottom: 0.5rem; }
+
+.t1-box_alert{ display:none;}
+.t1-mask-1{filter: alpha(opacity=50);opacity: 0.5; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:99;}
+.t1-bomb_box{ position:fixed; width: 13rem; top:50%; left: 50%; margin-left:-6.5rem;  background:#f65f61;z-index:100; border-radius:10px; padding-bottom: 1.25rem;}
+.t-app-17{ position: absolute; width: 1.6rem; height: 1.55rem; display: block;background:url("../images/t-app4-close.png")0 0 no-repeat; right: -0.5rem; background-size: 1.55rem; z-index:2; top:-0.5rem;}
+.t-app4-img5{ position: absolute;background: url("../images/t-app4-img2.png") no-repeat top center; width: 100%; height: 2.075rem; background-size: auto 2.075rem;  top: 0.5rem;}
+.t-app4-img6{ padding:0 0.7rem; color: #fff; clear:both;}
+.t-app4-img6 dt{ font-size: 0.55rem; float: left; padding-right: 0.4rem; display: inline-block; width: 0.2rem;}
+.t-app4-img6 dd{font-size: 0.55rem; float: left; width: 11rem;}
+.t-pt36{ padding-top:3.6rem;}
+.t-app4-img7{ width: 10rem; position: absolute; left: 50%; top: 50%; height:1.5rem; background:rgba(0, 0, 0, 0.7); z-index: 40; border-radius: 0.5rem; text-align: center; color: #fff; font-size: 0.7rem; line-height: 1.5rem; margin-left: -5rem; display: none;}
+#container div{padding:10px;position:absolute;width:0px;color:#FF0000;cursor:pointer; position: absolute;top:-5rem;} 
+.t-pd50{ padding-bottom: 8.4rem}
+.t-jinbi{ background: url("../images/t-app4-img3.png") no-repeat 0 0;  background-size:2.25rem; width: 2.25rem; height: 2.25rem; position: fixed; /*top:-2.625rem;*/  top:0;
+	opacity:0; left: 0%;
+}
+.t-jinbi-1{-webkit-animation: mycolor 1s ease-in-out;}
+
+@-webkit-keyframes mycolor {
+     0% {
+
+     }
+     5% {
+       opacity:1;   
+     }
+     40% {
+     }
+     80% {
+		 opacity:0.9;
+
+     }
+     100% {
+		 top:60%;
+		 opacity:0;
+     }
+ }
+ 
+ 
+  @-webkit-keyframes mycolor1 {
+     0% {
+		 
+     }
+      5% {
+       opacity:1;   
+     }
+     40% {
+     }
+     80% {
+		 opacity:0.9;
+
+     }
+     100% {
+		 top:40%;
+		 opacity:0;
+     }
+ }
+ 
+  @-webkit-keyframes mycolor2 {
+     0% {
+		 
+     }
+      5% {
+       opacity:1;   
+     }
+     40% {
+     }
+     80% {
+		  opacity:0.9;
+
+     }
+     100% {
+		 top:60%;
+		 opacity:0;
+     }
+ }
+ 
+   @-webkit-keyframes mycolor3 {
+     0% {
+		 
+     }
+      5% {
+       opacity:1;   
+     }
+     40% {
+     }
+     80% {
+		 
+		  opacity:0.9;
+		  
+     }
+     100% {
+		 top:50%;
+		 opacity:0;
+		 display:none;
+     }
+ }
+ 
+ 
+  @-webkit-keyframes mycolor4 {
+     0% {
+		 
+     }
+      5% {
+       opacity:1;   
+     }
+     40% {
+     }
+     80% {
+		 
+		  opacity:0.9;
+		  
+
+     }
+     100% {
+		 top:65%;
+		 opacity:0;
+		 display:none;
+     }
+ }
+ 
+ 
+ .t-jinbi1{ top:0rem; left:20%;}
+ .t-jinbi2{ top:0rem;left:50%; }
+ .t-jinbi3{ top:0rem;left:60%; }
+ .t-jinbi4{ top:0rem;left:80%; }
+.t-jinbi1-2{ -webkit-animation: mycolor1 1s ease-in-out; animation: mycolor1 1s ease-in-out; }
+.t-jinbi2-2{-webkit-animation: mycolor2 1s ease-in-out; animation: mycolor2 1s ease-in-out; }
+.t-jinbi3-3{-webkit-animation: mycolor3 1s ease-in-out; animation: mycolor3 1s ease-in-out; }
+.t-jinbi4-4{-webkit-animation: mycolor4 1s ease-in-out; animation: mycolor4 1s ease-in-out; }
+
+
+/* fifth add 20160106 */
+body{background-color: #f73c1d !important;}
+.t-app4-img4.appfifth-title1 p{color: #fff; text-align: center; font-size: 0.75rem;line-height: 1rem; padding-top: 0.75rem;}
+.t-app4-img4.appfifth-title1 p a,.t-app4-img4.appfifth-title1 p a:visited{color: #fff; margin-left: 1rem; text-decoration: underline; font-weight: bold; }
+.appfifth-box{padding:0 0.8rem; color: #000; box-sizing:border-box;width: 14.2rem;background: #f6ca0b;border-radius: 0.8rem;border: 3px solid #000;margin: 0 auto 0.75rem;overflow: hidden;}
+.appfifth-box table{width: 100%;}
+.appfifth-box th{line-height: 1.9rem; font-size: 0.8rem; text-align: left; border-bottom: 2px solid #000;}
+.appfifth-box td{height: 4.45rem; font-size: 0.6rem;}
+a.appfifth-btn{background: url("../images/t-app4-btn2.png") no-repeat 0 0; display: block;  width: 3.675rem; height: 2.3rem; background-size:3.675rem 2.3rem; color: #fff; font-size: 0.7rem; text-align: center; line-height: 2.1rem; float: right;}
+a.appfifth-btn.disable{background: url("../images/t-app4-btn1.png") no-repeat 0 0;  background-size:3.675rem 2.3rem; }
+td.appfifth-middle{text-align: center;}
+.appfifth-box td strong{font-size: 0.65rem;}
+.appfifth-box td em{font-size: 0.9rem; font-weight: bold;}
+.appfifth-box td big{font-size: 1.8rem; font-weight: bold; line-height: 2rem;}
+.t-app5-1 small{ font-size: 0.65rem; line-height: 1rem;}
+.t-app5-2{font-size: 0.8rem; line-height: 1.2rem;}
+
+.t-app5-down{ background: url("../images/t-app5-down.png") no-repeat 0 0; width: 0.8rem; height: 0.5rem; background-size: 0.8rem 0.4rem; margin: 0 auto 0.55rem; }
+.t-app5-up{ background: url("../images/t-app5-up.png") no-repeat 0 0; width: 0.8rem; height: 0.5rem; background-size: 0.8rem 0.4rem; margin: 0 auto 0.55rem; }
+.t-app5-3-1{ font-size: 0.65rem; line-height: 1rem;  border-bottom: 2px solid #000; padding-bottom: 0.5rem; margin-bottom: 0.5rem; margin-top: -0.5rem;}
+.t-app5-3-2{ font-size: 0.6rem; font-weight: bold; text-align: center; line-height: 1.1rem;}
+.t-app5-3-2 span{ font-size: 0.9rem; line-height: 1.2rem;}
+.t-app5-3-3{font-size: 0.9rem;font-weight: bold; text-align: center; line-height: 1.5rem;}
+.t-app5-3-4,.t-app5-3-5{ font-size: 0.7rem; font-weight: bold; text-align: center; line-height: 1.1rem;  }
+.t-app5-3-4{border-top: 2px solid #000; margin-top: 0.5rem; padding-top: 0.5rem;}
+.t-app5-3{ margin-bottom: 0.75rem;}
+.t-app5-3{ display: none;}
+
+.partner-pop-wrap{display: none;}
+.partner-pop-mask{position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 100; background-color: rgba(0,0,0,.7);}
+.partner-pop{position: fixed; top: 0; right: 0.5rem; z-index: 1000;}
+.x-partner2-share-img{width: 14.05rem;}

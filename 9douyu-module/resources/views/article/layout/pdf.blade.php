@@ -1,0 +1,1 @@
+<!-- Empty, just for select in backend article type -->

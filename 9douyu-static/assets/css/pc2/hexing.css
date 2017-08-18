@@ -1,0 +1,44 @@
+.white-color{  color: #fff;  }
+.disabled { background: #ddd none repeat scroll 0 0 !important; }
+.reg-dl{margin-bottom: 50px;}
+.t-register{margin-bottom: 100px;height: 570px;}
+
+/* invest-success right coupon */
+.invest-success-coupon {
+    width: 280px;
+    height: 370px;
+}
+.invest-success-coupon a {
+
+    display: block;
+}
+.invest-success-coupon img{width:280px; height: 370px;}
+
+/*实名认证 身份证号码效果*/
+#yourCode,.bank-loupe {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #e3e3e3;
+    display: block;
+    background: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+#yourCode{
+    left: 400px;
+    top: 214px;
+}
+/*账户设置相关验证码*/
+span.t-account-img input{
+    background-color: #00bafb;
+    color: #fff;
+    cursor: pointer;
+    display: inline;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+}

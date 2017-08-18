@@ -1,0 +1,31 @@
+{% set dev_wildcard_host = vars.dev_wildcard_hosts[env] %}
+config:
+    developer_name: '{{ developer_name }}'
+    dev_wildcard_host: '{{ dev_wildcard_host }}'
+    
+    core_domain: 'core.{{ developer_name }}.{{ dev_wildcard_host }}'
+    module_domain: 'module.{{ developer_name }}.{{ dev_wildcard_host }}'
+    service_domain: 'service.{{ developer_name }}.{{ dev_wildcard_host }}'
+    
+    www_domain: 'www.{{ developer_name }}.{{ dev_wildcard_host }}'
+    wx_domain: 'wx.{{ developer_name }}.{{ dev_wildcard_host }}'
+    ios_domain: 'ios.{{ developer_name }}.{{ dev_wildcard_host }}'
+    android_domain: 'android.{{ developer_name }}.{{ dev_wildcard_host }}'
+    api_domain: 'api.{{ developer_name }}.{{ dev_wildcard_host }}'
+    admin_domain: 'admin.{{ developer_name }}.{{ dev_wildcard_host }}'
+    
+    cdn_domain: 'img1.{{ developer_name }}.{{ dev_wildcard_host }}'
+    static_domain: 'static.{{ developer_name }}.{{ dev_wildcard_host }}'
+    res_domain: 'res.{{ developer_name }}.{{ dev_wildcard_host }}'
+    
+    ios_domain_pre: 'ios.{{ developer_name }}'
+    android_domain_pre: 'android.{{ developer_name }}'
+    
+    mysql_host: '{{ host_ip }}'
+    mysql_port: '{{ mysql_port }}'
+    mysql_database: '9dy_db'
+    mysql_user: 'jiudouyu_w'
+    mysql_password: '123qwe'
+    
+    redis_host: '{{ developer_name }}-9douyu-redis'
+    cookie_domain: '.{{ developer_name }}.{{ dev_wildcard_host }}'

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* double11 20151102 */
+.double11 img,.appsecond-banner{display: block; width: 100%;}
+.double11-btn{width: 100%; height: 7.875rem; box-sizing:border-box; padding-top: 1.6rem; background: url('../images/double11_04.png') 0 0 no-repeat; background-size: cover;}
+.double11-btn a{display: block; width: 11.95rem; height: 2.1rem; line-height: 2rem; color: #fff; font-size: 0.9rem; text-align: center; margin:0 auto;background: url('../images/double11_06.png') 0 0 no-repeat; background-size: cover;}
+.double11-btn a.disable,.appsecond-btn2 a.disable{background-image: url('../images/double11_07.png');}
+.double11-rule{width: 100%; box-sizing:border-box;  height: 15.9rem;background: url('../images/double11_05.png') 0 0 no-repeat #f8573d; background-size: 100% 14.4rem;}
+.double11-rule dl{padding:0.25rem 2.15rem 0; line-height: 0.7rem; overflow: hidden; font-size: 0.45rem;color: #e43f26;}
+.double11-rule dt{float: left; width: 0.45rem; font-size: 0.7rem; }
+.double11-rule dd{margin-left: 0.45rem; margin-bottom: 0.2rem;}
+
+/* appsecond 20151102 */
+.appsecond-btn-box{width: 100%; position: relative; height: 13.15rem;background: url('../images/appsecond_02.png') 0 0 no-repeat; background-size: cover;}
+.appsecond-btn{position: absolute; box-sizing:border-box; padding-top: 1rem; font-weight: bold; width: 4.8rem; height: 4.75rem; top: 4.2rem; font-size: 0.75rem; color: #e43f26; text-align: center;background: url('../images/appsecond_06.png') 0 0 no-repeat; background-size: cover;}
+.appsecond-btn1{left: 2.4rem;}
+.appsecond-btn5{left: 2.4rem; padding-top: 1.5rem;}
+.appsecond-btn2{right: 2.4rem;background: url('../images/appsecond_07.png') 0 0 no-repeat; background-size: cover;}
+.appsecond-btn4{right: 2.4rem; padding-top: 1.5rem;background: url('../images/appsecond_07.png') 0 0 no-repeat; background-size: cover;}
+.appsecond-btn3{left: 2.4rem; padding-top: 1.5rem;}
+.appsecond-box1{width: 100%; font-size: 0.6rem; color: #e43f26; text-align: center;height: 16rem;background: url('../images/appsecond_03.png') 0 0 no-repeat; background-size: cover; position: relative;}
+.appsecond-txt1{position: absolute; top: 7.25rem; left: 0; right: 0;}
+.appsecond-txt2{position: absolute; top: 12.75rem; left: 1.55rem; width: 6rem;}
+.appsecond-txt3{position: absolute; top: 12.75rem; right: 1.7rem; width: 6rem;}
+.appsecond-btn3{width: 100%; height:4.65rem;box-sizing:border-box; padding-top: 1rem; background: url('../images/appsecond_04.png') 0 0 no-repeat; background-size: cover;}
+.appsecond-btn3 a{display: block; width: 11.95rem; height: 2.1rem; line-height: 2rem; color: #e44026; font-size: 0.9rem; text-align: center; margin:0 auto;background: url('../images/double11_06.png') 0 0 no-repeat; background-size: cover;}
+.appsecond-rule{width: 100%; box-sizing:border-box;  height: 12.9rem;background: url('../images/appsecond_05.png') 0 0 no-repeat #f8573d; background-size: 100% 11.65rem;}
+.appsecond-rule dl{padding:2.55rem 2.25rem 0 2.35rem; line-height: 1.05rem; overflow: hidden; font-size: 0.5rem;color: #e43f26;}
+.appsecond-rule dt{float: left; width: 0.5rem; font-size: 0.7rem; }
+.appsecond-rule dd{margin-left: 0.5rem;}

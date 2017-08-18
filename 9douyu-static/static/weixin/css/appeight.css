@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/**
+ * @authors xia.lili@9douyu.com
+ * @date    2016-6-2
+ * @version $Id$
+ */
+body{background-color: #d92a2d;background:url("../images/activity/app7-bj6.png") repeat 0 0 #d92a2d; background-size:1.2rem auto;}
+.app8-curtain{ width: 100%; height:15.8rem; top: 0; left: 0; z-index: 1; background: url("../images/activity/app8-bg.png") no-repeat 0 0; background-size:100%; position: absolute;}
+.app8-con{position: relative; z-index: 5;}
+
+.app8-title{color: #fff; font-size: 1rem; text-align: center; line-height: 1.7rem; padding:0.5rem 0 1.75rem; }
+.app8-title strong{font-size: 1.7rem;}
+.app8-title span{font-size: 1.6rem; font-weight: bold;}
+.app8-cash{ width: 100%; height: 8rem; margin-bottom: 1rem; padding-top: 1.6rem; box-sizing: border-box; color: #ffdea7; line-height: 1rem; font-size: 0.7rem; text-align: center;background: url("../images/activity/app8-bg2.png") no-repeat center bottom; background-size:100% 11.25rem;}
+.app8-cash small,.app8-current small{font-size: 0.55rem;}
+.app8-cash span{color: #fff; font-size: 0.75rem; margin: 0 0.5rem;}
+.app8-cash p:nth-child(3),.app8-current p:nth-child(3){margin-top: 0.5rem;}
+.app8-cash strong{font-size: 1.2rem; font-weight: normal; margin: 0 0.125rem;}
+a.app8-btn,a.app8-btn:visited{display:block; letter-spacing: 2px; background-color: #ffdea7; box-shadow: 0  0.15rem 0 #ff9801; margin: 1rem auto 1.8rem; width: 14rem; border-radius:1.25rem; height: 2.5rem; line-height: 2.5rem; color: #d42529; font-size: 0.95rem; text-align: center; }
+a.app8-btn.disable{background-color: rgba(0,0,0,.3); box-shadow: none; color: #fff;}
+
+.app8-current{width: 100%; height:11.25rem; margin-bottom: 1rem; padding-top: 4.9rem; box-sizing: border-box; color: #ffdea7; line-height: 1rem; font-size: 0.7rem; text-align: center;background: url("../images/activity/app8-bg2.png") no-repeat center bottom; background-size:100%;}
+.app8-current span{color: #fff; font-size: 0.65rem; margin: 0 0.25rem;}
+.app8-current strong{font-size: 1.15rem;font-weight: normal; margin: 0 0.125rem;}
+.app8-wrap{width: 13.5rem; margin:0 auto; }
+.app8-title2{letter-spacing: 1px; color: #ffdea7; font-size: 0.75rem;text-align: center; line-height: 1rem;margin-bottom: 0.5rem; background: url("../images/activity/app8-bg4.png") no-repeat center center; background-size:13.55rem 0.25rem;}
+.app8-title2 i{display: inline-block; position: relative; top: -0.25rem; vertical-align: middle; width: 3.5rem; height: 1px; background-color:rgba(255,222,167,.6);}
+.app8-title2 span{display: inline-block;  width: 6.5rem; position: relative;}
+.app8-title2 ins{position: absolute; width: 0.25rem; height: 0.25rem; border-radius: 0.125rem; overflow: hidden; background-color:rgba(255,222,167,.9); top: 0.5rem;}
+.app8-title2 ins:first-child{left: 0;}
+.app8-title2 ins:last-child{right: 0;}
+.app8-list li{width: 100%; padding-left: 1.4rem; box-sizing: border-box; line-height: 1.25rem; font-size: 0.55rem; color: #ffdea7; border-bottom: 1px solid #f97e43;}
+.app8-list li span{margin-right: 0.7rem;}
+#list {height: 6.35rem;width: 100%;overflow: hidden; margin-bottom: 1.5rem;}
+.app8-rule{margin-bottom:1.35rem; }
+.app8-rule h3{text-align: center;color: #fff; font-size: 0.65rem; font-weight: normal; letter-spacing: 2px; width: 10.15rem; height: 1.35rem; line-height: 1.15rem; margin: 0 auto 0.5rem;background: url("../images/activity/app8-bg3.png") no-repeat 0 0; background-size:100%;}
+.app8-rule p{position: relative; padding-left: 0.9rem; line-height: 0.9rem; font-size: 0.6rem; color: #ffdea7;}
+.app8-rule p span{position: absolute; width: 0.55rem; height: 0.55rem; padding-top: 0.025rem; box-sizing: border-box;  border-radius: 50%; overflow: hidden;line-height: 0.55rem;left: 0; top: 0.175rem; font-size: 0.45rem; color: #dc3335; background-color: #ffdea7;text-align: center; }
+.pop-coupon{width: 7.95rem; height: 3.85rem; color: #fff; position: relative; margin: 0.5rem auto 0; background: url("../images/activity/app8-bg5.png") no-repeat center center; background-size:100%;}
+.pop-coupon span{position: absolute; font-size: 0.9rem; left: 0.9rem; top: 0.5rem;}
+.pop-coupon big{font-size: 1.5rem;}
+.pop-coupon ins{text-decoration: none; color: #fef436; font-size: 0.65rem; position: absolute; right: 1rem; top: 1rem;}
+.pop-coupon p{padding-top: 2rem;}
+.pop-coupon p small{color: #fff; font-size: 0.45rem;}
+
+/*pop*/
+.pop-layer{display: none;}
+.pop-mask{position:fixed;left:0;top:0;z-index:10;width: 100%;height: 160%;background: rgba(0,0,0,.5);}
+.pop{width:13.625rem; text-align: center; position:fixed;z-index:20;left:50%;top:50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);background-color: #fff;overflow: hidden;border-radius:0.5rem;}
+.pop-title{position: relative; width:100%;height:4.25rem;overflow:hidden;background:#e32b2b url("/static/weixin/images/anniversarytwoshare/an-title.png") center center no-repeat;background-size: cover;}
+.pop-close{position: absolute;right:0.275rem;top:0.45rem;width:1.2rem;height:1.2rem;}
+.pop-close img{width: 100%;height: 100%;}
+.an-smile,.an-cry{width:5.525rem;margin-top:0.65rem;}
+.an-cry{width:3.775rem;}
+.pop-content{padding: 1rem 0;}
+.pop-content p{line-height:1.5rem;color:#fd9025;font-size: 0.85rem; }
+.pop-net{height: 5rem;background: #fff;}
+.an-net{width:3.95rem;margin-top:1.125rem;}

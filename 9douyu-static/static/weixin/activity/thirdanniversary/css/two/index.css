@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors bichunfeng (you@example.org)
+ * @date    2017-4-25 14:00:00
+ * @version $Id$ 
+ */
+ /*thirdanniversary part2*/
+ body{background:#fec52c;padding-bottom: 2rem;}
+.page-bg{width:16rem;margin:0 auto;background:url("/static/weixin/activity/thirdanniversary/images/two/page-bg.jpg") center top no-repeat;background-size:100%;}
+.page-center{text-align: center;}
+.page-auto{width: 15.5rem;margin:0 auto;box-sizing: border-box;}
+.page-flex{display: -webkit-box;-webkit-box-orient: horizontal;-webkit-box-pack: justify;display: flex;flex-direction:row;justify-content: space-around;}
+.page-banner-font1{padding-top: 2rem;color: #0040b6;font-size: 0.45rem;}
+.page-banner-font2{color: #fff;font-size: 0.75rem;padding: 0.3rem 0 0.1rem;font-weight: bold;}
+.page-banner-font3{color: #6bf3ff;font-size: 0.35rem;line-height: 1;padding: 0.7rem 0 0.3rem;}
+.page-banner-font4{color: #fff;font-size: 0.4rem;line-height: 1;}
+.page-map{position:relative;width: 12.5rem;height: 4.9rem;margin:0.4rem auto 0;background:url("/static/weixin/activity/thirdanniversary/images/two/page-map.png") center top no-repeat;background-size: 100%;}
+.page-add-up{position: relative;}
+.page-add-up li{width:33%;color: #fff;text-align: center;}
+.page-add-up li p{font-size: 0.35rem;}
+.page-add-up li h6{font-size:0.5rem;font-weight: bold;text-shadow: 1px 1px 5px rgba(128,46,229,1);line-height: 0.8rem;}
+.page-add-up li:first-child{position: absolute;left:0;top:-0.2rem;}
+.page-add-up li:nth-child(2){position: absolute;width:100%;top:-1.3rem;left:0;right: 0;}
+.page-add-up li:last-child{position:absolute;top:-0.8rem;right: 0;}
+.page-fish{position:absolute;top:-0.63rem;left:40%;width: 2.1rem;height: 1.975rem;background:url("/static/weixin/activity/thirdanniversary/images/two/page-fish.gif") center top no-repeat;background-size: 100%;}
+.page-step1 .page-fish{top:0.62rem;left:-0.5rem;}
+.page-step2 .page-fish{top:-0.64rem;left:40%;}
+.page-step3 .page-fish{top:0.55rem;left:10.7rem;}
+.page-time{padding-top: 5.7rem;color: #d9481f;font-size: 0.6rem;line-height:0.95rem;}
+/*title*/
+.page-title{width:9.75rem;height: 2.775rem;font-size: 0;}
+.page-title-invite{margin:10.5rem auto 0;background: url("/static/weixin/activity/thirdanniversary/images/two/page-title.png") center bottom no-repeat;background-size: 100%;}
+.page-title-invest{margin:2rem auto 0;background: url("/static/weixin/activity/thirdanniversary/images/two/page-title.png") center top no-repeat;background-size: 100%;}
+/*red package*/
+.page-red{width: 15.5rem;height: 4.375rem;margin:1rem auto 0;background: url("/static/weixin/activity/thirdanniversary/images/two/page-red.png") center top no-repeat;background-size: 100%;color: #fff;}
+.page-red h5{font-size: 0.75rem;padding: 0.8rem 0.2rem 0.2rem 4.8rem;}
+.page-red p{padding-left: 4.8rem;font-size:0.55rem;line-height: 0.8rem;}
+/*module*/
+.page-wrap{position:relative;width:15.5rem;min-height:3rem;margin:1rem auto;padding-bottom:1rem;border-radius: 0.25rem;background: #8837e4;box-shadow: inset 0 0 1.275rem rgba(254,197,47,0.64);color: #fff;}
+.page-wrap h5{padding:1.2rem 0 1rem;font-size: 0.55rem;text-shadow: 1px 1px 7px rgba(88,1,189,.8);}
+.page-wrap h4{padding:0.8rem 0 0.6rem;line-height: 1rem;font-size: 0.6rem;text-shadow: 1px 1px 7px rgba(88,1,189,.8);}
+.page-wrap table{width: 15.25rem;margin:0 auto;text-align: left;}
+.page-wrap table th{text-align: left;height: 1.1rem;padding-left: 0.7rem;font-size: 0.55rem;}
+.page-wrap table td{height: 1.2rem;padding-left: 0.7rem;font-size: 0.5rem;}
+.page-btn-refresh{color: #fff;font-size: 0.55rem;display: block;text-align: center;padding:0.5rem 0 0;text-decoration: underline;}
+.page-app{width: 14.5rem;height: 5.425rem;margin:0 auto;background: url("/static/weixin/activity/thirdanniversary/images/two/page-app.png") center top no-repeat;background-size: cover;}
+.page-corner-mark{position: absolute;top:0;right:0;z-index:2;width: 2rem;height: 2rem;background: url("/static/weixin/activity/thirdanniversary/images/two/page-corner-mark.png") center top no-repeat;background-size: cover;color: #f43f3f;}
+.page-corner-mark span{position:relative;top:0.3rem;left:0.3rem;transform: rotate(45deg);-webkit-transform: rotate(45deg);display:block;width:100%;line-height:1rem;text-align: center;}
+.page-gift{width: 15rem;height: 9.575rem;margin: 0 auto;background: url("/static/weixin/activity/thirdanniversary/images/two/page-gift.png") center top no-repeat;background-size: cover;}
+.page-gift li{display: inline-block;width: 4.25rem;height: 1.2rem;margin-top: 3.0rem}
+.page-gift li:nth-child(2){margin:0 0.9rem;}
+.page-gift li:nth-child(4){margin:4.2rem 0.9rem 0 0;}
+.page-gift li p:first-child{font-size: 0.4rem;color: #fec53f;line-height: 1;padding:0.15rem 0 0.05rem;}
+.page-gift li p:last-child{font-size: 0.4rem;line-height: 1;}
+/*surprise*/
+.page-surprise{color: #f43f3f;}
+.page-surprise h6{height: 1.2rem;margin:2rem auto 0.5rem;font-weight: bold;font-size: 1rem;}
+.page-surprise p{font-size: 0.5rem;}
+.page-surprise-gift{display:block;margin:0.5rem auto;width:6rem;}
+/*scroll*/
+.page-winner-list{margin:1rem auto;height:2.95rem;background: url("/static/weixin/activity/thirdanniversary/images/two/page-winner.png")center 0 no-repeat;background-size: contain;font-size: 0.5rem;color: #ffef58;}
+.page-winner-list h6{padding:0.3rem 0 0;font-size:0.7rem;text-align: center;color: #ffffff;text-shadow: 1px 1px 7px rgba(88,1,189,.8);}
+.page-scroll{height:1rem;overflow: hidden;}
+.page-scroll-list li{position: relative;height: 1.4rem; line-height: 1rem;}
+.page-scroll-list span{display: block;width: 25%;text-align: center;}
+.page-scroll-list span.data{color: #fff;}
+/*rule*/
+.page-rule{color: #fff;background: #e2a314;border-radius: 0.25rem;padding:0.5rem;}
+.page-rule h6{font-size:0.6rem;line-height: 0.5rem;padding:0.5rem 0;}
+.page-rule p{position:relative;padding-left:1rem;font-size: 0.5rem;line-height: 0.8rem;}
+.page-rule p span{position: absolute;left:0;top:-0.1rem;padding:0.1rem 0.3rem 0.1rem 0.1rem;}
+.page-tip{color: #fff;font-size: 0.6rem;line-height: 1rem;padding-top: 0.6rem;}
+
+.page-project{  height: 4.9rem;margin:0.5rem;border-radius: 0.25rem; color:#333; background: #fff; box-sizing: border-box;}
+.page-project:nth-of-type(1){margin-top: 1.5rem;}
+.page-project .title{position:relative;font-size: 0.7rem;padding:0.5rem 0.5rem 0.3rem;  z-index: 2;}
+.page-project .title span{color: #333;}
+.page-project table{ width: 100%; text-align: center; color: #333; font-size: 0.5rem; }
+.page-project table tr:nth-child(1) td:nth-child(1){ color: #ff3333; font-size:0.65rem; height: 1.8rem;}
+.page-project table tr:nth-child(1) td:nth-child(1) span{ font-size:1.275rem;}
+.page-project table tr:nth-child(1) td:nth-child(2){ font-size: 0.6rem; padding-top: 0.4rem;}
+.page-project .btn{ position: relative; display:inline-block; width: 5rem; height: 1.4rem;line-height: 1.445rem;  background: #f8bc53;border-radius:2px; color: #fff; font-size: 0.75rem; margin-top: 0.3rem; text-align: center;border: 1px solid #fbd28a; }
+.page-project .btn.disable{ background: #bcbcbc;border-bottom: 0.025rem solid #535253; border-color: #cfcfcf; }
+
+

@@ -1,0 +1,153 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none;
+}
+
+
+body{
+	
+	width:100%;
+	overflow:hidden;
+	background: #fff;
+	color: #bababa;
+	font-family:"SourceHanSansCN","Microsoft YaHei", "Arial Black";
+	
+}
+
+.hide{ display:none;}
+
+.page{
+	width:100%;
+	height:100%;
+	position:absolute;
+/*	font-size:100px;*/
+	text-align:center;
+}
+
+.page .wrap{
+	height:500px;
+}
+.page-current{
+	z-index:1;
+}
+
+.wei9-yun1 {
+  width: 2.4rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 1.9rem;
+}
+
+.wei9-yun2 {
+  width: 2.425rem;
+  position: absolute;
+  right: 1.9rem;
+  top: 1.2rem;
+}
+
+
+.wei9-15 {
+    color: #bababa;
+    font-size: 0.65rem;
+    line-height: 1.35rem;
+    text-align: center;
+    margin-top: 21.25rem;
+    width: 14.4rem;
+    margin: 0.1rem auto 0;
+    padding-bottom: 0.2rem;
+}
+
+.wei9-15 span {
+    font-size: 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.5rem;
+}
+
+.wei9-14 {
+    color: #555555;
+    font-size: 0.85rem;
+    line-height: 1.35rem;
+    text-align: center;
+    margin-top: 21.25rem;
+    border-bottom: 1px solid #bababa;
+    width: 12.7rem;
+    margin: 21.25rem auto 0;
+    padding-bottom: 0.2rem;
+}
+
+.wei9-14 span{ font-size: 1.1rem; color: #ff6d5e;}
+.wei11-15 span{ font-size: 0.5rem;}
+
+
+.wei12-01{ width: 11.85rem; position: absolute; margin-left: -5.925rem;top:2.9rem;left: 50%;}
+/*.wei12-02{ width: 12.25rem; position: absolute; left: 50%; margin-left: -6.125rem; top:6.3rem;}
+*/.wei12-03{ width:10.325rem; position: absolute; left: 50%; margin-left: -5.51625rem; top:9rem; z-index: 2;}
+.wei12-04{ width: 3.2rem;position: absolute; left: 50%; margin-left: -1.6rem; top:24.5rem;z-index: 1;}
+.new02-title{ position: absolute; color: #ea3e41; top: 2.975rem; left: 1.5rem; }
+.new02-title h4{  font-weight: bold; border-bottom: 1px solid #ea3e41; font-size: 1.2rem; line-height: 1.6rem;letter-spacing:0.1rem; text-align: left;}
+.new02-title p{ font-size: 0.85rem;letter-spacing:0.1rem; line-height: 1.3rem; text-align: left; }
+.new02-text{ z-index: 9; position: relative; top: 18rem;}
+.new02-text p{ text-align: center; line-height: 1.5rem; font-size: 0.95rem; color: #ea3e41;}
+.new2-2{ width:10.675rem; top:21.25rem; left: 50%; margin-left: -5.3125rem; position: absolute; }
+
+/*.wei12-11{ width:12.58rem;position: absolute; left: 50%; margin-left: -6.2875rem; top:4.3rem; }
+*/.wei12-12{ width:8.05rem;position: absolute; left: 50%; margin-left: -4.025rem; top:8.8rem; }
+/*.wei12-13{ width:13.3rem;position: absolute; left: 50%; margin-left: -6.65rem; top:15rem; }
+*//*.wei12-14{ width:3.375rem;position: absolute; bottom:0.6rem; right: 0.5rem; }
+.wei12-31{ width: 10.375rem; position: absolute; left: 50%; margin-left: -5.1875rem; top:3.175rem;}*/
+.wei12-32{ width: 13.05rem; position: absolute; left: 50%; margin-left: -6.525rem; top:7.5rem;}
+.new2-3{ position: absolute; width: 11.7rem; left: 50%; margin-left: -5.85rem; top:7.5rem;}
+.new2-4{ position: absolute; width: 12.475rem; left: 50%; margin-left: -6.2375rem; top:6.35rem;}
+.new2-5{ width: 7.7rem; position: absolute; left: 50%; margin-left: -3.85rem; margin-top: 25.5rem;}
+.new2-6{ width: 12.5rem; position: absolute; left: 50%; margin-left: -6.25rem; margin-top: 6.3rem;}
+.new2-7{ width: 7.6rem; position: absolute; left: 50%; margin-left: -3.8rem; margin-top: 22.45rem;}
+.new2-8{ width: 7.025rem; position: absolute; left: 50%; margin-left: -3.5rem; margin-top: 25rem;}
+.new2-9{ width: 14.05rem; position: absolute; left: 50%; margin-left: -7.025rem; margin-top: 5.7rem;}
+.new2-10{ width: 9.95rem; position: absolute; left: 50%; margin-left: -4.975rem; margin-top: 8.75rem;}
+.new2-11{margin-top: 13.75rem;}
+.new2-12{margin-top: 18rem;}
+.new2-13{ width: 13rem; position: absolute; left: 50%; margin-left: -6.5rem; margin-top: 7.6rem;}
+.new2-14{margin-top: 13.2rem;}
+.new2-15{margin-top: 18.35rem;}
+.new2-16{ width: 12rem; position: absolute; left: 50%; margin-left: -6rem; margin-top: 7.9rem;}
+.new2-17{ width: 12.05rem; position: absolute; left: 50%; margin-left: -6.025rem; top:7.2rem;}
+.new2-18{  width: 12.05rem; margin: 0 auto; position: relative; z-index: 9; top: 14.6rem;}
+.new2-18 p{color: #ea3e41; font-size: 0.75rem; text-indent:1.5rem;word-wrap:break-word; line-height: 1.2rem; text-align: left;}
+.new2-19{ width: 12.1rem; position: absolute; left: 50%; margin-left: -6.05rem; top: 7.5rem;}
+.new2-20{ width: 3.425rem; position: absolute; left: 50%; margin-left: -6.3rem; top: 9.875rem;}
+.new2-21{ margin-left: -2rem;}
+.new2-22{ margin-left: 2.25rem;}
+.new2-23{position: relative; z-index: 9; top: 23.65rem;}
+.new2-23 p{ color: #ea3e41; font-size: 0.6rem; line-height: 1.5rem;}
+.new2-24{ width: 4.8rem; position: absolute; left: 0; top: -2.7rem; }
+.new2-25{ top: 10.325rem; position: relative;}
+.new2-25 p{ line-height: 1.5rem;}
+.new2-26{ width: 9.675rem; position: absolute; left: 0; top: -1.8rem;}
+.new2-27{ width: 12rem; position: absolute; left: 0; top:0.8rem;}
+.new2-28{ position: relative; top: 8.825rem;}
+.new2-28 p{ padding-top: 7.4rem;}
+.new2-29{ width: 10.325rem; position: absolute; left: 50%; margin-left: -5.1625rem; top:3.425rem;}
+.new2-30{ width: 9.775rem; position: absolute; left: 50%; margin-left: -4.8875rem; top: 9.825rem;}
+.new2-31{ width: 5.4rem; position: absolute;; left: 50%; margin-left: -2.7rem; top: 21rem;}
+.page-bg{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index:0;;}
+
+.img_6 {
+  height:auto;width:25px;
+  position:absolute;
+  left:50%;
+  top:93%;
+  margin-left:-12px;
+  z-index: 8;
+}
+
+.img-icon-1 {
+    width: 1.05rem;
+    right: -0.4rem;
+    top: -0.3rem;
+    cursor: pointer;
+    position: absolute;
+    z-index: 9999;
+}
+

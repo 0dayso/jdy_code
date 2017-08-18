@@ -1,0 +1,67 @@
+/**春节2017**/
+
+body{background: #a63f36 url("/static/activity/springfestival/images/page-bottom.png") center bottom repeat-x;color: #fff;font-family: "微软雅黑"}
+.page-auto{margin:0 auto;}
+.page-bg-cloud{width: 100%;background: url('/static/activity/springfestival/images/page-cloud.png') center 386px no-repeat;}
+.page-banner{width: 100%;height:830px;background: url('/static/activity/springfestival/images/page-banner.jpg') center top no-repeat;background-size: cover;}
+.page-time{padding-top:224px;font-size: 32px;color: #ffde78;text-align: center; }
+.page-sign{position:relative;margin-top:20px;width:1066px;height: 595px;background: url('/static/activity/springfestival/images/page-sign.png') center top no-repeat;background-size: cover;text-align:center; color:#c54e3a;font-size: 30px;line-height: 38px;}
+.page-sign-img{width: 303px;display: inline-block;margin:170px 0 0 2em;}
+.page-sign p{margin-top: -14px;text-indent: 2em;}
+.page-sign strong{font-weight: bold;}
+.page-sign-btn-area{padding-left: 100px;}
+.page-sign-btn{display: inline-block;margin:0 48px;width:199px;height: 64px;background-image: url("/static/activity/springfestival/images/page-sign-btn.png");background-repeat: no-repeat;font-size: 0; }
+.page-sign-btn1{background-position: center top;}
+.page-sign-btn1{background-position: center bottom;}
+.page-rule-btn,.page-rule-btn:link,.page-rule-btn:visited,.page-rule-btn:hover,.page-rule-btn:active{position:absolute;top:192px;right:150px;display: inline-block;width:120px;height: 49px;line-height:49px;background: url('/static/activity/springfestival/images/page-rule-btn.png') center top no-repeat;text-align: center;color:#fff;font-size: 22px;}
+.page-lottery{position:relative;width: 1115px;height: 986px;margin-top:-84px;background: url('/static/activity/springfestival/images/page-lottery.png') center top no-repeat;}
+.page-speed-dial{padding:204px 0 0 186px;}
+.page-speed-item{float:left;margin:0 20px 20px 0;width: 245px;height: 208px;line-height:208px;background: url('/static/activity/springfestival/images/page-dial-default.png') center top no-repeat;text-align: center;}
+.page-speed-dial .active{background: url('/static/activity/springfestival/images/page-dial-active.png') center top no-repeat;}
+.page-speed-txt{text-align:center;line-height:34px;font-size: 22px;color:#dc9e4d;}
+.page-wrap{width: 858px;margin: 0 auto;}
+.page-project{width:1213px;position: relative;margin:0 auto;}
+.page-project-title{position: absolute;left:0;top:-52px;width: 1213px;height: 422px;background: url('/static/activity/springfestival/images/page-project-title.png') center top no-repeat; }
+.page-project-main{margin-left:194px;padding:90px 0 28px 0;width:858px;background: url('/static/activity/springfestival/images/page-project-main.png') center bottom no-repeat;}
+.page-project-item{margin:0 auto 26px;position:relative;width: 732px;height: 253px;background: url('/static/activity/springfestival/images/page-project-item.png') center bottom no-repeat;color:#f5d2a3;}
+.page-project-item .title{margin:0 0 0 32px;width:305px;height: 82px;line-height: 82px;text-align: center;font-size: 36px;}
+.page-project-inner p{margin:30px 0 0 0;float: left;text-align: center;font-size: 32px;}
+.page-project-inner p strong{font-size: 56px;font-weight: normal;}
+.page-project-inner p span{margin-top: 32px;display: block;}
+.page-project-inner .p1{width:180px;}
+.page-project-inner .p1 strong{text-align: left;}
+.page-project-inner .p2{width: 224px;margin:30px 0 0 90px;}
+.page-project-btn,.page-project-btn:link,.page-project-btn:visited,.page-project-btn:hover,.page-project-btn:active{display: inline-block;margin:34px 0 0 0;width:198px;height: 63px;line-height:63px;background: url('/static/activity/springfestival/images/page-project-btn.png') center center no-repeat;text-align: center;color:#ca2122;font-size: 32px;}
+.page-project-disabled,.page-project-disabled:link,.page-project-disabled:visited,.page-project-disabled:hover,.page-project-disabled:active{display:block;float:left;margin:-15px 0 0 24px;width:142px;height: 140px;background: url('/static/activity/springfestival/images/page-project-btn-disabled.png') center center no-repeat;font-size: 0;}
+.page-rule{width: 1006px;margin-top: 98px; padding-bottom:116px;color:#faf1bb;font-size: 24px;}
+.page-dashed{position:relative;margin-bottom:48px;width: 100%;height: 0;border-top:1px dashed #faf1bb;}
+.page-dashed h4{position: absolute;left:50%;top:-24px;margin-left:-59px;width:118px;background:#a63f36;height:24px;text-align: center; }
+.page-rule{line-height: 42px;}
+.page-mask{position: fixed;left:0;top:0;z-index:1;width:100%;height: 100%;background: rgba(0,0,0,0.5);}
+.page-pop{position: fixed;left:50%;top:50%;z-index:2;margin-left:-285px;margin-top:-240px;width:570px;height: 480px;background: url('/static/activity/springfestival/images/page-pop.png') center top no-repeat;  }
+.pop-title{display: block;margin: 54px auto 0;}
+.page-content{color:#7f511a;font-size: 18px;}
+.pop-face{display: block;margin: 0 auto 7px;}
+.pop-btn{display:block;margin: 0 auto;}
+.page-pop-em-color{color:#cb5046;}
+.page-content{padding:52px 100px 10px 100px;font-size: 18px;line-height: 32px;text-align: center;}
+.page-layer-rule p{margin-top:14px;line-height: 26px;text-align: left;}
+.page-layer-rule p span{display: inline-block;width:25px;height: 25px;line-height: 26px;text-align: center;vertical-align:top;background: url('/static/activity/springfestival/images/page-pop-rule.png') center center no-repeat; }
+.page-layer-redpacket p{line-height: 36px;font-size: 19px;}
+.page-layer-redpacket em{font-style: normal;font-size: 26px;}
+.page-layer-redpacket .page-btn-area{text-align: center;}
+.page-layer-redpacket .pop-btn{display: inline-block;margin:28px 2px 0 40px;width:167px;height: 53px;font-size:0;border:0;}
+.page-layer-redpacket .pop-btn-redpacket{background: url('/static/activity/springfestival/images/page-pop-btn-red.png') center center no-repeat;}
+.page-layer-redpacket .pop-btn-sign{background: url('/static/activity/springfestival/images/page-pop-btn-sign.png') center center no-repeat;}
+.page-layer-success .page-content{padding:18px 100px 35px 100px;}
+.page-layer-tip .page-content{padding:10px 100px 40px 100px;}
+.page-layer-invest .page-content{padding:30px 100px 40px 100px;}
+.page-layer-login .page-content{padding:36px 100px 38px 100px;}
+.page-layer-lottery .page-content{padding:36px 100px 28px 100px;}
+.page-layer-sign .page-content{padding:24px 100px 8px 100px;}
+.page-layer-sign p strong{font-size: 24px;line-height:32px;}
+.page-layer-sign p span{font-size: 24px;line-height: 24px;}
+.page-sign-wrap li{display:inline-block;width:58px;margin:4px 15px;font-size: 16px;line-height:24px;}
+.page-sign-default{display:block;width:100%;height: 54px;background: url('/static/activity/springfestival/images/page-pop-gold-default.png') center center no-repeat;}
+.page-sign-active{position:relative;background: url('/static/activity/springfestival/images/page-pop-gold-active.png') center center no-repeat;}
+.page-sign-active i{position: absolute;left:19px;top:-2px;width:50px;height: 50px;background: url('/static/activity/springfestival/images/page-pop-gold-seal.png') center center no-repeat;}

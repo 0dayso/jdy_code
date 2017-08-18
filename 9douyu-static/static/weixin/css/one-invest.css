@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{background-color: #ffeade !important;}
+.oneinvest-bj{ width: 15.55rem; height: 6.375rem;  background:url(/static/weixin/images/activity/oneInvest-bj1.png) top center no-repeat; background-size: 15.55rem 6.375rem; margin: 0 auto;}
+.oneinvest-bj p{ color: #452549; font-size: 0.65rem; text-align: center; line-height: 1.05rem;}
+.oneinvest-bj p.oneinvest-title{ padding-top: 1rem;}
+.oneinvest-bj p.oneinvest-title1{ color: #f84141; font-size: 0.55rem; padding-top: 0.05rem;}
+.oneinvest-bj1{ width: 15.5rem; height:7.1rem; margin: 0.6rem auto 0; box-shadow:0px 5px 7px #fbdccc  }
+.oneinvest-bj1-1{ width:9rem; height: 7.15rem;background:url(/static/weixin/images/activity/oneInvest-img.png) top center no-repeat; background-size: 9rem 7.15rem; float: left; }
+.oneinvest-bj1-2{ background: #fff; width: 6.5rem; height: 7.15rem; float: left;}
+.oneinvest-1{ font-size: 0.7rem; color: #452549; text-align: center; width: 5.8rem; border-bottom: 1px solid #bababa; line-height: 1.3rem;padding: 0.3rem 0 0.2rem 0;margin-left: 0.4rem;}
+.oneinvest-2,.oneinvest-2-1,.oneinvest-2-2{ color: #8fcf68; font-size: 1.75rem; text-align: center; padding-top: 0.3rem;}
+.oneinvest-2 span,.oneinvest-2-1 span,.oneinvest-2-2 span{ font-size: 0.9rem;}
+.oneinvest-2-1{ color: #ffbf2d;}
+.oneinvest-2-2{ color: #f55c5a;}
+.oneinvest-3{ text-align: center; color: #888888; font-size: 0.55rem; line-height: 0.8rem;}
+.oneinvest-button-green{ display: block; width: 5.75rem; height: 1.1rem; color: #fff; text-align: center; line-height: 1.1rem; font-size: 0.6rem; background: #8fcf68; margin: 0.4rem auto 0;}
+.oneinvest-bj1-3{ width:9rem; height: 7.15rem;background:url(/static/weixin/images/activity/oneInvest-img1.png) top center no-repeat; background-size: 9rem 7.15rem; float: left; }
+.oneinvest-bj1-5{ width:9rem; height: 7.15rem;background:url(/static/weixin/images/activity/oneInvest-img2.png) top center no-repeat; background-size: 9rem 7.15rem; float: left; }
+.oneinvest-button-gray{ display: block; width: 5.75rem; height: 1.1rem; color: #fff; text-align: center; line-height: 1.1rem; font-size: 0.6rem; background: #bdbdbd; margin: 0.4rem auto 0;}
+.oneinvest-button-yellow{ display: block; width: 5.75rem; height: 1.1rem; color: #fff; text-align: center; line-height: 1.1rem; font-size: 0.6rem; background: #ffbf2d; margin: 0.4rem auto 0;}
+.oneinvest-button-red{ display: block; width: 5.75rem; height: 1.1rem; color: #fff; text-align: center; line-height: 1.1rem; font-size: 0.6rem; background: #f55c5a; margin: 0.4rem auto 0;}
+.oneinvest-bj2{ width: 15.575rem; height: 21.625rem; padding:0 0.45rem 0 0.4rem; box-sizing:border-box;  background:url(/static/weixin/images/activity/oneInvest-bj2.png) top center no-repeat; background-size: 15.575rem 21.625rem; margin: 1.5rem auto 0; }
+.oneinvest-bj3{ height: 1.5rem; border-bottom: 2px solid #ffe7da; padding-top: 1.5rem;}
+.oneinvest-bj3 li{ border: 2px solid #e2b69e; border-bottom:none; box-sizing:border-box; width: 4.84rem; height: 1.5rem; display: inline-block; float: left; margin-right: 0.1rem; border-radius: 0.15rem 0.15rem 0 0; line-height: 1.4rem; text-align: center;background: #e2b69e; color: #df5b35; }
+.oneinvest-bj3 li:last-child{margin-right:0px;}
+.oneinvest-bj3 li.active{ border: 2px solid #ffe7da; height: 1.6rem; color: #df5b35; background: #ffd7c1; border-bottom: 2px solid #ffd7c1; }
+.oneinvest-bj3-1{ width: 14.25rem; margin: 0 auto 0; text-align: center; color: #452549;  }
+.oneinvest-bj3-1 thead tr{ height: 1.35rem; line-height: 1.35rem; background: #fff5ef;}
+.oneinvest-bj3-1 tbody tr{ height: 1.35rem; line-height: 1.35rem; border-bottom: 1px solid #fff5ef;}
+.oneinvest-ph{ line-height:1.3rem; color:#df5b35; text-align: center; font-size: 0.55rem;  }
+.oneinvest-bj4{ border: 2px solid #ffe7da; border-top: none;background: #ffd7c1; margin:-0.04rem auto 0; padding-top: 0.5rem;}
+.oneinvest-tips{width: 15.5rem; padding-bottom: 1.3rem; line-height: 1.15rem; margin: 0 auto; color: #452549; font-size: 0.6rem; }
+.oneinvest-tips dl{padding-top:0.4rem}
+.oneinvest-tips p{margin: 1.25rem 0rem 0;}
+.oneinvest-tips dt{width: 0.6rem; float: left;}
+.oneinvest-tips dd{margin-left: 0.6rem;}
+.oneinvest-title-1{ color: #fff; text-align: center; width: 3.25rem; height: 1rem; line-height: 1rem; background: #452549;}
+.notice_box div{ display: none;}
+.notice_box div:first-child{ display: block;}
+
+.gift-box{margin:0.9rem 0.5rem 1rem;}
+.gift-info{width: 100%; height: 5.05rem; margin-bottom: 1rem; text-align: center; color: #ffea66; font-size: 0.65rem; line-height: 1.05rem; background:url(/static/weixin/images/activity/gift-bg4.png) top center no-repeat; background-size: 100%;}
+.gift-info p{padding-top: 1rem;}
+.gift-data{ color: #fff; text-align: center; margin-bottom: 1rem; line-height:2rem;font-size: 0.85rem;background:url(/static/weixin/images/activity/gift-bg3.png) bottom center no-repeat; background-size: 11.5rem 0.9rem;}
+.gift-data span{color: #ffe858; font-size: 1.55rem; margin:0 0.35rem;}
+.gift-link{ margin-right: -0.35rem; overflow: hidden; height: 7.3rem; margin-bottom:1rem;background:url(/static/weixin/images/activity/gift-bg2.png) top center no-repeat; background-size:100%; }
+.gift-link a{display:block;width: 100%; color: #5d0800;}
+.gift-link table{margin:1.4rem auto 0; width: 100%;}
+.gift-link th{height:1.25rem; text-align: center; color: #fff; font-size: 0.65rem; padding-right: 0.6rem; }
+.gift-link td{text-align: center; height: 4.3rem; font-size: 0.6rem; line-height: 1rem;}
+.gift-link td big{font-size: 1.5rem;}
+.gift-link td small{font-size: 0.5rem;}
+.gift-link td i{font-style: normal; display: inline-block; width:2.6rem ; height: 2.6rem; padding-top: 0.425rem; box-sizing:border-box; -webkit-box-sizing:border-box; font-size: 0.7rem; text-align: center; line-height:0.8rem; background-color: #ffe858; border:2px solid #6a0600; border-radius: 50%;  }
+.gift-link td i.disable{background-color: #fff;}
+.gift-tips{width: 100%; height: 15.5rem; line-height: 1.15rem; margin-bottom: 1rem;color: #fff; font-size: 0.6rem; background:url(/static/weixin/images/activity/gift-bg.png) top center no-repeat; background-size: 100%;}
+.gift-tips dl{padding:0 1.5rem;}
+.gift-tips p{padding: 1.25rem 1.5rem 0;}
+.gift-tips dt{width: 0.6rem; float: left;}
+.gift-tips dd{margin-left: 0.6rem;}

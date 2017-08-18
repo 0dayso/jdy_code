@@ -1,0 +1,257 @@
+@charset "utf-8";
+.m-left{
+	width: 155px;
+	height: 300px;
+	background: #fff;
+	float: left;
+}
+.m-rightcon{
+	width: 778px;
+	height: auto;
+	float: right;
+	border: 1px solid #f0f0f0;
+	background: #fff;
+	padding: 20px 30px 60px;
+}
+.m-rightcon .m-tocash{
+	font-size: 18px;
+	color: #414141;
+	position: relative;
+}
+.m-rightcon .m-tocash a{
+	color: #01b3ff;
+	font-size: 14px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.m-rightcon .m-tocash i.m-icon{
+	width: 14px;
+	height: 15px;
+	display: inline-block;
+	background: url("/static/images/m-knowicon.png") left center no-repeat;
+	position: absolute;
+	top: 5px;
+	right: 65px;
+}
+.m-tips{
+	font-size: 12px;
+	color: #ff5353;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.m-rightcon table{
+	width: 100%;
+	margin-bottom: 50px;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	border-collapse:collapse; 
+    border-spacing:0; 
+    font-size: 14px;
+    color: #414141;
+}
+.m-rightcon table tr td{
+	padding: 20px 25px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.m-rightcon table tr td.m-firsttd{
+	background: #fafafa;
+	width: 150px;
+}
+.m-rightcon .m-wrongtip{
+	width: 200px;
+	margin: 10px auto;
+	font-size: 12px;
+	color: #ff5353;
+	text-align: center;
+}
+/*.m-rightcon .m-tocashbtn{
+	width: 200px;
+	height: 35px;
+	display: block;
+	background: #00aeee;
+	text-align: center;
+	line-height: 35px;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 5px;
+	margin: 0 auto;
+}*/
+.m-user{
+	width: 185px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #cccccc;
+	text-indent: 10px;
+	margin-right: 10px;
+	background: #f9f9f9;
+}
+.m-pr{
+	position: relative;
+}
+.m-rightcon table tr td p{
+	position: absolute;
+	top: 55px;
+	left: 25px;
+	color: #ff5353;
+	font-size: 12px;
+}
+.m-rightcon table tr td a{
+	color: #00bafb;
+}
+.m-rightcon table tr td a.m-addcard{
+	position: absolute;
+	top: 22px;
+	left: 300px;
+}
+.m-mselect{
+	width: 260px;
+	height: 30px;
+	border-top: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4 ;
+	border-radius: 5px;
+	background: #f4f4f4;
+}
+.m-mselectshow{
+	 position: absolute;
+	  z-index: 99;
+	  width: 235px;
+	  height: 30px;
+	  line-height: 30px;
+	  display: inline-block;
+	  text-indent: 20px;
+	  position: absolute;
+	  left: 0px;
+	  top: 0px;
+	  border-radius: 5px 0px 0px 5px;
+	  cursor: pointer;
+}
+.m-btnselect{
+	position: absolute;
+  z-index: 99;
+  width: 26px;
+  height: 29px;
+  display: inline-block;
+  background: url("/static/images/m-slectbtn.png") no-repeat center center;
+  top: 0px;
+  right: 0;
+}
+.m-rightcon .m-mlist{
+	position: absolute;
+  z-index: 99999;
+  list-style: none;
+  width: 220px;
+  top: 29px;
+  left: 0px;
+  background: #eee;
+  padding: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+/*我要提现*/
+.m-addpo{
+	width: 107%;
+	position: absolute;
+	top: 0;
+	left: -28px;
+	border-bottom: 1px solid #f0f0f0;
+	text-indent: 30px;
+	height: 40px;
+}
+.m-cardtips{
+	padding-left: 20px;
+	color: #616161;
+	font-size: 12px;
+	padding: 30px 0px;
+	border-top: 1px solid #f0f0f0;
+}
+.m-cardtips span{
+	width: 55px;
+	height: 20px;
+	display: inline-block;
+}
+.m-process{
+	width: 380px;
+	padding: 50px 0px 30px;
+	margin: 0 auto;
+}
+.m-addinfor{
+	font-size: 14px;
+	position: relative;
+	float: left;
+	margin-right: 180px;
+}
+.m-addinfor i.m-addbefore{
+	position: absolute;
+	top: -20px;
+	left: 38px;
+}
+.m-success{position: relative;}
+.m-success i.m-addbefore{
+	position: absolute;
+	top: -20px;
+	right: 38px;
+	color: #414141;
+}
+/*蓝色状态*/
+.m-bluest{
+	color: #00bafb;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #00bafb;
+	border-radius: 10px;
+}
+.m-blueco{color: #00bafb;}
+/*灰色状态*/
+ .m-grayst{
+ 	width: 14px;
+	height: 14px;
+	background: #eff3f5;
+	border-radius: 10px;
+ }
+.m-grayco{color: #414141;}
+
+.m-line{
+	width: 276px;
+	height: 3px;
+	background: #eff3f5;
+	position: absolute;
+	top: 35px;
+	left: 52px;
+}
+.m-blackcolor{color:#000;}
+.m-cutwidth1{width: 185px;}
+.m-ok{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	background: url("/static/images/m-ok.png") no-repeat center center;
+	position: absolute;
+	top: 30px;
+	left: 230px;
+}
+
+.m-cutwidth2{width: 130px;float: left;margin-right: 20px;}
+.m-rightcon table tr td p.m-cardnum{
+	font-size: 16px;
+	color: #818181;
+	position: absolute;
+	top: 0px;
+	left:20px;
+	padding-left: 5px;
+}
+
+.m-height50{height: 50px;}
+.m-rightcon table tr td p.m-positi{position: absolute;top:60px;}
+.m-width145{width: 145px;}
+.m-rightcon table tr td div ul.m-width145{width: 145px;z-index: 9999999999;}
+
+
+
+
+
+
+
+

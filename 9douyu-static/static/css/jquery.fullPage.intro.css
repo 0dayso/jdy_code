@@ -1,0 +1,122 @@
+/**
+ * fullPage 2.1.9
+ * https://github.com/alvarotrigo/fullPage.js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+ */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+
+    /*Avoid flicker on slides transitions for mobile phones #336 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#superContainer {
+    height: 100%;
+    position: relative;
+
+    /* Touch detection for Windows 8 */
+    -ms-touch-action: none;
+
+    /* IE 11 on Windows Phone 8.1*/
+    touch-action: none;
+}
+.fp-section {
+    position: relative;
+    -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box; /* <=28 */
+    box-sizing: border-box;
+}
+
+.fp-section.fp-table{
+    /*display: table;*/
+    width: 100%;
+}
+.fp-tableCell {
+    /*display: table-cell;*/
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+.fp-scrollable {
+    overflow: scroll;
+}
+.fp-easing {
+    -webkit-transition: all 0.7s ease-out; /* Safari<=6 Android<=4.3 */
+    transition: all 0.7s ease-out;
+}
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 65%;
+    opacity: 1;
+}
+#fp-nav.right {
+    right: 17px;
+}
+#fp-nav.left {
+    left: 17px;
+}
+
+#fp-nav ul {
+  margin: 0;
+  padding: 0;
+    margin-right: 40px;
+}
+#fp-nav li {
+    display: block;
+    width: 8px;
+    height: 9px;
+    margin:0 17px 17px;
+    position:relative;
+}
+
+#fp-nav li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#fp-nav li .active span {
+    width: 14px;
+    height: 14px;
+    border:0;
+    background:#fff;
+    background:rgba(255,255,255,.5);
+    
+}
+#fp-nav span {
+    top: 0;
+    left: 0;
+    width: 10px;
+    height:10px;
+    background: transparent;
+    display: block;
+    position: absolute;
+    border: 2px solid #fff;
+    border: 2px solid rgba(255,255,255,0.5);
+    z-index: 1;
+    border-radius: 7px;
+}
+.fp-tooltip {
+    position: absolute;
+    top: -2px;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    white-space: nowrap;
+    max-width: 220px;
+}
+.fp-tooltip.right {
+    right: 20px;
+}
+.fp-tooltip.left {
+    left: 20px;
+}

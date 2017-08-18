@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com (you@example.org)
+ * @date    2017-6-30 
+ * @version $Id$
+ */
+body{background-color: #e9f4ff;color: #666; line-height:0.94rem; }
+.custody-banner{width: 100%; height:8.4rem; background: url('/static/weixin/activity/custody/images/sec-banner.png') top center no-repeat; background-size: cover; }
+.custody-box{ position: relative; background-color: #fff; width:14.72rem; margin:0 auto 1.28rem; padding-bottom: 0.43rem;}
+.custody-box:after{content:''; position:absolute; width:100%; height:0.43rem; left: 0; bottom:0;background: url('/static/weixin/activity/custody/images/sec-bottom.png') top center no-repeat; background-size: cover;}
+.custody-box h3{color: #333;font-size: 0.85rem; line-height: 1.17rem; margin-bottom: 0.64rem;}
+.custody-box p.txt{text-align: left; line-height: 1.1rem; text-align: justify;font-size: 0.6rem; padding:0 0.85rem 0.85rem;}
+.custody-img1{width:3.712rem; margin:0.85rem 0;  }
+.custody-title1{width:100%;text-align: center; height:1.96rem; margin-bottom: 1.36rem; line-height: 1.96rem; color: #fff; font-size: 0.768rem; text-shadow:0 1px 2px rgba(0, 0, 0, 0.3); background: url('/static/weixin/activity/custody/images/sec-title1.png') top center no-repeat; background-size: cover;}
+.swiper-container{width: 12.8rem;  margin:0 auto; padding-top: 1.71rem; box-sizing: border-box;}
+.swiper-wrapper,.swiper-slide{width:100% !important; box-sizing: border-box;}
+.swiper-slide{max-height:21rem; overflow-y: auto;}
+.swiper-container-horizontal>.swiper-pagination{top: 0; left: 1.25rem; bottom:inherit; text-align: left;}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{position: relative;opacity:1 !important; border-radius: 0 !important;  width:2rem !important; height:1.28rem !important; background-color: transparent !important; }
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet:before{content: ''; position: absolute; left: 0; right: 0; text-align: center; font-size: 0.725rem; line-height:1.28rem; color: #666 ; }
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet:first-child:before{content: '2017';  }
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet:nth-child(2):before{content: '2016';  }
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet:nth-child(3):before{content: '2015';  }
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet:nth-child(4):before{content: '2014';  }
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before{ color: #0043e2; font-size: 0.85rem;}
+.swiper-button-next, .swiper-button-prev{top: 5px !important;margin-top: 0 !important; width:0.363rem; height:0.683rem; background-position: 0 0;background-repeat: no-repeat; background-size: 0.363rem 0.683rem; }
+/*向左*/
+.swiper-button-prev{
+    background-image: url('/static/weixin/activity/custody/images/sec-left.png')
+}
+
+/*向右*/
+.swiper-button-next{
+    background-image: url('/static/weixin/activity/custody/images/sec-right.png')
+}
+
+
+
+.swiper-slide p{font-size:0.512rem ; line-height: 0.94rem; color: #333;text-align: justify;}
+.swiper-slide p.tc{text-align: center;}
+.swiper-slide h3{font-size:0.64rem ; margin:0.25rem 0 1rem; color: #4d9cff;}
+.swiper-slide img.custody-img3{width: 4.224rem; margin-bottom: 1.07rem;}
+.swiper-slide img.custody-img2{width: 9.344rem; margin:1.55rem 0  1.96rem;}
+
+.custody-history{padding: 0 0 0 0.81rem;width: 100%; box-sizing: border-box; line-height: 0.81rem; text-align: left;}
+.custody-history dd{padding-bottom: 0.725rem; color: #333; font-size: 0.555rem;position: relative;}
+.custody-history.less dd{padding-bottom: 1.28rem;}
+.custody-history dt{font-size: 0.512rem; color: #666; position: relative;}
+.custody-history dt:after{content: '';position: absolute; width: 8px; height: 8px; border-radius: 50%; border:1px solid #60b9f9; left: -0.76rem; top:0.1rem;}
+.custody-history dd:after{content: ''; position: absolute; width: 1px; background-color: #60b9f9; top: -0.05rem; bottom: 0.025rem; left: -0.55rem}
+.custody-history dd:last-child:after{display: none;}
+
+.custody-box2{padding:0 0.64rem; box-sizing: border-box; background-color: #cbe5ff;overflow: hidden;}
+.custody-title2{width:100%;text-align: center; height:1.96rem; margin:1.195rem 0 0.768rem; line-height: 1.96rem; color: #2c67e0; font-size: 0.768rem; background: url('/static/weixin/activity/custody/images/sec-title2.png') center center no-repeat; background-size: 13.14rem 0.34rem; }
+.custody-box3{background-color: #fff; margin-bottom: 0.6rem; padding:0.85rem 0.94rem 0.94rem; box-sizing: border-box;}
+.custody-box3 h3{font-size: 0.725rem; color: #333; margin-bottom: 0.512rem; text-align: center;}
+.custody-box3 p{ font-size: 0.55rem; line-height: 1.07rem;text-align: justify;}
+
+.custody-service{padding-top: 0.5rem;}
+.custody-service li{ margin-bottom:1rem ;display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;-webkit-box-align: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;}
+.custody-icon{ width: 2.56rem; padding-top: 0.5rem;}
+.custody-icon>img{width:1.877rem;}
+.custody-txt{width:9.35rem;}
+
+
+
+

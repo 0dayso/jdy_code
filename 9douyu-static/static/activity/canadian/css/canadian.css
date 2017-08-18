@@ -1,0 +1,49 @@
+/**二月二2017 返现**/
+
+body{width:100%;background:#a8d483 url("/static/activity/canadian/images/page-bg.png") center 732px no-repeat;color: #fff;font-family: "微软雅黑";background-size: cover;}
+.footer-bottom{margin-top:0;}
+.page-bottom-wrap{background: #93c26b;}
+
+.page-rule h6{padding:84px 0 60px;text-align: center;color:#486d29;font-size: 36px;font-weight: bold;}
+.page-rule p{line-height:50px;font-size: 28px;color:#486d29;font-weight: bold;}
+.page-bottom{width:1070px;padding-bottom:172px;background: url('/static/activity/canadian/images/page-bg-bottom.png') center bottom no-repeat;}
+.page-auto{margin:0 auto;}
+.page-banner{width: 100%;height:1156px;background: url('/static/activity/canadian/images/page-banner.jpg') center top no-repeat;}
+.page-time{padding-top:27px;font-size: 30px;color: #fff;text-align: center; }
+
+.page-wrap{width: 858px;margin: 0 auto;}
+.page-project{width:1213px;position: relative;margin:0 auto;}
+.page-project-title{position: absolute;left:50%;top:-70px;margin-left:-284px;width: 567px;height: 206px;background: url('/static/activity/canadian/images/page-project-title1.png') center top no-repeat; font-size: 0;}
+.page-project-title.title2{background: url('/static/activity/canadian/images/page-project-title2.png') center top no-repeat; }
+.page-project-main{position:relative;margin:0 auto 126px auto;width:1156px;height:630px;background: url('/static/activity/canadian/images/page-project-box.png') center bottom no-repeat;}
+.page-project-item{padding:168px 0 0 150px;}
+.page-project-item .title{margin:0 0 0 10px;font-size: 24px;color: #fce7ac;}
+.page-project-item .title span{font-size: 60px;color:#915327;vertical-align: top;padding-right: 10px;}
+.page-project-inner p{margin:36px 0 0 0;float: left;text-align: center;font-size: 28px;font-weight: bold;}
+.page-project-inner p strong{color:#fce7ac;}
+.page-project-inner p span{margin-top: 36px;display: block;color:#834a1a;}
+.page-project-inner p em{color: #fce7ac;}
+.page-project-inner .p1{width:200px;}
+.page-project-inner .p1 span{color:#834a1a;}
+.page-project-inner .p1 em{color:#ffee01;}
+.page-project-inner .p1 strong{font-size: 56px;text-align: left;color:#ffee01;font-weight: bold;color:#ffee01;}
+.page-project-inner .p2{width: 200px;margin:48px 0 0;}
+.page-project-btn,.page-project-btn:link,.page-project-btn:visited,.page-project-btn:hover,.page-project-btn:active{display:block;margin:36px 0  0 290px;width:287px;height: 98px;line-height:74px;background: url('/static/activity/canadian/images/page-project-btn1.png') center center no-repeat;text-align: center;color:#fff;font-size: 32px;font-weight: bold;}
+.page-project-disabled,.page-project-disabled:link,.page-project-disabled:visited,.page-project-disabled:hover,.page-project-disabled:active{display:block;margin:36px 0  0 290px;width:287px;height: 98px;line-height:74px;background: url('/static/activity/canadian/images/page-project-btn3.png') center center no-repeat;text-align:center;color:#fff;font-size: 32px;font-weight: bold;}
+.page-project-btn.active,.page-project-btn.active:link,.page-project-btn.active:visited,.page-project-btn.active:hover,.page-project-btn.active:active{background: url('/static/activity/canadian/images/page-project-btn2.png') center center no-repeat;color:#ed5a4f;}
+.page-cash-return{margin:-748px auto 150px auto;width:1205px;height:2337px;background: url('/static/activity/canadian/images/page-cashreturn.png?v=10009') center bottom no-repeat;}
+.page-cash-tab{padding-top: 522px;width:465px;margin:0 auto;}
+.page-cash-tab li{float: left;margin-left:86px;width: 188px;height: 84px;line-height:78px;background: url('/static/activity/canadian/images/page-tab-default.png') center bottom no-repeat;text-align: center;cursor: pointer;font-size: 44px;color:#c35707;}
+.page-cash-tab li.cur{background: url('/static/activity/canadian/images/page-tab-active.png') center bottom no-repeat;color: #7c1e0f;}
+.page-cash-content{width:800px;margin:90px auto 0;}
+.page-cash-content p{position:relative;float: left;width:50%;text-indent: 144px;height: 85px;line-height: 85px;font-size: 58px;font-weight: bold;}
+.page-cash-content p span{position: absolute;left:0;top:10px;display: inline-block;vertical-align: middle;width:120px;height: 66px;background: url('/static/activity/canadian/images/page-icon1.png') center bottom no-repeat;}
+.page-cash-content p span.withdrawal{background: url('/static/activity/canadian/images/page-icon2.png') center bottom no-repeat;}
+.color_three p{color: #fff !important;}
+.color_six p{color: #efcf84 !important;}
+.color_twelve p{color: #653d21 !important;}
+.page-mask{position: fixed;left:0;top:0;z-index:1;width:100%;height: 100%;background: rgba(0,0,0,0.7);}
+.page-pop{position: fixed;left:50%;top:50%;z-index:2;margin-left:-407px;margin-top:-462px;width:815px;height: 925px;background: url('/static/activity/canadian/images/page-pop-login-box.png') center top no-repeat;  }
+.page-pop-btn,.page-pop-btn:link,.page-pop-btn:visited,.page-pop-btn:hover,.page-pop-btn:active{display: block;margin:754px auto;width:316px;height: 114px;background: url('/static/activity/canadian/images/page-pop-login-btn.png') center bottom no-repeat;font-size: 0;}
+.page-pop-close,.page-pop-close:link,.page-pop-close:visited,.page-pop-close:hover,.page-pop-close:active{display: block;width:61px;height: 61px;position: absolute;right:150px;top:530px;background: url('/static/activity/canadian/images/page-pop-close.png') center top no-repeat;font-size: 0;}
+

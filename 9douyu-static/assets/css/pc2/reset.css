@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*CSS reset*/
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none;
+}
+
+/*@font-face{font-family:iconfont;src:url(/fonts/iconfont.eot?4.2);src:url(/fonts/iconfont.eot?4.2#iefix) format("embedded-opentype"),url(/fonts/iconfont.woff?4.2) format("woff"),url(/fonts/iconfont.ttf?4.2) format("truetype"),url(/fonts/iconfont.svg?4.2#iconfont) format("svg");font-style:normal;font-weight:400}
+*/
+body,div,a,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0; padding:0;/*font-family:"Source Han Sans,Noto Sans CJK,Microsoft Yahei","STHeiti","SimHei ","SimSun";*/font-family: "Helvetica Neue","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
+body{ font-size:14px; color:#515151; line-height:24px; min-width: 1002px; background-color: #fafafa; }
+
+table{border-collapse:collapse; border-spacing:0;}
+fieldset,img{border:0;}
+button{border:none; outline:none;}
+img{vertical-align:middle;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal; }
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+input,select{vertical-align:middle; outline:none;}
+input[type=submit],input[type=button],input[type=reset],button,select{cursor:pointer;font-family:"Microsoft Yahei","STHeiti","SimHei ","SimSun";}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+
+a,a:visited{color:#616161; text-decoration:none; outline:none;}
+a:hover,a:active{color:#00bafb; text-decoration:none;}
+
+.wrap{width: 1002px; margin-left: auto; margin-right: auto;}
+
+/* 文字排版 */
+
+.f12{font-size:12px;}
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.f22{font-size:22px;}
+.f24{font-size:24px;}
+.f28{font-size:28px;}
+.f30{font-size:30px;}
+.f36{font-size:36px;}
+.fb{font-weight:bold;}
+.flighter{font-weight: lighter;}
+.fn{font-weight:normal;}
+.t2{text-indent:2em;}
+.lh150{line-height:150%;}
+.lh180{line-height:180%;}
+.lh200{line-height:200%;}
+.unl{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+
+
+/* 定位 */
+.tl{text-align:left !important;}
+.tc{text-align:center;}
+.tr{text-align:right !important;}
+.bc{margin-left:auto; margin-right:auto;}
+.fl{float:left; display:inline;}
+.fr{float:right; display:inline;}
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+.clearfix:before, .clearfix:after {content:"";display:table; height: 0;}
+.clearfix:after{clear:both}
+.clearfix{*zoom:1;}
+/*html .clearfix{height:1%;}*/
+.clear{width:100%; line-height:0; font-size:0; overflow:hidden; clear:both;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.zoom{zoom:1;}
+.hidden{overflow:hidden;}
+.none{display:none;}
+.bnone{border:none !important;}
+.t2{text-indent:2em;}
+.mauto{ margin: 0 auto;}
+
+
+/*边距*/
+.mn{margin:0 !important;}
+

@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{background-color: #1f527b !important;}
+.pleasure-box{margin:0rem 0.75rem 1.8rem;}
+.pleasure-1{ border: 1px solid #fff; border-radius:0.3rem 0.3rem 0 0; height: 1.65rem; background: #1f527b;}
+.pleasure-1 p{ color: #eff9ff; font-size: 0.6rem; padding:0 0.7rem; line-height: 1.6rem;}
+.pleasure-1 p span{ display: inline-block; float: right; font-size:0.4rem; }
+.pleasure-1 p span i{ width: 0.55rem; height: 0.55rem; background:url(/static/weixin/images/activity/pleasure-icon.png) top center no-repeat; background-size: 0.55rem; display: inline-block;vertical-align:text-bottom; padding-right: 0.2rem; }
+.pleasure-2{ border-radius:0 0 0.3rem 0.3rem; height: 3.15rem; background: #eff8ff; padding-top: 1rem;}
+.pleasure-2 table{ width: 100%; text-align: center;}
+.pleasure-2 tr:first-child{ font-size: 0.5rem; color: #414141; line-height: 1rem;}
+.pleasure-2 tr:first-child span{ font-size: 0.9rem; }
+.pleasure-2 tr:last-child{ font-size: 0.45rem; color: #8d8d8d; line-height:0.8rem;}
+a.pleasure-button,a.pleasure-button-gray{ width: 100%; text-align: center; height:2rem; box-shadow: 0 0.2rem 0 #e79000; line-height: 2rem; background: #fcbd00; display: block; color: #fff; border-radius: 0.4rem; margin: 1rem 0 1.45rem 0; font-weight: bold; font-size: 0.75rem;}
+a.pleasure-button span{ font-size: 0.5rem; margin-left: 0.75rem; position: absolute;}
+a.pleasure-button-gray{ background: #c9c9c9; box-shadow: 0 0.2rem 0 #b3b3b3;}
+.pleasure-3{ padding-top: 1rem;}
+.pleasure-3-1{ width: 100%;height: 1px; background: #fff;}
+.pleasure-3-2{ width: 4rem; height: 1.1rem;background: #ffffff; border-radius: 2.5rem; text-align: center; font-weight: bold; color: #1f527b; line-height: 1.1rem; margin: -0.6rem auto 0;}
+.pleasure-list{ margin-top: 0.75rem;}
+.pleasure-list dl{ color:#fff; }
+.pleasure-list dl dt{ font-size: 0.55rem; font-weight: bold; line-height: 1rem; padding-top: 0.3rem;}
+.pleasure-list dl dd{ font-size: 0.5rem; line-height: 0.8rem; margin-left: 0.8rem;}
+.pleasure-list dl dt span{ font-size: 0.55rem; padding-right: 0.5rem;}

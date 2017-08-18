@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.chirstmas-bg-box{width: 100%; overflow: hidden; margin-bottom: -80px; background: url(/static/images/activity/chirstmas-bg-repeat.jpg) repeat-y top center #eaeaf2;}
+.chirstmas-bg-box .wrap{position: relative;}
+.chirstmas-banner{width: 100%; height: 510px; background: url(/static/images/activity/chirstmas-banner.jpg) no-repeat top center #eaeaf2;}
+
+.chirstmas-title1,
+.chirstmas-title2,
+.chirstmas-icon1,
+.chirstmas-icon2,
+.chirstmas-icon3,
+.chirstmas-icon4,
+.chirstmas-icon5,
+.chirstmas-menu li,
+.chirstmas-status3 i,
+.chirstmas-prompt h3 i,
+.chirstmas-prompt ins{background-image: url(/static/images/activity/chirstmas-icon1.png); background-repeat: no-repeat;}
+
+.chirstmas-title1{width: 576px; height: 168px; background-position: 0 0; margin:15px 0 80px 310px;}
+.chirstmas-title2{width: 576px; height: 200px; background-position: 0 -500px; margin:0 0 0 195px;}
+.chirstmas-icon1{position: absolute; top:175px; right: -300px;  width: 220px; height: 176px;background-position: 0 -168px;}
+.chirstmas-icon2{position: absolute; top:395px; left: -300px;  width: 220px; height: 176px;background-position: -220px -168px;}
+.chirstmas-icon3{position: absolute; top:1275px; right: 50px;  width: 180px; height: 132px;background-position: -440px -168px;}
+.chirstmas-icon4{position: absolute; top:2077px; left: -150px;  width: 220px; height: 155px;background-position: 0 -345px;}
+.chirstmas-icon5{position: absolute; top:2185px; right: -220px;  width: 120px; height: 180px;background-position: -576px 0;}
+.chirstmas-menu{width:1022px;}
+.chirstmas-menu li{width: 126px; height: 124px; text-align: center; font-size: 20px; font-weight: bold; line-height: 28px; float: left;margin-right: 20px; position: relative;background-position: -220px -343px;}
+.chirstmas-menu li p{padding-top: 25px;}
+.chirstmas-menu-line{width: 100%; margin-bottom: 35px; height: 7px;background: url(/static/images/activity/chirstmas-bg-repeat2.png) repeat-x 13px 0; border-radius: 3.5px; -webkit-border-radius: 3.5px;}
+.chirstmas-status1{color: #909090;}
+.chirstmas-status2{color: #fc0006;}
+.chirstmas-status3{color: #1f9234;}
+.chirstmas-status3 i{position: absolute; top: -28px; left:22px;  width: 82px; height: 55px; background-position: -393px -344px;}
+.chirstmas-project-box{width: 1020px; overflow: hidden; margin:0 0 40px -9px; height: 250px;background: url(/static/images/activity/chirstmas-bg1.png) no-repeat 0 0;}
+.chirstmas-project-box table{color: #fff; width: 930px; margin:30px auto 0;}
+.chirstmas-project-box th{font-size: 24px; line-height: 52px; border-bottom: 1px dashed #fff;}
+.chirstmas-project-box td{height: 154px; text-align: center; font-size: 18px; line-height: 44px;}
+.chirstmas-project-box td span{font-size: 24px;}
+.chirstmas-project-box td strong{font-size: 38px;}
+a.chirstmas-project-btn,a.chirstmas-project-btn:visited{display: block; margin:0 auto; width:156px; height: 46px;line-height: 46px; background-color:#f35156; border:2px solid #fff; border-radius: 5px; -webkit-border-radius: 5px; color: #fff; font-size: 22px;}
+a.chirstmas-project-btn:hover,a.chirstmas-project-btn:active{background-color: #f13f45;}
+a.chirstmas-project-btn.disable{background-color: #9c9c9c;}
+.chirstmas-prompt{padding:16px 30px; box-shadow: 0 5px 10px rgba(0,0,0,.15); margin-bottom: 95px; font-size: 16px; line-height: 18px; border:1px solid #4e8f0d; background-color: #d5e8d4; color: #358702;position: relative;}
+.chirstmas-prompt h3{font-weight: bold; font-size: 18px; padding-left: 34px; margin-bottom: 10px;  line-height: 42px;position: relative;}
+.chirstmas-prompt h3 i{position: absolute; width: 34px; height: 34px; left: -7px; top: 0; background-position: -347px -345px;}
+.chirstmas-prompt dt{width: 34px; float: left; margin-bottom: 10px;}
+.chirstmas-prompt dt span{display: inline-block; background-color:#358702; width: 18px; height: 18px; text-align: center; color: #fff; }
+.chirstmas-prompt dd{margin:0 0 10px 34px;}
+.chirstmas-prompt ins{position: absolute; top: -6px; right: 80px; width: 175px; height: 38px; background-position: -349px -404px;}
+.chirstmas-main{width: 1020px; height: 465px; margin:0 0 30px -10px;}
+
+
+.newyear7-banner{width: 100%; height: 615px; background: url('/static/images/activity/newyear7-banner.jpg') no-repeat top center #eaeaf2;}
+.newyear7-title1{width: 606px; height: 137px; background: url('/static/images/activity/newyear7-bg.png') no-repeat  0 0; margin:15px 0 50px 270px;}
+.newyear7-title2{width: 632px; height: 141px; background: url('/static/images/activity/newyear7-bg.png') no-repeat  0 -137px; margin:15px 0 10px 100px;}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2016-2-04
+ * @version $Id$
+ */
+body{background-color: #fff;}
+.appsix-main{margin:0 1rem; }
+.appsix-main-title{width:100%; text-align: center; padding:0.6rem 0; line-height: 1rem; font-size: 0.85rem;position: relative; }
+.appsix-main-title span{display: inline-block; position: relative;z-index: 100; width:5.2rem;background-color: #fff;color:#26aeed;}
+.appsix-main-title i{position: absolute; left: 0; right:0; top:50%; z-index: 1; height: 0; border-bottom: 1px dashed #26aeed;}
+.appsix-main-title ins{position: absolute; top:0.4rem;  width:0.25rem; height: 0.25rem; background-color: #8fd0f2; overflow: hidden; border-radius: 50%;}
+.appsix-main-title ins:first-child{left: 0;}
+.appsix-main-title ins:last-child{right: 0;}
+.appsix-main-list{width:100%; overflow: hidden;}
+.appsix-main-list li{width:33%; float: left; text-align: center; line-height: 1rem;color:#606060; font-size: 0.6rem;}
+.appsix-main-list li span{font-size: 0.9rem; margin-right: 0.25rem;}
+.appsix-main-list li img{width:2.5rem;}
+.appsix-main-list li .yellow{color: #ffc40d; margin-top:0.25rem;}
+.appsix-main-list li .red{color: #fc4b4e;margin-top:0.25rem;}
+.appsix-main-list li .blue{color: #26aeed;margin-top:0.25rem;}
+.appsix-main-txt{color: #a7a7a7; font-size: 0.5rem; text-align: center; padding:0.3rem 0 0.3rem;}
+.appsix-box{width: 100%; background-color: #e0f2ff;}
+.appsix-box ul{margin:0 0.5rem;overflow: hidden; margin-top:0.75rem;}
+.appsix-box li{width:100%; font-weight: lighter; margin-bottom: 0.5rem; background-color: #fff; border-radius: 0.25rem; padding:0.5rem 0.75rem 0; height: 2.85rem; box-sizing: border-box;}
+.appsix-box p{margin-right:3.25rem; font-size: 0.65rem; color: #393939; line-height: 1rem; }
+.appsix-box p span{ color: #fc4b4e;}
+.appsix-box p em{color: #26aeed; font-weight: lighter;}
+.appsix-box p i{font-style: normal; color: #fc4b4e;}
+.appsix-btn{display: block; margin-top:0.25rem; text-align: center; float: right; width:3.25rem; height: 1.45rem; line-height: 1.45rem; background-color: #ff5453; color: #fff; border-radius: 0.25rem; font-size: 0.6rem;}
+.appsix-btn.done{background-color: #26aeed;}
+.appsix-btn.disable{background-color: #bfbfbf;}
+
+.appsix-btn2{text-align: center; width: 100%;}
+.appsix-btn2 a{color: #26aeed;cursor: pointer; font-size: 0.7rem;line-height: 1.5rem; margin-bottom: 0.5rem;}
+
+.appsix-pop-wrap{display: none;}
+.appsix-pop{position: fixed; overflow: hidden; background-clip: padding-box; z-index: 1000; border-radius: 0.25rem; padding:0.75rem; background-color: #fff; left: 0.75rem; right:0.75rem; top:50%;}
+.appsix-pop h3{font-size: 1.05rem; text-align: center;line-height: 1.5rem; padding-bottom:0.5rem;}
+.appsix-pop dl{ line-height: 1.1rem; font-size: 0.65rem; overflow: hidden;}
+.appsix-pop dt{float: left; width:0.9rem; font-size: 0.7rem; color:#26aeed;}
+.appsix-pop dd{margin-left:0.9rem;}
+.appsix-pop i{cursor: pointer; position: absolute; right:-0.75rem; top:-0.75rem; width:2.45rem; height:2.45rem; border-radius: 50%;background: url("/static/weixin/images/activity/appsix-close.png") 0.55rem 1rem no-repeat #26aeed;overflow: hidden; background-size:0.9rem 0.9rem;   }
+
+.partner-pop-wrap{display: none;}
+.partner-pop-mask{position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 100; background-color: rgba(0,0,0,.7);}
+.partner-pop{position: fixed; top: 0; right: 0.5rem; z-index: 1000;}
+.x-partner2-share-img{width: 14.05rem;}
+

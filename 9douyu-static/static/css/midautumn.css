@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.midautumn-bg{background-color: #ff850c;}
+.midautumn-banner{width: 100%; height: 580px; background: url('/static/images/activity/midautumn-banner.jpg') top center no-repeat;}
+.midautumn-wrap{margin:0 auto; width: 850px;  }
+.midautumn-title-1{width: 560px; height: 107px; padding: 80px 0 0 46px; line-height: 30px; color:#fad400; margin:35px 0 55px 105px; text-align: center;background: url('/static/images/activity/midautumn-title-1.png') 0 0 no-repeat;}
+.midautumn-title-1 strong{font-size: 20px;}
+.midautumn-title-1 span{font-weight: lighter; font-size: 16px;}
+.midautumn-img{width: 872px; margin:0 -11px 40px;}
+.midautumn-title-2{width: 100%; margin-bottom: 120px; height: 50px; font-weight: lighter; font-size: 18px; text-align: center; color: #fff; line-height: 50px;background: url('/static/images/activity/midautumn-title-2.jpg') 0 0 no-repeat;}
+.midautumn-ranking{width: 100%; margin-bottom: 35px; line-height: 70px; text-align: center; color:#fff; }
+.midautumn-ranking th{font-weight: normal; text-align: center; font-size: 20px; border: 1px solid #f96501; border-width: 1px 0;}
+.midautumn-ranking td{font-size: 18px; font-weight: lighter;border-bottom: 1px solid #f96501;}
+.midautumn-title-3{width: 100%; font-weight: lighter;font-size: 20px; text-align: center;color:#fff; line-height: 50px; background: url('/static/images/activity/midautumn-title-4.png') center center no-repeat;}
+a.midautumn-btn{width: 458px; display: block; color: #f97000 !important; text-align: center; border-radius: 5px; box-shadow:0 3px 0 #ff5303; margin:15px auto 80px; height: 76px; line-height: 76px; background-color: #fff06d; font-size: 30px; font-weight: bold;}
+.midautumn-rule{width: 682px; background-color: #f86f01; font-weight: lighter; padding: 40px 84px 60px; line-height: 30px; color: #fff; margin-bottom: 60px; font-size: 16px;}
+a.midautumn-disable{background-color: #d6d6d6; color: #fff !important; cursor: default; box-shadow:0 3px 0 #bd9e8c;}
+.midautumn-title-4{width: 100%;font-weight: lighter;font-size: 16px; margin-bottom: 25px; text-align: center;color:#fad400; padding-top: 28px; height: 152px; line-height: 30px;  background: url('/static/images/activity/midautumn-title-3.png') center top no-repeat;}

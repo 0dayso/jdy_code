@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/**
+ 
+ * @authors tian.xiaoyan@9douyu.com
+ * @date    2016-4-28
+ * @version $Id$
+ */
+body{background-color: #fdbc29;}
+.app7-bg{ background: #d92a2d;}
+.app7-bj{ width: 100%; height:15.8rem;background: url("../images/activity/app7-bj.png") no-repeat 0 0; background-size:100%; position: absolute;}
+.app7-1{color: #fff; background: #c13a2f; text-align: center; height: 1.25rem; line-height: 1.25rem; position: relative;}
+.app7-bj1{ width: 100%; height:12.65rem;background: url("../images/activity/app7-bj1.png") no-repeat 0 0; background-size:100%; position: relative; margin-top: 2rem; }
+.app7-bj1-1{ color: #fffcf6; font-size:0.65rem; text-align: center; padding-top:3rem;  }
+.app7-bj1-2{ color: #ffdea7; font-size: 0.7rem; text-align: center; padding-top: 2.55rem;}
+.app7-bj1-3{ color: #ffffff; font-size: 0.5rem; text-align: center; padding-top: 0.4rem;}
+.app7-bj1-4{ width:10rem; margin: 0.4rem auto 0; color:#ffdea7;}
+.app7-bj1-4 tr td{font-size: 0.65rem; text-align: center; }
+.app7-bj1-4 tr td span{ font-size: 1.1rem;}
+.app7-btn,.app7-red-btn,.app7-red-btn1{ display:inline-block; background: #ffdea7; box-shadow: 0  0.25rem 0 #ff9801; margin: 1.25rem auto 0; width: 100%; border-radius:2rem; height: 2.75rem; text-align: center;  }
+.app7-btn-1{ color:#d42529; font-size: 0.9rem; margin-top: 0.4rem; line-height: 1.3rem;  }
+.app7-btn-2{ color:#ed9547; font-size: 0.5rem;  }
+.app7-2{ padding: 0 1rem;}
+.app7-3{ padding:0 0.75rem;}
+.app7-3-1{ width: 100%; height: 0.25rem; background: url("../images/activity/app7-1.png") no-repeat 0 0; background-size:100%; margin-top: 2.15rem; text-align:center; color: #ffdea7; font-size: 0.75rem; position: relative;}
+.app7-3-1 h4{ font-size: 0.75rem;letter-spacing:1px; position:absolute; left: 0; right: 0; margin: 0 auto; top: -0.5rem;}
+.app7-3-2{ width: 100%; background: #ffad34;  border-radius: 0.5rem; margin-top: 0.825rem; box-shadow: 0 0.25rem #ff7701; position: relative; min-height:16.6rem;}
+.app7-4{ width: 100%; margin: 0.8rem auto 0rem;}
+.app7-4 dt{ float: left; display: inline-block; width:0.6rem; height: 0.6rem; background: #ffdea7; color: #de3c3d; line-height: 0.6rem; text-align: center; border-radius: 100%; font-size: 0.45rem; margin-top: 0.25rem; }
+.app7-4 dd{ margin-left: 1rem; color: #ffdea7; line-height: 1rem;}
+.app7-5{ width:2.3rem; height: 2.3rem; border-radius: 100%; margin: 0 auto; box-shadow: 0 0 2px #ffad34; background:url("../images/activity/app7-bj4.png") no-repeat 0 0; background-size: 2.3rem;box-shadow: 0 0 2px 1px #f2ad76; border: 1px solid #f2ad76; position: relative; left: 0; right: 0; top: 1.05rem; z-index: 2; }
+.app7-5-1{ width: 10.55rem; height: 2.45rem; border-radius: 0.5rem; border: 1px solid #ffca7d; margin: 0.3rem auto 0; position: relative; z-index: 0; }
+.app7-5-1 h4{ color:#6f3a24; font-size: 0.6rem; text-align: center; padding-top: 1.08rem; font-weight: bold; }
+.app7-line{ width: 1px; height:1.25rem; background: #ffca7d; margin-left:4px; }
+.app7-radius{ width: 9px; height: 9px; background: #ffca7d; border-radius: 100%;}
+.app7-5-2{ position: absolute; width: 9px; left: 20%; top: 2.45rem; }
+.app7-5-3{ position: absolute; width: 9px; left: 80%; top: 2.45rem; }
+.app7-font{ width:12rem; overflow: hidden; margin: 0 auto;}
+.app7-font-1{ width:49.99%; border-right: 1px solid #ffca7d; height:6.675rem; color: #ffdea7; position: relative; float: left; }
+.app7-font-1 h4{  font-size: 0.5rem; text-align: center; padding-top: 1.65rem; padding-bottom: 0.6rem; margin-top: 0.2rem;}
+.app7-font-1 p{ font-size: 0.6rem;text-align: center;}
+.app7-font-2{ float: left; width: 49%; color: #6f3a24;}
+.app7-font-2 h4{font-size: 0.5rem; text-align: center; padding-top: 1.65rem; padding-bottom: 0.6rem; margin-top: 0.2rem; padding-left: 0.7rem;}
+.app7-font-2 p{font-size: 0.6rem;text-align: center; padding-left: 0.7rem;}
+.app7-font-2 p.app7-font-3{ padding-bottom: 0.3rem;}
+.app7-6{ width: 0px; height: 0px; line-height: 0px; font-size: 0px; border-width: 10px;border-style: solid;border-color: transparent transparent #ffd9a2 transparent; margin-left: 70%;}
+.app7-7{ width: 12.5rem; margin: 0 0.5rem; background: #ffd9a2; border-radius: 0.5rem; padding: 0.5rem;}
+.app7-7 p{ color: #6f3a24; font-size: 0.6rem;}
+.app7-7 p span{ color:#f1483b; }
+.app7-bj-8{width: 100%; height:12.05rem;background: url("../images/activity/app7-bj5.png") no-repeat 0 0; background-size:93%; position: absolute;z-index: 6; top: 1.15rem;}
+.app9-decorate{width:7.95rem; height:11rem;background: url("../images/activity/apps9-decorate.png") no-repeat 0 0; background-size:100%; position: absolute;z-index: 6; left: 2.25rem; top:0;}
+.app7-bj2{  background:url("../images/activity/app7-bj6.png") repeat 0 0 #d92a2d; background-size:1.2rem auto; padding-bottom: 2rem; padding-top: 2rem; margin-top: -2rem;}
+.app7-btn.disable{ background:#dadada; box-shadow: 0  0.25rem 0 #bababa;  }
+.app7-btn.disable .app7-btn-1{ color:#fff; font-size: 0.9rem; margin-top: 0.4rem; line-height: 1.3rem;}
+.app7-btn.disable .app7-btn-2{ color:#fff; font-size: 0.5rem;  }
+
+.app7-bj2-1{ text-align: center; color: #ffdea7; font-size: 1.2rem; padding-top: 5.1rem;}
+.app7-bj2-2{ text-align: center; color: #ffdea7; font-size: 0.7rem; padding-top: 0.75rem;}
+.app7-bj2-3{ text-align: center; color: #fff; font-size: 0.55rem; padding-top:2.2rem; padding-bottom: 0.7rem;  }
+.app7-bj2-4{ width: 100%; background: #ffeaca; box-shadow: 0 0.25rem #fecb7f;border-radius: 0.8rem; padding:1.5rem 0rem 0.75rem;box-sizing:border-box;  }
+.app7-bj2-5{ width: 100%;}
+.app7-bj2-5 tr td{ width: 33.3%;}
+.app7-bj2-5 tr td{ border-right: 1px solid #fecb7f; color: #555555; font-size: 0.75rem; text-align: center;  }
+.app7-bj2-5 tr td:last-child{border-right:none; font-size: 0.65rem;}
+.app7-bj2-5 tr td:first-child p:last-child{ font-size: 0.55rem; padding-top: 0.3rem;}
+.app7-bj2-5 tr td:last-child p{ line-height: 1rem;}
+.app7-bj2-6{ font-size: 1.4rem;}
+.app7-red-btn{ background: #e7494a; color: #ffffff; font-size: 0.7rem; height: 1.65rem; line-height: 1.65rem; text-align: center; box-shadow: 0 0.15rem 0 #cc2628;  }
+.app7-bj2-7{ padding:0 3.125rem; }
+
+.app7-bj3{ width: 100%; margin: 2.2rem auto 0; text-align: center;}
+.app7-bj3 img{height:6.975rem; background-size: auto 6.975rem; display: inline-block;}
+.apps9-banner{ width: 100%; margin: 2.15rem auto 0; text-align: center;}
+.apps9-banner img{height:5.6rem;  display: inline-block;}
+.app7-bj4{ width: 100%;height:14.05rem; background-size: 100%; }
+.app7-red-btn1{ background: #e7494a; color: #ffffff; font-size: 0.9rem; height: 2.25rem; line-height: 2.25rem; text-align: center; box-shadow: 0 0.15rem 0 #cc2628; margin: 0;  }
+.app7-bj3-1{bottom: 0.8rem; left: 1.875rem; right: 1.875rem; position: absolute; }
+.app7-bg2{ background-image: 
+url("../images/activity/app7-bj6.png");
+background-repeat: repeat; background-size:1.2rem auto; height: 100%; overflow: hidden;}
+.app7-bj-10{width: 100%; height:12rem;background: url("../images/activity/app7-bj10.png") no-repeat 0 0; background-size:93%; position: absolute;z-index: 6; top: 1.15rem;}
+
+.app7-bj-size{ margin-top: 1.2rem;}
+.app7-bj-size img{ height: 5.975rem;}
+.app7-bj-size1{ height: 13.05rem;}
+.app7-bj-size2{top: 0.2rem;}
+.app7-t{ padding-top: 2rem;}
+
+.app7-red-btn1.btn-disable{background:#dadada; box-shadow: 0  0.15rem 0 #bababa;  color: #FFFAFA;}
+.app7-data{ text-align: center;font-size: 0.65rem;color: #f6514d;line-height: 1rem;padding: 0.25rem 0;}

@@ -1,0 +1,78 @@
+@charset "utf-8";
+body{background-color: #dff3fc;}
+.bonus-logo{padding:0.45rem 0.75rem; font-size:0.45rem; color: #00aaee; line-height: 0.85rem; height: 0.85rem;}
+.bonus-logo img{width:2.7rem; vertical-align: middle; margin-right: 0.25rem;}
+.bonus-group{ width: 12.5rem; margin:0.5rem auto 0.75rem;}
+.bonus-group input{width: 100%; height:1.95rem; line-height: 1.95rem; font-size: 0.9rem; border-radius: 0.25rem;  text-align: center; background-color: #fff; }
+.bonus-group input.bonus-btn{background-color: #00aaee; color: #fff;font-size: 0.9rem;}
+.bonus-group input.bonus-btn.disable{background-color: #c1c1c1;}
+.bonus-group .wap2-tip{padding:0.25rem 0 0.25rem;}
+.bonus-tips{ width:14.5rem ; margin:0 auto 2rem; background-color: #f2fafe;}
+.bonus-tips-top,.bonus-tips-bottom{width:100%; height:0.25rem;background: url("/static/weixin/images/activity/bonus-repeat.png") 0 0 repeat-x; background-size:0.55rem 0.75rem;  }
+.bonus-tips-bottom{background-position: 0 -0.5rem;}
+.bonus-tips-title{position: relative;margin:0.5rem 0.75rem; color: #00aaee; font-size: 0.75rem; text-align: center;}
+.bonus-tips-title i{position: absolute; z-index: 1; width:100%; left:0; height: 1px; overflow: hidden; background-color: #cef0ff; top:50%;}
+.bonus-tips-title span{display: inline-block; background-color: #f2fafe; padding:0 0.6rem;z-index: 10; position: relative;}
+.bonus-tips-main{margin:0 0.75rem 0.5rem;font-size: 0.6rem; overflow: hidden;}
+.bonus-tips-main dt{width:1.1rem; float: left;}
+.bonus-tips-main dt span{display: inline-block; width:0.75rem; height: 0.75rem; border-radius: 50%; background-color: #00aaee; color: #fff; overflow: hidden; text-align: center; line-height: 0.75rem;}
+.bonus-tips-main dd{margin:0 0 0.5rem 1.1rem; line-height: 0.85rem; color: #565656;}
+
+.bonus-bg .wap2-code-link.again,.bonus-bg a.wap2-btn, input.wap2-btn{background-color: #00aaee;  border-color: #00aaee;}
+
+.pop-wrap{display:none ;}
+.pop-mask{position: fixed; background-color: rgba(0,0,0,.4); left: 0; right: 0; top: 0; bottom: 0; z-index: 99;}
+.pop-mask2{position: fixed; background-color: #c4d8e1; left: 0; right: 0; top: 0; bottom: 0; z-index: 99;}
+.bonus-pop{position: fixed; z-index: 999; font-size:0.75rem ; color:#16a2d3; width:14.5rem; height: 16.85rem; left: 0.75rem;right:0.75rem; top:4.75rem; text-align: center;background: url("/static/weixin/images/activity/bonus-pop-bg.png") 0 0 no-repeat; background-size:14.5rem 16.85rem;}
+.bonus-pop i.pop-close{position: absolute; width:1.4rem; height: 1.4rem; top:-2.95rem; right:0;background: url("/static/weixin/images/activity/bonus-pop-close.png") 0 0 no-repeat; background-size:1.4rem 1.4rem;}
+.bonus-pop i.pop-line{position: absolute; width:1px; height: 1.5rem; top:-1.5rem; right:0.7rem;background-color:#dff3fc;}
+.bonus-pop .pop-txt1{padding:1.5rem 0 10rem; color: #ff6351; line-height: 1rem; font-size: 1rem;}
+.bonus-pop-btn{display: inline-block; width:10.2rem; height: 2rem; color: #fff; background-color: #ff6351; font-size:0.9rem; line-height: 2rem; text-align: center; border-radius: 1rem; margin-top: 0.5rem; }
+
+.bonus-pop-share{position: fixed; z-index: 300; right:2.7rem; top:0.5rem;}
+.bonus-pop-share img{width:8.6rem;}
+
+.bonus-pop.bonus-pop2{top:1.75rem;}
+
+.bonus-msg{position: fixed; z-index: 999; line-height: 3rem; height: 3rem; left: 3rem;  right: 3rem; top:50%; margin-top: -1.5rem; background-color: rgba(0,0,0,.8); color: #fff; font-size: 0.6rem; text-align: center;border-radius: 0.25rem;}
+
+
+.t-bouns{width: 100%; height: 19.25rem; padding-left: 0.75rem; box-sizing: border-box; background: url('../images/activity/bonus-bg1.png') top center no-repeat; background-size:cover; color: #fff; position: relative;}
+.t-bouns-1{ font-size: 1.7rem; font-weight: bold; line-height: 2rem; text-align: center; padding-top:9.5rem; margin-left: -1.7rem; }
+.t-bouns-2{ font-size: 0.75rem; text-align: center; line-height:0.8rem; padding-top: 0.1rem;margin-left: -1.7rem; }
+.t-bouns1{ padding:0 0.75rem 1.2rem;}
+.t-bouns3{ width: 100%; padding:1rem 0; background: #fff; border-radius: 0.3rem; margin-top: 0.5rem;}
+.t-bouns3-1{ font-size: 0.6rem; color: #565656; text-align: center; line-height: 0.8rem;}
+.t-bouns3-1 a{ color: #1997df; padding-left: 0.3rem;}
+.t-bouns3-2 { width: 7.5rem; margin: 0.8rem  auto 0;}
+.t-bouns3-2 dt img{width:7.5rem; height: 7.5rem;background-size:7.5rem; text-align: center; margin-bottom: 0.5rem;  }
+.t-bouns3-2 dd{ text-align: center; color: #565656; font-size: 0.6rem; line-height: 0.9rem;}
+.t-bouns4{width: 100%; height: 1.65rem; background: url('../images/activity/t-bouns-title.png') top center no-repeat; background-size:100%; color: #fff; margin-top: 1.25rem;}
+.t-bouns4 p{ text-align: center; line-height: 1.71rem; font-size: 0.75rem; color: #1997df;}
+.t-bouns5{ width: 100%; margin-top: 0.65rem;}
+.t-bouns5 tr{ height: 3.6rem; border-bottom: 1px solid #00aaee; }
+.t-bouns5 tr td img{ width: 1.4rem; height: 1.4rem; border-radius: 0.2rem; background-size: 1.4rem;}
+.t-bouns5 tr td:nth-child(2){ color:#636363; }
+.t-bouns5 tr td:nth-child(2) h4{font-size: 0.65rem; line-height: 1rem; }
+.t-bouns5 tr td:nth-child(2) p{ font-size: 0.5rem;}
+.t-bouns5 tr td:nth-child(3){ color:#fe5353; text-align: right; }
+.t-bouns5 tr td:nth-child(3) h4{ font-size: 0.9rem;  font-weight: bold; }
+.t-bouns5 tr td:nth-child(3) p{ font-size: 0.5rem; }
+.t-bouns5 tr td:nth-child(3) h4 span{ font-size: 0.6rem;}
+.t-bouns-bg{width: 100%;  height: 19.25rem; padding-left: 0.75rem; box-sizing: border-box; background: url('../images/activity/bonus-bg2.png') top center no-repeat; background-size:cover; color: #fff; position: relative;}
+.t-bouns-bg-1{ font-size: 0.9rem; text-align: center; line-height: 1rem;  padding-top:10.5rem; }
+
+
+.t-bouns.bonus-new h4{font-size: 1.45rem; line-height: 1.45rem;padding-top: 9.75rem;}
+.t-bouns.bonus-new h4 small{font-size: 0.65rem; margin-left: 0.25rem;}
+.t-bouns.bonus-new .t-bouns-2,.t-bouns.bonus-rate-proj .t-bouns-2{font-size:0.45rem; color: #9a1000;  }
+
+.bouns-cur-time{padding-top: 9.5rem; text-align: center; margin-left: -1.7rem; line-height: 0.45rem; font-size: 0.45rem;}
+.bouns-cur-time i{display: inline-block; width:1.1rem; vertical-align:middle; position: relative; top:-0.05rem; height: 1px; overflow: hidden; background-color: #ff897b;}
+.bouns-cur-time span{margin: 0 0.25rem;}
+
+.t-bouns.bonus-rate-proj{text-align: center;}
+.t-bouns.bonus-rate-proj .t-bouns-1{padding-top:0.25rem; font-size: 1.45rem; line-height: 1.45rem; display: inline-block; padding-right: 1.85rem;position: relative; }
+.t-bouns.bonus-rate-proj .t-bouns-1 span{display: inline-block; }
+.t-bouns.bonus-rate-proj .t-bouns-1 span small{font-size: 0.5rem;}
+.bouns-cur-tip{font-size: 0.65rem; width:2rem;position:absolute; right:0; top:0.25rem;font-weight: lighter; text-align: center; line-height: 0.65rem;}

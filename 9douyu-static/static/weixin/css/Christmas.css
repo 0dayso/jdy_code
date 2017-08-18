@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tian.xiaoyan@9douyu.com
+ * @date    2015-11-23 11:54:00
+ * @version $Id$
+ */
+
+body{background-color: #fff !important;}
+.t-cm-bj{width: 100%; height: 11.15rem; background: url('../images/t-cm-bj.png') top center no-repeat; background-size:cover; color: #fff;}
+.t-cm-bj p{ font-size: 0.6rem; text-align: center; padding-top: 7.9rem;}
+.t-cm-bj1{ background: url('../images/t-cm-bj.jpg') 0 2rem repeat-y; overflow: hidden; background-size:100%; padding-bottom: 1.5rem;}
+.t-cm-title{width:13.025rem; height: 4.675rem; background: url('../images/t-cm-title.png') top center no-repeat; background-size:13.025rem 4.675rem; margin-left: 2.9rem; color: #852900; position: relative; top:-0.25rem;  }
+.t-cm-title p{font-weight: bold; font-size: 0.95rem; text-align: center; line-height: 4.675rem; padding-right: 3rem;}
+.t-cm-title2{ position: relative;}
+.t-cm-title1{ color: #852900; font-size: 0.6rem; text-align: center; font-weight: bold; width: 9.25rem; margin:-0.4rem auto 0; padding:0 0.1rem; float: left; line-height: 1rem;}
+.t-cm-line{ width:20%; height: 1px; border-bottom: 1px dashed #852900; top:1rem; float: left;}
+.t-cm-line.fr{ float: right;}
+.t-cm-bj2{ width: 14.95rem; height:6.675rem;background: url('../images/t-cm-bj1.png') top center no-repeat;background-size:14.95rem 6.675rem; margin:1.5rem auto 1.375rem; color: #fff; overflow: hidden;}
+.t-cm-bj2-1{ font-size: 0.75rem;  margin:0 1rem; border-bottom: 1px dashed #fff; height: 2.5rem; line-height: 2.9rem; }
+.t-cm-bj2-2{ display: inline-block; float: left; }
+.t-cm-bj2-3{ display: inline-block; float: right;}
+.t-cm-bj2-4{ margin:0.5rem 3rem 0 2rem; font-size: 0.75rem;   line-height: 1.2rem; clear: both; }
+.t-cm-bj2-4 span em{ font-size: 1.2rem;}
+.t-cm-bj2-5{margin:0.5rem 3rem 0 1.6rem; font-size: 0.6rem; line-height: 1rem; clear: both;}
+.t-cm-bj2-2.t-pl{ padding-left: 0.5rem;}
+.t-cm-bj2-3.t-f{ font-size: 0.6rem;}
+a.t-cm-bj2-btn{ font-size: 0.9rem; text-align: center; width: 14.5rem; line-height:2.45rem; height: 2.45rem; color: #fff; background-size:14.5rem 2.45rem; font-weight: bold; border-radius: 0.3rem; background: #f55855; display:block; text-align: center; margin:0 auto; }
+.t-cm-bj3{width: 13.1rem; background: #d5e7d4; border:1px solid #4b8c0c; margin:1.5rem auto 0; padding:0.75rem 0.7rem; color: #308401;}
+.t-cm-bj3-1{ font-size: 0.6rem; font-weight: bold; overflow: hidden;}
+.t-cm-bj3-1 span{ background: url('../images/t-cm-icon1.png') top center no-repeat; width:0.975rem; height:0.925rem; background-size: 0.975rem auto; display: inline-block; vertical-align: text-top; margin-right: 0.2rem;}
+.t-cm-bj3-2{ width: 13.1rem; overflow: hidden; margin-top: 0.7rem;}
+.t-cm-bj3-2 dt{ display: inline-block; width:0.7rem; height: 0.7rem; background: #308401; text-align: center; line-height: 0.7rem; color: #fff; font-size: 0.55rem; float: left; float: left; margin-top: 0.1rem; }
+.t-cm-bj3-2 dd{ margin-left: 1rem;  font-size: 0.55rem; line-height: 1rem; }
+.t-cm-title3{width:13.025rem; height: 4.675rem; background: url('../images/t-cm-title1.png') top center no-repeat; background-size:13.025rem 4.675rem; color: #852900; margin-top: 1.375rem; }
+.t-cm-title3 p{font-weight: bold; font-size: 0.95rem; text-align: center; line-height: 4.675rem; padding-left: 3rem;}
+.t-cm-bj4{ width: 14.95rem; height:11.875rem;background: url('../images/t-cm-bj2.png') top center no-repeat;background-size:14.95rem 11.875rem; margin:0rem auto 1.375rem; color: #fff; overflow: hidden;}
+.t-cm-bj4-1{ font-size: 0.55rem; line-height: 0.9rem; margin:1.5rem 1rem 0.5rem; border-bottom:1px dashed #fff; padding-bottom: 0.5rem; }
+.t-cm-bj4-2{ text-align: center; font-size: 0.6rem; font-weight: bold;}
+.t-cm-bj4-2 span{ font-size: 0.9rem;}
+.t-cm-bj4-3{ font-size: 0.9rem; font-weight: bold; text-align: center; line-height: 1.5rem;}
+.t-cm-bj4-3 span{background: url('../images/t-cm-icon2.png') top center no-repeat; width:0.875rem; height:0.975rem; background-size: 0.875rem auto; display: inline-block; vertical-align: middle; margin-right: 0.2rem; }
+.t-cm-bj5{text-align: center; color: #852900; font-size: 0.7rem; font-weight: bold;}
+.t-cm-bj5 span{background: url('../images/t-cm-icon3.png') top center no-repeat; width:1.175rem; height:1.35rem; background-size: 1.175rem auto; display: inline-block; vertical-align: middle; margin:-0.3rem 0.2rem 0 0;}
+.t-cm-bj6{ color: #852900; font-size: 0.7rem; text-align: center; font-weight: bold; line-height: 1.2rem;}
+.t-cm-bj6 span{ font-size: 0.85rem;}
+a.t-cm-bj7{ margin:0.8rem auto 1.25rem;}
+a.t-cm-gary-btn{ font-size: 0.9rem; text-align: center; width: 14.5rem; line-height:2.45rem; height: 2.45rem; color: #fff; background-size:14.5rem 2.45rem; font-weight: bold; border-radius: 0.3rem; background: #9d9d9d; display:block; text-align: center; margin:0 auto; }
+.t-cm-bj8{margin:0.5rem 0.5rem 0; width: 13rem; font-size: 0.75rem;}
+.t-cm-bj8 em{ font-size: 1.2rem;}
+.t-cm-bj8 tr{ text-align: center; height: 1.2rem; line-height: 1.2rem;}
+.t-cm-bj8 span{ font-size: 0.6rem;}
+
+.x-newyear7-banner{width: 100%; height: 12.7rem; background: url('../images/activity/newyear7-banner.png') top center no-repeat; background-size:cover; color: #fff;}
+.x-newyear7-txt{color: #852900; font-size: 0.6rem; text-align: center; font-weight: bold;}
+.x-newyear7-title1{width:13.35rem;height: 3.55rem; margin:0.5rem 0 0 1.85rem; background: url('../images/activity/newyear7-title1.png') top center no-repeat; background-size:100%;}
+.x-newyear7-title2{width:14.25rem;height: 3.55rem; margin:1.5rem 0 0 1.85rem; background: url('../images/activity/newyear7-title2.png') top center no-repeat; background-size:100%;}
+.x-newyear7-banner p{padding-top:8rem; color: #fa3b3a; font-weight: bold; line-height: 1rem; text-align: center;font-size: 0.5rem;}

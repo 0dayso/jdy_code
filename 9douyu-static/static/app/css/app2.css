@@ -1,0 +1,73 @@
+body{ background-color: #f4f4f4;}
+
+/*  项目列表 */
+.pp2-project-list{background-color: #fff; margin: 0.5rem 0; width: 100%;font-weight: lighter;}
+.pp2-project-list-dt{line-height: 1.5rem; font-size: 0.65rem; width: 100%;padding:0 0.75rem; box-sizing:border-box; border-bottom: 1px solid #d3d3d3; color: #414141;}
+.pp2-project-list-dd{color: #8c8c8c; font-size: 0.6rem; line-height: 0.85rem; width: 100%;padding: 0.5rem 0.75rem;  box-sizing:border-box; }
+.pp2-project-list-dd img{margin-bottom: 0.5rem; width: 100%}
+.pp2-project-list-dd img:last-child{margin-bottom: 0; width: 100%}
+.app2-icon{display: inline-block; width: 0.9rem; height: 0.9rem; margin:0 0.35rem 0 0; vertical-align: middle;}
+
+.app2-icon-1{background:url(/static/app/images/app2/app2-icon-1.png) 0 0 no-repeat; background-size: 100%;}
+.app2-icon-2{background:url(/static/app/images/app2/app2-icon-2.png) 0 0 no-repeat; background-size: 100%;}
+.app2-icon-3{background:url(/static/app/images/app2/app2-icon-3.png) 0 0 no-repeat; background-size: 100%;}
+.app2-icon-4{background:url(/static/app/images/app2/app2-icon-4.png) 0 0 no-repeat; background-size: 100%;}
+.app2-icon-5{background:url(/static/app/images/app2/app2-icon-5.png) 0 0 no-repeat; background-size: 100%;}
+.app2-icon-6{background:url(/static/app/images/app2/app2-icon-6.png) 0 0 no-repeat; background-size: 100%;}
+
+.app2-project-source,.app2-project-secure{overflow: hidden; width: 100%;color: #8c8c8c; font-size: 0.6rem;padding: 0.5rem 0.75rem;line-height: 0.85rem; box-sizing:border-box; }
+.app2-project-source dt{width: 4rem; float: left;  }
+.app2-project-source dd{margin-left: 4rem; }
+.app2-project-secure dt{width: 0.5rem; float: left; }
+.app2-project-secure dd{margin-left: 0.5rem; }
+
+.app2-project-table{width: 100%; text-align: center; font-size: 0.6rem;}
+.app2-project-table td{border: 1px solid #d3d3d3; color: #8c8c8c; line-height: 1rem; padding: 0.25rem; border-left: none;} 
+.app2-project-table th{color: #414141;border-right: 1px solid #d3d3d3; font-weight: 400;line-height: 1rem; padding: 0.25rem;}
+
+.pp2-current-question{padding: 0 0.75rem; background-color: #fff; border-bottom: 1px solid #d3d3d3;}
+.pp2-current-question dt{line-height: 2.25rem; cursor: pointer; font-size: 0.7rem; color: #383838; position: relative;}
+.pp2-current-question dd{line-height: 0.9rem; display: none; margin-bottom: 0.5rem;}
+.pp2-current-question dd h3{font-size: 0.6rem; color: #414141; font-weight: 400;}
+.pp2-current-question dd p{font-size: 0.5rem; color: #8c8c8c;}
+.app2-arrow-1{width: 0.7rem; height: 0.4rem; position: absolute;transform:rotate(0deg); right: 0; top: 50%; margin-top: -0.2rem; background:url(/static/app/images/app2/app2-arrow-1.png) 0 0 no-repeat; background-size: 100%;}
+.bgwhite{background-color: #fff;}
+
+/* secure page css */
+.app2-secure{width: 100%; background-color: #fff;}
+.app2-secure img{width: 100%; margin:0; padding: 0; display: block;}
+.app2-secure .mb1{margin-bottom: 1.875rem;}
+.app2-secure .mb2{margin-bottom: 2.8rem;}
+.app2-secure .mb3{margin-bottom: 2.5rem;}
+
+
+/* intro topic page css */
+.app2-intro img{width: 100%; display: block;}
+.app2-intro .mb1{margin-bottom: 0.5rem;}
+.app2-intro .mb2{margin-bottom: 1rem;}
+.app2-intro .mb3{margin-bottom: 2rem;}
+.intro-wrap{margin:0 0.325rem; font-size: 0.9rem; line-height: 1.2rem; }
+.intro-box1{border: 2px solid #ce4d47; padding: 0.5rem 0 0.375rem ; margin-bottom: 1rem;}
+.intro-box1 h1{color: #ce4d47; font-size: 0.9rem; line-height: 1.5rem; font-weight: bold; text-align: center;}
+.intro-box1 li{padding-left: 0.375rem;  }
+.intro-title{background:url(../images/topic/intro-title-bg.gif) center 0 no-repeat; background-size:240px 165px; color: #ce4d47; font-size: 16px; height: 55px; text-align: center; line-height: 55px; }
+.intro-title1{}
+.intro-title2{background-position: center -55px;}
+.intro-title3{background-position: center -110px;}
+.intro-measures{ line-height: 1.5rem; color: #cfa880;  width: 15rem; margin: 0 auto 1rem;}
+.intro-btn{width:234px; font-size: 18px; font-weight: bold; color: #fff; line-height: 36px;  border-radius: 10px; box-shadow: 0 1px 0 #cd4041; background-color: #ff5c5d; text-align: center; cursor: pointer;}
+
+/* activity-center page css 20150910 */
+.app2-activity-box{width: 100%; position:relative;}
+.app2-activity-box img{width: 100%; vertical-align: middle;}
+.app2-activity-info{padding: 0 0.75rem 0 1.8rem; font-weight:100;background:url(/static/app/images/app2/app2-icon-7.png) 0 0 no-repeat; background-size:0.75rem 4.8rem; margin-bottom: 0.8rem; line-height: 1.6rem; height: 1.6rem; overflow: hidden; font-size:0.65rem; box-sizing:border-box; background-color: #fff;}
+.coming .app2-activity-info{color: #26aeed; background-position: 0.75rem top;}
+.going .app2-activity-info{color: #ff5353; background-position: 0.75rem center;}
+.end .app2-activity-info{color: #8c8c8c; background-position: 0.75rem bottom;}
+.app2-activity-box ins{position: absolute; left: 0; top:0; bottom: 1.6rem;right: 0; background-color: rgba(0,0,0,0);}
+.app2-activity-box ins a{display: block; width: 100%; height: 100%;}
+.app2-activity-box.end ins{background-color: rgba(0,0,0,.4);}
+.app2-activity-info i{font-size: 0.6rem; font-style: normal; color: #8c8c8c; float: right;}
+
+/* current */
+.app2-current-banner img{width: 100%; display: block; margin-bottom: 0.75rem}

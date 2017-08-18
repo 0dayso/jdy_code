@@ -1,0 +1,12 @@
+@charset "utf-8";
+body{background-color: #faf9f7;}
+.mother{ padding:0 1.85rem;}
+.mother-1{padding: 3.15rem 0 4.05rem;}
+.mother-2{padding: 2.65rem 0 3.7rem;}
+.mother-3{padding: 3.85rem 0 3.1rem;}
+.mother-4{padding: 4.15rem 0 1.55rem;}
+.img{display: block;max-width: 100%;height: auto;vertical-align: top;border: none;}
+.mather-btn{ display: block; width:11.175rem; height: 2rem; background: url('../images/activity/mather-btn.png') top center no-repeat; background-size:10rem auto;position: absolute; left: 0; top: 10rem; left: 50%; margin-left: -4rem; }
+.mother1{ position: relative;}
+
+

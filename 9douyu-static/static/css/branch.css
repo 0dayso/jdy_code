@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+.branch-box,.box1{ margin:0 auto;width:1002px;}
+.branch-center h4{ font-size:30px; color:#7d8898; padding:70px 0 29px 0; text-align:center;}
+.box1{display:none;}
+.branch-center p{color:#7d8898; font-size:12px; line-height:2em; text-align: center;}
+.branch-text{ width: 800px; margin: 0 auto; text-align:left !important;}
+.branch-map{ background:url(../images/topic/branch-map.png) no-repeat center top; height:654px; margin-top:49px; position:relative;}
+.branch-center img{ text-align:center; display: block; margin:0 auto; padding:58px 0 21px 0;}
+.branch-adress{ background:#f9f9f9; padding-bottom:150px;}
+.branch-adress h4{font-size:28px; color:#7d8898; padding:46px 0 35px 0; text-align:center;}
+.branch-button{ text-align:center; margin-bottom:46px;}
+.branch-button li{ list-style:none; display:inline-block;  margin-right:15px;font-size:18px; padding:8px 30px;  border-radius:100px; border:1px #7d8898 solid;}
+.branch-button li a{ color:#7d8898;text-decoration:none; }
+.branch-button .active{background:#fb8144;  border:1px #fff solid;}
+.branch-button .active a{color:#FFF;}
+.mr0px{ margin-right:0 !important;}
+.branch-adress p{ color:#7d8898; font-size:16px; text-align:center; line-height:2em;}
+.branch-photo{text-align:center; margin-top:65px; background:#f9f9f9;}
+.branch-adress img { border:1px #c5c8cd solid; text-align:center; display:inline-block; margin-right:5px;}
+
+
+@-webkit-keyframes sh-ripple
+	{
+	0% {
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+	50% {
+		opacity: 1;
+		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes sh-ripple
+	{
+	0% {
+		
+		-moz-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+	50% {
+		opacity: 1;
+		
+	}
+	100% {
+		-moz-transform: scale(1);
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@-o-keyframes sh-ripple
+	{
+	0% {
+		-o-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+	50% {
+		opacity: 1;
+		
+	}
+	100% {
+		-o-transform: scale(1);
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@keyframes sh-ripple
+	{
+	0% {
+		transform: scale(0.5);
+	}
+	50% {
+		opacity: 1;
+		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+
+/*tianxuaoyan 2015-7-30修改*/
+.ripple {
+	display:block;
+	width: 76px;
+	height: 76px;
+	z-index: 20;
+	cursor: pointer;
+	background: url(../images/topic/branch-icon1.png) no-repeat 0 0;
+	-webkit-animation:sh-ripple 2s ease 0s normal none infinite;
+	-moz-animation:sh-ripple 2s ease 0s normal none infinite;
+	animation:sh-ripple 2s ease 0s normal none infinite;
+	position:absolute;
+	right:261px;
+	top:182px;
+}
+
+
+.branch-logo,.branch-logo:hover,.branch-logo1,.branch-logo1:hover,.branch-logo2,.branch-logo2:hover,.branch-logo3,.branch-logo3:hover,.branch-logo4,.branch-logo4:hover,.branch-logo5,.branch-logo5:hover,.branch-logo6,.branch-logo6:hover,.branch-logo7,.branch-logo7:hover,.branch-logo8,.branch-logo8:hover{width:46px; height:55px;position: absolute;z-index:21;cursor: pointer;}
+.branch-logo{  top:194px; right:276px;  background-image:url(../images/topic/branch-logo1.png);}
+.branch-logo:hover{  background-image:url(../images/topic/branch-logo.png);}
+.ripple1{ top:350px !important; right:466px !important;}
+.branch-logo1{top:363px; right:481px;background-image:url(../images/topic/branch-logo1.png);}
+.branch-logo1:hover{ background-image:url(../images/topic/branch-logo.png);}
+.ripple2{ top:352px !important; right:297px !important;}
+.branch-logo2{top:368px; right:312px; background:url(../images/topic/branch-logo1.png) no-repeat 0 0;}
+.branch-logo2:hover{ background:url(../images/topic/branch-logo.png) no-repeat 0 0;}
+.ripple3{ top:408px !important; right:251px !important;}
+.branch-logo3{top:424px; right:267px;background:url(../images/topic/branch-logo1.png) no-repeat 0 0;}
+.branch-logo3:hover{ background:url(../images/topic/branch-logo.png) no-repeat 0 0;}
+.ripple4{ top:393px !important; right:182px !important;}
+.branch-logo4{top:409px; right:196px;background:url(../images/topic/branch-logo1.png) no-repeat 0 0;}
+.branch-logo4:hover{ background:url(../images/topic/branch-logo.png) no-repeat 0 0;}
+.ripple5{ top:456px !important; right:214px !important;}
+.branch-logo5{top:469px; right:230px;background:url(../images/topic/branch-logo1.png) no-repeat 0 0; }
+.branch-logo5:hover{ background:url(../images/topic/branch-logo.png) no-repeat 0 0;}
+.ripple6{ top:498px !important; right:282px !important;}
+.branch-logo6{top:514px; right:297px; background:url(../images/topic/branch-logo1.png) no-repeat 0 0;}
+.branch-logo6:hover{ background:url(../images/topic/branch-logo.png) no-repeat 0 0;}
+.ripple7{ top:328px !important; right:198px !important;}
+.branch-logo7{top:342px; right:211px; background:url(../images/topic/branch-logo1.png) no-repeat 0 0;}
+.branch-logo7:hover{ background:url(../images/topic/branch-logo.png) no-repeat 0 0;}
+.branch-promp{ width:115px; border:1px #e5e7ea solid; border-radius:5px; right:0px; position:absolute; background:#FFF; top:249px; display:none;}
+.branch-promp h5{ line-height:35px; text-align:center; color:#FFF; font-size:18px; background:#fb8144; border-radius: 5px 5px 0px 0px;}
+.branch-promp p{ color:#808a9a; font-size:14px; line-height:2.4em;background:#fff; border-radius: 0px 0px 5px 5px;}
+.branch-icon2{  z-index:-10;background:url(../images/topic/branch-icon2.png) no-repeat 0 0; position:absolute; width:130px; height:12px; bottom:-7px; right:-6px;}
+.ripple8{ top:262px !important; right:240px !important;}
+.branch-logo8{top:277px; right:255px;background:url(../images/topic/branch-logo1.png) no-repeat 0 0; }
+.branch-logo8:hover{ background:url(../images/topic/branch-logo.png) no-repeat 0 0;}
+
+
+
+

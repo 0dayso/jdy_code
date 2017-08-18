@@ -1,0 +1,81 @@
+/**
+    国庆节活动
+**/
+
+body{background-color: #262a2e;}
+.ha-banner{width: 100%; height: 1094px; background: url('/static/activity/halloween/images/ha-banner.jpg') top center no-repeat;}
+.ha-banner p{ padding-top: 246px; text-align: center; color: #fff600; font-size: 36px; font-weight: bold; margin-left: 244px;transform:rotate(2deg);-ms-transform:rotate(7deg); 	/* IE 9 */
+-moz-transform:rotate(2deg); 	/* Firefox */
+-webkit-transform:rotate(2deg); /* Safari 和 Chrome */
+-o-transform:rotate(2deg); 	/* Opera */ }
+
+.ha-bg{width: 100%; height: 2482px; background: url('/static/activity/halloween/images/ha-bg.jpg') top center no-repeat; margin-bottom: -80px; }
+.ha-bg1{ width: 879px; margin:0 auto; height: 962px; background: url('/static/activity/halloween/images/ha-bg2.png') top center no-repeat; position: relative; top:-335px; }
+.ha-title{ font-size: 38px; text-align: center; font-weight: bold; color: #98563d; padding-top: 57px;}
+.ha-melon li{ display: inline-block; margin:15px 10px 0; cursor: pointer; }
+.ha-melon li{ width:183px;height: 162px; background: url('/static/activity/halloween/images/ha-melon1.png') 0 0 no-repeat;}
+.ha-melon li.melon{  height: 162px;background: url('/static/activity/halloween/images/ha-melon.png') 0 0 no-repeat; position: relative; top: 80px;}
+.ha-melon{ width: 652px; margin: 48px auto 0;text-align: center;}
+.ha-record{ text-align: center; font-size: 27px; color: #fbe3a4; font-weight: bold; padding-top: 172px; padding-left: 6px;}
+.an-scroll{width: 440px; margin:15px auto 0;height:172px; padding-left: 6px;}
+.an-activity{position:relative;color:#fffab1;font-size: 0.75rem;line-height: 30px;}
+.an-activity-list li span{ display: inline-block;}
+.an-activity-list li span.w1{ width: 102px;}
+.an-activity-list li span.w2{ width: 156px;}
+
+.an-activity-list li{
+    position: relative;
+    font-size: 18px;
+    color:#fbe3a4;
+    text-align: left;
+    line-height:35px;
+}
+.hidden{ overflow: hidden;}
+
+.ha-bg2{ width:858px; margin:0 auto; height: 1060px; background: url('/static/activity/halloween/images/ha-bg1.png') top center no-repeat; margin-top: -270px; }
+.ha-title3{ text-align: center; font-size: 38px; color: #77402b; padding-top: 35px; font-weight: bold;}
+.ha-title4{ font-size: 30px; color: #fff; text-align: center; font-weight: bold; padding-top: 88px;}
+.ha-btn,.ha-btn:hover,.ha-btn:active,.ha-btn1{ display: inline-block; width: 217px;  height: 62px; background: #ffee01; box-shadow: 0 9px 0 #ffae01; color: #ff4704 !important; line-height: 65px; text-align: center; border-radius: 5px; font-size: 30px; font-weight: bold;}
+.ha-btn.diasble{ background: #bababa; box-shadow: 0 9px 0 #8d8c8a; color: #646463 !important;}
+.ha-table{ width: 743px; display: block;  margin: 0 auto;}
+.ha-table table{ width: 100%; text-align: center; color: #fff;  margin-top: 40px;}
+.ha-1,.ha-2{ color: #ffee01; font-weight: bold;}
+.ha-2{ font-size: 32px; }
+.ha-1{ font-size: 76px;}
+.ha-3{ color: #f5c87b; font-size: 16px; padding-top: 25px;}
+.ha-4{ font-size: 26px;}
+.ha-title5{ padding-top: 99px;}
+
+.ha-prize{ width: 743px; overflow: hidden; margin:159px auto 0; }
+.ha-prize dt{display: inline-block; float: left; margin-right: 50px; margin-left: 60px;}
+.ha-prize dd p{ color: #fff; font-weight: bold; font-size: 30px; line-height: 40px;}
+.ha-prize dd h4{ font-size: 33px; color:#ffee01; font-weight: bold; line-height: 40px; padding-top: 110px; padding-bottom: 30px;}
+.ha-pro{ text-align: center; color: #fff25c; font-size: 18px; padding-top: 2px;}
+.ha-title6{ width: 770px; height: 1px; background: url('/static/activity/halloween/images/ha-line.png') top center no-repeat; margin:91px auto 0;}
+.ha-title6 p{ text-align: center; color:#e9c097; font-size: 30px; font-weight: bold; top:-11px;position: relative; }
+.an-scroll1{ width: 775px; margin-top: 50px; height: 244px; padding-left: 0px;}
+.an1 li span{ display: inline-block;}
+.an1 li span.w1{ width: 275px;}
+.an1 li span.w2{ width: 362px;}
+.an1 li>span{ padding-right: 0px;}
+.an1 li{ color: #e9c097;}
+.ha-rule{ width: 844px; margin:59px auto 0;}
+.ha-rule h3{ color: #e9c097; font-size: 26px; font-weight: bold; padding-bottom: 23px; padding-left: 20px; line-height: 30px;}
+.ha-rule ul li{ font-size: 14px; color: #e9c097; padding-left: 20px; line-height: 25px; }
+.ha-title8{ font-size: 30px; text-align: center; text-align: center; color: #fff; font-weight: bold; line-height: 40px;}
+/*弹窗*/
+
+.vip_alert{ display:none;}
+.vip-mask{filter: alpha(opacity=70);-moz-opacity: 0.7;opacity: 0.7; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.vip_box{ position:fixed; left:50%; top:50%; margin:-184px 0 0 -240px;  height:368px; width:480px; background:#FFF;z-index:240; border-radius:5px;}
+.vip-content{ text-align: center; }
+.vip-text{ color: #ff7800; text-align: center; padding-top: 50px; padding-bottom: 30px; font-size: 28px;}
+.ha-btn1{ width: 340px; height: 86px; color: #ff7800 !important;box-shadow: 0 11px 0 #ffae01; font-size: 34px; line-height: 90px;}
+.ha-btn1:hover,.ha-btn1:active{color: #ff7800;}
+.nat-pop-title{width:480px; line-height: 99px; color: #fff;font-size: 34px; background-color: #ff9c00; position: relative; border-top-left-radius: 5px;border-top-right-radius:5px; text-align: center;}
+.nat-pop-close{position: absolute; right: 51px; top:33px; width: 34px; height: 34px;background: url('/static/activity/halloween/images/close.png') top center no-repeat; cursor: pointer;}
+.nat-pop-iconleft,.nat-pop-iconright{position: absolute; width: 44px; height: 71px; top: 0.8rem;}
+.nat-pop-iconleft{background: url('/static/activity/halloween/images/pop-left.png') top center no-repeat; left:-44px; top: 40px;}
+.nat-pop-iconright{background: url('/static/activity/halloween/images/pop-right.png') top center no-repeat; right:-44px; top: 40px;}
+.vip-text1,.vip-text2{ color: #ff7800; font-size: 28px;}
+.vip-text1{ padding-top: 58px; padding-bottom: 20px;line-height: 36px;}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color: #fcc96e; width: 100%; overflow-x:hidden; }
+
+.s8-title ins,
+.s8-progress i,
+.s8-progress ins,
+.s8-case span,
+.s8-stone1,
+.s8-stone2{
+	background-image: url('/static/images/activity/s8-icon.png'); background-repeat: no-repeat;
+}
+
+.s8-banner{width: 100%; height: 650px; background: url('/static/images/activity/s8-banner.png') top center no-repeat;}
+.s8-box{padding: 45px 155px 60px; background-color: #fee7bd; position: relative; top: -170px; border-radius: 10px; margin-bottom: -140px;}
+.s8-title{position: relative; margin-bottom: 40px; line-height: 30px; font-size: 26px; font-weight: bold; color: #c07735;}
+.s8-title ins{position: absolute; background-position:0 0; width:90px; height: 58px; text-align: center; line-height: 50px; left: -112px; top: -10px; text-decoration: none;  }
+.s8-progress{position: relative;}
+.s8-progress span{display: block; background-color: #fedea3; border-radius: 35px;  width: 192px; height: 70px; line-height: 70px; color: #c07735; font-size: 18px; text-align: center; }
+.s8-progress span.last{width:576px ; margin-bottom: 75px; height: 62px; line-height: 62px; border:4px solid #fed7a0;}
+.s8-progress i{display: block; width: 24px; height: 24px; margin: 12px 0 12px 86px; background-position: -110px -1px;}
+.s8-progress ins{width: 362px;height: 340px;position: absolute; left: 316px; top:-15px; background-position: -176px 0;}
+.s8-rule{line-height: 36px; font-size: 16px; margin-bottom: 20px; color: #c07735;}
+.s8-case{background-color: #fedea3; padding-bottom: 20px; color: #c07735; text-align: center; border-radius: 10px;}
+.s8-case span{display: inline-block; margin: 20px 0; font-weight: bold; background-position: 0 -200px; width: 170px; height: 42px; text-align: center; line-height: 42px; }
+.s8-case p{line-height: 36px;}
+.s8-tip{text-align: center; bottom:-100px;line-height: 30px; color: #c07735; font-size: 18px; margin-bottom: 40px;}
+.s8-tip span{margin-right: 10px; position: relative; top: 4px;}
+.s8-stone1{position: absolute; top: 548px; right: -180px; width: 155px; height: 56px; background-position: 0 -61px;}
+.s8-stone2{position: absolute; left: -70px; bottom: -26px; width: 100px; height: 63px; background-position: -1px -118px;}

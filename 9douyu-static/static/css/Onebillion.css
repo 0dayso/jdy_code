@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+body{background-color: #222052;}
+.ten-banner{ width:100%; height: 638px; background: url('/static/images/topic/t-ten.jpg') top center no-repeat;}
+.ten-banner-1{padding-top: 305px;text-align: center; font-size: 16px; color: #fffdff;padding-left: 15px;}
+.ten-box{ width: 746px;border: 2px solid #4d48ae; background: #302d74; margin: -208px auto 40px; padding: 40px 0 40px 0; border-radius: 5px; box-shadow:0 5px 0 #151332; position: relative;}
+.ten-chou a{ color:#d31eee; font-size: 16px; text-decoration: underline; }
+.ten-chou{ color: #fff; text-align: right;}
+.ten-box h3{ color: #fff; font-size: 36px; text-align: center; line-height: 40px;}
+.ten-1{ color: #6d68e6; font-size: 24px; text-align: center; line-height: 24px; padding: 12px 0 20px 0;}
+/*.wrap{ margin-top: -208px;}*/
+.ten-2{ width: 510px; margin: 0 auto; position: relative;}
+.ten-3{ color: #fffdff; font-size: 16px; text-align: right;}
+.ten-chou-box{ width: 1160px; margin:0 auto;}
+.ten-3 span{ color: #6b66e2; font-size: 12px; padding-right: 5px;}
+#lottery table td {
+    width: 156px;
+    height: 156px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #333;
+    font-index: -999;
+    padding: 7px;
+    position: relative;
+}
+a.ten-button{ width:156px; height: 148px; box-shadow: 0 10px 0 #9700ad; display: block;background: #d31eee; border-radius: 5px; color: #fff; font-size:42px; font-weight: bold; line-height: 48px; margin-top: -8px;}
+a.ten-button p,a.ten-button-gray p{ padding-top: 26px;}
+a.ten-button-gray{ width:156px; height: 148px; box-shadow: 0 10px 0 #898989; display: block;background: #b6b6b6; border-radius: 5px; color: #fff; font-size:42px; font-weight: bold; line-height: 48px;margin-top: -8px;}
+
+/*.active{ border: 4px solid #cc10ff; border-radius: 3px;box-shadow:0px 0px 10px #e00fff; }*/
+.ten-4{ height: 39px; width: 2px; background: #4d48ae; margin:-40px auto 0;}
+.ten-box1{ width: 746px;border: 2px solid #4d48ae; background: #302d74; margin: 0px auto 18px; padding: 30px 0 40px 0; border-radius: 5px; box-shadow:0 5px 0 #151332;}
+.ten-box1 h3{ color: #fff; font-size: 30px; line-height: 40px; border-bottom: 1px solid #4d48ae; width:652px; margin: 0 auto; text-align: center; padding-bottom: 15px; }
+.ten-box1 h3 span{ color: #6d68e6;}
+.ten-5{ width: 652px; margin: 10px auto 0; overflow: hidden; height: 400px;}
+.ten-5 table{ width: 100%; color: #fff; text-align: center; font-size: 18px;}
+.ten-5 table tr{ height: 50px;}
+.ten-box-banner{ width: 748px; margin: 0 auto 12px;}
+.ten-box-banner img{ margin-left: -2px;}
+.ten-list{ color: #fff; width: 652px; margin: 0 auto; padding-top: 20px;}
+.ten-list p{ line-height: 35px; font-size: 18px;}
+.ten-box2{ margin-bottom:124px; }
+.active{ display: none;}
+.ten-block{ display: block;}
+.active img{position: absolute; top:-4px; left: -4px;}
+
+/*弹窗*/
+.box_alert{ display:none;}
+.mask{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.bomb_box{ position:fixed; left:50%; top:50%; margin:-140px 0 0 -272px;  height:280px; width:544px; background:#FFF;z-index:240; border-radius:10px; overflow:hidden; border: 3px solid #a62f7f;}
+.bomb_box span{ position:absolute; left:500px; top:8px; cursor:pointer;}
+.ten-t{ font-size:18px; color:#555555; text-align:center; margin-top:50px; font-size: 40px; color: #ff5d5d; line-height: 50px;}
+.ten-t1{ font-size: 30px; color: #555555; text-align: center; line-height: 40px; padding:12px 0 30px 0;}
+.ten-t1 i{ color:#ff5d5d; font-style: normal; }
+a.ten-button1{ width: 348px; height: 50px; background: #ff5d5d; box-shadow: 0 4px 0 #d34a4a; display: block; color: #fff; font-size: 26px; text-align: center; line-height: 52px; margin:0 auto; border-radius: 5px;}
+.ten-t1.notice{margin-top: 100px;}
+#counter{font-size: 14px;}
+
+
+
+
+
+
+

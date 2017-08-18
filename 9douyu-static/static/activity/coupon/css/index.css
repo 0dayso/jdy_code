@@ -1,0 +1,66 @@
+/**春风十里 2017 返现金**/
+
+body{width:100%;background:#247483 url("/static/activity/coupon/images/page-bg.jpg") center 0 no-repeat;color: #fff;font-family: "微软雅黑";}
+.page-auto{margin:0 auto;width:1002px;}
+.page-banner{position:relative;width: 100%;height:1136px;}
+.page-time{padding-top:420px;font-size: 32px;color: #fff;text-align: center;text-indent: 530px; }
+.page-title-section{margin:0 auto;width:1065px;height: 170px;font-size: 0;background-repeat: no-repeat;background-position: center 0;}
+.page-title-section1{background-image: url("/static/activity/coupon/images/page-title-section1.png");}
+.page-title-section2{margin-top:120px;background-image: url("/static/activity/coupon/images/page-title-section2.png");}
+.page-title-section3{margin-top:90px;background-image: url("/static/activity/coupon/images/page-title-section3.png");}
+.page-text{text-align: center;line-height: 1;padding-top: 40px;font-size: 17px;}
+.page-coupon{margin-top:40px;text-align: center;}
+.page-coupon li{display:inline-block;position:relative;margin-top:40px;width: 329px;height: 187px;text-align:center;cursor: pointer;}
+.page-li0{position:relative;background:url("/static/activity/coupon/images/page-coupon-1.png") center 0 no-repeat;}
+.page-li1{background:url("/static/activity/coupon/images/page-coupon-2.png") center 0 no-repeat;}
+.page-li2{background:url("/static/activity/coupon/images/page-coupon-3.png") center 0 no-repeat;}
+.page-li3{background:url("/static/activity/coupon/images/page-coupon-4.png") center 0 no-repeat;}
+.page-li4{background:url("/static/activity/coupon/images/page-coupon-5.png") center 0 no-repeat;}
+.page-coupon li p{padding-top:40px;text-indent: 100px;font-size: 13px;}
+.page-coupon li a,.page-coupon li a:link,.page-coupon li a:visited,.page-coupon li a:hover,.page-coupon li a:active{position:absolute;top:102px;left:154px;display: block;width:121px;height: 36px;line-height:36px;background:url("/static/activity/coupon/images/page-coupon-btn.png") center 0 no-repeat;color:#fff;font-size: 17px;text-align: center;}
+.page-coupon li strong{font-size: 48px;font-weight: bold;}
+.page-coupon li em{font-size: 24px;}
+.page-coupon li span{display:inline-block;}
+.page-coupon li i{font-size: 30px;font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;}
+.page-project-wrap{margin:65px auto 0;width:1062px;height: 561px;padding-top:120px;background:url("/static/activity/coupon/images/page-project-bg.png") center 0 no-repeat;}
+.page-project-item{width:660px;margin:0 auto 0 230px;}
+.page-project-item .title{width:610px;margin:0 auto 0 20px;line-height:75px;padding:0 0 0 10px;font-size: 24px;color: #096f78;border-bottom: 2px dashed #7de1e4;}
+.page-project-item .title span{vertical-align:top;padding-right: 10px;}
+.page-project-inner p{margin:28px 0 0 6px;float: left;text-align: center;font-size: 16px;}
+.page-project-inner p span{color:#083536;}
+.page-project-inner p em{display:block;height:70px;margin-top:42px;color: #fff;}
+.page-project-inner .p1{width:180px;}
+.page-project-inner .p1 strong{height:70px;display:block;margin-top:35px;font-size: 48px;color:#f8ff38;font-weight: normal;}
+.page-project-inner .p2{width: 100px;}
+.page-project-btn,.page-project-btn:link,.page-project-btn:visited,.page-project-btn:hover,.page-project-btn:active,
+.page-project-disabled,.page-project-disabled:link,.page-project-disabled:visited,.page-project-disabled:hover,.page-project-disabled:active{display:block;margin:16px auto 0;width:130px;height: 46px;line-height:43px;background: url('/static/activity/coupon/images/page-project-btn.png') center top no-repeat;text-align: center;color:#fff;font-size: 21px;font-weight: bold;}
+.page-project-disabled,.page-project-disabled:link,.page-project-disabled:visited,.page-project-disabled:hover,.page-project-disabled:active{background: url('/static/activity/coupon/images/page-project-btn.png') center bottom no-repeat;}
+.page-line{width:610px;height: 0;font-size:0;margin:12px auto 12px 264px;border-top:1px solid #4cc0c4;}
+.page-surprise-bg{width: 435px;height: 372px;background:url("/static/activity/coupon/images/page-surprise-bg.png") center bottom no-repeat;}
+.page-surprise-bg img{width: 100%;height: 100%;}
+.page-activity table{width: 100%;}
+.page-activity table .left{width: 520px;vertical-align: middle;}
+.page-surprise-content{margin-top:88px;text-align: center;}
+.page-surprise-content .title{font-size: 28px;font-weight: bold;}
+.page-surprise-content .name{margin-top:24px;width: 451px;height: 91px;line-height: 91px;font-size: 45px;color: #fffbac;font-weight: bold;background:url("/static/activity/coupon/images/page-surprise-line.png") center top no-repeat;}
+.page-surprise-content .list{min-height:143px;position:relative;margin-top:75px;padding:24px 0;line-height:42px;background:#37aeb5;background: rgba(51,188,197,.67);border-radius: 5px;font-size: 27px;}
+.page-surprise-content .list span{display:inline-block;width:170px;text-align:left;vertical-align: middle;}
+.page-surprise-content h6{position: absolute;left: 50%;margin-left:-85px;top:-33px;width:171px;height: 51px;line-height:48px;font-size: 22px;background:url("/static/activity/coupon/images/page-surprise-btn.png") center top no-repeat;}
+.page-rule-wrap{margin-top: 188px;height: 398px;background-image: linear-gradient(to right, rgba(67, 204, 215, 0.1) 0, rgba(67, 204, 215, 0.77) 20%, rgba(67, 204, 215, 0.77) 80%,rgba(67, 204, 215, 0.1) 100%); }
+.page-rule{line-height: 34px;color:#094854;font-size: 20px;}
+.page-rule h4{padding:38px 0;line-height: 1;}
+.page-mask{position: fixed;left:0;top:0;z-index:1;width:100%;height: 100%;background: rgba(0,0,0,0.7);}
+.page-layer{display: none;}
+.page-pop{position: fixed;left:50%;top:50%;z-index:2;margin-left:-315px;margin-top:-299px;width:630px;height: 598px;background: url('/static/activity/coupon/images/page-pop-login.png') center top no-repeat;  }
+.page-pop-btn,.page-pop-btn:link,.page-pop-btn:visited,.page-pop-btn:hover,.page-pop-btn:active{display: block;margin:487px auto 2px;width:281px;height: 64px;line-height:64px;background: url('/static/activity/coupon/images/page-pop-btn.png') center bottom no-repeat;font-size: 34px;color: #fff;text-align: center;;}
+.page-pop-close,.page-pop-close:link,.page-pop-close:visited,.page-pop-close:hover,.page-pop-close:active{display: block;width:33px;height: 33px;position: absolute;right:82px;top:132px;background: url('/static/activity/coupon/images/page-pop-close.png') center top no-repeat;font-size: 0;}
+.page-pop-point5{background: url('/static/activity/coupon/images/page-pop-0.5.png') center top no-repeat;}
+.page-pop-per1{background: url('/static/activity/coupon/images/page-pop-1.png') center top no-repeat;}
+.page-pop-ten{background: url('/static/activity/coupon/images/page-pop-10.png') center top no-repeat;}
+.page-pop-thirty{background: url('/static/activity/coupon/images/page-pop-30.png') center top no-repeat;}
+.page-pop-fifty{background: url('/static/activity/coupon/images/page-pop-50.png') center top no-repeat;}
+.page-pop-text{display:block;text-align:center;font-size: 16px;color: #fd8d26;}
+.page-pop-success{background: url('/static/activity/coupon/images/page-pop-success.png') center top no-repeat;}
+.page-pop-fail{background: url('/static/activity/coupon/images/page-pop-fail.png') center top no-repeat;}
+.page-pop-text1{ text-align: center; color: #fe8c01; font-size: 23px; padding-top: 480px;}
+.page-pop-text1 span{ color: #fe1f01;}

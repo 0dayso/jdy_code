@@ -1,0 +1,78 @@
+/**劳动节2017**/
+
+body{background: #add2c6;color: #fff;font-family: "微软雅黑"}
+.page-auto{margin:0 auto;}
+.page-bg-cloud{width: 100%;background: url('/static/activity/LabourDay/images/page-cloud.png') center 386px no-repeat;}
+.page-banner{width: 100%;height:830px;background: url('/static/activity/LabourDay/images/page-banner.jpg') center top no-repeat;background-size: cover;}
+.page-time{padding-top:40px;font-size: 32px;color: #fff;text-align: center; }
+.page-sign{position:relative;margin-top:70px;width:1000px;height: 620px;background: url('/static/activity/LabourDay/images/page-sign.png') center top no-repeat;background-size: cover;text-align:center; color:#c54e3a;font-size: 30px;line-height: 38px;}
+.page-sign-img{width: 303px;display: inline-block;margin:30px 0 0 0;}
+.page-sign p{margin-top: -14px;text-indent: 2em;}
+.page-sign strong{font-weight: bold;}
+.page-sign-btn-area{padding-top: 50px;}
+.page-sign-btn{display: inline-block;margin:0 48px;width:199px;height: 64px;background-image: url("/static/activity/LabourDay/images/page-sign-btn.png");background-repeat: no-repeat;font-size: 0; }
+.page-sign-btn1{background-position: center top;}
+.page-sign-btn1{background-position: center bottom;}
+.page-rule-btn,.page-rule-btn:link,.page-rule-btn:visited,.page-rule-btn:hover,.page-rule-btn:active{position:absolute;top:132px;right:150px;display: inline-block;width:120px;height: 49px;line-height:49px;background: url('/static/activity/LabourDay/images/page-rule-btn.png') center top no-repeat;text-align: center;color:#fff;font-size: 22px;}
+.page-lottery{position:relative;width: 1000px;height: 904px;background: url('/static/activity/LabourDay/images/page-lottery.png') center top no-repeat;}
+.page-speed-dial{width:800px;margin:80px auto 20px;padding-top: 80px;}
+.page-speed-item{float:left;margin:0 20px 20px 0;width: 245px;height: 208px;line-height:208px;background: url('/static/activity/LabourDay/images/page-dial-default.png') center top no-repeat;text-align: center;}
+.page-speed-dial .active{background: url('/static/activity/LabourDay/images/page-dial-active.png') center top no-repeat;}
+.page-speed-txt{text-align:center;line-height:34px;font-size: 22px;color:#a8691f;}
+.page-wrap{width: 858px;margin: 0 auto;}
+.page-project{width:1000px;position: relative;margin:100px auto;}
+.page-project-title{position: absolute;left:0;top:0;width: 100%;height: 422px;background: url('/static/activity/LabourDay/images/page-project-title.png') center top no-repeat; }
+.page-project-main{margin:0 auto;padding:110px 0 70px 0;width:100%;background: url('/static/activity/LabourDay/images/page-project-main.png') center bottom no-repeat;}
+.page-project-item{margin:0 auto 26px;position:relative;width: 732px;height: 253px;background:url('/static/activity/LabourDay/images/page-project-item.png') center bottom no-repeat;color:#a8691f;}
+.page-project-item .title{margin:0 0 0 32px;width:305px;height: 82px;line-height: 82px;text-align: center;font-size: 36px;color: #f5d2a3;}
+.page-project-inner p{margin:30px 0 0 0;float: left;text-align: center;font-size: 32px;}
+.page-project-inner p strong{font-size: 56px;font-weight: normal;}
+.page-project-inner p span{margin-top: 32px;display: block;}
+.page-project-inner .p1{width:180px;}
+.page-project-inner .p1 strong{text-align: left;}
+.page-project-inner .p2{width: 224px;margin:30px 0 0 90px;}
+.page-project-btn,.page-project-btn:link,.page-project-btn:visited,.page-project-btn:hover,.page-project-btn:active{display: inline-block;margin:34px 0 0 0;width:198px;height: 63px;line-height:63px;background: url('/static/activity/LabourDay/images/page-project-btn.png') center center no-repeat;text-align: center;color:#ca2122;font-size: 32px;}
+.page-project-disabled,.page-project-disabled:link,.page-project-disabled:visited,.page-project-disabled:hover,.page-project-disabled:active{display:block;float:left;margin:-15px 0 0 24px;width:142px;height: 140px;background: url('/static/activity/LabourDay/images/page-project-btn-disabled.png') center center no-repeat;font-size: 0;}
+.page-rule{width: 1006px;margin-top: 98px; padding-bottom:116px;color:#3f6b5d;font-size: 24px;}
+.page-dashed{position:relative;margin-bottom:48px;width: 100%;height: 0;border-top:1px dashed #3f6b5d;}
+.page-dashed h4{position: absolute;left:50%;top:-24px;margin-left:-59px;width:118px;background:#add2c6;height:24px;text-align: center; }
+.page-rule{line-height: 42px;}
+.page-mask{position: fixed;left:0;top:0;z-index:1;width:100%;height: 100%;background: rgba(0,0,0,0.5);}
+.page-pop{position: fixed;left:50%;top:50%;z-index:2;margin-left:-366px;margin-top:-240px;width:732px;height: 480px;background: url('/static/activity/LabourDay/images/page-pop.png') center top no-repeat;  }
+.pop-title{display: block;margin: 24px auto 0;}
+.pop-face{display: block;margin: 0 auto 7px;}
+.pop-btn{display:block;margin: 0 auto;}
+.page-pop-em-color{color:#cb5046;}
+.page-content{padding:32px 100px 40px 100px;font-size: 18px;line-height: 32px;text-align: center;color:#7f511a;font-size: 18px;}
+.page-layer-rule p{margin-top:14px;line-height: 30px;text-align: left;}
+.page-layer-rule p span{display: inline-block;width:25px;height: 25px;line-height: 26px;text-align: center;vertical-align:top;background: url('/static/activity/LabourDay/images/page-pop-rule.png') center center no-repeat; }
+.page-layer-rule .page-content{padding:32px 160px 50px 200px;}
+.page-layer-redpacket p{line-height: 36px;font-size: 19px;}
+.page-layer-redpacket em{font-style: normal;font-size: 26px;}
+.page-layer-redpacket .page-btn-area{text-align: center;}
+.page-layer-redpacket .pop-btn{display: inline-block;margin:28px 0 0 0;width:167px;height: 53px;font-size:0;border:0;}
+.page-layer-redpacket .pop-btn-redpacket{background: url('/static/activity/LabourDay/images/page-pop-btn-red.png') center center no-repeat;}
+.page-layer-redpacket .pop-btn-sign{background: url('/static/activity/LabourDay/images/page-pop-btn-sign.png') center center no-repeat;}
+.page-layer-success .page-content{padding:18px 100px 35px 100px;}
+.page-layer-tip .page-content{padding:10px 100px 40px 100px;}
+.page-layer-invest .page-content{padding:30px 100px 40px 100px;}
+.page-layer-login .page-content{padding:36px 100px 38px 100px;}
+.page-layer-lottery .page-content{padding:36px 100px 28px 100px;}
+.page-layer-sign .page-content{padding:14px 100px 8px 100px;}
+.page-layer-sign p strong{font-size: 24px;line-height:32px;}
+.page-layer-sign p span{font-size: 24px;line-height: 24px;}
+.page-sign-wrap li{position:relative;display:inline-block;width:110px;margin:0;font-size: 13px;cursor: pointer;}
+.page-sign-default{display:block;width:100%;height: 95px;background: url('/static/activity/LabourDay/images/page-pop-gold-default.png') center center no-repeat;}
+.page-sign-active{position:relative;background: url('/static/activity/LabourDay/images/page-pop-gold-active.png') center center no-repeat;}
+.page-sign-active i{position: absolute;left:55px;top:10px;width:50px;height: 60px;background: url('/static/activity/LabourDay/images/page-pop-gold-seal.png') center center no-repeat;}
+.page-sign-wrap li em{position: absolute;width: 100%;top:44%;left:0;color:#875a1f;}
+.colorgrey{color: #515151 !important;}
+.page-sign-time{padding-top: 80px;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2015-11-20 
+ * @version partenr2.0
+ * @version partenr3.0 modify 2016-03-11
+ */
+
+.partner2-bgcolor{background-color: #dcf5fa;overflow: hidden;}
+
+.partner2-arrive-group{margin: 1.25rem 1rem 1.35rem;  border-radius: 0.25rem; -webkit-border-radius: 0.25rem;}
+.partner2-arrive-box{height: 2.25rem;  position: relative; background-color: #fff; border-radius: 0.25rem;  margin:0 0 0.3rem; border-top: 0.175rem solid #c6ecfd; padding:0 0.5rem 0 1.25rem;box-sizing:border-box;}
+.partner2-arrive-box input{border: none;display: block;background-color: transparent;width: 100%;font-size: 0.6rem;height: 100%; font-weight: lighter;color: #009be2;}
+.partner2-arrive-code{position: absolute;right: 0; border-bottom: 0.175rem solid #808080; border-radius: 0.25rem; background-color: #acacac;color:#fff;top:-0.15rem;font-size: 0.7rem;line-height: 2.25rem; height: 2.25rem; min-width: 5.5rem; padding:0 0.5rem; box-sizing: border-box; text-align: center;}
+.partner2-arrive-code.again{background-color: #009be2; border-bottom-color: #0382bc;}
+.partner2-arrive-code.disable,.partner2-arrive-warp input[type=submit].disable{background-color: #acacac; border-bottom-color: #808080;}
+
+.partner2-tips{text-align: center; color:#ec443c; font-size: 0.55rem; margin-bottom: 0.5rem;}
+.partner2-btn{width: 14.05rem; height: 2.15rem;  margin: 0 auto 0.5rem;}
+.partner2-btn input{width: 100%; height:2rem; background-color: #ffeb1a; color: #ec443c; font-size: 0.8rem; line-height: 2rem;  box-shadow: 0 0.15rem 0 #ffa800; border-radius: 0.25rem; }
+.partner2-btn input.disable{background-color: #c9c9c9; box-shadow: 0 0.15rem 0 #a0a0a0; color: #585858;}
+.partner2-info{line-height: 1rem; padding:0.55rem 0 0.75rem; text-align: center; color:#00a8f4; font-size: 0.55rem;}
+.partner2-info img{width: 0.55rem; height: 0.65rem; vertical-align: middle; margin-right: 0.25rem;}
+.partner2-9douyu{ padding:1.25rem 0 1rem; font-size: 0.55rem; color:#7a7a7a; line-height: 0.85rem}
+.partner2-9douyu h2{width: 100%; height: 1.9rem; line-height: 1.75rem; margin-bottom: 1.25rem; text-align: center; font-size: 0.9rem; color: #fff;  background: url('/static/weixin/images/activity/par-reg-bg.png') 0 -3.2rem no-repeat; background-size:16rem 7.5rem;}
+.partner2-9douyu p{margin:0 1rem 0.75rem; color: #555; line-height: 1rem; font-size: 0.65rem; position: relative; padding-left: 0.75rem;}
+.partner2-9douyu p small{font-size:0.55rem; }
+.partner2-9douyu p i{position: absolute; width:0.3rem; height: 0.3rem; border-radius: 0.3rem; overflow: hidden; left: 0; top:0.275rem; background-color:#00a8f4; }
+.partner2-9douyu-main{overflow: hidden; padding:0 1rem 0.5rem;}
+.partner2-9douyu-main ul{ width:100%;padding:0.9rem 0 0.9rem 0.45rem; box-sizing: border-box;  border-radius: 0.25rem; margin:2.75rem 0 2rem; }
+.partner2-9douyu-main li{position: relative; padding:0 3.75rem 1.5rem 0; line-height:0.9rem;box-sizing:border-box;font-size: 0.65rem; color: #555;}
+.partner2-9douyu-main li h3{font-size:0.75rem; color: #00a8f4; margin-bottom: 1rem;}
+.partner2-9douyu-main li i{position: absolute;color: #58c7f6; font-style: normal; left: -0.5rem;top:0;}
+.partner2-9douyu-main li ins{position: absolute; height: 1px; overflow: hidden; right: 0; left:3.6rem; top:0.45rem; background-color: #37b3f5; }
+.partner2-9douyu-main li span{position: absolute; width:2.25rem; height: 2.25rem; right: 0.3rem; top:1.25rem; background: url('/static/weixin/images/activity/par-reg-bg.png') 0 0 no-repeat; background-size:16rem 7.5rem;}
+.partner2-9douyu-main li span.icon1{background-position: 0 -5.25rem;}
+.partner2-9douyu-main li span.icon2{background-position: -2.5rem -5.25rem;}
+.partner2-9douyu-main li span.icon3{background-position: -5rem -5.25rem; top:1.75rem;}
+.partner2-9douyu-main li span.icon4{background-position: -7.5rem -5.25rem;top:1.5rem;}
+
+.partner2-link{text-align: center; line-height: 1rem;}
+.partner2-link a{color: #ffa800; font-size: 0.6rem;}
+
+.partner2-line{border-bottom: 1px solid #a45100;)}
+.partner2-input-icon{position: absolute; width: 0.8rem; height: 1.1rem;  background: url('/static/weixin/images/activity/partner-icon-new.png') 0 0 no-repeat; background-size:16rem 6.25rem;left: 0; top: 0.55rem;}
+.partner2-input-icon.partner2-input-icon1{background-position:0 -1.5rem;}
+.partner2-input-icon.partner2-input-icon2{background-position:-1.05rem -1.5rem;}
+.partner2-input-icon.partner2-input-icon3{background-position:-2.1rem -1.5rem;}
+
+.partner-btn{width: 100%; height: 2.5rem; position: fixed; left: 0; bottom: 0; ç background-size:16rem 7.5rem;}
+
+.partner2-arrive-box input::-webkit-input-placeholder {
+    color: #78d0f1 !important;
+    text-overflow: ellipsis;
+    font-size:0.65rem;
+    letter-spacing: 0;
+}
+.partner2-arrive-box input:-moz-placeholder {
+    color: #78d0f1 !important;
+    text-overflow: ellipsis;
+    font-size:0.65rem;
+    letter-spacing: 0;
+}
+.partner2-arrive-box input::-moz-placeholder {
+    color: #78d0f1 !important;
+    text-overflow: ellipsis;
+    font-size:0.65rem;
+    letter-spacing: 0;
+} /* for the future */
+.partner2-arrive-box input:-ms-input-placeholder {
+    color: #78d0f1 !important;
+    text-overflow: ellipsis;
+    font-size:0.65rem;
+    letter-spacing: 0;
+}
+
+.partner2-success{width:14.05rem;height:13.7rem;margin:1.5rem auto;background: url('/static/weixin/images/activity/par-success-bg.png') center center no-repeat;background-size:contain; }
+.par-logo{display: block;width:3.85rem;margin:0.8rem 0 0.8rem 1rem;}
+.partner2-txt{padding-top: 6.8rem;line-height:1.1rem;text-align: center;color:#666;font-size: 0.6rem;}
+.partner2-txt>span{color:#ff553b;}
+.partner2-suc{width:12.7rem;}

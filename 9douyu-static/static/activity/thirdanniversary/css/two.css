@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2017-04-24
+ * @version anniversary
+ */
+body{background-color: #fec645;color:#fff; }
+
+/* theme */
+.anniversary-theme{width: 100%; height: 862px; background:url('/static/activity/thirdanniversary/images/theme.jpg') top  center no-repeat;}
+.anniversary-theme .wrap{position: relative;}
+.theme-sum{padding: 142px 0 390px 80px; text-align: center; line-height: 1.5; font-size: 22px; color: #0040b6;}
+.theme-sum big{font-size: 62px; color: #fff;}
+.theme-fish{position:absolute; width:245px; height:204px;background:url('/static/activity/thirdanniversary/images/fish.gif') top  center no-repeat;}
+.theme-fish.step1{top:242px; left: 53px;}
+.theme-fish.step2{top:153px; left: 419px;}
+.theme-fish.step3{top:237px; left: 798px;}
+.theme-step{width:270px; line-height: 2; font-size: 14px; position:absolute;text-align: center; }
+.theme-step big{font-size:24px; text-shadow:0 1px 5px rgba(0,0,0,.5); }
+.theme-step.step1{left: 80px; top: 614px;}
+.theme-step.step2{left: 410px; top: 540px;}
+.theme-step.step3{right:0; top: 565px;}
+.theme-limit{text-align: center; padding-left: 30px; line-height: 2.25; font-size: 16px;}
+.theme-limit small{ font-size: 12px; color: #6bf3ff;}
+
+.anniversary-banner{width:100%; height:967px; text-align: center; background:url('/static/activity/thirdanniversary/images/two-banner1.jpg') top  center no-repeat;}
+.anniversary-banner p{padding:245px 40px 0 0;font-size: 31px; color: #d9481f; }
+
+/* main */
+.anniversary-main{width:100%; overflow:hidden; margin-bottom: -80px; background:url('/static/activity/thirdanniversary/images/two-bg.jpg') top  center no-repeat;}
+.anniversary-wrap{width:999px; margin:0 auto; padding-top: 35px;}
+
+.anniversary-title{margin:0 auto; width:496px; height:141px; background:url('/static/activity/thirdanniversary/images/two-title.png') 0 0 no-repeat;}
+.anniversary-title.title2{background-position: 0 -141px; margin-bottom: 52px; }
+
+
+.anniversary-invite{width:100%;height:845px; margin:70px 0 115px; background:url('/static/activity/thirdanniversary/images/two-invite.png') top  center no-repeat;}
+.anniversary-invite-txt1{font-size: 46px; line-height: 2.25; padding:52px 60px 0 325px;}
+.anniversary-invite-txt2{font-size: 24px; line-height: 46px; padding:0 60px 0 325px;}
+.anniversary-invite-txt3{font-size: 28px; line-height: 1.5; padding:135px 0 0; text-align: center;}
+
+.anniversary-gain{text-align: center; height: 1327px; padding-left: 85px; margin-left: -30px;background:url('/static/activity/thirdanniversary/images/two-gain.png') top  center no-repeat;margin-bottom: 100px;}
+.anniversary-gain-txt1{padding:55px 0 80px; font-size: 34px; line-height: 56px; }
+.anniversary-gain-img{width:766px; height:488px; margin-bottom: 155px;}
+.anniversary-gain h3,.anniversary-ranking h3{font-size: 40px; line-height: 1.5; margin-bottom: 45px;}
+.anniversary-gain table,.anniversary-ranking table{width:80%; text-align: left;  font-size: 18px; line-height: 40px; margin:0 auto 25px;}
+.anniversary-gain table th,.anniversary-ranking table th{24px;}
+.anniversary-gain-btn{font-size: 22px; text-decoration: underline;cursor:pointer;}
+.anniversary-ranking{padding:50px 0 0 50px; text-align: center; height:494px;background:url('/static/activity/thirdanniversary/images/two-ranking.png') top  center no-repeat;}
+
+.anniversary-buy{text-align: center;color: #f43f3f;font-size: 16px; padding:105px 0 60px;}
+.anniversary-buy h3{font-size: 42px; line-height: 1; margin-bottom: 20px;}
+.anniversary-buy img{width:314px; height:288px; margin-top: 60px;}
+
+.anniversary-list{width:100%; height:168px;background:url('/static/activity/thirdanniversary/images/two-list.png') center top no-repeat;}
+.anniversary-list-title{text-align: center; height:80px; line-height: 80px; font-size: 33px; text-shadow:0 2px 5px rgba(0,0,0,.5);}
+.scrollDiv{width:100%; font-size: 16px; margin-top: 20px; height:35px; line-height: 35px; overflow:hidden;}
+.scrollDiv em{display:inline-block;width:220px; padding-left: 50px;}
+.scrollDiv span{display:inline-block; width:230px; color: #ffef58;}
+
+.anniversary-rule{line-height: 26px; color:#fff ; border-radius: 10px; padding:40px; background-color: #e2a314; margin: 40px 0 80px;}
+.anniversary-rule h3{font-size: 24px; margin-bottom: 15px;}
+.anniversary-rule p{font-size: 16px; position:relative; padding-left: 24px; line-height: 28px;}
+.anniversary-rule p>span{position:absolute; left: 0; top: 0;}
+
+
+
+.anniversary-float{line-height: 55px; width:186px; height: 231px;padding-top:80px ; background:url('/static/activity/thirdanniversary/images/two-float1.png') center top no-repeat; text-align: center; font-size: 17px; position:fixed; right:30px; bottom:0;}
+.anniversary-float a,.anniversary-float a:visited{color: #fff736; display:block; width:100%; }
+.anniversary-float a:hover,.anniversary-float a:active{color: #fff;}
+
+
+.anniversary-box{ border-radius: 30px; background: #8837e4;box-shadow: inset 0 0 2.75rem rgba(254,197,47,0.64);color: #fff; padding: 50px 0 20px; position: relative;}
+
+.anniversary-pro-block{padding:5px 25px 15px; width:858px; margin: 0 auto 38px; background-color: #fff; border-radius: 10px;}
+.anniversary-pro-block table{font-size: 26px; text-align: center; color: #333;}
+.anniversary-pro-block table th{font-size: 28px; height: 80px;}
+.anniversary-pro-block table th>i{ font-style: normal; }
+.anniversary-pro-block table td{position:relative;}
+.anniversary-pro-block table td small{font-size:14px;color: #666; }
+.anniversary-pro-block table td big{font-size: 50px;}
+.anniversary-pro-block table td{line-height: 30px;}
+.anniversary-btn{display: inline-block; position:relative; top: -8px; color: #fff;font-size: 24px; width:144px; height:44px; padding-right: 10px; line-height: 44px; text-align: center; background-color: #f6ad2e; border:1px solid #f5c775; border-width: 1px 2px 2px 1px; border-radius: 2px;}
+.anniversary-btn.disable{background-color: #bcbcbc; border-color: #cfcfcf;}
+.anniversary-orange{color: #ff3333;}
+
+

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors bichunfeng (you@example.org)
+ * @date    2017-3-14 14:25:45
+ * @version $Id$
+ */
+body{background: -webkit-linear-gradient(top, #3e39f2, #22207f);background:linear-gradient(top, #3e39f2, #22207f);}
+.page-banner{width:16rem;margin:0 auto;display: block;}
+.page-title{display: block;width: 10.2rem;margin:0 auto;}
+.page-border{width:13.51rem;margin:0.65rem auto 2.1rem;padding:0.6rem;line-height:0.95rem;border:1px solid #fff;border-radius: 0.25rem;font-size: 0.54rem;color:#fff;vertical-align:middle;}
+.page-border span{display:inline-block;width:2rem;color:#ffd076;}
+.page-txt2{font-size: 0.5rem;}
+.page-txt3 p{position: relative !important;padding-left: 0.73rem;}
+.page-txt3 em{position: absolute;left: 0;top:0.25rem;width:0.35rem;height: 0.35rem;margin:0 0.34rem 0 0;background: #fff;font-size: 0;display: inline-block;transform: rotate(-45deg);-webkit-transform: rotate(-45deg);}
+.page-logo{width: 14.71rem;display:block;margin:1.22rem auto 2.7rem;}
+/*轮播*/
+.swiper-slide{width:14.7rem;margin:1.17rem auto 2.17rem;display: flex;display:-webkit-box;justify-content: space-around;-webkit-box-pack:center;}
+.swiper-slide img{width:100%;}
+.swiper-slide a{ width:6.65rem;margin:0 0.21rem;display:block;flex-direction:row;-webkit-box-orient: horizontal;}
+.swiper-button-next,.swiper-button-prev{top:45%;-moz-background-size:0.3rem 0.54rem;-webkit-background-size:0.3rem 0.54rem;background-size:0.3rem 0.54rem;}
+.swiper-button-next{right:0;background-image: url("/static/weixin/activity/zt315/images/page-right.png");}
+.swiper-button-prev{left:0;background-image: url("/static/weixin/activity/zt315/images/page-left.png");}
+.por{position: relative;}
+.btn-video{position: absolute;top:9.6rem;left:50%;margin-left:-1.5rem;color:#fff;text-decoration: underline;font-size: 0.5rem;}
+

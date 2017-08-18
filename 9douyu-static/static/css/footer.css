@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer{width:100%; background:#595c59; height:166px; padding-top:22px;float:left}
+.footer-right{width:688px;background:url(/static/images/landing-img3.png?v=150624) 0 0 no-repeat; padding-top:5px;}
+.footer-link{float: right;}
+.footer-link li{float: left; margin-left:12px;background:url(/static/images/footer-icon.png) left center no-repeat; padding-left:18px; }
+.footer-link a{color:#a5a5a5;}

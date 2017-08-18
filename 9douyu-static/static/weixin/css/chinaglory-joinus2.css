@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+*:not(input,textarea) {
+  -webkit-touch-callout: inherit;
+  -webkit-user-select: auto;
+}
+
+button,input,select,textarea {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+dt,dd {
+  display: inline-block;
+}
+textarea,input {
+  resize: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+}
+ul,ol,li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+
+
+body{
+  
+  width:100%;
+  overflow:hidden;
+  
+}
+html {
+	font-size:22px !important;
+	min-height:320px;
+
+}
+
+
+
+.page{
+	width:100%;
+	height:100%;
+	position:absolute;
+	display: none;
+
+}
+
+.page .wrap{
+	height:500px;
+}
+
+.page-current{
+	z-index:1;
+	display: block;
+}
+.page img{position: absolute; }
+.img_up {
+	height:auto;width:25px;
+	position:absolute;
+	left:50%;
+	top:92%;
+	margin-left:-12px;
+	z-index: 8;
+}
+.img-icon{width:1rem; height: 2rem;  right: 0.75rem; top: 0.5rem; cursor: pointer; }
+  .play{-webkit-animation: rotating 1.2s linear infinite;
+  -moz-animation: rotating 1.2s linear infinite;
+  -o-animation: rotating 1.2s linear infinite;
+  animation: rotating 1.2s linear infinite;}
+.img-1-1 {	width: 2.35rem;	left:1.9rem;top:0.75rem; z-index: 4;}
+.img-1-2{width: 9.75rem;   top:1.1rem; left:50%; margin-left: -4.875rem; z-index: 1;}
+.img-1-3{ width: 6.9rem; top:21.75rem; left:50%; margin-left: -3.45rem;  }
+.img-logo{width: 3.8rem;  top: 24.75rem; left: 50%; margin-left:-1.9rem; }
+
+.img-2-1 {width: 15.6rem;  left: 50%; margin-left: -7.8rem; top: 1rem; }
+.img-2-2 {width: 10.9rem;  left: 50%; margin-left: -5.45rem; top: 7.95rem; }
+.img-2-3 {width: 6.75rem;  left: 50%; margin-left: -3.275rem; top: 20.75rem; }
+
+.img-3-2{width:13.9rem; left: 50%; margin-left: -6.95rem; top: 8.25rem;}
+.img-3-3{width:7.35rem; left: 50%; margin-left: -3.675rem; top: 22.2rem;}
+
+.img-4-2{width:11.7rem; left: 50%; margin-left: -5.85rem; top: 9.1rem;}
+.img-4-3{width:11.1rem; left: 50%; margin-left: -5.55rem; top: 21.65rem;}
+
+.img-5-2{width:11.65rem; left: 50%; margin-left: -5.825rem; top: 9.7rem;}
+.img-5-3{width:7.05rem; left: 50%; margin-left: -3.025rem; top: 22.5rem;}
+
+.img-6-2{width:13.7rem; left: 50%; margin-left: -6.85rem; top: 8.3rem;}
+.img-6-3{width:15.05rem; left: 50%; margin-left: -7.525rem; top: 17.7rem;}
+
+.img-7-2{width:14.7rem; left: 50%; margin-left: -7.35rem; top: 8rem;}
+.img-7-3{width:10.45rem; left: 50%; margin-left: -5.225rem; top: 20.25rem;}
+
+.img-8-2{width:10.95rem; left: 50%; margin-left: -5.475rem; top: 8.25rem;}
+.img-8-3{width:9.2rem; left: 50%; margin-left: -4.6rem; top: 20.45rem;}
+
+.img-9-2{width:12rem; left: 50%; margin-left: -6rem; top: 9.2rem;}
+.img-9-3{width:12.1rem; left: 50%; margin-left: -6.05rem; top: 20.65rem;}
+
+.img-10-2{width:14.6rem; left: 50%; margin-left: -7.3rem; top: 9.2rem;}
+.img-10-3{width:14.15rem; left: 50%; margin-left: -7.0725rem; top: 18.45rem;}
+
+.img-11-2{width:10.5rem; left: 50%; margin-left: -5.25rem; top: 7.8rem;}
+.img-11-3{width:12.45rem; left: 50%; margin-left: -6.225rem; top: 18.6rem;}
+
+.img-12-2{width:12.4rem; left: 50%; margin-left: -6.4rem; top: 9.5rem;}
+.img-12-3{width:10.9rem; left: 50%; margin-left: -5.45rem; top: 17.3rem;}
+
+.img-13-2{width:12.1rem; left: 50%; margin-left: -5.05rem; top: 9.2rem;}
+.img-13-3{width:12.3rem; left: 50%; margin-left: -6.15rem; top: 20.65rem;}
+
+.img-14-2{width:13.25rem; left: 50%; margin-left: -6.625rem; top: 8.1rem;}
+.img-14-3{width:11.45rem; left: 50%; margin-left: -5.725rem; top: 17.55rem;}
+
+.img-15-2{width:13.7rem; left: 0.65rem;  top: 7.95rem;}
+.img-15-3{width:12.85rem; right: 1.15rem; top: 16.4rem;}
+
+.img-16-2{width:14.4rem; left: 50%; margin-left: -7.2rem; top: 8.65rem;}
+.img-16-3{width:9.85rem; left: 50%; margin-left: -4.925rem; top: 17.95rem;}
+
+.img-17-1{width:13.1rem ; left: 50%; margin-left: -6.55rem;top: 2rem;}
+.img-17-2{width:10rem ; right:1.25rem; top: 3.05rem;}
+.img-17-3{width:6.6rem ; left: 50%; margin-left: -3.3rem; top:9.8rem;}
+.img-17-4{width:8.45rem ; left: 50%; margin-left: -4.225rem; top:8.95rem;}
+.img-17-5{width:8.65rem ; left: 50%; margin-left: -4.325rem; top:17.65rem;}
+.img-17-6{width:11.05rem ; left: 50%; margin-left: -5.525rem; top:20.25rem;}
+.page-18-1 .img-logo{top:25.8rem; }
+.page-17 .img-logo{top:25.8rem; }
+
+.img-18-2{width:12.35rem; left: 50%; margin-left: -6.175rem; top: 8.75rem; }
+.img-18-3{width:11.1rem; left: 50%; margin-left: -5.55rem; top: 18.8rem; }

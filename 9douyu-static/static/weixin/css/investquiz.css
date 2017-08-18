@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.t-i-bj1{background: url("../images/t-inv-bj.png") no-repeat top center; width: 100%; background-size: 100%; height: 10.25rem; }
+.t-i-bj1 p{ color: #673000; font-size: 0.5rem; text-align: center; font-weight: bold; line-height: 1.2rem; padding-top:6.85rem;}
+.t-i-bj2{ text-align: center;  }
+.t-i-bj2 img{ width: 14.875rem; height:1.2rem; background-size: 14.875rem 1.2rem; margin-top: -0.4rem;}
+.t-i-bj3{ width:13.75rem; border:0.2rem solid #fff2e0; background: #fff; border-radius: 0.2rem; box-shadow: 0 0.25rem 0 #f5b5af; margin:-0.5rem auto 1.2rem; padding:0.5rem 0.5rem;}
+.t-i-bj3 p{ color:#822a20; font-size: 0.75rem; line-height: 1.2rem; }
+.t-i-bj3 .t-text{ line-height: 1.5rem;}
+.t-i-bj3 .t-img{ width:13.6rem; height:1rem;}
+.t-i-bj3 .t-text1{ font-size:0.6rem; line-height: 1.1rem;} 
+.t-i-bj4{width:13.55rem; border:0.3rem solid #fff2e0;border-top:1.1rem solid #fff2e0; background: #fff; border-radius: 0.2rem; box-shadow: 0 0.25rem 0 #f5b5af; margin:0 auto 0; padding:0.5rem 0.5rem  0.2rem; position: relative; overflow: hidden;}
+.t-i-title{width:10.8rem; height:2.025rem; position: absolute; left: 50%; margin-left: -5.4rem; z-index: 5; top:-1.3rem;}
+.t-i-title img{width:10.8rem; height:2.025rem;}
+.t-i-bj{ position: relative; height: 8rem;margin-top: 2.5rem;}
+.t-i-bj4-1{ float: left; width: 9rem;}
+.t-i-bj4-3{ color: #822a20; font-size:0.55rem; margin-bottom: 0.2rem; }
+.t-i-bj4-4 { width: 7.55rem;}
+.t-i-bj4-2{ float: left; width: 4.4rem; text-align: center; margin:0 auto;}
+.t-i-bj4-5{ color: #822a20; font-size: 0.55rem;}
+.t-i-bj4-6{ color: #fa4b3e; font-size: 0.55rem; line-height: 1.2rem; font-weight: bold; padding:0.825rem 0 0.7rem 0;}
+.t-i-bj4-6 span{ font-size: 1.1rem;}
+a.t-i-btn,a.t-i-btn-gray{background: url("../images/t-inv-btn.png") no-repeat top center; width: 5.275rem; height: 2.025rem; background-size: 5.275rem 2.025rem; display: block; margin-left: -0.5rem; color: #fa4b3e; font-size: 0.75rem; font-weight: bold; line-height: 2.025rem;}
+.t-i-bj4-4-1{ width: 6.5rem;}
+.t-i-bj4-4-2{ width: 7.3rem;}
+a.t-i-btn-gray{background: url("../images/t-inv-btn3.png") no-repeat top center;background-size: 5.275rem 2.025rem; color: #8e8b8b;}
+.t-i-bj5{background: url("../images/t-inv-title6.png") no-repeat top center; width: 11.675rem; height: 1.675rem; background-size: 11.675rem 1.675rem;  margin:0.5rem auto 0;}
+.t-i-bj6{ width:15rem; margin:0.85rem auto 0;}
+.t-i-bj6-title{ background:  url("../images/t-inv-title5.png") no-repeat top center; width: 7.5rem; color: #ffffff; font-size: 0.75rem; text-align: center; line-height:1.9rem; background-size: 7.5rem 1.75rem; height: 1.75rem;}
+.t-i-bj6-1{ width: 14.1rem; border:2px solid #d3ad89; background: #fae3c1; margin-top: 0.5rem; padding:0 0.4rem;}
+.t-i-bj6-2 { text-align: center; width: 100%; }
+.t-i-bj6-2 tr td{ color: #904e07; font-weight:bold; font-size: 0.55rem; padding:0.75rem 0 0.45rem 0;}
+.t-i-bj6-3,.t-i-bj6-5{border: 1px solid #d3ad89; background: #fff2dd; color: #904e07; padding: 0 0.25rem 0; margin-bottom: 0.45rem; height: 13.2rem; overflow:auto;}
+.t-i-bj6-4{ width: 100%; text-align: center;}
+.t-i-bj6-4 tr{height: 2.7rem; border-bottom: 1px dashed #d6b18e;}
+.t-i-ra{ width:0.85rem; height: 0.85rem; border-radius: 0.5rem; background: #996c33; color: #fff; line-height: 0.85rem; text-align: center; margin:0 auto; font-weight: bold;}
+.t-i-bj6-4 tr:last-child{ border: none;}
+.t-i-bj6-4 p{ line-height:0.9rem;}
+.t-i-bj6-5{ margin-top: 1.825rem;}
+.t-i-bj6-6{ text-align: center; color:#996c33; font-size: 0.6rem; padding:3.75rem 0.7rem 1.75rem;}
+a.t-i-btn1,a.t-i-btn1-gray,a.t-i-btn2,a.t-i-btn2-gray,a.t-i-btn3,a.t-i-btn3-gray{ width: 7.025rem; height: 2.525rem; background:url("../images/t-inv-btn5.png") no-repeat top center; background-size: 7.025rem 2.525rem; display: block; margin:0 auto; line-height: 2.525rem; text-align: center; color: #fa4b3e; font-size: 0.9rem; font-weight: bold;}
+a.t-i-btn1{ margin-bottom: 3.375rem;}
+a.t-i-btn1-gray,a.t-i-btn2-gray,a.t-i-btn3-gray{background:url("../images/t-inv-btn4.png") no-repeat top center; background-size: 7.025rem 2.525rem; color: #8e8b8b; }
+a.t-i-btn1-gray{margin-bottom: 3.375rem;}
+a.t-i-btn2{background:url("../images/t-inv-btn2.png") no-repeat top center; background-size: 7.025rem 2.525rem; color: #9a6d35; margin-top:2.6rem;}
+a.t-i-btn3{background:url("../images/t-inv-btn1.png") no-repeat top center; background-size: 7.025rem 2.525rem; color: #557700; margin-top:1.475rem; margin-bottom: 3.3rem; }
+a.t-i-btn2-gray{ margin-top:2.6rem;}
+a.t-i-btn3-gray{  margin-top:1.475rem; margin-bottom: 3.3rem; }
+.t-i-bj7{ position: relative; margin-top:2.5rem;}
+.t-i-bj7-1{   width: 15rem;  background: #fff2e0; margin: 0 auto;border-radius: 0.2rem; overflow: hidden;}
+.t-i-bj7-2{ color: #ff5700; font-size: 0.55rem; text-align: center; padding: 1.1rem 0 0.3rem 0 ; line-height: 1.1rem; }
+.t-i-bj7-3{ margin:0 0.3rem 0.25rem; background: #fff; border-radius: 0.2rem;}
+.t-i-bj7-4{ text-align: center; width: 100%;}
+.t-i-bj7-4 thead tr{ height: 1.7rem;}
+.t-i-bj7-4 thead tr td{ color: #904e07; font-size: 0.5rem; font-weight: bold; } 
+.t-i-bj7-4 tbody tr{height: 1.5rem; }
+.t-i-bj7-4 tbody tr td{ color: #904e07;font-size: 0.5rem; border-top: 1px dashed #e5e5e5;} 
+.t-i-bj8{ width: 7.3rem; height: 1.4rem; line-height: 1.4rem; text-align: center; background: #fff2e0; border-radius: 0 0 0.2rem 0.2rem; margin:0  auto; color: #ff955d; font-size: 0.65rem;}
+.t-i-bj8 p{ cursor: pointer;}
+.t-i-bj9{ background:url("../images/t-inv-bj8.png") no-repeat 0 0; width: 100%; height: 1.75rem; background-size: 100%; margin-top: 0.5rem; }
+.t-i-bj10{ background: #fc4444; padding-bottom: 2.5rem; overflow: hidden;}
+.t-i-bj11{background:url("../images/t-inv-bj10.png") no-repeat 0 0;width: 100%; height: 1.05rem ; background-size: 100%; margin-top: 0.8rem; margin-bottom: 0.2rem; }
+.t-i-bj12{ width: 15rem;overflow: hidden; margin:0 auto;}
+.t-i-bj12 dt{ width: 0.7rem; height: 0.7rem; border:1px solid #fff; line-height: 0.7rem; text-align: center; border-radius: 0.2rem; color: #fff; float: left; position: relative; top:0.7rem;}
+.t-i-bj12 dd{ color: #fff; font-size: 0.55rem; margin-left: 1.2rem; margin-top: 0.7rem; line-height: 0.8rem;}
+.t-i-bj12 dd p{ margin-top: 0.4rem;}
+.t-i-bj12 dd p:first-child{margin-top:0;}
+.t-i-bj13{ display: none;}

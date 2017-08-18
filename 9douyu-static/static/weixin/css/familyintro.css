@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+*:not(input,textarea) {
+  -webkit-touch-callout: inherit;
+  -webkit-user-select: auto;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+    font-size : 18px;
+  color: #fff;
+  min-height:320px;
+}
+
+
+body {
+  width: 100%;
+  font-family:"SourceHanSansCN","Microsoft YaHei", "Arial Black";
+  color: #888888;
+  -webkit-touch-callout: inherit ;
+  -webkit-user-select: auto ;
+  background-color: #fff;
+  overflow:hidden;
+}
+a {
+  color: #878787;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+}
+button,input,select,textarea {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+dt,dd {
+  display: inline-block;
+}
+textarea,input {
+  resize: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+}
+ul,ol,li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+
+.img-icon-1{width:1.05rem;right: 0rem; top: 0rem; cursor: pointer; position: absolute; z-index: 9999;}
+  .play{-webkit-animation: rotating 1.2s linear infinite;
+  -moz-animation: rotating 1.2s linear infinite;
+  -o-animation: rotating 1.2s linear infinite;
+  animation: rotating 1.2s linear infinite;}
+
+
+
+.hide{ display:none;}
+
+.page{
+  width:100%;
+  height:100%;
+  position:absolute;
+  text-align:center;
+}
+
+.page .wrap{
+  height:500px;
+}
+.page-current{
+  z-index:1;
+}
+
+.family-intro-top{text-align: center; position: absolute; top:1.4rem;left: 1.25rem; right: 1.25rem;}
+.family-intro-top span{ }
+.family-intro-top span.one img{width:4.05rem; }
+.family-intro-top span.two img{width:4.1rem;}
+.family-intro-top span.three img{width:4.25rem;}
+.family-intro-top span.four img{width:4.65rem;}
+.family-intro-top p{ font-size: 1rem; line-height: 3.3rem;color: #414141; font-weight:normal; border-bottom: 1px solid #c2e1ff; }
+.family-box{position: absolute; top:10.5rem; left: 1.25rem; right: 1.25rem; text-align: left; color: #626262; font-size: 0.65rem; line-height: 0.9rem;}
+.family-box p{ margin-bottom: 1rem;}
+.family-box.txt p{ margin-bottom: 1rem;padding-left: 0.9rem; position: relative; }
+.family-box dt{padding-left: 0.9rem; position: relative; font-weight: bold; margin-bottom: 0.25rem;}
+.family-box dt i,.family-box.txt p i{position: absolute; background: url("/static/weixin/images/topic/family-square.png") 0 0 no-repeat;background-size:0.4rem 0.4rem; left: 0.15rem; top:0.25rem; width:0.4rem; height: 0.4rem; }
+.family-box dt i{top:0.1rem;}
+.family-box dd{margin-bottom: 1rem;}
+
+.img_6 {
+  width:0.8rem;
+  position:absolute;
+  left:50%;
+  top:92%;
+  margin-left:-0.4rem;
+  z-index: 8;
+}
+
+

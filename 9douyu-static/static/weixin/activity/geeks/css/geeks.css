@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tianxiaoyan (you@example.org)
+ * @date    2016-12-29 14:25:45
+ * @version $Id$
+ */
+body{ width: 100%; background: url('/static/weixin/activity/geeks/images/bg.jpg') #000000 top center repeat-y; }
+.g-title{ margin:1.1rem 0 0.8rem;}
+.g-bg{ width: 100%; height: 11.9rem;background: url('/static/weixin/activity/geeks/images/g-bg.jpg') top center no-repeat; background-size: cover; overflow: hidden;}
+.g-text{ height: 0.75rem; margin-left: 0.6rem; padding-top: 0.1rem; padding-bottom: 0.6rem; }
+.g-bg p{ font-size: 0.6rem; color: #fff; line-height: 1.3rem;text-indent: 0.6rem;}
+.g-bg p span{ font-size: 0.8rem;}
+.g-text1{ width: 10.325rem; height: 0.65rem; margin: 0 auto; padding-bottom: 0.5rem;}
+.g-text2{ height: 0.725rem; padding-top: 0.5rem; padding-bottom: 0.5rem;}
+.g-text3{ height: 0.675rem; padding-top: 0.6rem; padding-bottom: 0.5rem;}
+.g-text4{ width: 4.675rem; height: 0.725rem; margin: 0 auto; padding-top: 0.3rem; padding-bottom: 0.1rem;}
+.g-text5{ width:3.1rem; height:0.75rem; margin: 0 auto; padding-top: 0.3rem; padding-bottom: 0.1rem;}
+
+/*轮播*/
+.swiper-pagination-bullet{ width: 0.4rem !important;
+    height: 0.4rem !important;
+    display: inline-block;
+    border-radius: 100%;
+    background: #ffcc00;
+    opacity: 1;
+   }
+.swiper-pagination-bullet-active{
+  opacity: 1;
+  width: 0.7rem !important;
+  height: 0.4rem!important;
+  border-radius: 1rem;
+  background: #ffcc00 !important;
+}
+.swiper-slide{ font-size: 0.8rem; color: #fff;}
+.swiper-slide img{ width: 13.8rem; height: 6.8rem; margin: 0 auto;}
+.swiper-container-horizontal>.swiper-pagination{bottom: 6.3rem;
+    right: 0.5rem;
+     position: absolute;}
+.swiper-container-horizontal>.swiper-pagination span{margin:0 0.2rem;}
+.swiper-slide a{ color: #fff;}
+.swiper-container{ position: relative;}
+.swiper-slide h4{ color: #fff; font-size: 0.65rem; padding-top: 0.4rem; padding-bottom: 0.3rem; text-indent: 0.3rem;}
+.swiper-slide p{ font-size: 0.6rem; text-indent: 0.2rem; line-height: 1.1rem;}
+.swiper-slide h4 span{ padding-left: 0.5rem;}
+
+
+.g-line{ margin: 0.5rem auto; width: 14.75rem;}
+.g-line1{ height: 1px; }
+.g-title1{ text-align: center; color: #f1c376; font-size: 0.7rem; padding-bottom: 0.5rem;}
+.g-vidio{ width: 14.25rem; margin: 0 auto 0.5rem; border: 1px solid #666666;}
+.g-title2{ color: #fff; font-size: 0.55rem; text-align: center;}
+.g-mr{ padding: 0 0.6rem;}
+.g-title3,.g-title4{ font-size: 0.8rem; color: #f1c376; padding-bottom: 0.3rem;}
+.g-mr p{ color: #ffffff; font-size: 0.6rem; line-height: 1.1rem;}
+.g-title4{ padding-top: 0.8rem; font-size: 0.65rem;}
+.g-1,.g-2{ font-size: 0.55rem !important;}
+.g-2{ padding-bottom: 0.4rem;}
+.g-mr dl{ width: 14.5rem; margin: 0.6rem auto 0; text-align: center;}
+.g-mr dl dt img{ display:inline-block; width: 3.025rem;}
+.g-mr dl dd p:first-child{ color: #f1c376;}
+.g-mr dl dd p{ line-height: 1rem;}
+.g-box{ width:100%;box-sizing: border-box; border: 1px solid #393a3b; padding: 0.2rem 0; margin-top: 1.1rem; margin-bottom: 0.75rem;}
+.g-box p{ text-align: center; line-height: 1.3rem;}
+.g-title5{ color: #f1c376; font-size: 0.8rem; text-align: center;}
+.g-instro dt img{ width: 5.575rem !important; padding: 0.2rem; border: 1px solid #676767;}
+.g-instro dd p:first-child{ font-size: 0.65rem; color: #fff !important; padding-top: 0.3rem;}
+.g-list{ border-bottom: 1px solid #3f3f40; margin-top: 0.7rem; padding-bottom: 0.7rem;}
+.g-list h6{ font-size: 0.6rem; color: #f1c376; padding-bottom: 0.3rem;}
+.g-list p em{ position: relative; display: inline-block; width: 0.525rem; height: 0.525rem; background: url('/static/weixin/activity/geeks/images/g-icon4.png') no-repeat 0 0; background-size: cover; top: 0.1rem; left:-0.25rem;}
+.g-list p{ padding-left: 0.25rem; line-height: 1.3rem !important;}
+.g-list p span{ padding-left: 0.6rem;}
+.g-list p em.icon{width:0.65rem; height:0.65rem; background: url('/static/weixin/activity/geeks/images/icon.png') no-repeat 0 0; background-size: cover; top: 0.1rem; left:-0.25rem;}
+.g-list p em.icon1{width:0.7rem; height:0.7rem; background: url('/static/weixin/activity/geeks/images/icon1.png') no-repeat 0 0; background-size: cover; top: 0.1rem; left:-0.25rem;}
+.g-list p em.icon2{width:0.55rem; height: 0.7rem; background: url('/static/weixin/activity/geeks/images/icon2.png') no-repeat 0 0; background-size: cover; top: 0.1rem; left:-0.25rem;}
+.g-list p em.icon3{width:0.75rem; height: 0.6rem;  background: url('/static/weixin/activity/geeks/images/icon3.png') no-repeat 0 0; background-size: cover; top: 0.1rem; left:-0.25rem;}
+.g-title6{ margin-top: -1rem; color: #f1c376; font-size: 0.8rem; text-align: center;}
+.g-title6 span{ position: relative; width: 2.275rem; height: 3.35rem; display: inline-block;background: url('/static/weixin/activity/geeks/images/icon5.png') no-repeat 0 0; background-size: cover; top: 1.2rem; }
+.g-logo{ width: 14.75rem; margin-top: 0.9rem;}
+.g-prize{ width: 14.75rem;}
+.g-text7{ width: 8.1rem; margin: 1rem auto 3.25rem;}
+.g-btn{ display: block; width: 16.0rem; position: fixed; bottom: 0; z-index: 9;}
+.g-y{ color: #f1c376;}
+
+
+/*pop*/
+.pop-layer{display: none;}
+.pop-mask{position:fixed;left:0;top:0;z-index:10;width: 100%;height: 160%;background: rgba(0,0,0,.8);}
+.pop{width:11.25rem; height: 7.75rem; border-top: 1px solid #988d7b; text-align: center; position:fixed;z-index:20;left:50%;top:50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);background-color: #eae3d9;}
+.pop-box{ width: 10.7rem; height: 7.25rem; border: 1px solid #c48f35; margin: 0.2rem auto 0;}
+.pop-title{ color:#333333; font-size: 0.7rem; padding-top: 0.85rem; padding-bottom: 0.7rem;}
+.g-b{ width: 10.225rem; margin: 0 auto; position:absolute; bottom: 0; left: 0; right: 0; bottom:0.5rem;}
+.g-close{ display: block; position: absolute; width: 1.5rem; z-index: 9999;  margin: 0 auto; left: 0; right: 0; bottom:-2.25rem;}
+.pop-title{ color:#333333; font-size: 0.7rem; padding-top: 0.85rem; padding-bottom: 0.7rem;}
+.pop-title1{ font-size: 0.7rem; color: #ff0000; padding-top: 0.375rem; padding-bottom: 0.15rem;}
+.pop-box p{ padding-bottom: 0.25rem; line-height: 0.8rem;}
+
+/*媒体报道*/
+.g-media{ width: 13.8rem; margin:0.4rem auto;}
+.g-media1{ color: #fff; font-size: 0.6rem; font-weight: normal; text-align: center;}
+.g-media1 span{ padding-left: 0.8rem; text-align: center;}
+.g-media2{ display: block; position: relative; width: 13.8rem; border: 1px solid #c89f5b; border-radius: 0.2rem; margin: 0.7rem auto; background: #201708; padding: 0.2rem 0;}
+.g-arrow{ width: 0.2rem; position: absolute; top: 1rem; right: 0.45rem;}
+.g-media2 p{ color: #fff; font-size: 0.6rem; font-weight:normal; text-align: center; line-height: 1rem;}

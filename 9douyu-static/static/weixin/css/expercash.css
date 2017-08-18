@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.s8-box{background-color: #fff; padding: 0.5rem 0.75rem;}
+.s8-box.num{border-bottom: 1px solid #eaeaea; margin-bottom: 0.5rem;}
+.s8-box.rule{border-top: 1px solid #eaeaea; margin-bottom: 1rem;}
+.s8-num{ float: left; font-size: 0.65rem; color: #a3a3a3; margin: 0.5rem 0 1.4rem; box-sizing: border-box; width: 50%;}
+.s8-num:first-child{text-align: left;padding: 0 1rem 0 0.8rem; border-right: 1px solid #e4e4e4;}
+.s8-num p:last-child{color: #fda80b; text-align: center; line-height: 1.5rem; margin-top: 1rem; font-size: 1.2rem; font-weight: normal;}
+.s8-num:nth-child(2){text-align: right; padding: 0 0.8rem 0 1rem; }
+.s8-btn{height: 2.2rem;width: 100%;box-sizing: border-box;font-size: 0.85rem;text-align: center;line-height: 2.2rem;display: block;border-radius: 0.125rem;background-color: #3cb8ff;color: #fff; margin-bottom: 0.85rem;}
+
+.s8-link{text-align: center;margin-bottom: 0.5rem;}
+.s8-link a,.s8-link a:visited{color: #3cb8ff;font-size: 0.65rem; }
+.s8-experi-title{font-size: 0; text-align: center;}
+.s8-experi-title i{display: inline-block; width: 3.8rem; height: 1px; overflow: hidden; background-color: #e4e4e4;position: relative; top: -0.25rem;}
+.s8-experi-title span{display: inline-block; width: 6.9rem; text-align: center;font-size: 0.75rem; color: #414141; line-height: 1.5rem; margin-bottom: 0.85rem;}
+.s8-rule p{padding-left: 0.85rem; line-height: 0.9rem; font-size: 0.6rem;position: relative;}
+.s8-rule p span{color: #3cb8ff; position: absolute;left: 0; top: 0;}
+.s8-rule-ps{line-height: 0.9rem; color: #a3a3a3; font-size: 0.6rem; padding: 1rem 0 0.5rem;} 
+
+
+.s8-list .t2-main-title i{width:0.85rem; height:0.85rem;background: url("../images/activity/s8-icon1.png") 0 0 no-repeat;background-size: 0.85rem;}
+.s8-list-current.t2-main-tab-1 tr td:first-child{padding: 0;}
+.s8-list-current.t2-main-tab-1 tr td p{text-align: center;}
+.s8-list-current .t2-project-1{font-size: 0.55rem;}
+.s8-list-current .t2-project-3 span{font-size: 1.2rem;}
+.s8-list-current .t2-project-3{font-size: 0.6rem;}
+.s8-list a.t2-pro-btn{ color: #32b7ff; border: 1px solid #32b7ff; }
+.s8-list .t2-pro-btn.blue{color: #fff;background: #32b7ff;}
+
+.s8-tab{text-align: center; width: 100%; background-color: #fff;overflow: hidden;}
+.s8-tab li{display: inline-block; width: 4.1rem; margin: 0 1.85rem; text-align: center; font-size: 0.7rem; height:2.2rem; line-height: 2.2rem;border-bottom: 0.1rem solid #fff; }
+.s8-tab li.cur{border-bottom: 0.1rem solid #32b7ff; color: #32b7ff;}
+
+.s8-cash{width: 100%; overflow: hidden; margin-top: 0.5rem; border:1px solid #eaeaea; background-color: #fff;}
+.s8-cash h3{width: 100%; box-sizing: border-box; height: 2rem; line-height: 2rem; font-size: 0.7rem; font-weight: lighter;  padding: 0 0.75rem; border-bottom:1px solid #eaeaea; }
+.s8-cash table{width: 100%; margin: 0.75rem;}
+.s8-cash td{width: 50%; height: 1.3rem;color: #a3a3a3; font-size: 0.65rem;}
+.s8-cash td .black{color: #414141;}
+.s8-cash-none{width: 100%; line-height: 6rem; color: #c0c0c0; font-size: 0.9rem; text-align: center;}
+.s8-cash-used{width: 100%; box-sizing: border-box; line-height: 1.4rem; color: #a3a3a3; margin-top: 0.5rem; font-size: 0.65rem; background-color: #fff; padding:0.75rem; position: relative;}
+.s8-cash-icon{width: 3.9rem; height: 3.35rem; position: absolute; right: 1.5rem; top: 0.55rem;}
+.s8-cash-icon.used{background: url("../images/activity/s8-icon2.png") 0 0 no-repeat;background-size: 100%;}
+.s8-cash-icon.expired{background: url("../images/activity/s8-icon3.png") 0 0 no-repeat;background-size: 100%;}
+.s8-invest-num{text-align: right; line-height: 0.75rem; margin-bottom: 0.5rem; font-size: 0.6rem; padding-right:0.75rem; color: #8c8c8c; }
+.s8-invest-num span{color: #3cb8ff;}
+.s8-input-group{width: 100%; overflow: hidden;}
+.s8-input-group dt{width: 3.5rem; float: left;}
+.s8-input-group dd{width: 11rem; float: left;}
+.s8-input-group .wap2-select{width: 100%; float: left;}
+.s8-cash-check{position: absolute; right: 0.75rem; top: 0;}
+.s8-cash-check label{display: inline-block;}
+.s8-cash-check input[type=checkbox]{display: none;}
+.s8-cash-check input + label{ height: 2.25rem; line-height: 2.25rem; padding-left: 1.2rem;background: url("../images/activity/s8-icon4.png") left center no-repeat;background-size: 0.9rem 0.9rem; }
+.s8-cash-check input[type=checkbox]:checked + label{background: url("../images/activity/s8-icon5.png") left center no-repeat;background-size: 0.9rem 0.9rem;}
+
+
+.s8-input-cash.wap2-input-1{ text-align: left; width: 85%;}
+.wap2-input-box2{position: relative;}
+.s8-input-unit{position: absolute; right: 0.75rem; top: 0;}
+

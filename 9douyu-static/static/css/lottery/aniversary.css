@@ -1,0 +1,375 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th,td{margin:0;padding:0;}
+ol,ul,li{list-style:none;}
+body {
+    font-size: 12px;
+    line-height: 22px;
+    color: #704201;
+    min-width: 1002px;
+    font-family: "Microsoft Yahei", "SimHei ", "SimSun";
+    height:100%;
+    margin:0 auto;
+    position:relative;
+
+}
+.aniversary .header{ width:100%; background:url(/img/lottery/header.jpg) no-repeat center top; height:877px;}
+/*.main{ width:100%; background:url(/img/lottery/main.jpg) no-repeat center top; height:277px;}*/
+.aniversary .main1{ width:100%; background:url(/img/lottery/main1.png) no-repeat center top;height:756px;}
+.aniversary .main-head{ width:100%; background:url(/img/lottery/main-head.jpg) no-repeat center top; height:67px;}
+.aniversary .content{ width:1002px; height:557px; margin:0 auto;  position:relative;}
+.aniversary .content h3{ font-size:29px; padding:152px 0px 0px 70px; }
+.aniversary .content_left{ width:695px; float:left;}
+.aniversary .content_left h4{ font-size:20px; padding:80px 0 0 70px;}
+.aniversary .content_right{ width:307px; float:right; height:100%;}
+.aniversary .content_right ul li{ line-height:2.4em; font-size:14px;}
+.aniversary .content_right .username{ width:110px; display:inline-block;}
+.aniversary .list{ width:240px; height:273px; overflow:hidden;}
+.aniversary .content_right h4{ font-size:18px; padding:95px 0 0 90px;}
+
+
+.aniversary .main2{ width:100%; background:url(/img/lottery/main2.png) no-repeat center top;height:713px;}
+.aniversary .content1{ width:1002px; height:600px; margin:0 auto; padding-top:40px; position:relative;}
+.aniversary .content1 h3{ font-size:29px; padding:75px 0px 0px 70px;}
+.aniversary .content1_left{ width:695px; float:left;}
+.aniversary .clock_time{ font-size:18px; font-weight:bold; color: #FFF; padding:60px 0 0 110px;}
+.aniversary .tin5px{ text-indent:5px;}
+.aniversary .tin7px{ text-indent:7px;}
+.aniversary .clock_time span{ display:inline-block; width:80px; margin-right:32px;}
+.aniversary .clock_text{ font-size:16px;  padding:28px 0 0 92px;}
+.aniversary .interest2{ /*padding:30px 0px 0px 235px;*/ background:url(/img/lottery/interest3.png) no-repeat 0 0; width:346px; height:117px; margin:10px 0 0 200px;}
+.aniversary .interest7{ /*padding:30px 0px 0px 235px;*/ background:url(/img/lottery/interest4.png) no-repeat 0 0; width:346px; height:117px; margin:-117px 0 0 200px; display:none;}
+
+.js_nav-list{ cursor:pointer;}
+
+
+
+.aniversary .interest7 p{ color:#1b81a5; font-size:18px; text-align:center; width:346px; padding:0 !important; font-family:"SimHei"; line-height:1.5em;}
+.aniversary .interest7 p a{ color:#FFF; text-decoration:underline;}
+.aniversary .time_countdown{ padding:15px 0 0 240px; }
+.aniversary .remind{ font-size:12px; padding:15px 0px 0px 275px;}
+.aniversary .mr28px{ margin-right:28px !important;}
+.aniversary .clock_text span{ display:inline-block; width:90px; margin-right:18px; text-align:center;}
+.aniversary .content1_right{ width:307px; float:right; height:100%;}
+/*.content1_right ul{ width:220px; height:260px; padding:20px 0 0 28px;  margin-left:15px;}*/
+.aniversary .content1_right ul li{ line-height:2.4em; font-size:14px;}
+.aniversary .content1_right .username{ width:90px; display:inline-block;}
+.aniversary .list{ width:240px; height:273px; overflow:hidden;}
+.aniversary .content1_right h4{ font-size:18px; padding:95px 0 0 90px;}
+
+.aniversary .main3{ width:100%; background:url(/img/lottery/main3.jpg) no-repeat center top;height:745px;}
+.aniversary .content2{ width:1002px; height:600px; margin:0 auto; padding-top:40px;}
+.aniversary .content2 h3{ font-size:29px; padding:85px 0px 0px 70px;}
+.aniversary .content2_left{ width:695px; float:left;}
+.aniversary .content2_left h4{ font-size:24px; line-height:2.1em;}
+.aniversary .t_p{ padding:180px 0px 0px 120px;}
+.aniversary .t_pl120{ padding-left:120px;}
+.aniversary .content2_right{ width:307px; float:right; height:100%;}
+/*.content2_right ul{ width:240px; height:260px; padding:20px 0 0 22px;  margin-left:15px;}*/
+.aniversary .content2_right ul li{ line-height:2.4em; font-size:14px;}
+.aniversary .content2_right .username{ width:90px; display:inline-block;}
+.aniversary .list{ width:240px; height:273px; overflow:hidden;}
+.aniversary .content2_right h4{ font-size:18px; padding:95px 0 0 90px;}
+
+
+
+.aniversary .main4{ width:100%; background:url(/img/lottery/main4.png) no-repeat center top;height:710px;}
+.aniversary .content3{ width:1002px; height:600px; margin:0 auto; padding-top:40px;}
+.aniversary .content3 h3{ font-size:29px; padding:65px 0px 0px 70px;}
+.aniversary .content3_left{ width:695px; float:left;}
+.aniversary .content3_left dl{ width:260px; padding:70px 0 0 60px; float:left;}
+.aniversary .content3_left dl h4{ font-size:14px; padding-bottom:5px;}
+.aniversary .content3_left dl dd{ font-size:14px; line-height:23px;}
+.aniversary .content3_left ul{ width:370px; padding:100px 0 0 0px; float:left; text-align:center;}
+
+.aniversary .content3_right{ width:307px; float:right; height:100%;}
+/*.content3_right ul{ width:240px; height:300px; padding:20px 0 0 32px;  margin-left:15px; }*/
+.aniversary .content3_right ul li{ line-height:2.4em; font-size:14px;}
+.aniversary .content3_right .username{ width:90px; display:inline-block;}
+.aniversary .list{ width:240px; height:273px; overflow:hidden;}
+.aniversary .content3_right h4{ font-size:18px; padding:95px 0 0 90px;}
+.aniversary .footer{ width:100%; background:url(/img/lottery/footer.png) no-repeat center top;height:251px;}
+.aniversary .font8px{ font-size:8px; display:inline-block; position: relative; top:-2px; width:7px;}
+.aniversary .pt5px{ padding-bottom:5px;}
+.aniversary .pt20px{ padding-bottom:20px;}
+.aniversary .pt31px{ padding-bottom:31px;}
+.aniversary .button-icon{ background:url(/img/lottery/button-icon.png) no-repeat 0 0; width:246px; height:40px; display:inline-block; font-size:18px; text-align:center; line-height:40px; color:#FFF; font-weight:bold; text-decoration: none;}
+.aniversary .button-icon:hover{background:url(/img/lottery/button-icon1.png) no-repeat 0 0; width:246px; height:40px; display:inline-block; font-size:18px; text-align:center; line-height:40px; color:#FFF; font-weight:bold; text-decoration: none;}
+.aniversary .button-icon1{ background:url(/img/lottery/button-icon3.png) no-repeat 0 0; width:134px; height:41px; display:inline-block; font-size:16px; text-align:center; line-height:40px; color:#FFF; font-weight:bold; text-decoration: none;}
+.aniversary .button-icon1:hover{background:url(/img/lottery/button-icon4.png) no-repeat 0 0; width:134px; height:41px; display:inline-block; font-size:16px; text-align:center; line-height:40px; color:#FFF; font-weight:bold; text-decoration: none;}
+.aniversary .main-content{/* width:1002px; margin:0 auto; */padding:15px 0;}
+.aniversary .main-content a{ margin-left:0px; margin-right:28px;}
+.aniversary .main-content span{ color:#FFF; font-size:18px; font-weight:bold; position:relative; left:-75px;}
+.aniversary .ml93px{ margin-left:93px !important;}
+.aniversary .mr127px{ margin-right:127px !important;}
+
+
+
+
+
+.aniversary a{text-decoration:none;}
+.aniversary .conter_1{overflow:hidden; position:absolute; width:200px; height:200px; padding:20px 0 0 40px;  margin-left:15px; margin-top:55px;
+}
+.aniversary .conter_2{ width:220px !important; padding:20px 0 0 27px !important;}
+.aniversary .conter_3{ width:240px !important; padding:20px 0 0 22px !important;}
+.aniversary .conter_4{ width:240px !important; padding:20px 0 0 29px !important;}
+/*#demo a {display:block;color:#333;padding-left:2px;overflow:hidden;white-space:nowrap;width:178px;text-overflow:ellipsis;}
+#demo a:hover {color:#f00;}
+*/
+
+
+
+.aniversary #lottery{width:521px;height:314px;background: url(/img/lottery/bj-2.jpg) no-repeat 0 0; padding:5px; margin:80px 0 0 100px;}
+.aniversary #lottery table td{width:168px;height:98px;text-align:center;vertical-align:middle;font-size:24px;color:#333;font-index:-999; border:1px #f1db9f solid;}
+.aniversary #lottery table td a{width:165px;height:100px;display:block;text-decoration:none;}
+.aniversary #lottery table td a:hover{width:168px;height:100px;display:block;text-decoration:none; background:url(/img/lottery/award0.png) no-repeat 0 0;}
+.aniversary #lottery table td.active{background-color:#cfa972;}
+.aniversary .lottery-text a{ font-size:14px; color:#704201; width:150px; float:right; padding-top:5px;}
+.aniversary .lottery-text1{ font-size:16px; font-weight:bold; width:720px; text-align:center; clear:both; padding-top:10px;}
+
+
+.aniversary #nav_keleyi_com{position:relative;top:0; z-index:25; text-align:center; width:100%; height:67px;}
+
+
+
+.aniversary .box_alert{ display:none;}
+.aniversary .mask{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box{ position:fixed; left:50%; top:50%; margin:-266px 0 0 -261px;  height:230px; width:456px; background: url(/img/lottery/alert_bj.png) no-repeat 0 0;z-index:240; width:522px; height:532px;overflow:hidden; padding-top:20px;}
+.aniversary .bomb_box h3{ height:45px; line-height:45px; width:100%; text-align:center; font-size:22px; font-weight:bold;}
+.aniversary .bomb_box span{ position:absolute; left:450px; top:30px; cursor:pointer;}
+/*.bomb_box p{ font-size:18px; color:#555555; text-align:center; margin-top:50px;}*/
+.aniversary .bomb_box dl{ width:400px; /*padding:40px 0 0 60px; margin-bottom:20px;*/ margin-left:27px;}
+.aniversary .bomb_box dl dt{ float:left; width:100px; height:150px;}
+.aniversary .bomb_box dl dd{}
+.aniversary .bomb_box dl dd h4{ font-size:18px; font-weight:bold; text-align:center; margin-bottom:10px;}
+.aniversary .bomb_box dl dd{ line-height:2em; font-size:14px;}
+/*.bomb_box input{ width:130px; height:38px; background:#ff8a01; border:none; outline:none; border-radius:5px; text-align:center; font-size:14px; color:#FFF; margin:40px 0px 1px 163px; cursor:pointer;}*/
+
+.aniversary .bomb_box h5{ font-size:22px; width:500px; text-align:center; margin-top:30px;}
+.aniversary .bomb_box .div{ width:430px; font-size:14px; text-align:left; margin:30px 0 0 36px; padding:10px;}
+
+
+
+
+.aniversary .box_alert1{ display:none;}
+.aniversary .mask1{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box1{ position:fixed; left:50%; top:50%; margin:-118px 0 0 -240px;  height:235px; width:480px;z-index:280; background: url(/img/lottery/alert_bj1.png) no-repeat 0 0; overflow:hidden;}
+.aniversary .bomb_box1 h3{ height:45px; line-height:45px; width:100%; text-align:center; font-size:22px; font-weight:bold;}
+.aniversary .bomb_box1 span{ position:absolute; left:400px; top:20px; cursor:pointer;}
+.aniversary .bomb_box1 p{ font-size:24px;text-align:center; font-weight:bold; margin-top:90px;}
+.aniversary .bomb_box1 a{ margin-top:40px; margin-left:120px;}
+
+
+
+.aniversary .box_alert2{ display:none;}
+.aniversary .mask2{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box2{ position:fixed; left:50%; top:50%; margin:-118px 0 0 -240px;  height:235px; width:480px;z-index:280; background: url(/img/lottery/alert_bj1.png) no-repeat 0 0; overflow:hidden;}
+.aniversary .bomb_box2 h3{ height:45px; line-height:45px; width:100%; text-align:center; font-size:22px; font-weight:bold;}
+.aniversary .bomb_box2 span{ position:absolute; left:400px; top:20px; cursor:pointer;}
+.aniversary .bomb_box2 p{ font-size:24px;text-align:center; font-weight:bold; margin-top:60px;}
+.aniversary .font18px{ font-size:18px !important;}
+.aniversary .mt25px{ margin-top:25px !important;}
+.aniversary .div1{ width:400px; height:44px; background:#f1db9f;  border-radius:10px; margin:25px 0 0 40px; text-align:center;}
+.aniversary .div1 b{ font-size:16px; text-align:center; line-height:44px; display:inline-block;}
+.aniversary .div1 a{ color:#00b0e4;}
+.aniversary .div1 a:hover{color:#03a9da;}
+
+
+
+
+.aniversary .box_alert2{ display:none;}
+.aniversary .mask2{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box2{ position:fixed; left:50%; top:50%; margin:-118px 0 0 -240px;  height:235px; width:480px;z-index:280; background: url(/img/lottery/alert_bj1.png) no-repeat 0 0; overflow:hidden;}
+.aniversary .bomb_box2 h3{ height:45px; line-height:45px; width:100%; text-align:center; font-size:22px; font-weight:bold;}
+.aniversary .bomb_box2 span{ position:absolute; left:400px; top:20px; cursor:pointer;}
+.aniversary .bomb_box2 p{ font-size:24px;text-align:center; font-weight:bold; margin-top:60px;}
+.aniversary .font18px{ font-size:18px !important;}
+.aniversary .mt25px{ margin-top:25px !important;}
+.aniversary .div1{ width:400px; height:44px; background:#f1db9f;  border-radius:10px; margin:25px 0 0 40px; text-align:center;}
+.aniversary .div1 b{ font-size:16px; text-align:center; line-height:44px; display:inline-block;}
+.aniversary .div1 a{ color:#00b0e4;}
+.aniversary .div1 a:hover{color:#03a9da;}
+
+
+
+
+.aniversary .box_alert3{ display:none;}
+.aniversary .mask3{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box3{ position:fixed; left:50%; top:50%; margin:-162px 0 0 -241px;  height:323px; width:482px;z-index:280; background: url(/img/lottery/alert_bj2.png) no-repeat 0 0; overflow:hidden;}
+.aniversary .bomb_box3 span{ position:absolute; left:400px; top:20px; cursor:pointer;}
+.aniversary .pt20px{ padding-top:20px !important;}
+.aniversary .div2{ width:420px; height:211px; background:#f1db9f;  border-radius:10px; margin:25px 0 0 30px;}
+.aniversary .div2 p{ font-size:16px; line-height:1.8em; padding:0 20px;}
+.aniversary .div2-title{ font-size:24px;text-align:center; font-weight:bold; margin-top:40px;}
+
+
+.aniversary .box_alert4{ display:none;}
+.aniversary .mask4{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box4{ position:fixed; left:50%; top:50%; margin:-161px 0 0 -241px;  height:323px; width:482px;z-index:280; background: url(/img/lottery/alert_bj2.png) no-repeat 0 0; overflow:hidden;}
+.aniversary .bomb_box4 span{ position:absolute; left:400px; top:20px; cursor:pointer;}
+.aniversary .pt20px{ padding-top:20px !important;}
+.aniversary .div3{ width:420px; height:211px; background:#f1db9f;  border-radius:10px; margin:25px 0 0 30px;}
+.aniversary .div3 dl{ width:400px; margin:0 auto; padding-top:30px;}
+.aniversary .div3 dl dd{ float:left; font-size:20px; font-weight:bold; line-height:2em; padding:20px 30px 0 40px;}
+.aniversary .div3-title{ font-size:24px;text-align:center; font-weight:bold; margin-top:40px;}
+
+
+
+
+.aniversary .box_alert5{ display:none;}
+.aniversary .mask3{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box5{ position:fixed; left:50%; top:50%; margin:-161px 0 0 -241px;  height:323px; width:482px;z-index:280; background: url(/img/lottery/alert_bj2.png) no-repeat 0 0; overflow:hidden;}
+.aniversary .bomb_box5 span{ position:absolute; left:400px; top:20px; cursor:pointer;}
+.aniversary .div4{ width:420px; height:95px; background:#f1db9f;  border-radius:10px; margin:40px 0 0 30px; text-align:center;}
+.aniversary .div4 p{ font-size:16px; line-height:1.8em; padding:0 20px;}
+.aniversary .div4-title{ font-size:24px;text-align:center; font-weight:bold; margin-top:40px;}
+.aniversary .pt15px{ padding-top:15px !important;}
+.aniversary .pt20px{ padding-top:20px !important;}
+.aniversary .div4 a{ margin-top:50px;}
+
+
+
+
+.aniversary .box_alert6{ display:none;}
+.aniversary .mask6{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box6{ position:fixed; left:50%; top:50%; margin:-167px 0 0 -261px;  height:334px; width:522px;z-index:280; background: url(/img/lottery/alert_bj3.png) no-repeat 0 0; overflow:hidden;}
+.aniversary .bomb_box6 span{ position:absolute; left:440px; top:20px; cursor:pointer;}
+.aniversary .pt20px{ padding-top:20px !important;}
+.aniversary .div5{ width:420px; height:200px; margin:25px 0 0 50px;}
+.aniversary .div5 dl{ width:400px; margin:0 auto; padding-top:10px; height:174px;}
+.aniversary .div5 dl dt{ padding:20px 30px 0 0px; width:70px;  height:147px;float:left;}
+.aniversary .div5 dl dd{ font-size:20px; font-weight:bold; line-height:2em;text-align:center; padding-top:30px;  float:left; }
+.aniversary .div5-title{ font-size:24px;text-align:center; font-weight:bold; margin-top:40px;}
+.aniversary .div6{ width:420px; height:60px; background:#f1db9f;  border-radius:10px; margin:0 auto; font-size:14px; padding:15px 10px 0 10px; }
+.aniversary .div6 p{ font-size:14px;}
+.aniversary .font28px{ font-size:28px; margin-top:10px;}
+.aniversary .font24px{ font-size:24px; margin-top:10px;}
+.aniversary .interest2 p{ color:#1b81a5; font-size:14px;}
+.font44px{ font-size:44px;}
+.ptl22px{padding:22px 0 0 73px;}
+.ptl11px{padding:5px 0 0 60px;}
+.pl60px{ padding-left:60px;}
+.interest5{  background:url(/img/lottery/interest3.png) no-repeat 0 0; width:346px; height:117px; margin:10px 0 0 18px;}
+.interest5 p{ color:#1b81a5; font-size:14px; text-align:left;}
+.interest6{  background:url(/img/lottery/interest5.png) no-repeat 0 0; width:346px; height:117px; margin:0px 0 0 18px;}
+.interest6 p{ color:#b2342f; font-size:14px; text-align:left;}
+
+.aniversary .box_alert7{ display:none;}
+.aniversary .mask7{filter: alpha(opacity=30);-moz-opacity: 0.3;opacity: 0.3; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.aniversary .bomb_box7{ position:fixed; left:50%; top:50%; margin:-118px 0 0 -240px;  height:235px; width:480px;z-index:280; background: url(/img/lottery/alert_bj1.png) no-repeat 0 0; overflow:hidden;}
+.aniversary .bomb_box7 h3{ height:45px; line-height:45px; width:100%; text-align:center; font-size:22px; font-weight:bold;}
+.aniversary .bomb_box7 span{ position:absolute; left:400px; top:20px; cursor:pointer;}
+.aniversary .bomb_box7 p{ font-size:24px;text-align:center; font-weight:bold; margin-top:90px;}
+.aniversary .bomb_box7 a{ margin-top:40px; margin-left:120px;}
+
+/*.flexslider .slides {
+	width: 100%;
+	display: block;
+}*/
+.slides:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/*html[xmlns] .slides {
+	display: block;
+}
+* html .slides {
+	height: 450px;
+}
+.no-js .slides > li:first-child {
+	display: block;
+}*/
+.flexslider {
+    margin: 0 auto;
+    position: relative;
+    width:460px;
+    height:200px;
+    zoom: 1;
+    padding-top:25px;
+}
+.flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.flexslider .slides {
+    zoom: 1;
+}
+.flex-direction-nav {
+    *height: 0;
+}
+.flex-direction-nav a {
+    width: 60px;
+    height: 90px;
+    margin: -40px 0 0;
+    display: block;
+    background: url(/img/lottery/ad_ctr.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    text-indent: -9999px;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    -webkit-transition: all .3s ease;
+}
+.flex-direction-nav .flex-next {
+    background-position: 0 -90px;
+    right: 0;
+}
+.flex-direction-nav .flex-prev {
+    left: 0;
+}
+.flexslider:hover .flex-next {
+    opacity: 0.8;
+    filter:alpha(opacity=25);
+}
+.flexslider:hover .flex-prev {
+    opacity: 0.8;
+    filter:alpha(opacity=25);
+}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+    opacity: 1;
+    filter:alpha(opacity=50);
+}
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+.flex-control-nav li {
+    margin: 0 5px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.flex-control-paging li a {
+    background: url(/img/lottery/dot.png) no-repeat 0 -16px;
+    display:block;
+    height: 16px;
+    overflow: hidden;
+    text-indent:-99em;
+    width: 16px;
+    cursor: pointer;
+}
+.flex-control-paging li a.flex-active {
+    background-position: 0 0;
+}
+#minute_show{ margin-left:10px;}
+
+
+
+
+
+
+
+
+

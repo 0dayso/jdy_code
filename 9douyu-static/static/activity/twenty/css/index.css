@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors bi.chunfeng@9douyu.com
+ * @date    2017-06-27
+ * @version cool summer
+ */
+body{background:#010627 url('/static/activity/twenty/images/bg.jpg') center 110px no-repeat;}
+.page-banner{width: 100%; height: 570px;/*background: url('/static/activity/twenty/images/banner.jpg') top center no-repeat;*/}
+.page-banner p{text-align: center; padding-top: 181px; color: #efe0a8; font-size: 20px;}
+.page-bg{width:100%;}
+.page-wrap{width:1017px; margin: 0 auto;}
+.page-title{margin:50px auto;width: 400px;height: 36px;line-height:36px;text-align: center;font-size: 36px;color: #bea25f;background: url('/static/activity/twenty/images/title-bg.png') right center no-repeat;}
+.page-title.large{margin:50px auto 22px;width: 400px;background: url('/static/activity/twenty/images/title-bg.png') left center no-repeat;}
+.mother-info{text-align: center; color: #fff ; font-size: 18px; padding:10px 0 60px;}
+.mother-coupon{width:100%; overflow: hidden; margin-bottom: 80px;text-align: center;}
+.mother-coupon li{float: left; cursor: pointer;display: inline-block;text-align: center;}
+.mother-300{width:246px; height:216px; color: #f8bc53;font-size: 24px; text-align: center; margin:0 0 72px 0;background: url('/static/activity/twenty/images/mother-icon.png') 0 0 no-repeat;}
+.mother-300.page-li2{margin:0 139px 72px 139px;}
+.mother-coupon-txt{padding:60px 0 6px; line-height:70px;}
+.mother-300 big{font-size: 91px; color: #f8bc53;}
+.mother-coupon small{font-size: 16px; color: #9a9a9a;}
+
+.mother-100,.mother-200{width:406px; height:182px; color: #419aff;font-size: 22px; text-align: left !important; margin:0 51px 72px 51px;background: url('/static/activity/twenty/images/mother-icon1.png') 0 0 no-repeat;}
+.page-li4{margin-left: 125px;}
+.mother-coupon-txt2{padding:40px 0 0; line-height: 70px;}
+.mother-100 p,.mother-200 p{padding-left:40px;}
+.mother-100 big,.mother-200 big{font-size: 80px; color: #419aff;}
+
+.mother-pro{padding:0 50px 3px 35px;margin:150px auto 190px; position: relative; background: url('/static/activity/twenty/images/project-bg-repeat.png') left 0 repeat-y;}
+.mother-pro:before,.mother-pro:after{position:absolute; content: ''; left: 0; right:0; background-image:url('/static/activity/twenty/images/project-bg.png'); background-repeat: no-repeat; }
+.mother-pro:before{top: -70px; height:70px; background-position: 0 top;}
+.mother-pro:after{bottom: -70px; height:70px; background-position:0 bottom;}
+.mother-pro table{width: 100%; margin-bottom: 20px; /*box-shadow: 0 2px 2px rgba(0,0,0,.2);*/ background-color: #fff;border-bottom:1px dotted #83c1ff;}
+.mother-pro table th{padding-left: 30px; font-size: 22px; color: #333; height:70px;}
+.mother-pro table th span{margin-right: 20px;}
+.mother-pro table td{width: 20%;text-align: center;font-size: 20px; padding-bottom: 20px; color: #333; line-height: 40px;}
+.mother-pro table td small{font-size: 16px; color: #666;}
+.mother-pro table td big{font-size: 48px;}
+.mother-red{color: #ff3333;}
+.mother-pro a{display: block;}
+.mother-btn,a.mother-btn,.mother-btn:visited{display: inline-block; width:151px; height:46px; color: #fff; line-height: 46px; text-align: center;background-color: #e3b763;border-radius: 5px;}
+.mother-pro table:hover .mother-btn,a.mother-btn:hover,a.mother-btn:active{background-color: #d9a849;}
+.mother-pro table:hover .mother-btn.disable,.mother-btn.disable,a.mother-btn.disable,a.mother-btn.disable:hover{background-color: #c2c2c2;}
+.mother-day p{text-align: center; font-size: 16px; color: #fff;}
+.mother-day .page-title{margin:50px auto 20px;}
+.mother-rule-bg{width:100%; background-color: #000117; line-height: 30px; padding:65px 0 60px; margin-bottom: -80px; font-size: 14px; color: #fff;}
+.mother-rule-bg strong{font-size: 20px;}
+.mother-day-prize{width:100%; padding-bottom: 70px; text-align: center;font-size: 18px; color: #fff;}
+.mother-prize-title{height:22px; line-height:22px;margin:40px auto 10px;color: #bea25f;font-size: 22px;text-align: center;}
+.mother-prize-title span{display:inline-block;width:8px;height: 8px;background-color: #ad8e62;margin:0 3px;vertical-align: middle;border-radius: 50%;}
+.mother-prize-bg{margin:0 auto;width: 584px;height: 560px;background: url('/static/activity/twenty/images/prize-bg.png') 0 0 no-repeat;}
+.mother-prize-bg img{margin-top: 97px;}
+.mother-list{position:relative;width:100%; margin:40px 0 138px;text-align: center;padding:25px;line-height: 40px; font-size: 24px; color: #fff;border:1px solid rgba(213,191,105,.5);background-color: rgba(0,0,0,.2);}
+.mother-list:after,.mother-list:before{position: absolute;content: "";width:221px;height: 24px;background: url('/static/activity/twenty/images/flash-after.png') 0 0 no-repeat;background-size: cover;}
+.mother-list:after{left:20px;top:-12px;}
+.mother-list:before{right:20px;bottom:-10px;width: 219px;height: 19px;background: url('/static/activity/twenty/images/flash-before.png') 0 0 no-repeat;background-size: cover;}
+.mother-list span{margin-right: 20px;}
+.mother-list-title{width:312px; height:67px; margin:0 auto 40px;background: url('/static/activity/mothersday/images/mother-icon.png') -647px -463px no-repeat;}
+.page-layer{display:none;}
+.page-pop{width:405px; height:208px; line-height: 38px; padding-top: 200px; position:fixed; font-size: 20px; text-align: center; color: #fff; z-index: 999999; left: 50%; top: 50%; margin:-100px 0 0 -150px; background: url('/static/activity/twenty/images/mother-pop.png') 0 0 no-repeat;}
+.page-pop-close{width:33px; height:33px;font-size: 0;line-height: 0; cursor: pointer; position:absolute;top:15px; right:15px; background: url('/static/activity/twenty/images/mother-close.png') 0 0 no-repeat;}
+.page-pop-text1{line-height: 42px;}
+.page-pop-text2{margin-top: 30px;}
+.page-mask{position: fixed;left:0;top:0;z-index:1;width:100%;height: 100%;background: rgba(0,0,0,0.7);}
+.page-pop-text-desc{font-size:20px;color:#d4b06d}
+.page-pop .mother-btn,.page-pop a.mother-btn,.page-pop .mother-btn:visited{margin:10px;display: inline-block; width:220px; height:52px; color: #4d3405; line-height: 52px; text-align: center;background-color: #ffc14a;border-radius: 5px;}
+.page-pop .mother-btn:hover{box-shadow: 3px 6px 4px rgba(58,39,4,.17)}

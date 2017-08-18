@@ -1,0 +1,251 @@
+@charset "utf-8";
+body, h1 {
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+
+/*弹性盒模型*/
+
+.largecap-bgcolor-white {
+    background-color: #fff;
+}
+
+.largecap-bgcolor-yellow {
+    background-color: #fedd4e;
+}
+
+.largecap-img-wrap {
+    margin: 1.2rem 3.55rem;
+}
+
+.largecap-img-wrap > img {
+    width: 100%;
+    height: 100%;
+}
+
+.largecap-wrap {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+.largecap-txt {
+    color: #a0a0a0;
+    padding: 1.5rem 0 .6rem;
+    font-size: 16px;
+}
+
+.largecap-defaultbutton {
+    display: block;
+    margin: 10px 1.4rem;
+    line-height: 2.5;
+    color: #fff;
+    background: #10adf5;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 0.5rem;
+}
+
+.largecap-morebutton {
+    display: block;
+    width: 32%;
+    margin: 10% auto;
+    line-height: 1.785;
+    color: #fff;
+    background: #ca7619;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 1rem;
+}
+
+.largecap-textbutton {
+    position: absolute;
+    bottom: 10%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size:16px;
+    text-decoration: underline;
+}
+
+.largecap-blue .largecap-textbutton {
+    color: #10adf5;
+}
+
+.largecap-yellow .largecap-textbutton {
+    color: #ca7619;
+}
+
+/*@media screen and (min-width: 375px) {*/
+/*body{font-size: 18px;}*/
+/*}*/
+
+/*我的战绩*/
+.largecap-title {
+    position: relative;
+    margin: 33px 1.75rem 15px;
+    height: 1.7rem;
+    background-color: #ffca07;
+    border: 2px solid #ac6a00;
+    border-radius: 2.2rem;
+    color: #fff;
+}
+
+.largecap-bd {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.largecap-title > h1 {
+    position: absolute;
+    top: -0.4rem;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 90%;
+    /*line-height: 1.8;*/
+    padding:.4rem 0;
+    background-color: #ca7619;
+    border-radius: .75rem;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.largecap-flex-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0.425rem 0.75rem;
+    background-color: #fff;
+    border: 2px solid #ac6a00;
+    color: #ac6a00;
+    border-radius: 0.5rem;
+
+}
+
+.largecap-flex-1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.largecap-flex-box p {
+    margin: 14px 0;
+}
+@media screen and (max-width: 320px) {
+    .largecap-flex-box p {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+}
+.largecap-colorred {
+    color: #fe5036;
+}
+
+.largecap-colorgreen {
+    color: #52b132;
+}
+
+.largecap-textbold {
+    font-weight: bold;
+}
+
+.large-status-default {
+    background-color: #fff;
+}
+
+.large-status-up {
+    background-color: #10adf5;
+    background: #10adf5 url(/static/weixin/images/largecap-icon-gup.png) right top no-repeat;
+    background-size: .6rem .45rem;
+    color: #fff;
+
+}
+
+.large-status-down {
+    background-color: #b5b5b5;
+    color: #fff;
+}
+
+/*投资金额*/
+.largecap-limit {
+    color: #ac6a00;
+}
+
+.largecap-detail {
+    margin: 0 0.75rem;
+    text-align: left;
+}
+.largecap-detail p{
+    margin-top:16px;
+    font-size:16px;
+}
+.largecap-caption {
+    margin: 34px 0.75rem 26px;
+    line-height: 2.07;
+    background: #fedd4e;
+    border: 1px solid #a15501;
+    border-radius: .5rem;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 320px) {
+    .largecap-caption {
+        font-size: 14px;
+    }
+}
+
+.largecap-contronl {
+    margin: 34px 0.75rem 30px;
+    text-align: left;
+    border-bottom: 1px solid #ac6a00;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-bottom:0.5rem;
+}
+
+.largecap-contronl .largecap-input {
+    outline: none;
+    border: none;
+    width: 70%;
+    font-size: 16px;
+    padding:0 5px;
+    color:#ac6a00;
+    text-align:right;
+}
+
+.largecap-contronl label {
+    width: 90%;
+}
+
+.largecap-contronl p {
+    width: 10%;
+    text-align: right;
+
+}
+
+.largecap-tip {
+    font-size: 14px;
+}

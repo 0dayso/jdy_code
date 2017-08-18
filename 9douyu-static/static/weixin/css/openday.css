@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com
+ * @date    2015-12-14 
+ * @version openday2015
+ */
+
+body{background-color: #ffcd36 !important; position: relative;}
+.openday-wrap{width: 13.75rem; margin:0 auto;}
+.openday-wrap2{width: 13.75rem; margin:0 auto 2.25rem;}
+.openday-box{ background: url("/static/weixin/images/activity/openday-repeat-line.png") repeat-y 1px 0; padding-left: 0.1rem; background-size:0.05rem 0.3rem;}
+.openday-intro-title{width: 100%; position: relative; height: 1.15rem; line-height: 1.15rem; top: -0.4rem;  color: #fff; font-size: 0.75rem;background: url("/static/weixin/images/activity/openday-bg2.png") no-repeat 0.3rem 0;background-size:13.3rem 1.15rem;}
+.openday-intro-title p{text-indent: 0.85rem;}
+.openday-intro-title i,.openday-schedule i{position: absolute; top: 0.3rem; left: -0.3rem; width: 0.55rem; height: 0.55rem;background: url("/static/weixin/images/activity/openday-icon1.png") no-repeat 0 0;background-size:100%;}
+.openday-intro-txt{padding: 0.25rem 0 0.25rem 0.5rem;}
+.openday-intro-txt p{position: relative; text-indent: 1.4rem; line-height:1rem; font-size: 0.65rem; color: #774b00;}
+.openday-intro-txt p i{position: absolute;width: 0.55rem; height: 0.55rem;background: url("/static/weixin/images/activity/openday-icon1.png") no-repeat 0 0;background-size:100%; top: 0.15rem; left: 0.5rem;}
+.openday-time{ width: 100%; margin-bottom: 1rem; height: 8.05rem;background: url("/static/weixin/images/activity/openday-bg1.png") no-repeat 0 0;background-size:100%;}
+.openday-photo{width: 100%; overflow: hidden;}
+.openday-photo li{float: left; width: 6.5rem; height: 11rem;}
+.openday-photo li:nth-child(2n){ float: right;}
+.openday-photo img{width: 6.35rem; border:2px solid #fff; margin-bottom: 0.5rem;}
+.openday-photo p{text-align: center; color: #774b00; font-size: 0.6rem; line-height: 0.85rem;}
+.openday-photo p span{color: #fff; display: inline-block; width: 3.8rem; background-color: #ff8d12; font-weight: bold; font-size: 0.8rem; height: 1.2rem; line-height: 1.2rem; }
+.openday-btn{position: fixed; width: 100%; left: 0; bottom: 0; height: 2.5rem; text-indent: -999px;background: url("/static/weixin/images/activity/openday-btn1.png") no-repeat 0 0;background-size:100%;}
+.openday-btn.disable{ background-image: url("/static/weixin/images/activity/openday-btn3.png")}
+
+.openday-title{width: 100%; margin-top: 0.3rem; height:1.4rem; color: #fff; font-size: 0.75rem; text-align: center; line-height: 1.2rem;  background: url("/static/weixin/images/activity/openday-bg3.png") no-repeat 0 0;background-size:100%;}
+.openday-main{ padding-top:0.7rem;background: url("/static/weixin/images/activity/openday-repeat-line.png") repeat-y right 0; padding-right: 0.1rem; background-size:0.05rem 0.3rem;}
+.openday-group{position: relative; padding-left: 0.75rem; height: 2.2rem; }
+.openday-group label{display: inline-block; width: 4rem;line-height: 1.25rem; padding:1px 0; color: #774b00; font-size: 0.65rem;}
+.openday-input{ width: 8.25rem; color: #774b00; height: 1.25rem; line-height: 1.25rem; border:1px solid #774b00; background-color: #ffda67; border-radius: 2px; -webkit-border-radius: 2px; text-indent: 0.25rem; font-size: 0.65rem;}
+.openday-input-box{position: absolute; top: 0; right: 0.55rem; width: 8.25rem;}
+
+.openday-input::-webkit-input-placeholder {
+    color: #dab048 !important;
+    text-overflow: ellipsis;
+    font-size:0.65rem;
+    letter-spacing: 0;
+}
+.openday-input:-moz-placeholder {
+    color: #dab048 !important;
+    text-overflow: ellipsis;
+    font-size:0.65rem;
+    letter-spacing: 0;
+}
+.openday-input::-moz-placeholder {
+    color: #dab048 !important;
+    text-overflow: ellipsis;
+    font-size:0.65rem;
+    letter-spacing: 0;
+} /* for the future */
+.openday-input:-ms-input-placeholder {
+    color: #dab048 !important;
+    text-overflow: ellipsis;
+    font-size:0.65rem;
+    letter-spacing: 0;
+}
+.openday-group-icon{position: absolute; top: 0.4rem; left: -0.25rem; width: 0.8rem; height: 0.45rem;background: url("/static/weixin/images/activity/openday-icon2.png") no-repeat 0 0;background-size:100%; }
+.openday-select{width: 8.25rem; right: 0.55rem; top: 0; color: #774b00; height: 1.25rem; line-height: 1.25rem; position: absolute;}
+.openday-select-main{display: none; z-index: 100; position: absolute; overflow: scroll; top: 0; left: 0; max-height: 8rem; width: 8.25rem; border:1px solid #15a6ca; background-color: #ffda67;}
+.openday-select-main p{padding-left: 0.25rem; line-height: 1.6rem; color: #774b00;}
+.openday-select-main p span{color: #dab048;}
+.openday-select-title{width: 8.25rem; color: #dab048; height: 1.25rem; line-height: 1.25rem; border:1px solid #774b00; background-color: #ffda67; border-radius: 2px; -webkit-border-radius: 2px; text-indent: 0.25rem; font-size: 0.65rem; }
+.openday-select-icon{position: absolute; top: 1px;right: 0; width:1.25rem; height: 1.25rem; background: url("/static/weixin/images/activity/openday-icon3.png") no-repeat center center #ffca33;background-size:0.8rem 0.4rem;}
+.openday-tips{position:absolute; left: 4.8rem; top: 1.35rem; font-size: 0.5rem; color: #ff380b; }
+.openday-btn2{display: block; width: 11.95rem; height: 2.05rem; margin:0 auto; position: relative; text-indent: -999px;background: url("/static/weixin/images/activity/openday-btn2.png") no-repeat 0 0;background-size:100%;}
+.openday-btn2 i{position: absolute;top: -0.3rem;left: 50%; margin-left:-0.275rem;width: 0.55rem;height: 0.55rem;background: url("/static/weixin/images/activity/openday-icon1.png") no-repeat 0 0;background-size: 100%;}
+.openday-msg{position: fixed; display: none; left: 0; width: 100%; top: 79.5%; line-height: 1.35rem; text-align: center;}
+.openday-msg span{display: inline-block; padding:0 1.1rem; background-color: #555; color: #fff; border-radius: 2px; -webkit-border-radius: 2px;}
+
+.openday-info{width: 100%; height: 7.95rem; background: url("/static/weixin/images/activity/openday-bg5.png") no-repeat 0 0;background-size:100%;}
+.openday-info p{padding-top:5.75rem; text-align: center; color: #9a6100; line-height: 0.85rem; font-size: 0.65rem;}
+.openday-success-info{width: 100%; font-size: 0.75rem; color: #774b00; text-align: center; height: 10.05rem;background: url("/static/weixin/images/activity/openday-bg6.png") no-repeat 0 0;background-size:100%;}
+.openday-success-info p:first-child{padding:3.5rem 0 1.1rem; color: #fff; font-size: 0.8rem;}
+.openday-success-info p:first-child span{font-size: 1.5rem;}
+.openday-activity-info{width: 100%; color: #774b00; font-size: 0.65rem; line-height: 0.85rem; height: 14.3rem; background: url("/static/weixin/images/activity/openday-bg7.png") no-repeat 0 0;background-size:100%; }
+
+.openday-activity-info p{ padding:2.8rem 0 0.25rem 1.5rem; position: relative;}
+.openday-activity-info dl{margin-left: 1.5rem; width: 11.25rem;}
+.openday-activity-info dt{position: relative; float: left; width: 2rem;}
+.openday-activity-info dd{margin-left: 2rem;}
+.openday-arrow{position: absolute;width: 0; height: 0; border-width:0.2rem 0 0.2rem 0.2rem;border-style:solid;border-color:transparent transparent transparent #ff8d12;}
+.openday-activity-info p .openday-arrow{ left: 1rem; top: 2.95rem; }
+.openday-activity-info dt .openday-arrow{left:-0.5rem;top:0.15rem;}
+.openday-schedule{position: relative;color: #774b00; font-size: 0.65rem; line-height: 1.15rem; padding:0 0.3rem 0.8rem 0.7rem; }
+.openday-schedule span{display: inline-block; float: left; margin:0 0.15rem 0 -0.2rem; line-height: 1.15rem; padding: 0 0.2rem; background-color: #ff8d12; color: #fff;}
+.openday-schedule ins{position: absolute;width: 0; height: 0; border-width:0.25rem 0.25rem 0.25rem 0;border-style:solid;border-color:transparent #ff8d12 transparent transparent;left: 0.315rem; top: 0.3rem;}
+.openday-box.pt20{padding-top: 0.5rem;}
+
+.openday-link-box{padding:0.25rem 0.75rem; text-align: right;}
+a.openday-link,aopenday-link:visited{color: #fff; font-size: 0.65rem;}
+a.openday-link:hover,a.openday-link:acitve{color: #ffda67;}

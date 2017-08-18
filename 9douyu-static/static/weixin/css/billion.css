@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.billion-banner{width:100%; height:13.6rem; background: url("/static/weixin/images/activity/billion-banner.jpg") top center no-repeat;background-size: 100%; text-align: center;}
+.billion-banner span{display: inline-block; margin-top:7.45rem ; line-height: 0.95rem; font-size: 0.55rem; padding:0 0.25rem; color: #fff; background-color: #2e1556; border-radius: 0.25rem;}
+.billion-bg{background-color: #222052; overflow: hidden;}
+.billion-box{border:1px solid #4d48ae; background-color: #302d74; box-shadow: 0 0.15rem 0 #151332; margin:0 0.75rem 0.45rem; box-sizing: border-box; border-radius: 5px;}
+.billion-box.dip{position: relative; top:-4.25rem;text-align: center;padding:0.4rem 0.85rem 0.9rem; margin-bottom: -3.35rem; }
+.billion-box.dip h1{font-size:0.95rem; color: #fff;line-height: 1.5rem; }
+.billion-box.dip p.info1{font-size:0.65rem; color: #6d68e6; line-height: 0.8rem; padding-bottom: 0.5rem; margin-bottom: 0.5rem; border-bottom: 1px solid #4d48ae; }
+.billion-box.dip p.info2{font-size:0.55rem; color: #fffdff; line-height: 0.8rem; padding-bottom: 0.75rem; }
+.billion-box.dip p.info2 span{color:#6c67e3;margin-right: 0.25rem;}
+.billion-box.dip p.info2 a{display: inline-block; width: 2.9rem; text-align: center; line-height: 0.9rem;height: 0.9rem;font-size: 0.55rem;box-shadow: 0 3px 0 #9700ad; margin-right: 0.25rem; background-color: #d200ff; color:#fff; border-radius: 0.45rem;}
+.billion-dip{overflow: hidden; margin-right: -0.45rem; width:13.35rem;}
+.billion-dip li{width:4rem; height: 4rem; float: left; margin:0 0.45rem 0.45rem 0 ;font-size: 0.6rem; box-sizing: border-box;}
+.billion-dip li strong{font-size: 1rem;}
+.billion-dip li.bonus{background-color: #ffc209; color: #554000; text-align: center;background: url("/static/weixin/images/activity/billion-icon1.png") 1.9rem bottom no-repeat #ffc209;background-size: 1.85rem 2.1rem;}
+.billion-dip li.add{background-color: #ff852a; color: #554000; padding-left:0.5rem; background: url("/static/weixin/images/activity/billion-icon3.png") right bottom no-repeat #ff852a;background-size:2.75rem 2.25rem;}
+.billion-dip li.cash{background-color: #ff852a; color: #582600; text-align: center;background: url("/static/weixin/images/activity/billion-icon2.png") right bottom no-repeat #ff852a;background-size:  2.65rem 1.8rem;}
+.billion-dip li.billion-btn-box{overflow: hidden}
+.billion-dip li.billion-btn-box a{display: block; width:100%;border-radius: 0.125rem; height: 3.75rem; box-sizing: border-box; font-size: 1.05rem; padding-top:0.55rem; line-height: 1.25rem;  box-shadow: 0 0.25rem 0 #9700ad; background-color: #d31eee; color: #fff;}
+.billion-dip li.billion-btn-box a.disable{background-color: #b6b6b6; box-shadow: 0 0.25rem 0 #898989;}
+.billion-dip li.active{position: relative;}
+.billion-dip li.active ins{position: absolute; width:4.45rem; height: 4.45rem; left: -0.2rem; top:-0.2rem; background: url("/static/weixin/images/activity/billion-light.png") right bottom no-repeat;background-size:100%;}
+.billion-line{position: absolute; width:1px; overflow: hidden; font-size: 0; line-height: 0;height:1rem; z-index: 10; left: 50%; bottom: -1rem; background-color: #4d48ae;}
+.billion-box.list,.billion-tips{ color: #fff; padding:0 1rem 1rem; }
+.billion-box.list table{width:100%; font-size: 0.55rem;}
+.billion-box.list td{height: 2rem;}
+.billion-box.list h2,.billion-tips h2{line-height: 2.25rem; border-bottom: 1px solid #4d48ae;text-align: center; margin-bottom: 0.75rem;}
+.billion-box.list h2 span,.billion-tips h2 span{color: #6d68e6;}
+.billion-box.billion-ad{overflow: hidden;}
+.billion-box.billion-tips{line-height: 1.1rem; font-size: 0.55rem;}
+#list{height: 10.25rem; overflow: hidden;}
+#counter{font-size:0.55rem; }
+
+.t-mask{ position: fixed;background-color: rgba(0,0,0,.5);left: 0;right: 0;top: 0;bottom: 0; z-index: 99;}
+.t-bomb_box{ position: fixed; width: 12rem; height:8rem; top:50%; left: 50%; margin: -4rem 0 0 -6rem; background:#FFF; border-radius:0.3rem;z-index: 100; border: 2px solid #a62f7f; }
+.t-bomb_box-1{ height: 2.75rem; line-height: 2.75rem; color: #5d5d5d; font-size: 0.9rem; text-align: center; border-bottom: 1px solid #e0e0e0;}
+.t-bomb_box-2{ text-align: center; color: #8e8d8d; font-size: 0.75rem; padding:1.1rem 1rem;}
+.t-bomb_btn{ margin:0 1rem 1rem;}
+.ten-t {
+    font-size: 1.2rem;
+    color: #555555;
+    text-align: center;
+    margin-top: 1.3rem;
+    color: #ff5d5d;
+    line-height: 1.4rem;
+}
+.ten-t1 {
+    font-size: 0.8rem;
+    color: #555555;
+    text-align: center;
+    line-height: 1rem;
+    padding: 0.5rem 0 0.8rem 0;
+}
+.ten-t1 i {
+    color: #ff5d5d;
+    font-style: normal;
+}
+
+a.ten-button1 {
+    width: 10rem;
+    height:1.6rem;
+    background: #ff5d5d;
+    box-shadow: 0 4px 0 #d34a4a;
+    display: block;
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 1.6rem;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.ten-close_box img{ width:1rem; height: 1rem; background-size: 1rem; position: absolute; right: 0.2rem; top:0.2rem; cursor: pointer; }
+.ten-t1.notice{margin-top: 2.25rem;}

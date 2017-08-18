@@ -1,0 +1,13 @@
+{% set vars = {} -%}
+
+{%- for config_item in developer_list -%}
+{% if developer_name == config_item.name -%}
+{% if vars.update({'http_port':  loop.index + http_port_start}) %}
+{% endif -%}
+{% if vars.update({'mysql_port':  loop.index + mysql_port_start}) %}
+{% endif -%}
+{% endif -%}
+{% endfor -%}
+
+mysql_port={{ vars.mysql_port }}
+http_port={{ vars.http_port }}

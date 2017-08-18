@@ -1,0 +1,105 @@
+html {  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;  -webkit-text-size-adjust: none;  }
+body{  width:100%;  overflow:hidden;  background:#ffffff; color: #444444;  font-family:"SourceHanSansCN","Microsoft YaHei", "Arial Black";  box-sizing: border-box;  }
+.hide{ display:none;}
+.page{  width:100%;  height:100%;  position:absolute;  text-align:center;  overflow: hidden;  }
+.page .wrap{  height: 100%;  }
+.page-current{  z-index:1;  background-color: #ffffff;  }
+
+.mb30{margin-bottom: 0.75rem}
+.mb40{margin-bottom: 1rem}
+
+img{display: block;}
+.text-right{text-align: right;}
+.pa{ position: absolute; left: 0 ; right: 0; margin:0 auto;}
+.page-up{ bottom: 0.576rem;}
+.news-arrowUp{height:auto;width:1.088rem;position:absolute;left:50%;top:93%;margin-left:-10px;z-index: 8;}
+
+/*微刊封面*/
+.page-bg1{height: 100%;position: relative; overflow: hidden; }
+.page-bg-img{ position: absolute; width: 100%; left:0;right:0; height: 100%;}
+.page-img1{ width:5.483rem; position: absolute; top:5.696rem;}
+.page-img2{ width:10.944rem; position: absolute; bottom:3.712rem; }
+.page-img3{ width:3.371rem; position: absolute; bottom:1.003rem;}
+.page-img1-1{ width: 6.784rem;position: absolute; left: 0; top: 2rem;}
+.page-img1-2{ width: 2.112rem; position: absolute; top: 13.931rem; right: 1.024rem;}
+/*page2*/
+.page-bg2{height: 100%;position: relative; overflow: hidden; background: #160e2d; }
+.page-img4{ width:2.027rem; left: 0; position: absolute; top: 0.533rem;}
+.page-img5{ width:13.333rem; top:2.432rem;}
+.page-div{  height: 20.779rem; width: 14.547rem; /*margin:0 1.28rem; */border-radius: .3rem; background: #fff; top: 6.101rem;}
+.page-img6-1{ width: 12.053rem; top:0.981rem;}
+.page-img6-2{ width: 11.776rem; top: 4.864rem;}
+.page-img6-3{ width: 11.264rem; top: 10.347rem;}
+.page-img6-4{ width: 12.373rem; top: 14.891rem;}
+/*page3*/
+.page-bg3{height: 100%;position: relative; overflow: hidden; background: #160e2d; }
+.page-img7{ width:11.349rem; top: 2.197rem}
+.page-img7-1{ width: 2.112rem; top: 0.789rem; right: 1.045rem; position: absolute;}
+.page-img7-2{ width: 10.837rem; top: 1.003rem;}
+.page-img7-3{ width: 12.181rem; top: 6.016rem;}
+.page-img8{ width:4.821rem; position: absolute; top: 4.395rem; left: 0;}
+.page-img9{ width:1.493rem; position: absolute; top: 26.261rem; right: 3.133rem;}
+/*page4*/
+.page-img11{ width:12.672rem; top:2.219rem;}
+.page-img11-1{ width: 11.499rem; top: 1.067rem;}
+.page-img11-2{ width: 9.216rem; top: 5.653rem;}
+.page-img12{ width:2.816rem;top: 3.051rem; position: absolute; left: 0;}
+.page-img13{ width:7.232rem; top:0; right: 0; position: absolute; }
+.page-img14{ width: 2.112rem; top: 19.072rem; left: 0.299rem; position: absolute;}
+/*page5*/
+.page-img15{ width:11.221rem; top:2.176rem;}
+.page-img15-1{ width:10.923rem; top:1.024rem; }
+.page-img15-2{ width:11.904rem; top:5.8rem;}
+.page-img16{ width:2.901rem; top:3.669rem; position: absolute; left: 0;}
+.page-img17{ width:4.373rem; top: 0; position: absolute; right: 0;}
+.page-img18{ width:1.813rem; left: 0.213rem; top:23.851rem; position: absolute;}
+/*page6*/
+.page-img19{ width: 11.52rem; top: 2.176rem;}
+.page-img19-1{ width: 12.416rem; top: 1.024rem;}
+.page-img20{ width: 1.728rem; top:4.971rem; left: 0.32rem; position: absolute;}
+.page-img21{ width:4.715rem; top: 0; position: absolute; right: 0;}
+
+/*page7*/
+.page-img23{ width:12.075rem; top:2.688rem; }
+.page-img24{ width:11.264rem; top:1.045rem; }
+
+
+/*page8*/
+.page-img27{ width:11.349rem; top:2.709rem;}
+.page-img28{ width:12.288rem; top:1.28rem;}
+.page-img29{ width:2.837rem; top:4.672rem; left: 0; position: absolute;}
+.page-img30{ width: 4.565rem; position: absolute; top: 0; right: 0;}
+/*page9*/
+.page-img31{ width: 11.157rem; top: 1.024rem;}
+.page-img32{ width:10.837rem; top: 5.056rem;}
+.page-img33{ width:8.491rem; top:2.133rem;}
+.page-img33-1{ width:1.472rem; position: absolute; right: 1.024rem; top: 3.819rem;}
+.page-9-1 .page-img20{ top: 24.085rem;}
+
+/*page10*/
+.page-10-1 .page-img33-1{top: 1.557rem; right: 1.451rem;}
+.page-10-1 .page-img20{ top:24.107rem;}
+
+.page-img35{ width:12.416rem; top:1.109rem;}
+.page-img36{ width:11.093rem; top: 15.381rem;}
+.page-img36-1{ width:9.707rem; top: 2.219rem;}
+/*page11*/
+.page-img37{ width:12.416rem; top:0.853rem;}
+.page-img37-1{ width:9.877rem; top:1.877rem;}
+.page-img38{ width:11.648rem; top:12.8rem;}
+/*page12*/
+.page-img39{ width:8.576rem; top:3.2rem;}
+.page-img40{ width:11.136rem; top:1.067rem;}
+.page-img40-1{ width:10.987rem; top:8.661rem;}
+/*page13*/
+.page-img41{ width:8.448rem; top:1.92rem;}
+.page-img42{ width:11.072rem; top:1.024rem;}
+.page-img42-1{ width:11.413rem; top:5.803rem;}
+.page-13-1 .page-img20{ top: 24.021rem; left: 0.32rem;}
+/*page14*/
+.page-img43{ width:5.504rem; top:3.179rem;}
+.page-img44{ width:13.099rem; top: 7.723rem;}
+/*page15*/
+.page-img45{ width: 13.099rem; top:2.773rem;}
+.page-img46{ width:5.291rem; top: 0.747rem; left: 0; position: absolute;}
+.page-img47{ width:1.301rem; top: 15.211rem; right: 0.299rem; position: absolute;}

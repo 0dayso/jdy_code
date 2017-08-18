@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*=======================================
+* author   xialili && xia.lili@9douyu.com
+* date     2015-11-06
+* version  web2.0
+* site     http://www.9douyu.com
+=======================================*/
+
+
+/* CSS Document */
+a.blue,a.blue:visited,a.blue:hover,a.blue:active{color: #00aaee;}
+@font-face {
+	font-family: 'Conv_DIN';
+	src: url('../font/DIN.eot');
+	src: local('☺'), url('../font/DIN.woff') format('woff'), url('../font/DIN.ttf') format('truetype'), url('../font/DIN.svg') format('svg');
+}
+
+/* coupons */
+.web-main{width: 836px; float: right; border:1px solid #f0f0f0; background-color: #fff; margin-top: 50px;}
+.web-main-title{line-height: 55px; margin-bottom: 29px; border-bottom: 1px solid #f0f0f0; padding:0 30px; font-size: 18px;}
+.web-main-box{padding:0 30px;}
+.web-main-tab{ height:34px;line-height: 34px; text-align: center; float: left;}
+.web-main-tab li{float: left; width: 138px; height: 32px; border:1px solid #e2e2e2; line-height: 32px;}
+.web-main-tab li.cur{background-color: #00b4ff; border-color: #00b4ff;}
+.web-main-tab li.cur a{color: #fff;}
+.web-main-tab li.first{ width:139px; border-right:0;border-radius: 5px 0 0 5px; -webkit-border-radius:5px 0 0 5px;-moz-border-radius:5px 0 0 5px;-ms-border-radius:5px 0 0 5px;}
+.web-main-tab li.last{width:139px; border-left:0;border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0;-moz-border-radius: 0 5px 5px 0;-ms-border-radius: 0 5px 5px 0;}
+.web-main-tab a,.web-main-tab a:visited{color: #414141; display: block;}
+.web-main-tab a.cur,.web-main-tab a:hover,.web-main-tab a:active{color: #00b4ff; }
+
+.web-coupon{padding:0 0 32px;overflow: hidden;}
+.web-coupon li{width: 322px; float: left; padding:40px 33px;  font-size: 12px;border-bottom:1px solid #e7e7e7; }
+.web-coupon-box{position: relative; height:105px;background-color: #fff;border-radius: 0 0 5px 5px;border-bottom:4px solid #ff524e; border-left: 1px solid #e7e7e7;border-right: 1px solid #e7e7e7; -webkit-border-radius: 0 0 5px 5px; box-shadow: 2px 2px 5px #e4e4e4;}
+.web-coupon-wave{width: 100%;position: absolute; top: -4px; left: 0; height: 4px; background: url('../images/new/web-coupons-wave.png') 0 0 no-repeat;  }
+.web-coupon-title{ padding:8px 0 0 17px; line-height: 20px;font-size: 12px;}
+.web-coupon-title strong{font-size: 18px; font-weight: normal; margin-right:5px;}
+.web-coupon-title span{}
+.web-coupon-txt{position: absolute; left: 17px; bottom:4px; font-size: 12px; line-height: 20px; color: #8c8c8c;}
+.web-coupon-num{position: absolute; right: 12px;top: 10px; font-size:16px; line-height: 40px; font-weight: lighter;}
+.web-coupon-num strong{font-size: 34px; font-weight: normal;}
+.web-coupon-bonus .web-coupon-title,.web-coupon-bonus .web-coupon-num{color: #ff514e;}
+.web-coupon-box.web-coupon-bonus{border-bottom-color: #ff514e;}
+.web-coupon-add .web-coupon-title,.web-coupon-add .web-coupon-num{color: #00aaee;}
+.web-coupon-box.web-coupon-add{border-bottom-color: #00aaee;}
+.web-coupon-money .web-coupon-title,.web-coupon-money .web-coupon-num{color: #f87801;}
+.web-coupon-box.web-coupon-money{border-bottom-color: #f87801;}
+.web-coupon-done .web-coupon-title,.web-coupon-done .web-coupon-num,.web-coupon-done .web-coupon-txt{color: #c2c2c2;}
+.web-coupon-box.web-coupon-done{border-bottom-color: #c2c2c2;}
+.web-coupon-icon1,.web-coupon-icon2{position: absolute; width:90px; height:86px;background: url('../images/new/web-coupons-icon1.png') 0 0 no-repeat; right: 47px; top:5px;}
+.web-coupon-icon2{background-image: url('../images/new/web-coupons-icon2.png'); }
+
+/* mynotices */
+.web-mynotice-mark{float: right; line-height: 34px; color: #a5a5a5; cursor: pointer;}
+.web-mynotice-list{width: 100%; margin: 20px 0 15px; }
+.web-mynotice-list li{width: 100%; line-height: 60px; border-bottom:1px solid #e2e2e2; overflow: hidden; }
+.web-mynotice-type{float: left; width: 118px;text-align: center; font-weight: bold;}
+.web-mynotice-type.done{font-weight: normal;}
+.web-mynotice-title{float: left; width: 502px; height: 60px; overflow: hidden;}
+.web-mynotice-date{float: left; width: 100px;text-align: center;}
+.web-mynotice-operate{float: left; width: 56px; cursor: pointer; text-indent: 7px; position: relative; color: #00b4ff;}
+.web-mynotice-operate.title{color: #000;}
+.web-mynotice-operate i{ position: absolute; top:24px; right: 4px;  width: 13px; height: 13px;background: url('../images/new/web-mynotice-icon.png') 0 -13px no-repeat;}
+.web-mynotice-operate i.back{background-position: 0 0;}
+.web-mynotice-list li.web-mynotice-head{background-color: #f4f4f4; color:#000; line-height: 40px; border-bottom: 0;}
+.web-mynotice-head .web-mynotice-title{text-align: center; height: 40px;}
+.web-mynotice-head .web-mynotice-type{font-weight: normal;}
+.web-mynotice-head .web-mynotice-operate{cursor: default; text-align: center; text-indent: 0;}
+
+.web-mynotice-content{ display: none; line-height: 20px; padding:5px 10px; font-size: 12px; margin:0 34px 19px; border:1px solid #dcdcdc;}
+
+
+
+

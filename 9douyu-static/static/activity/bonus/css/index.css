@@ -1,0 +1,49 @@
+/**双蛋活动**/
+body {
+    background: #860f18 url('/static/activity/bonus/images/page-bg.png') center top repeat-y;
+}
+
+.page-banner {
+    width: 100%;
+    height: 963px;
+    background: #860f18 url('/static/activity/bonus/images/page-banner.jpg') center top no-repeat;
+}
+
+.page-code {
+    height: 912px;
+    text-align: center;
+    color: #ffce1b;
+    font-size: 36px;
+    line-height: 154px;
+}
+
+.page-code img {
+    margin-top: -85px;
+}
+.page-time{font-size: 20px;line-height: 1;margin-top: -40px;}
+/*.page-total {*/
+    /*width: 1002px;*/
+    /*margin: 102px auto 162px;*/
+    /*text-align: center;*/
+    /*font-size: 36px;*/
+    /*color: #45060b;*/
+    /*text-shadow: 0 0 9px #b30f28;*/
+/*}*/
+
+/*.page-total .shadow {*/
+    /*position: relative;*/
+    /*top:-30px;*/
+    /*display: inline-block;*/
+    /*margin:0 18px;*/
+    /*width: 120px;*/
+    /*height: 176px;*/
+    /*text-align: center;*/
+    /*line-height: 186px;*/
+    /*font-size: 114px;*/
+    /*color: #aa001a;*/
+    /*background: url('/static/activity/bonus/images/page-span.png') center top no-repeat;*/
+    /*-webkit-text-fill-color: #aa001a;*/
+    /*-webkit-text-stroke: 2px #ffda51;*/
+    /*text-shadow: 3px 3px 4px rgba(108,6,3,0.5);*/
+    /*vertical-align: middle;*/
+/*}*/

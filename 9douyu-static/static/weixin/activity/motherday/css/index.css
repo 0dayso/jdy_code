@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors bichunfeng (you@example.org)
+ * @date    2017-5-8 10:00:00
+ * @version $Id$ 
+ */
+ /*Mother'sDay*/
+ 
+body{background:#fff;}
+.page-bg{width:16rem;margin:0 auto;background:url("/static/weixin/activity/motherday/images/page-banner.jpg") center top no-repeat;background-size:100%;overflow: hidden;}
+.page-center{text-align: center;}
+.page-auto{width: 15.5rem;margin:0 auto;box-sizing: border-box;}
+.page-flex{display: -webkit-box;-webkit-box-orient: horizontal;-webkit-box-pack: justify;display: flex;flex-direction:row;justify-content: space-around;}
+.page-time{padding-top:3.625rem;color: #a3c7bf;font-size: 0.5rem;line-height:1;text-indent: -2rem;}
+/*wrap*/
+.page-wrap{position:relative;min-height:3rem;margin:2rem auto 1rem;padding:0.02rem 0.5rem;background: #c7e9fa;color: #fff;box-sizing: border-box;}
+.page-wrap:after{content: "";position: absolute;left:0;top:-0.5rem;width:100%;height:0.65rem;background: url("/static/weixin/activity/motherday/images/page-project-before-bg.png") top center no-repeat; background-size: 100%;}
+.page-wrap:before{content: "";position: absolute;left:0;bottom:-0.5rem;width:100%;height:0.675rem;background: url("/static/weixin/activity/motherday/images/page-project-after-bg.png") top center no-repeat; background-size: 100%;}
+
+/*title*/
+.page-title1{margin:5.15rem auto 0;width:7.575rem; height:1.775rem;background: url("/static/weixin/activity/motherday/images/page-title1.png") top center no-repeat; background-size: 100%;}
+.page-font1{color: #79beae;font-size: 0.5rem;line-height: 2;}
+.page-title2{margin:0.15rem auto 0;width:11.3rem; height:4.125rem;background: url("/static/weixin/activity/motherday/images/page-title2.png") top center no-repeat; background-size: 100%;font-size: 0;}
+.page-font2{color: #666;font-size: 0.5rem;margin-top: -1rem;}
+.page-title3{margin:1rem auto 0;width:7.725rem;height: 2.025rem;background: url("/static/weixin/activity/motherday/images/page-title3.png") top center no-repeat; background-size: 100%;font-size: 0;}
+.page-title4{margin:1.25rem auto 0;width:7.725rem;height: 2.025rem;background: url("/static/weixin/activity/motherday/images/page-title4.png") top center no-repeat; background-size: 100%;font-size: 0;}
+
+/*coupons*/
+.page-coupons li{margin:0.5rem 0;}
+.page-coupons li p:first-child{margin-top: 1.3rem;font-size:0.5rem;text-indent: 0.8rem;}
+.page-coupons li p:first-child span{font-size: 1.6rem;font-weight: bold;}
+.page-coupons li p:last-child{line-height:1.25rem;margin-top:0.2rem;font-size: 0.5rem;color: #888;}
+.page-coupons .cash{display: inline-block;width:4.65rem;height: 4.825rem;background: url("/static/weixin/activity/motherday/images/page-coupons-cash.png") top center no-repeat; background-size: 100%; }
+.page-coupons .cash p:first-child{color:#f8bc53; }
+.page-coupons .interest{display: inline-block;margin-right:0.4rem;width:6.925rem;height: 4.625rem;background: url("/static/weixin/activity/motherday/images/page-coupons-interest.png") top center no-repeat; background-size: 100%; }
+.page-coupons .interest p:first-child{color:#79c8f1; }
+/*project*/
+.page-project{ position:relative;width: 100%; height: 4.15rem;margin:0.5rem auto;background: #fff; box-sizing: border-box;box-shadow: 3px 2px 4px rgba(8,1,3,.1);}
+.page-project .title{position:relative;color:#333;font-size: 0.65rem;padding:0.4rem 0.5rem 0.3rem; font-weight: bold;  z-index: 2;}
+.page-project table{ width: 100%; text-align: center; color: #666; font-size: 0.5rem; }
+.page-project table tr:nth-child(1) td:nth-child(1){ color: #ff3333; font-size:0.65rem; font-weight: bold; height: 1.7rem;}
+.page-project table tr:nth-child(1) td:nth-child(1) span{ font-size:1.275rem;}
+.page-project table tr:nth-child(1) td:nth-child(2){ color: #333; font-size: 0.6rem; padding-top: 0.4rem;}
+.page-project .btn{ position: relative; display:inline-block; width: 5rem; height: 1.4rem;line-height: 1.445rem;  background: #f8bc53;border-radius:0.2rem; color: #fff; font-size: 0.75rem; font-weight: bold; margin-top: 0.75rem; text-align: center;}
+.page-project .btn.disable{ background: #bcbcbc;}
+
+/*surprise*/
+.page-surprise img{width: 7.725rem;margin:0 auto;display: block;}
+.page-surprise p{color: 0.5rem;color: #333;}
+.page-winner-list{padding: 0.5rem 0 0.9rem;}
+.page-winner-list p{width: 7.575rem;margin:0 auto;font-size: 0.6rem;color: #333;line-height: 1.5;}
+.page-winner-list p span{display: inline-block;width:3.1rem;}
+
+/*rule*/
+.page-rule{color: #666;padding:0.5rem 0.5rem 2rem;background: #e0eced;}
+.page-rule h6{font-size:0.6rem;line-height: 0.5rem;padding:0.5rem 0;}
+.page-rule p{position:relative;padding-left:1rem;font-size: 0.5rem;line-height: 0.8rem;}
+.page-rule p span{position: absolute;left:0;top:-0.1rem;padding:0.1rem 0.3rem 0.1rem 0.1rem;}
+.page-tip{color: #fff;font-size: 0.6rem;line-height: 1rem;padding-top: 0.6rem;}
+/*pop*/
+.pop-wrap{display:none;}
+.pop-mask{position:fixed;z-index:1;width: 100%;height: 100%;left:0;top:0;right:0;bottom:0;background: rgba(0,0,0,.5);}
+.pop{position: fixed;z-index:2;width: 11.225rem;height:7.275rem;left: 50%;top:50%;transform: translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);background: url("/static/weixin/activity/motherday/images/page-pop-bg.jpg")0 0 no-repeat;background-size: 100%;}
+.pop-close{position:absolute;z-index: 3;width: 13px;height: 13px;top:0.6rem;right: 0.6rem;background: url("/static/weixin/activity/motherday/images/page-pop-btn.png")0 0 no-repeat;background-size: 100%;font-size: 0;}
+.pop-btn{position:relative;z-index:2;display:block;width:5rem;height: 1.35rem;line-height:1.35rem;margin:0.5rem auto 0.5rem;background:#f6ad2e;text-align: center;border-radius: 0.25rem;color: #fff;font-size: 0.7rem;}
+.pop-btn:after{content: "";position: absolute;z-index:1;right:0.1rem;top:-0.65rem;width: 0.5rem;height: 0.675rem;background: url("/static/weixin/activity/motherday/images/page-pop-btn-after.png")0 0 no-repeat;background-size: 100%;}
+.pop-text{color: #666;font-size: 0.7rem;text-align: center;padding: 0.5rem 0 0;line-height: 2;margin-top: 0.8rem;}
+.c-fail,.c-success{ width: 5.0rem; height: 1.175rem; margin-bottom: 1rem; }
+.c-text-1{color: #fe8c01; font-size: 0.55rem; line-height: 1rem;}
+.c-text-1 span{color:#fe1f01;}
+.pop-text-desc{font-size:0.39rem;color:#f8bc53; text-align: center}

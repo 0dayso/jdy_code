@@ -1,0 +1,43 @@
+/**双蛋活动**/
+
+body{background: #0d0e3c url('/static/activity/festival/images/page-bg.jpg') center top no-repeat;color: #fff;}
+.page-time{height:527px;width:400px;padding-top:386px;margin:0 auto;text-indent:90px;font-size: 24px;color: #fff;text-align: center;transform:rotate(-7deg);-ms-transform:rotate(-7deg);-moz-transform:rotate(-7deg);-webkit-transform:rotate(-7deg); -o-transform:rotate(-7deg); }
+.page-wrap{width: 858px;margin: 0 auto;}
+.page-section1{width:1039px;height: 223px;margin:0 auto;background: url('/static/activity/festival/images/page-section1.png') center top no-repeat;text-align: center;color:#fff800;font-size: 28px;}
+.page-section1-txt{padding-top: 130px;}
+.page-auto{margin:0 auto;}
+/*主体*/
+.page-section2-top{width: 1039px;height: 159px;overflow:hidden;background: url('/static/activity/festival/images/page-section2.png') center top no-repeat;}
+.page-section2-bottom{position:relative;width:1039px;height: 155px;background: url('/static/activity/festival/images/page-section2.png') center bottom no-repeat;}
+.page-section2-main{width:1039px;background: url('/static/activity/festival/images/page-section2-bgcolor.png') center bottom repeat-y;}
+.page-section2-top h6{padding-top:46px;padding-left:124px;font-size: 30px;color:#fff;text-align: center;font-weight: bold;}
+.page-section2-top h6 span.text1{padding-left:3px;position: relative;top:0;}
+.page-section2-top h6 span.text2{padding-left:3px;position: relative;top:-2px;}
+/*按钮*/
+.page-btn,.page-btn:link,.page-btn:visited,.page-btn:hover,.page-btn:active{display:block;width:153px;height: 48px;line-height: 48px;background: #f73c5e;font-size: 24px;font-weight: bold;color:#fff;border-radius: 4px;box-shadow: 0 6px 0 #ba112e;text-align: center;}
+.page-btn img,.page-btn:link img,.page-btn:visited img,.page-btn:hover img,.page-btn:active img{width:15px;margin:-4px 0 0 0;}
+.page-btn-yellow,.page-btn-yellow:link,.page-btn-yellow:visited,.page-btn-yellow:hover,.page-btn-yellow:active{background: #fff600;box-shadow: 0 6px 0 #ffd200;color:#ff5a5a;}
+.disable,.disable:link,.disable:visited,.disable:hover,.disable:active{background: #8a8a8a;box-shadow: 0 6px 0 #535253;color:#535253;}
+.disable img,.disable:link img,.disable:visited img,.disable:hover img,.disable:active img{display: none;}
+/*满送*/
+.page-gift-item{margin-top:26px;width:416px;height: 278px;background: url('/static/activity/festival/images/page-project-bg-blue.png') center bottom no-repeat;}
+.page-gift-item ul{width:153px;text-align: center;}
+.page-gift-item .price, .page-gift-iphone .price{margin-top:14px;color:#acddff;font-size: 14px;line-height:1;text-decoration:line-through;}
+.page-gift-item .txt, .page-gift-iphone .txt{margin-top:18px;font-size: 16px;line-height: 22px;}
+.page-gift-item .txt span, .page-gift-iphone .txt span{color:#fffc00;}
+.page-gift-iphone{margin-top:0;width:416px;height:333px;background: url('/static/activity/festival/images/page-project-bg-red.png') center bottom no-repeat;text-align: center;}
+.page-gift-iphone .price{color:#ffc2c2;}
+.page-img-iphone7{margin:95px 0 0 43px;}
+.page-img-iphone7-plus{margin:61px 0 0 53px;}
+.page-gift-name{position:relative;padding-top:40px;padding-left:42px;font-size: 18px;color:#fff600;font-weight: normal;}
+.page-gift-name span{position:relative;z-index:2;background:#0286e2;float:left;padding-right: 12px;}
+.hr-dashed{position:absolute;top:50px;z-index:1;width: 332px;height:0;font-size:0;margin:0 auto;border-top:1px dashed #fff600;}
+.page-gift-img{width:259px;margin:-30px 0 0 -18px;}
+.page-padding-right{padding:20px 36px 0 0;}
+.iphone-detail{padding:114px 58px 0 0;}
+.page-fish{position: absolute;left:770px;top:-15px;}
+/*活动规则*/
+.page-rule {width: 1002px;}
+.page-rule h4{margin: 26px 0 0 0;line-height: 48px;color:#acddff;font-size: 18px;font-weight: bold;}
+.page-rule p{position: relative;padding-left: 22px;color:#71c5ff;line-height: 30px;font-size: 14px; }
+.page-rule p span{position: absolute;left:0;}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+body{background: #2fb3ff !important;}
+.ln1-img{ margin: 0.3rem 0 0.7rem 0;}
+.ln-wrap{background: url("../images/activity/ln-bj.png") top center repeat-y #2fb3ff;background-size: 100%; }
+.ln1-box{ padding:0rem 0.5rem 1.8rem;}
+.ln1-1{ border: 1px solid #3f2a1d; border-bottom: 1px dashed #3f2a1d; border-radius:0.3rem 0.3rem 0 0; height: 1.65rem; background: #ffef27;}
+.ln1-1 p{ color: #3f2a1d; font-size: 0.7rem; padding:0 0.7rem; line-height: 1.6rem;}
+.ln1-1 p span{ display: inline-block; float: right; font-size:0.4rem;}
+/*.ln1-1 p span i{ width: 0.55rem; height: 0.55rem; background:url(/static/weixin/images/activity/pleasure-icon.png) top center no-repeat; background-size: 0.55rem; display: inline-block;vertical-align:text-bottom; padding-right: 0.2rem; }
+*/.ln1-2{ border-radius:0 0 0.3rem 0.3rem; height: 3.15rem; background: #eff8ff; padding-top: 1rem;border: 1px solid #3f2a1d; border-top: 0;}
+.ln1-2 table{ width: 100%; text-align: center;}
+.ln1-2 tr:last-child td:first-child{ color: #ff514e;}
+.ln1-2 tr:last-child{ font-size: 0.6rem; color: #414141; line-height: 1.6rem;}
+.ln1-2 tr:last-child span{ font-size: 1.2rem; }
+.ln1-2 tr:first-child{ font-size: 0.5rem; color: #999999; line-height:0.8rem;}
+a.ln1-button{ width: 100%; text-align: center; height:1.8rem; box-shadow: 0 0.2rem 0 #0093e8; line-height:1.8rem; background: #f33429; display: block; color: #fff; border-radius: 0.4rem; margin: 0.5rem 0 0.6rem 0; font-weight: bold; font-size: 0.75rem; border:1px solid #3f2a1d;}
+a.ln1-button.disabled{ background: #afafaf;}
+.ln1-detail-title{border: 1px solid #3f2a1d;background: #bee4ff; border-radius: 0.3rem;box-shadow: 0 0.2rem 0 #0093e8;}
+.ln1-detail-title-1 {padding: 0 0.7rem;height: 1.9rem;line-height: 1.9rem;border-bottom: 1px dashed #3f2a1d; color: #3f2a1d; font-size: 0.7rem;}
+.ln1-detail-title-1.bn{ border-bottom: 0;}
+.ln1-detail-title-1 span {width: 0.8rem;height: 0.45rem;background: url("../images/activity/ln-arrow.png") 0 0 no-repeat;background-size: 0.8rem auto;display: inline-block;float: right;vertical-align: middle;margin-top: 0.8rem;}
+.ln1-title{ border-bottom: 1px solid #3f2a1d !important;}
+.ln1-detail-title .ln-detail-3{ font-size: 0.6rem;}
+.ln1-detail-title .ln-detail p{ line-height: 1.2rem;}

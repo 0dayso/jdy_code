@@ -1,0 +1,17 @@
+<?php
+return [
+
+   'oss_1' => [
+        'endpoint'        => 'vpc100-oss-cn-beijing.aliyuncs.com',
+        'accessKeyId'     => 'LTAI7rKhR0fdlOO8',
+        'accessKeySecret' => 'y6zRoYw66vAfTGzWPPln1F00oYK62h',
+        'bucket'          => '9douyu',
+   ],
+
+   'oss_2' => [
+        'endpoint' 	      => 'vpc100-oss-cn-beijing.aliyuncs.com',
+        'accessKeyId' 	  => 'LTAI7rKhR0fdlOO8',
+        'accessKeySecret' => 'y6zRoYw66vAfTGzWPPln1F00oYK62h',
+        'bucket' 	      => '9douyu-secret',
+   ]
+];

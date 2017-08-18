@@ -1,0 +1,37 @@
+-- MySQL dump 10.13  Distrib 5.6.34, for Linux (x86_64)
+--
+-- Host: rr-2zeap9jp480wx4j12.mysql.rds.aliyuncs.com    Database: jiudouyu_module_db
+-- ------------------------------------------------------
+-- Server version	5.6.29
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `module_category`
+--
+
+LOCK TABLES `module_category` WRITE;
+/*!40000 ALTER TABLE `module_category` DISABLE KEYS */;
+INSERT INTO `module_category` VALUES (1,0,'公司介绍','intro',0,200,'2014-01-06 08:14:47','2014-01-06 08:14:47'),(2,0,'帮助中心','help',1,200,'2013-12-29 18:02:09','2013-12-29 18:02:09'),(3,0,'安全保障','security',1,200,'2013-12-31 12:06:52','2013-12-31 12:06:52'),(4,0,'特色专题','feature',0,200,'2014-01-02 09:43:51','2014-01-02 09:43:51'),(5,0,'网站公告','notice',1,200,'2014-01-02 12:21:46','2014-01-02 12:21:46'),(6,0,'协议','aggreement',1,200,'2014-02-17 12:30:38','2014-02-17 12:30:38'),(7,0,'还款公告','refund',0,200,'2014-03-13 07:37:26','2014-03-13 07:37:26'),(8,0,'行业资讯','industry',0,200,'2014-03-25 06:14:20','2014-03-25 06:14:20'),(9,0,'鱼客私塾','Guest',0,200,'2014-04-30 03:20:19','2014-04-30 03:20:19'),(10,0,'非著名金融大V专栏','greatV',0,100,'2015-01-20 03:44:54','2015-01-20 03:44:54'),(11,0,'圆梦计划','dreanPlan',0,200,'2014-04-30 03:21:03','2014-04-30 03:21:03'),(12,0,'企业信用贷攻略','',0,200,'2014-04-30 03:21:23','2014-04-30 03:21:23'),(13,0,'企业抵押贷攻略','',0,200,'2014-04-30 03:21:36','2014-04-30 03:21:36'),(14,0,'成功贷款有窍门','',0,200,'2015-04-30 06:22:03','2015-04-30 06:22:03'),(15,0,'媒体报道','',0,200,'2014-04-30 03:52:07','2014-04-30 03:52:07'),(16,0,'九斗鱼月刊','monthly',0,200,'2014-09-15 01:39:58','2014-09-15 01:39:58'),(17,0,'开放日','openday',0,200,'2014-12-17 08:45:44','2014-12-17 08:45:44'),(18,0,'app文章','apparticle',0,200,'2014-12-31 09:40:27','2014-12-31 09:40:27'),(19,0,'提前还款公告','advanceRefund',0,100,'2015-04-11 13:46:56','2015-04-11 13:46:56'),(20,0,'中国互联网大会','click_in',0,200,'2015-07-24 06:33:35','2015-07-24 06:33:35'),(21,0,'周年庆活动','anniversary',0,200,'2015-06-09 14:36:35','2015-06-09 14:36:35'),(22,0,'中国财经峰会','click_in2',0,200,'2015-07-24 07:14:47','2015-07-24 07:14:47'),(23,0,'九斗鱼月刊－新','monthlyreport',1,200,'2015-11-06 08:09:51','2015-11-06 08:09:51'),(24,0,'帮助中心（新）','帮助中心',0,200,'2015-12-17 09:41:59','2015-12-17 09:41:59'),(25,0,'紧急公告','Emergency notice',1,200,'2016-03-21 08:21:07','2016-03-21 08:21:07'),(26,0,'网站每月动态','每月大事记',1,200,'2016-06-29 02:32:21','2016-06-29 02:32:21');
+/*!40000 ALTER TABLE `module_category` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-12-02 12:06:37

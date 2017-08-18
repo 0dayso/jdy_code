@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body{background-color: #eff9ff;}
+.pleasure-banner{ width:100%; height: 350px; background: url('/static/images/activity/pleasure-banner1.png') top center no-repeat;}
+.pleasure-box,.pleasure-box3{ width: 1002px; margin: 0 auto; padding-top:119px; position: relative;}
+.pleasure-box-1{ width: 300px; height: 320px; float: left; margin-right: 50px;}
+.pleasure-title{ width: 298px; height:70px; color: #fff; background: #1d4e77; border-radius:10px 10px 0 0;}
+.pleasure-title h3{ font-size: 20px; line-height: 30px; text-align: center; padding-top: 10px;}
+.pleasure-title p{ font-size: 12px; line-height: 20px;text-align: center;}
+.pleasure-title p span{
+    background: url('/static/images/activity/pleasure-icon.png') 0 -76px no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 5px;}
+.pleasure-content{ background: #fff; height: 249px; width: 296px; border: 1px solid #dcdcdc; border-top: none; border-radius: 0 0 10px 10px;}
+.pleasure-content ul{ width: 296px; margin: 0 auto; padding:33px 0 25px 0; overflow: hidden;}
+.pleasure-content ul li{ display: inline-block; width: 147px; float: left; height: 100px;}
+.pleasure-content ul li.t-border{ border-right: 1px solid #dcdcdc;}
+.pleasure-content ul li p{ text-align: center;}
+.pleasure-1{ color: #515151; font-size: 20px; line-height: 40px; margin:15px 0 2px 0;}
+.pleasure-1 span{ font-size: 36px;}
+.pleasure-2{ font-size: 16px; color: #979797;}
+a.pleasure-button,a.pleasure-button-gray,a.pleasure-button:hover{ width: 244px; height: 44px; background: #ff9f00; line-height: 44px; color: #fff; font-size: 18px; text-align: center; display: block; margin: 0 auto; border-radius: 20px; }
+a.pleasure-button-gray{ background: #c4c4c4;}
+.pleasure-3{ text-align: center; font-size: 14px; color: #979797; line-height: 20px; padding-top: 14px;}
+a.pleasure-button:hover{ background: #ef9500;}
+.pleasure-box-2{ width: 252px; height: 250px; padding:34px 23px; float: left; border: 1px solid #dcdcdc; border-radius: 10px; background: #fff; position: relative;}
+.pleasure-4{ position: absolute; right: -1px; top: 0; background:url('/static/images/activity/pleasure-icon.png') 0 0 no-repeat; width: 97px; height: 66px; }
+.pleasure-box-2 h4{ font-size: 16px; color: #1d4e77; line-height: 20px; padding-bottom: 6px;}
+.pleasure-box-2 p{ font-size: 14px; color: #000; line-height:24px; }
+.pleasure-box-2 h4.pleasure-4-2{ border-top:1px solid #dcdcdc; padding-top: 10px; margin-top: 10px;  }
+.pleasure-box1{ height: 489px; background: #fff; width: 100%; margin-top:119px;}
+.pleasure-5{ width: 192px; float: left; margin-right: 78px;}
+.pleasure-5 dt{ background:url('/static/images/activity/pleasure-icon.png') -112px 0 no-repeat; width: 193px; height: 177px;}
+.pleasure-5 dd{ color:#515151; font-size: 12px;padding-top: 15px; }
+.pleasure-5.t-br{ margin-right: 0px;}
+.pleasure-5 dt.t-img{ background-position: -307px 0;}
+.pleasure-5 dt.t-img1{ background-position: -112px -199px;}
+.pleasure-5 dt.t-img2{ background-position: -307px -199px;}
+.pleasure-6{ background:url('/static/images/activity/pleasure-icon.png') 0px -130px no-repeat; width: 108px; height: 37px; position: absolute; left: 50%; margin-left: -54px; top: -13px; text-align: center; font-size: 16px; line-height: 28px; color: #fff;}
+.pleasure-7 dt span{background:url('/static/images/activity/pleasure-icon.png') 0px -190px no-repeat; width: 5px; height: 10px; display: inline-block; padding-left: 10px; }
+.pleasure-7 dt{ color: #1d4e77; font-size: 14px; line-height: 20px; font-weight: bold; padding-bottom: 5px;}
+.pleasure-7 dd{  font-size: 14px; color:#414141; line-height: 25px; padding-left: 15px;}
+.pleasure-7{ padding:2px 0 13px 0;}
+.pleasure-box3{ padding-top: 83px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

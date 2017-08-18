@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xialili (xia.lili@9douyu.com)
+ * @date    2016-10-18 11:20:35
+ * @version halloween
+ */
+
+body{background-color: #2b3136;}
+.hallo-banner{position: relative; margin-bottom: 0.75rem;}
+.hallo-banner p{position:absolute; top: 11.75rem; left: 0; right: 18%; transform:rotate(-16deg); -webkit-transform:rotate(-16deg); text-align: center; color:#fff; font-size: 0.6rem;}
+.pumpkin-wrap{width: 100%; margin-bottom: 1rem; height: 17.425rem; background:url('/static/weixin/activity/halloween/images/pumpkin-bg.png') top center no-repeat; background-size: cover;}
+.pumpkin{text-align: center;height:12.0rem;font-size: 0;}
+.pumpkin p{margin-bottom: 0.25rem;font-size: 0.75rem; height:1.95rem;color:#98563d; line-height: 1.95rem;text-shadow:0 1px 0 #fef1cc; font-weight: bold;}
+.pumpkin span{display: inline-block;width:3.7rem; margin:0 0.25rem 0.6rem; height:3.2rem;background:url('/static/weixin/activity/halloween/images/pumpkin.png') top center no-repeat; background-size: cover;}
+.pumpkin span.broken{background-image:url('/static/weixin/activity/halloween/images/pumpkin-broken.png');}
+.list{color:#fbe3a4;}
+#scrollDiv{height:2.85rem; overflow: hidden;}
+.list ul{position:relative;}
+.list p{text-align: center; line-height: 1.75rem; font-size: 0.7rem; font-weight: bold; }
+.list li{width:100%;position:relative; font-size: 0.6rem; padding-left: 2.3rem; box-sizing: border-box; line-height: 0.95rem;}
+.list span{display:inline-block; width:5.0rem;}
+
+.ranking-wrap{width:100%; height:21.35rem;background:url('/static/weixin/activity/halloween/images/ranking-bg.png') top center no-repeat; background-size: 15.8rem 100%; }
+.ranking-title{font-size: 0.75rem; margin-bottom: 0.25rem; color:#77402b; line-height: 2rem; text-shadow:0 1px 1px #c79b49; text-align: center;}
+.ranking{color:#fff;text-align: center; font-size: 0.6rem; width:12.3rem; margin:0 1.6rem 0 2.0rem;}
+.yellow{color:#ffee01;}
+.ranking big{font-size: 1.45rem;}
+.ranking em{font-size: 0.65rem;}
+.ranking small{font-size: 0.5rem; color:#f5c87b;}
+.ranking span{display:inline-block; width:4.2rem; height:1.75rem; line-height: 1.75rem; font-size: 0.9rem; text-align: center; border-radius: 0.125rem; background-color: #ffee01; box-shadow: 0 0.25rem 0 #ffae01; font-weight: bold; color:#ff4704;}
+.ranking th{text-align: center; height:1.5rem;}
+.ranking .lh{height:1.35rem; line-height: 1.5rem;overflow: hidden;}
+.ranking-block{display:block; margin-bottom: 1.25rem;-webkit-tap-highlight-color:transparent;}
+.ranking .sold span{background-color: #acacab; box-shadow:0 0.25rem 0 #777673; color:#777673; }
+
+.today-title{ color:#fff; text-shadow:0 1px 1px #fc5e44; text-align: center; padding:2rem 0 0; font-size: 0.7rem;}
+.today-prize{padding-left: 2.15rem;line-height: 0.75rem; color:#fff; font-size: 0.6rem;}
+.today-prize em{font-size: 0.65rem; color:#ffee01; margin-top:1.0rem;}
+.today-prize dt{ width:5.425rem; height:4.3rem; margin-bottom: 0.125rem; float: left;}
+.today-prize dt>img{width:100%;}
+.today-prize dd{margin-left: 6.75rem; height:4.3rem; margin-bottom: 0.125rem;}
+.today-prize p{ height:3.3rem; line-height: 1.0rem; width: 5.3rem; padding-top: 1.5rem; }
+.today-txt{color:#fedec7; font-size: 0.55rem; text-align: center;}
+
+.record-wrap{width:100%; padding:0.5rem 0.5rem 1rem; box-sizing: border-box;color:#e9c097;}
+.record-title{font-size: 0.7rem; margin-bottom: 0.35rem; font-weight: bold; text-align: center; position:relative;}
+.record-title:before,.record-title:after{display:block; width:5.1rem; content:''; position:absolute; top: 50%; height:1px; overflow: hidden; background-color: #e9c097; transform:scaleY(0.5); -webkit-transform:scaleY(0.5);}
+.record-title:before{left: 0;}
+.record-title:after{right: 0;}
+.record-wrap li{width:100%; font-size: 0; line-height: 0.95rem;}
+.record-wrap li span{display:inline-block;font-size: 0.55rem;}
+.record-wrap li span:first-child{width:3.25rem;}
+.record-wrap li span:nth-child(2){width:7.85rem;}
+.rule{text-align: center; color:#ffef00; font-size: 0.6rem; padding-top: 0.5rem;}
+.rule span{display:inline-block; margin-right: 0.125rem; vertical-align: middle; width:0.75rem; height:0.75rem; background:url('/static/weixin/activity/halloween/images/question.png') top center no-repeat; background-size:100%; }
+
+.nat-mask{position: fixed;  left: 0; top: 0; bottom: 0; right: 0; background-color: rgba(0,0,0,.5)}
+.nat-rule{position: fixed; top: 0.5rem; left: 0.4rem; right: 0.4rem; background-color: #fff; padding:0 0.5rem 1.25rem;line-height: 1rem; font-size: 0.6rem; color: #414141;}
+.nat-rule span{color: #c74dea;}
+.nat-rule-tile{text-align: center;color: #ff7000; font-size: 0.7rem; line-height: 3.35rem; position: relative;}
+.nat-rule-close{position: absolute; right: 0.4rem; top: 0.55rem;width: 1rem; height: 1rem;background: url('/static/weixin/activity/national/images/close.png') top center no-repeat; background-size: cover;}
+.nat-rule-box,.nat-pop-box{display:none ; position: relative; z-index: 9999;}
+.nat-pop{position: fixed; left: 2.05rem; right: 2.05rem; top:2rem; background-color: #fff;border-radius: 0.125rem;text-align: center; }
+.nat-pop-title{width: 100%; line-height: 2.5rem; color: #fff;font-size: 0.85rem; background-color: #ff9c00; position: relative; border-top-left-radius: 0.125rem;border-top-right-radius: 0.125rem;}
+.nat-pop-close{position: absolute; right: 1rem; top: 0.85rem; width: 0.85rem; height: 0.85rem;background: url('/static/weixin/activity/national/images/close02.png') top center no-repeat; background-size: cover;}
+.nat-pop-iconleft,.nat-pop-iconright{position: absolute; width: 1rem; height: 1.95rem; top: 0.8rem;}
+.nat-pop-iconleft{background: url('/static/weixin/activity/halloween/images/pop-left.png') top center no-repeat; background-size: cover; left: -1rem;}
+.nat-pop-iconright{background: url('/static/weixin/activity/halloween/images/pop-right.png') top center no-repeat; background-size: cover; right: -1rem;}
+.nat-pop-main{padding:1rem 0; line-height: 1.05rem; color: #ff7800; font-size: 0.7rem;}
+.nat-login-btn{width: 8.6rem; height: 2.15rem; display:block; line-height: 2.15rem; text-align: center; margin:0.75rem auto; background-color: #ffea00; color: #ff7800; font-weight: bold; font-size: 0.85rem; box-shadow: 0 0.3rem 0 #ffc000; border-radius: 0.125rem;}
+.nat-pop-main.signed{padding:1.5rem 0 2rem;}
+.nat-pop-main big{font-size: 1.5rem;color: #444; position: relative; top: 0.25rem;font-weight: bold;}
+.nat-pop-tip{color: #666;font-size: 0.6rem; line-height: 0.75rem; padding-top: 0.75rem; border-top: 1px dashed #ff4141; width:7.25rem; margin:0.75rem auto 0;}
+.nat-pop-img{width:3.25rem ; margin-bottom: 0.5rem;}

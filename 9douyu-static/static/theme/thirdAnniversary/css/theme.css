@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.index-activity-theme{margin-top:-3px;width:100%;background:url('/static/theme/thirdAnniversary/images/theme-bg.jpg') center top no-repeat;}
+.index-activity-theme .new-media,.index-activity-theme .web-blue-wrap,.index-activity-theme .new-web-bg{background: transparent !important;}
+.index-activity-theme .web-why-list span{background: #fff;width: 85px;height: 85px;border-radius: 50%;}
+.index-activity-theme .t1-icon10, .index-activity-theme .t1-icon11, .index-activity-theme .t1-icon14{margin-top: 31px;}
+.index-activity-theme .new-web-current{position: relative;overflow: inherit;}
+.web-media-list li{background-color: #fff;}
+.newyear-decorate-icon1{position:absolute; bottom: 0;  left: 330px;  width:140px; height:70px;background:url('/static/theme/thirdAnniversary/images/theme-icon.gif') center top no-repeat ; background-size: cover;}

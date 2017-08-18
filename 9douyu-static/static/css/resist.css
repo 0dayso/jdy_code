@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.resist-banner{width: 100%; height: 420px; background: url('/static/images/topic/resist-banner.png') no-repeat top center #ffd040; }
+.resist-title{font-size: 48px; font-weight: 700;  line-height: 60px;}
+.resist-subtitle{font-size: 18px; font-weight: lighter; line-height: 30px; margin-bottom: 30px;}
+.resist-title2{ width: 100%; height: 54px; line-height: 42px; margin-bottom: 32px; background: url('/static/images/topic/resist-title.png') no-repeat top center;  color: #fff; font-size: 20px; font-weight: 700;}
+.resist-title2.two{background-position: center center;}
+.resist-title2.three{background-position: bottom center;}
+.resist-wrap{width: 850px; margin:0 auto;text-align: center;}
+.resist-wrap table{width: 100%; margin-bottom: 70px;}
+.resist-wrap th{line-height:52px; font-size: 20px; color: #fff; font-weight: 700; text-align: center;}
+.resist-wrap td{line-height:74px;  font-size: 18px;}
+.resist-first th{background-color: #f45a37;}
+.resist-first td{border-bottom: 1px solid #f45a37;}
+.resist-two th{background-color: #6ed0ff;}
+.resist-two td{border-bottom: 1px solid #6ed0ff;}
+.resist-three th{background-color: #ffca2b;}
+.resist-three td{border-bottom: 1px solid #ffca2b;}
+.resist-line{width: 100%; line-height: 0; margin-bottom: 60px; font-size: 0; height: 0; overflow: hidden; border-bottom: 1px solid #eee;}
+a.resist-btn,a.resist-btn:visited{display: inline-block; width: 266px; margin-bottom: 65px; height: 52px;  border-radius:3px; color:#fff; font-size:26px; font-weight:700;line-height: 52px; background-color: #f45a37; border-bottom: 3px solid #b3604d;}
+a.resist-btn:hover,a.resist-btn:active{ background-color: #f58268;}
+.resist-btn2{ width: 266px; margin:0 auto 65px; height: 52px;  border-radius:3px; color:#fff; font-size:26px; font-weight:700;line-height: 52px; background-color: #bbb; border-bottom: 3px solid #ccc;}
+.resist-tips-title{display:block; background-color: #f45a37; margin-bottom:20px;width: 94px; height: 28px; line-height: 28px; color: #fff; text-align: center;}
+.resist-tips{width: 100%; line-height: 30px; margin-bottom: 70px;}
+.resist-tips dt{width:16px; height: 30px; background: url('/static/images/topic/resist-dot.png') no-repeat center center; color: #fff; font-size: 14px; float: left;}
+.resist-tips dd{margin-left: 24px; text-align: left;}
+.resist-num{display: inline-block; width: 40px; height: 50px;background: url('/static/images/topic/resist-num.png') no-repeat center center; }
+.resist-num1{background-position: top center;}
+.resist-num2{background-position: center center;}
+.resist-num3{background-position: bottom center;}
+
+.resist-tips2{font-size: 12px; text-align: right;margin: -67px 0 50px;}
+.resist-red{color: #f45a37;}
+
+.resist-time{width: 570px; margin:20px auto; position: relative; text-align: center;}
+.resist-time span{display: inline-block; position: relative; z-index: 5; background-color: #fff; padding: 0 20px; font-size: 14px;}
+.resist-time i{position: absolute; z-index: 0; line-height: 0; font-size: 0; overflow: hidden; border-bottom: 1px solid #b5b5b5; top: 9px; left: 0;  right: 0;}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tian.xiaoyan@9douyu.com
+ * @date    2017-02-20 1:38:33
+ * @version 
+ */
+body{background-color: #267684;}
+a{ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.banner{width: 100%; text-align: center; height: 16.4rem; background:url('../images/banner.jpg') top center no-repeat;background-size: 100%;}
+.banner p{color: #fffeee;font-size: 0.6rem; padding-top:9.875rem; padding-left: 0.5rem; }
+.c-cash{ width: 100%; position: relative; text-align: center; height:16.9rem; background:url('../images/cash.jpg') top center no-repeat;background-size: 100%;margin-top: -0.1rem;}
+.c-box{width: 100%; text-align: center; height:18.175rem; background:url('../images/box.jpg') top center no-repeat;background-size: 100%; margin-top: -0.1rem; overflow: hidden;}
+.c-box1{width: 100%; text-align: center; height:15.5rem; background:url('../images/box1.jpg') top center no-repeat;background-size: 100%;margin-top: -0.1rem; overflow: hidden;}
+.c-prize{width: 100%; text-align: center; height:17.5rem; background:url('../images/prize.jpg') top center no-repeat;background-size: 100%;}
+.c-cash a{position: absolute; display: block; width: 3.65rem; height: 3.1rem; background:rgba(0,0,0,0); margin-top: -0.1rem;}
+.cash-1{ left: 50%; margin-left: -5rem; top: 2.3rem;}
+.cash-2{ left: 50%; margin-left: 3rem; top: 2.3rem; height: 3.4rem !important;}
+.cash-3{ left: 50%; margin-left: -1.2rem; top: 6.8rem;}
+.cash-4{ left: 50%; margin-left: -4.8rem; top: 11.8rem;}
+.cash-5{ left: 50%; margin-left: 3rem; top: 11.8rem;}
+.c-prize{width: 100%; text-align: center; height:17.475rem; background:url('../images/prize.jpg') top center no-repeat;background-size: 100%; margin-top: -0.1rem;}
+.c-table{width:88%;color: #007079; font-size: 0.6rem; margin:-0.75rem auto 0;}
+.c-table th{text-align: left; height: 1.25rem; font-size: 0.75rem; font-weight: bold; padding-top: 0.4rem; padding-bottom:0.9rem; padding-left: 0.5rem; line-height: 1.25rem;}
+.c-table th span{ padding-left: 0.3rem;}
+.c-table td{text-align: center; height: 1rem; line-height: 1rem;}
+.c-table tr:nth-child(2){ color: #002a2b;}
+.c-table .yellow{color: #ffee01;}
+.c-table big{font-size: 0.6rem;color: #ffffff;font-weight: bold;}
+.c-table strong{font-size: 1.25rem;}
+.c-table em{font-size: 0.65rem; font-weight: bold;}
+.c-btn{ display: block; text-align: center; line-height: 1.2rem; color: #fff !important; width: 3.275rem; height: 1.175rem; background: url("../images/button.jpg") top center no-repeat; background-size: 100%; font-size: 0.5rem;}
+.c-1{ margin-top: 0.5rem;}
+.c-btn.disable{background: url("../images/button1.jpg") top center no-repeat; background-size: 100%; color: #fff !important; }
+.c-0{ margin-top: 5.4rem;}
+.c-3{ margin-top: 2.3rem;}
+.c-cash p{ font-size: 0.55rem; color: #fff; text-align: center; padding-top: 0.4rem;}
+.c-title{ font-size: 0.55rem; color: #e3faff; text-align: center; padding-top: 3.7rem; line-height: 1rem}
+.c-prize1{ color: #fffba8; font-size: 0.75rem; text-align: center; padding-top: 2.35rem; line-height: 1.2rem}
+.c-prize2 { width: 4.7rem; margin:2rem auto 0;}
+.prize-list{ margin:0 0.6rem;  background: #2aa6b0; border-radius: 0.3rem; overflow: hidden; padding-bottom: 1.2rem;}
+.prize-list h5{ width:5.375rem; height: 1.675rem; background: url("../images/title.png") top center; background-size: 100%; margin:0 auto; color: #ffffff; font-size: 0.7rem; text-align: center; line-height: 1.675rem; margin-top: -0.15rem; margin-bottom: 0.925rem;}
+.prize-list p{ color: #ffffff; font-size: 0.65rem; padding-left: 1.65rem; line-height: 1.3rem;}
+.prize-list p span:nth-child(1){ display:inline-block; width:4.45rem;}
+.rule{padding:1.6rem 0.6rem; color: #33c6d2; font-size: 0.55rem; line-height: 1rem;}
+.rule h3{text-align: left; margin-bottom: 0.8rem; font-weight: bold; font-size: 0.6rem;}
+.text{ height: 2.225rem; display: inline-block; padding-top: 9.2rem;}
+.pop-wrap{display:none;}
+.pop-mask{position: fixed; top: 0; bottom:0; left: 0; right:0; background-color: rgba(0,0,0,.8)}
+.pop{position:fixed;left: 0; top:50%; margin-top:-8.5rem; width:100%; height:14.975rem;background:url('../images/pop.png') top center no-repeat;background-size: 100%; text-align: center;}
+.pop-close{position:absolute; top:2.95rem; right:1.75rem; width:1.25rem; height: 1.25rem;background:url('../images/pop-close.png') top center no-repeat;background-size: 100%;}
+.pop-btn{display:block; width:7.025rem; height:1.6rem; margin:0.5rem auto 0;background:url('../images/button.png') top center no-repeat;background-size: 100%; color: #ffffff; font-size: 0.85rem; line-height: 1.6rem;}
+.pop-text{ color:#fe8b00; font-size: 0.5rem; padding-top: 0.25rem; }
+.c-per1,.c-point5,.c-fifty,.c-ten,.c-thirty,.c-login,.c-success,.c-fail{display: inline-block; margin-top: 9.2rem; }
+.c-per1{ width: 6.2rem;  height: 2.225rem; background: url("../images/text.png") top center no-repeat;background-size: 100%;}
+.c-point5{ width: 7.1rem;  height: 2.225rem; background: url("../images/text1.png") top center no-repeat;background-size: 100%;}
+.c-fifty{ width: 6.775rem;  height: 2.25rem; background: url("../images/text2.png") top center no-repeat;background-size: 100%;}
+.c-ten{ width:6.775rem; height: 2.25rem; background: url("../images/text3.png") top center no-repeat;background-size: 100%;}
+.c-thirty{ width:6.775rem; height: 2.25rem;background: url("../images/text4.png") top center no-repeat;background-size: 100%;}
+.c-login{ width:5.375rem; height: 2.35rem; background: url("../images/text5.png") top center no-repeat;background-size: 100%;}
+.c-success{ width: 5.0rem; height: 1.175rem; margin-bottom: 1rem; background: url("../images/success.png") top center no-repeat;background-size: 100%;}
+.c-fail{ width: 5.0rem; height: 1.175rem; margin-bottom: 1rem;  background: url("../images/fail.png") top center no-repeat;background-size: 100%;}
+.c-text-1{color: #fe8c01; font-size: 0.55rem; line-height: 1rem;}
+.c-text-1 span{color:#fe1f01;}

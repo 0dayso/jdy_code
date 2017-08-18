@@ -1,0 +1,54 @@
+/**
+    国庆节活动css 样式
+**/
+
+body{background-color: #9219f9; }
+.nat-sign-wrap{width: 100%; height: 28.5rem; box-sizing: border-box; background: url('/static/weixin/activity/national/images/bg-sign.jpg') top center no-repeat; background-size: cover;}
+.nat-date{color: #fff; text-align: center; padding: 9.4rem 0 4rem; text-shadow: 0 2px 2px #b15200;font-size: 0.75rem;line-height: 1;}
+.nat-sign-box{padding-left: 1.5rem; font-size: 0;}
+.nat-sign-box span{display: inline-block; margin:0 0.5rem 2.45rem 0; width: 2.8rem; height: 2.925rem;background: url('/static/weixin/activity/national/images/coin-sign.png') top center no-repeat; background-size: cover; text-align: center;color: #5b5b5a; line-height: 2.2rem; font-weight: bold;vertical-align: middle; font-size: 0.85rem;}
+.nat-sign-box span.nat-sign-num{background-image: url('/static/weixin/activity/national/images/coin-num-sign.png');}
+.nat-sign-box p{text-align: center;}
+.nat-sign-box p span{margin:0 1rem 1.75rem 0;}
+.nat-btn-sign{display: block; width: 8.25rem; height: 2.25rem; text-align: center;line-height: 2.25rem; color: #fff; font-size: 0.9rem; background-color: #ff3e5d; border-radius: 0.25rem; box-shadow: 0 0.25rem 0 #ba112e; margin: 0 auto;font-weight: bold;}
+.nat-sign-box span.nat-checked{background-image: url('/static/weixin/activity/national/images/coin.png');}
+.nat-sign-box span.nat-sign-num.nat-checked{background-image: url('/static/weixin/activity/national/images/coin-num.png'); color: #f97100;}
+.nat-pro-bg{width: 100%; height: 34.2rem;background: url('/static/weixin/activity/national/images/bg-project.jpg') top center no-repeat; background-size: cover; padding-top: 4.1rem;box-sizing: border-box; overflow: hidden;}
+.nat-project table{width: 100%;}
+.nat-project th{color: #26a0b2; font-size: 0.7rem; height: 1.5rem; padding-bottom: 0.9rem;text-align: left;text-shadow:inset 2px 0 0 #36b6c9; font-weight: bold;}
+.nat-project td{color: #444;font-size: 0.6rem; text-align: center; line-height: 1.25;}
+.nat-project td small{font-size: 0.5rem; color: #888;}
+.nat-project td big{font-size: 1.35rem;}
+.nat-project td span{font-size: 0.65rem;}
+.nat-project td .red{color: #ff3e5d;}
+.nat-project{padding:0 1.2rem;}
+.nat-project.sixth{margin:3.15rem 0 6.125rem;}
+.nat-project.sixth th{color: #ba112e;}
+.nat-lottery { width: 13.3rem; height: 3.85rem; overflow: hidden;  margin:0 auto;  }
+.nat-lottery .slot { width: 13.3rem; height: 3.85rem; }
+.slot0 { background-image: url("/static/weixin/activity/national/images/prize-img0.png"); background-size: cover; }
+.slot1 { background-image: url("/static/weixin/activity/national/images/prize-img1.png"); background-size: cover; }
+.slot2 { background-image: url("/static/weixin/activity/national/images/prize-img2.png");background-size: cover; }
+.slot3 { background-image: url("/static/weixin/activity/national/images/prize-img3.png"); background-size: cover;}
+.slot4 { background-image: url("/static/weixin/activity/national/images/prize-img4.png"); background-size: cover;}
+.nat-btn-lottery{width:12.25rem; height: 3rem;background: url('/static/weixin/activity/national/images/btn.png') top center no-repeat; background-size: cover; margin:1.55rem auto 0; position: relative; z-index: 999;}
+.nat-btn-rule{width: 100%; position: relative; z-index: 999; text-align: center; color: #ffef00; font-size: 0.6rem; padding:0.5rem 0;}
+.nat-btn-rule span{display: inline-block;width: 0.75rem; height: 0.75rem;background: url('/static/weixin/activity/national/images/question.png') top center no-repeat; background-size: 100%; vertical-align: middle; margin-right: 0.125rem;}
+.nat-mask{position: fixed;  left: 0; top: 0; bottom: 0; right: 0; background-color: rgba(0,0,0,.5)}
+.nat-rule{position: fixed; top: 0.5rem; left: 0.4rem; right: 0.4rem; background-color: #fff; padding:0 0.5rem 1.25rem;line-height: 1rem; font-size: 0.6rem; color: #414141;}
+.nat-rule span{color: #c74dea;}
+.nat-rule-tile{text-align: center;color: #c74dea; font-size: 0.7rem; line-height: 3.35rem; position: relative;}
+.nat-rule-close{position: absolute; right: 0.4rem; top: 0.55rem;width: 1rem; height: 1rem;background: url('/static/weixin/activity/national/images/close.png') top center no-repeat; background-size: cover;}
+.nat-rule-box,.nat-pop-box{display: none; position: relative; z-index: 9999;}
+.nat-pop{position: fixed; left: 2.05rem; right: 2.05rem; top:2rem; background-color: #fff;border-radius: 0.125rem;text-align: center; }
+.nat-pop-title{width: 100%; line-height: 2.5rem; color: #fff;font-size: 0.85rem; background-color: #ff4141; position: relative; border-top-left-radius: 0.125rem;border-top-right-radius: 0.125rem;}
+.nat-pop-close{position: absolute; right: 1rem; top: 0.85rem; width: 0.85rem; height: 0.85rem;background: url('/static/weixin/activity/national/images/close02.png') top center no-repeat; background-size: cover;}
+.nat-pop-iconleft,.nat-pop-iconright{position: absolute; width: 1rem; height: 1.95rem; top: 0.8rem;}
+.nat-pop-iconleft{background: url('/static/weixin/activity/national/images/pop-left.png') top center no-repeat; background-size: cover; left: -1rem;}
+.nat-pop-iconright{background: url('/static/weixin/activity/national/images/pop-right.png') top center no-repeat; background-size: cover; right: -1rem;}
+.nat-pop-main{padding:1rem 0; color: #ff4141; font-size: 0.7rem;}
+.nat-login-btn{width: 8.6rem; height: 2.15rem; display:block; line-height: 2.15rem; text-align: center; margin:0.75rem auto; background-color: #ffea00; color: #ff4141; font-weight: bold; box-shadow: 0 0.3rem 0 #ffc000; border-radius: 0.125rem;}
+.nat-pop-main.signed{padding:1.5rem 0 2rem;}
+.nat-pop-main big{font-size: 1.5rem;color: #444; position: relative; top: 0.25rem;font-weight: bold;}
+.nat-pop-tip{color: #666;font-size: 0.6rem; line-height: 0.75rem; padding-top: 0.75rem; border-top: 1px dashed #ff4141; width:7.25rem; margin:0.75rem auto 0;}
+.nat-pop-img{width:3.25rem ; margin-bottom: 0.5rem;}

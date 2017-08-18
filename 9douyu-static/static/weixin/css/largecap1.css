@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+body, h1 {
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.t-largecap-banner{width:100%; height:10.7rem; background: url("/static/weixin/images/activity/t-largecap-banner1.png") top center no-repeat; background-size:100%; box-sizing: border-box; padding-top:13.65rem; }
+.t-largecap{background: url("../images/activity/t-largecap-bj.png") top center repeat; padding-bottom: 0.6rem; }
+.t-largecap-banner ul{margin: -4.6rem 1rem 0; overflow: hidden;}
+.t-largecap-banner li{width:37%; float: left; text-align: center; color: #004489; font-size: 0.55rem; box-sizing: border-box;}
+.t-largecap-banner li strong{font-size: 0.75rem; margin-top: 0.4rem; display: inline-block;}
+.t-largecap-banner li:nth-child(2){width: 26%;border: 1px solid #c6e2fd; border-width: 0 1px;}
+.t-largecap-1{ border-top: 1px solid #c6e2fd; margin: 2.56rem 0.4rem 0 0.13rem; line-height: 1.5rem; text-align: center; color: #004489; font-size: 0.5rem; }
+.t-largecap-1 span{ color: #ffae00;}
+.t-largecap-2{padding: 1rem 1rem 0;}
+.t-largecap-3{ color: #5083c9; font-size: 0.8rem; float: left; font-weight: bold; line-height: 1.3rem;}
+.t-largecap-btn,input.t-largecap-btn{ float: right; width: 3.35rem; height: 1.35rem; background: #6599dd; color: #fff; text-align: center; font-size: 0.6rem; line-height: 1.35rem; border-radius: 0.2rem;}
+.t-largecap-4{ width: 100%; text-align: center; margin-top: 0.8rem;}
+.t-largecap-4-1,.t-largecap-5-1{width: 2.15rem; height: 3.1rem; background: url("../images/activity/t-largecap-img.png") 0 0 no-repeat; background-position: 0 0; background-size: 4.95rem 13.7rem; margin: 0 auto;}
+.t-largecap-4 img{ width: 4.05rem; height: 4.9rem; text-align: center; display:inline-block;/* margin-top: 0.7rem;*/}
+.t-largecap-5{ width: 5.85rem;float: right; text-align: center; margin-top: 0.4rem;}
+.t-largecap-5-1{ height: 2.75rem; background-position:-2.65rem 0; /*margin-top: 0.35rem;*/ }
+.t-largecap-4-1.champion{ width: 4.05rem; height:4.95rem;  background-position:0rem -3.25rem;}
+.t-largecap-5-1.champion{ width: 4.05rem; height:4.95rem;  background-position:0rem -8.6rem;}
+.largecap-progress {
+    width: 5.85rem;
+    margin: 0.45rem auto 1rem;
+    height: 0.3rem;
+    font-size: 0;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ffb400;
+}
+.largecap-progress.blue{border: 1px solid #29166f;}
+.largecap-progress.blue p{background-color: #29166f;}
+.largecap-progress p {
+    background-color: #ffb400;
+    height:0.3rem;
+    border-radius: 1rem;
+    -webkit-border-radius:1rem;
+}
+.t-largecap-6,.t-largecap-7{ color:#ffb400; font-size: 0.5rem; text-align: center; margin-top: 0.65rem}
+.t-largecap-7{ color:#29166f;}
+.largecap-btn{ background: #ffb400; width: 5.85rem; height:1.75rem; font-size: 0.75rem; line-height: 1.8rem; color: #fff; border-radius: 0.2rem;}
+.t-largecap-5 img{ width: 2.2rem; height: 2.75rem; text-align: center; display:inline-block; margin-top: 1.5rem; /*margin-bottom: 0.5rem;*/}
+.largecap-btn.blue{ background: #29166f; width: 5.85rem; height:1.75rem; font-size: 0.75rem; line-height: 1.8rem;}
+.t-largecap-tips{ margin: 0.4rem 0.75rem 0rem; border-top:1px solid #6599dd;padding:0 0.55rem; font-size: 0.55rem;}
+.t-largecap-tips dt{ font-weight: bold; color: #004489; margin-top: 0.95rem; margin: 0.95rem 0 0.3rem; }
+.t-largecap-tips dd{color: #004489; line-height: 1rem;}
+.t-largecap-tips dt span{ color: #004489; padding-right: 0.2rem; font-size: 0.6rem; vertical-align: middle; margin-top: -0.15rem; display: inline-block; }
+.largecap-btn.disable{ background: #aeaeae;}
+
+/*押注成功*/
+.largecap-img-wrap {
+    margin: 1.2rem 3.55rem;
+}
+
+.largecap-img-wrap > img {
+    width: 100%;
+    height: 100%;
+}
+
+.largecap-wrap {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+.largecap-txt {
+    color: #a1a1a0;
+    padding: 0rem 0 .4rem;
+    font-size: 0.7rem;
+}
+
+.largecap-defaultbutton {
+    width:90%;
+    display: block;
+    /*margin: 10px 1.4rem;*/
+    margin: 10px auto;
+    line-height: 2.5;
+    color: #fff;
+    background: #10adf5;
+    text-decoration: none;
+    font-size:0.9rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.largecap-morebutton {
+    display: block;
+    width: 32%;
+    margin: 10% auto 10px;
+    line-height: 1.785;
+    color: #fff;
+    background: #6599dd;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 1rem;
+}
+
+.largecap-textbutton {
+    position:relative;
+    /*top: 10%;*/
+   /* bottom:-20%;*/
+   bottom: -10%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size:0.65rem;
+    text-decoration: underline;
+    line-height: 3;
+}
+/*@media screen and (max-height: 480px){*/
+    /*.largecap-textbutton{*/
+        /*position: relative;*/
+        /*bottom:-10%;*/
+
+    /*}*/
+/*}*/
+.largecap-blue .largecap-textbutton {
+    color: #10adf5;
+}
+
+.largecap-yellow .largecap-textbutton {
+    color: #6599dd;
+}
+
+
+
+/*我的战绩*/
+.largecap-title {
+    position: relative;
+    margin: 33px 1.75rem 15px;
+    height: 1.35rem;
+    background-color: #bee5ff;
+    border: 2px solid #9bc2f4;
+    border-radius: 2.2rem;
+    color: #fff;
+}
+
+.largecap-bd {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.largecap-title > h1 {
+    position: absolute;
+    top: -0.65rem;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 90%;
+    line-height:1.75rem;
+    background-color: #6599dd;
+    border-radius: .75rem;
+    font-size: .875rem;
+    letter-spacing: 2px;
+}
+.largecap-table-wrap{
+    margin: 0.425rem 0.75rem;
+    border: 2px solid #9bc2f4;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.largecap-table{
+    width: 100%;
+    background-color: #fff;
+    color: #004489;
+    table-layout: fixed;
+}
+.largecap-table td {
+    width:33.333%;
+}
+.largecap-table td>.largecap-tddiv{
+    padding:0.5rem 0 0.35rem;
+}
+.largecap-table p {
+    padding:0.15rem;
+    font-size: 16px;
+}
+.largecap-table p {
+    padding:0.15rem;
+    font-size:0.75rem;
+}
+
+.largecap-colorred {
+    color: #fe5036;
+}
+
+.largecap-colorgreen {
+    color: #52b132;
+}
+
+.largecap-textbold {
+    font-weight: bold;
+}
+
+.large-status-default {
+    background-color: #fff;
+}
+
+.large-status-up {
+    background-color: #10adf5;
+    color: #fff;
+}
+.large-status-up img{
+    width:0.75rem;
+    height:.95rem;
+    position: absolute;
+    right:0.25rem;
+    top:0;
+}
+.large-status-down {
+    background-color: #b5b5b5;
+    color: #fff;
+}
+.large-mr-1{
+    margin-right:-1px;
+}
+/*投资金额*/
+.largecap-limit {
+    color: #5083c9;
+}
+
+.largecap-detail {
+    margin: 0 0.75rem;
+    text-align: left;
+    padding-bottom:.5rem;
+}
+.largecap-detail p{
+    margin-top:0.75rem;
+    font-size:0.75rem;
+}
+.largecap-caption {
+    margin: 34px 0.75rem 26px;
+    line-height:1.6rem;
+    background: #f5fbff;
+    border: 1px solid #9bc2f4;
+    border-radius: .5rem;
+    font-size:0.75rem; color: #004489;
+
+}
+
+/*@media screen and (max-width: 320px) {
+    .largecap-caption {
+        font-size: 14px;
+    }
+}*/
+
+.largecap-contronl {
+    /*margin: .85rem 0.75rem .75rem;*/
+    margin:.85rem 0 .75rem;
+    text-align: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    /*margin-bottom:0.5rem;*/
+    padding:0.75rem;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+.largecap-contronl .largecap-input {
+    outline: none;
+    border: none;
+    width: 69%;
+    font-size: 16px;
+    /*padding:0 .5rem;*/
+    color:#5083c9;
+    text-align:left;
+    background-color: transparent;
+    text-align: right;
+}
+.largecap-input::-webkit-input-placeholder{/*color:#ac6a00 !important;*/font-size: 0.6rem; line-height:1rem;}
+.largecap-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.largecap-contronl label {
+    width: 90%;
+}
+
+.largecap-contronl p {
+    width: 10%;
+    text-align: right;
+    position: absolute;
+    right:0.75rem;
+    top:0.75rem;
+
+}
+.largecap-tip {
+    font-size: 14px;
+}
+.largecap-topup{position: relative;}
+.largecap-topupbutton{position: absolute;right:0;top:0;}
+.largecap-tip2{padding-bottom: 0;}
+.largecap-topupbutton.blue{ font-size: 0.6rem; color: #004489; text-decoration: underline;}
+.la-c{ color: #a1a1a0;}
+.t-largecap-8{ color: #a1a1a0; font-size: 0.6rem;}
+.t-largecap-9{ color: #ffb400;}
+.t-largecap-10{ color: #29166f;}
+.largecap-table p.t-largecap-11{ font-size: 0.5rem; color:#fff; line-height: 0.6rem;}
+.largecap-table p.lh{ line-height: 0.5rem;}
+.largecap-yz{ width: 2.9rem; height: 2rem; background: url("../images/activity/t-largecap-img3.png"); background-size: 3.1rem 4.25rem; position: absolute; z-index: 5; top: 0.6rem; left: 8.15rem;}
+.largecap-yz.error{ background-position: 0 -2.15rem;}
+.largecap-11{ color:#b3b3b3; font-size: 0.5rem; padding: 0.7rem 0 0 1.1rem;}

@@ -1,0 +1,133 @@
+/**
+    challenge 高校挑战赛
+**/
+
+@charset "UTF-8";
+
+body{background: url('/static/activity/challenge/images/banner_1.jpg') center 115px no-repeat #061127;}
+.chall-nav{margin:558px auto 60px; width: 998px; height: 100px;line-height: 100px; text-align: center;background: url('/static/activity/challenge/images/nav-bg.png') center top no-repeat ; font-size: 22px; font-weight: bold;}
+.chall-nav a,.chall-nav:visited{color: #68f2ff; margin:0 23px; text-shadow:0 2px 0 #001e7c;}
+.chall-nav a span{color:#fff; margin-right: 3px;}
+.chall-pic{width:500px; float: left;}
+.chall-news{width:465px; float: right;}
+
+.chall-title{margin-bottom: 15px;}
+.chall-title h2{color:#68f2ff; font-size: 26px;position: relative;}
+.chall-title h2:after{display: block; content:'';position:absolute; left:120px; top: 50%; margin-top: -2px; height:5px; width:24px; background-color: #68f2ff; overflow: hidden;}
+
+.chall-news-main{max-height: 256px; margin-bottom: 80px; overflow-y:auto; line-height: 32px;}
+.chall-news-main span{margin-right: 5px; color:#1166ff;}
+.chall-news-main a,.chall-news-main a:visited{font-size: 13px; color:#fff;}
+.chall-news-main a:hover,.chall-news-main a:active{color:#68f2ff;}
+.chall-process{padding:30px 0 80px 32px; overflow: hidden;}
+.chall-process li{width:142px; text-align: center;position:relative; font-size: 22px; color:#fff; height:107px; padding-top: 35px; line-height: 34px; border:12px solid #1e3764; border-radius: 50%; background-color: #091839; float: left;}
+.chall-process li small{font-size: 14px; color:#1166ff;}
+.chall-process li.right{margin-right: 90px;}
+.chall-process li.right:after{display: block; content:'';position:absolute; top: 50%; left:195px; margin-top: -12px; width:14px; height:24px;background: url('/static/activity/challenge/images/arrow.png') 0 0 no-repeat}
+.call-process-box{position:absolute;display: none;left: -27px; top: -37px; right:-27px; bottom:-37px;background:#192f58; background-color: rgba(25,47,88,.9); border-radius: 10px; color:#e3e3e3; font-size: 12px;line-height: 24px;}
+.call-process-box p{width:140px; margin-left: auto; margin-right: auto; text-align: left;}
+.call-process-box p.mt1,.call-process-box p.mt2{margin-top: 60px;}
+.call-process-box p.mt3{margin-top: 10px;}
+.call-process-box p.mt4{margin-top: 23px;}
+.chall-tutor{margin-bottom: 40px;}
+.chall-tutor li{width:144px; height:264px; line-height: 30px; text-align: center; float: left; margin:0 5px 0 15px; background-color: #1e3764;}
+.chall-tutor li a{display: block;color:#fff; font-size: 18px;}
+.chall-tutor li a strong{color:#68f2ff; font-size: 20px;}
+.chall-tutor li p{line-height: 76px;}
+.chall-info{width:938px; margin:30px auto 75px; background-color: #091839;color:#fff;font-size: 14px; line-height: 28px;padding:30px 0;}
+.chall-info p{margin:0 auto ;width:855px;text-indent: 2em;}
+
+.chall-pic{padding-top: 15px;}
+.chall-pic-main{float: left; margin:0 32px;width:403px; height:268px; overflow: hidden;}
+.chall-pic-main>img{width:403px; height:268px;}
+.chall-pic-prev,.chall-pic-next{width:14px; height:24px; margin-top: 122px; cursor: pointer;float:left;background: url('/static/activity/challenge/images/arrow.png') 0 -26px no-repeat;}
+.chall-pic-next{background-position: -14px -26px;}
+
+/*二级页面*/
+.chall1-nav{ background: #0061db; height: 102px; }
+.chall1-nav ul{ height: 102px; overflow: hidden;}
+.chall1-nav ul li{display: inline-block; height: 102px; overflow: hidden;line-height: 102px; width: 160px; text-align: center; padding-right: 3px; cursor: pointer;}
+.chall1-nav ul li a{ font-size: 20px; color: #9bc7ff; width: 160px;}
+.chall1-nav ul li.cur{ background: #0025bc;}
+.chall1-nav ul li.cur a{ color: #fff; font-weight: bold;}
+.chall1-title{ margin-top: 76px; margin-bottom: 23px;}
+.chall1-title h2,.chall2-title h2{ font-weight: bold;}
+.chall1-title h2 span{ padding-left: 72px;  font-size: 22px;}
+.chall1-pro{ overflow: hidden;}
+.chall1-pro dt{ width: 202px; background: #1166ff; height: 385px;  display: inline-block; float: left;}
+.chall1-pro dt div{ background: #1e3764; height: 250px;text-align: center; padding-top:6px;}
+.chall1-pro dt p{ text-align: center; color: #fff; font-size: 18px;}
+.chall1-pro dt p strong{ font-size: 24px; line-height: 65px;}
+.chall1-pro dd{ width: 728px; height: 345px; background: #1b3962; margin-left: 20px; float: right; padding: 40px 25px 0px;}
+.chall1-pro dd p{ color: #fff; font-size: 16px; line-height: 30px;}
+.chall2-title{ margin-top: 96px;}
+.chall2-title p,.chall3-title p{ color: #68f2ff; font-size: 20px; padding-top: 34px; padding-bottom: 20px;}
+.chall2-title p span,.chall3-title p span{ display: inline-block; border-top: 1px solid #68f2ff; width: 44px; position: relative; top: -6px;}
+.chall1-pro1{ overflow: hidden;}
+.chall1-pro1 dt{ display: block; width: 345px; height: 298px; float: left; background: #1e3764; text-align: center; padding-top: 8px;}
+.chall1-pro1 dd{  width: 624px; float: right; color: #fff; padding-top: 49px;}
+.chall1-pro1 dd p{ text-indent: 30px; font-size: 14px; line-height: 30px;}
+a.chall1-btn,a.chall1-btn:visited{ display: block; margin:70px auto 0px; width: 227px; height: 57px; background: url("/static/activity/challenge/images/btn.png") center top no-repeat ; color: #fff !important; font-size: 22px; text-align: center;line-height: 57px; font-weight: bold;}
+a.chall1-btn:hover,a.chall1-btn:active{color: #fff !important;}
+.chall3-title{ border-top: 1px dashed #68f2ff; margin-top: 49px; padding-top: 18px;}
+.chall1-box{ margin-bottom: 30px; display: none;}
+.chall1-pro2 dd{ padding-top: 30px;}
+.chall1-pro2 dd p,.chall1-pro3 dd p{ text-indent: 0px;}
+.chall1-pro3 dd{ padding-top: 0px;}
+.chall1-pro4 dd{ padding-top: 108px;}
+.chall1-pro5 dd p{ text-indent: 30px;}
+.chall1-pro6 dd{ padding-top: 6px;}
+.chall1-pt50px{ padding-top: 50px;}
+.chall1-pt100px{ padding-top: 100px;}
+.chall1-pt86px{ padding-top: 86px;}
+.chall1_alert{ display: none;}
+.chall1-mask{filter: alpha(opacity=70);-moz-opacity: 0.7;opacity: 0.7; width:100%; background:#000; position:fixed; top:0; left:0; bottom:0; z-index:233;}
+.chall1_box{ position:fixed; left:50%; top:50%; margin:-184px 0 0 -238px;  height:368px; width:477px; background:#1e3764;z-index:240; border-radius:6px; overflow:hidden;}
+.chall1_box h3{ position: relative; height:100px; line-height:100px;background: #3a73da; width:100%; text-align:center; font-size:34px; color:#fff; font-weight:bold;  }
+.chall1-close{width:34px; height: 34px;  background: url("/static/activity/challenge/images/close.png") 0 0 no-repeat; display: inline-block; position: absolute; cursor: pointer; top:33px; right: 40px; }
+.chall1-n{ color: #5e98ff; font-size: 28px; text-align: center; padding-top: 40px;}
+a.chall1-btn1{ display: block; margin:70px auto 0px; width: 227px; height: 57px; background: url("/static/activity/challenge/images/btn1.png") center top no-repeat ; color: #1e3764 !important; font-size: 28px; text-align: center;line-height: 57px; font-weight: bold;}
+a.chall1-btn1:hover{ color: #1e3764 !important;}
+.chall1-y,.chall1-y1,.chall1-y2{color: #5e98ff; font-size: 28px; text-align: center; padding-top: 80px;}
+.chall1-y1{ font-size: 22px; padding-top: 41px;}
+.chall1-y2{ padding-top: 110px; font-size: 22px;}
+
+
+/* slider */
+#slider{width:1002px;height:314px;overflow:hidden;position:relative;margin:0 auto;}
+.scroll{width:938px;height:314px;margin:0 auto;overflow:hidden;position:relative;}
+.scrollContainer{position: relative;left:0px;}
+.scrollContainer .panel{width:298px;height:265px;float: left; text-align: center; background-color: #1e3764; color:#fff;font-size: 22px; position:relative; z-index: 1; top:24px;}
+.scrollContainer .panel img{margin:10px 0 20px;}
+.scrollContainer .current{width:353px;z-index: 10; margin-left: -5px; margin-right: -5px; top:0; box-shadow: 0 0 10px #000; }
+.scrollContainer .current img{margin:10px 0 30px; }
+.btnMode a.btnprev,.btnMode a.btnnext{background:url('/static/activity/challenge/images/arrow.png') no-repeat;width:14px; height:24px;  cursor:pointer; position:absolute;top:125px; }
+.btnMode a.btnprev{left:0;background-position:0 -26px;}
+.btnMode a.btnnext{right:0;background-position: -14px -26px;}
+
+/* result */
+.chall-subtitle{font-size: 20px; color:#68f2ff; line-height: 30px; padding:50px 0 20px 30px;}
+.chall-subtitle span{margin-right: 10px;}
+
+/* summary */
+.chall-summary{padding:20px 0 0 30px; }
+.chall-summary dt{width:202px; float: left; text-align: center; height:382px; background-color: #1166ff; color:#fff;}
+.chall-summary dt img{width:192px; height244px; border:5px solid #1e3764; margin-bottom: 20px;}
+.chall-summary dt p{font-size: 18px; line-height: 24px; margin-bottom: 10px;}
+.chall-summary dt strong{font-size: 24px;}
+.chall-summary dd{width:680px; padding:34px; float: right; background-color: #172c52; color:#fff; font-size: 14px; line-height: 24px;}
+.chall-summary dd p{text-indent: 2em; }
+
+.chall-result{padding:10px 32px 80px; overflow: hidden;}
+.chall-result dt{float: right; width:420px; padding-top: 10px;}
+.chall-result dd{ line-height: 40px; font-size: 17px; color:#68f2ff;}
+.chall-result dd span{display: inline-block; width:430px;}
+
+.chall-group{display: table; margin:0 32px 100px; width:938px; background-color: #172c52;}
+.chall-group dt{display: table-cell; text-align: center;color:#68f2ff;font-size: 20px;}
+.chall-group dt span{margin-right: 6px;}
+.chall-group dd{display: table-cell; width:689px; }
+
+
+
+
